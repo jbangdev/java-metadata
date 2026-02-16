@@ -7,6 +7,7 @@ info:
     name: "GitHub"
     url: "https://github.com/joschi/java-metadata/"
 servers:
+  - url: "https://jbangdev.github.io/jdkdb-data/"
   - url: "https://joschi.github.io/java-metadata/"
 tags:
 - name: "checksum"
