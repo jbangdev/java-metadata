@@ -1,0 +1,29 @@
+name: Update jdkdb
+on:
+  workflow_dispatch:
+  schedulex:
+    - cron: '0 */6 * * *'
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  update:
+    runs-on: 'ubuntu-latest'
+    steps:
+    - uses: actions/checkout@v6
+
+    - name: Setup JBang
+      uses: jbangdev/setup-jbang@main
+
+    - name: Run scrapers
+      env:
+        GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: jbang --java 21+ https://github.com/jbangdev/jdkdb-scraper/releases/latest/download/jdkdb-scraper-standalone.jar
+
+    - name: Commit & Push changes
+      if: false  # Temporarily disabled
+      uses: actions-js/push@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        message: "Update release metadata"
