@@ -1,10 +1,10 @@
 name: Update release metadata
 on:
   workflow_dispatch:
-  push:
+  pushx:
     branches:
     - main
-  schedule:
+  schedulex:
     - cron: '0 */6 * * *'
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
