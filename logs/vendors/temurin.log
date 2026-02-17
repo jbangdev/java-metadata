@@ -58,3 +58,63 @@
 2026-02-17 14:35:57.188 [pool-1-thread-2] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jre_x86-32_windows_hotspot_8u472b08.msi
 2026-02-17 14:35:57.238 [pool-1-thread-3] INFO  vendors.temurin - Processed OpenJDK8U-jre_x64_mac_hotspot_8u472b08.pkg
 2026-02-17 14:35:57.354 [pool-1-thread-2] INFO  vendors.temurin - Processed OpenJDK8U-jre_x86-32_windows_hotspot_8u472b08.msi
+2026-02-17 15:51:24.989 [pool-2-thread-1] INFO  vendors.temurin - Starting scraper
+2026-02-17 15:51:24.991 [pool-2-thread-1] INFO  vendors.temurin - Fetching repositories from https://api.github.com/orgs/adoptium/repos?type=public&per_page=100&page=1&q=temurin
+2026-02-17 15:51:26.779 [pool-2-thread-1] INFO  vendors.temurin - Matched repository: temurin8-binaries
+2026-02-17 15:51:26.779 [pool-2-thread-1] INFO  vendors.temurin - Matched repository: temurin11-binaries
+2026-02-17 15:51:26.779 [pool-2-thread-1] INFO  vendors.temurin - Matched repository: temurin16-binaries
+2026-02-17 15:51:26.779 [pool-2-thread-1] INFO  vendors.temurin - Matched repository: temurin17-binaries
+2026-02-17 15:51:26.779 [pool-2-thread-1] INFO  vendors.temurin - Matched repository: temurin18-binaries
+2026-02-17 15:51:26.779 [pool-2-thread-1] INFO  vendors.temurin - Matched repository: temurin19-binaries
+2026-02-17 15:51:26.779 [pool-2-thread-1] INFO  vendors.temurin - Matched repository: temurin20-binaries
+2026-02-17 15:51:26.779 [pool-2-thread-1] INFO  vendors.temurin - Matched repository: temurin21-binaries
+2026-02-17 15:51:26.779 [pool-2-thread-1] INFO  vendors.temurin - Matched repository: temurin22-binaries
+2026-02-17 15:51:26.779 [pool-2-thread-1] INFO  vendors.temurin - Matched repository: temurin23-binaries
+2026-02-17 15:51:26.779 [pool-2-thread-1] INFO  vendors.temurin - Matched repository: temurin24-binaries
+2026-02-17 15:51:26.779 [pool-2-thread-1] INFO  vendors.temurin - Matched repository: temurin25-binaries
+2026-02-17 15:51:26.779 [pool-2-thread-1] INFO  vendors.temurin - Matched repository: temurin26-binaries
+2026-02-17 15:51:26.779 [pool-2-thread-1] INFO  vendors.temurin - Matched repository: temurin27-binaries
+2026-02-17 15:51:26.779 [pool-2-thread-1] INFO  vendors.temurin - Processing repository: temurin8-binaries
+2026-02-17 15:51:26.779 [pool-2-thread-1] INFO  vendors.temurin - Fetching releases from https://api.github.com/repos/adoptium/temurin8-binaries/releases?per_page=100&page=1
+2026-02-17 15:51:34.112 [pool-2-thread-1] INFO  vendors.temurin - Queued download for OpenJDK8U-jdk_x64_mac_hotspot_8u462b08.pkg
+2026-02-17 15:51:34.113 [pool-2-thread-1] INFO  vendors.temurin - Queued download for OpenJDK8U-jdk_x64_windows_hotspot_8u462b08.msi
+2026-02-17 15:51:34.113 [pool-2-thread-1] INFO  vendors.temurin - Queued download for OpenJDK8U-jdk_x86-32_windows_hotspot_8u462b08.msi
+2026-02-17 15:51:34.118 [pool-2-thread-1] INFO  vendors.temurin - Queued download for OpenJDK8U-jre_x64_mac_hotspot_8u462b08.pkg
+2026-02-17 15:51:34.118 [pool-2-thread-1] INFO  vendors.temurin - Queued download for OpenJDK8U-jre_x64_windows_hotspot_8u462b08.msi
+2026-02-17 15:51:34.119 [pool-2-thread-1] INFO  vendors.temurin - Queued download for OpenJDK8U-jre_x86-32_windows_hotspot_8u462b08.msi
+2026-02-17 15:51:34.122 [pool-2-thread-1] INFO  vendors.temurin - Queued download for OpenJDK8U-jdk_sparcv9_solaris_hotspot_8u452b09.tar.gz
+2026-02-17 15:51:34.122 [pool-2-thread-1] INFO  vendors.temurin - Queued download for OpenJDK8U-jdk_x64_mac_hotspot_8u452b09.pkg
+2026-02-17 15:51:34.122 [pool-2-thread-1] INFO  vendors.temurin - Queued download for OpenJDK8U-jdk_x64_solaris_hotspot_8u452b09-ea.tar.gz
+2026-02-17 15:51:34.123 [pool-2-thread-1] INFO  vendors.temurin - Queued download for OpenJDK8U-jdk_x64_windows_hotspot_8u452b09.msi
+2026-02-17 15:51:34.123 [pool-2-thread-1] INFO  vendors.temurin - Reached progress limit of 10 items, aborting
+2026-02-17 15:51:34.123 [pool-2-thread-1] INFO  vendors.temurin - Completed successfully. Marked 10 items for processing, skipped 77 existing items, and had 0 failures.
+2026-02-17 15:52:09.807 [pool-1-thread-1] INFO  vendors.temurin - Downloading OpenJDK8U-jdk_x64_mac_hotspot_8u462b08.pkg
+2026-02-17 15:52:12.456 [pool-1-thread-1] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jdk_x64_mac_hotspot_8u462b08.pkg
+2026-02-17 15:52:13.040 [pool-1-thread-1] INFO  vendors.temurin - Processed OpenJDK8U-jdk_x64_mac_hotspot_8u462b08.pkg
+2026-02-17 15:52:13.062 [pool-1-thread-1] INFO  vendors.temurin - Downloading OpenJDK8U-jdk_x64_windows_hotspot_8u462b08.msi
+2026-02-17 15:52:14.088 [pool-1-thread-1] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jdk_x64_windows_hotspot_8u462b08.msi
+2026-02-17 15:52:14.569 [pool-1-thread-1] INFO  vendors.temurin - Processed OpenJDK8U-jdk_x64_windows_hotspot_8u462b08.msi
+2026-02-17 15:52:14.587 [pool-1-thread-1] INFO  vendors.temurin - Downloading OpenJDK8U-jdk_x86-32_windows_hotspot_8u462b08.msi
+2026-02-17 15:52:15.981 [pool-1-thread-1] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jdk_x86-32_windows_hotspot_8u462b08.msi
+2026-02-17 15:52:16.431 [pool-1-thread-1] INFO  vendors.temurin - Processed OpenJDK8U-jdk_x86-32_windows_hotspot_8u462b08.msi
+2026-02-17 15:52:16.449 [pool-1-thread-1] INFO  vendors.temurin - Downloading OpenJDK8U-jre_x64_mac_hotspot_8u462b08.pkg
+2026-02-17 15:52:17.165 [pool-1-thread-4] INFO  vendors.temurin - Downloading OpenJDK8U-jre_x64_windows_hotspot_8u462b08.msi
+2026-02-17 15:52:17.440 [pool-1-thread-1] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jre_x64_mac_hotspot_8u462b08.pkg
+2026-02-17 15:52:17.720 [pool-1-thread-1] INFO  vendors.temurin - Processed OpenJDK8U-jre_x64_mac_hotspot_8u462b08.pkg
+2026-02-17 15:52:17.732 [pool-1-thread-1] INFO  vendors.temurin - Downloading OpenJDK8U-jre_x86-32_windows_hotspot_8u462b08.msi
+2026-02-17 15:52:18.024 [pool-1-thread-4] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jre_x64_windows_hotspot_8u462b08.msi
+2026-02-17 15:52:18.207 [pool-1-thread-4] INFO  vendors.temurin - Processed OpenJDK8U-jre_x64_windows_hotspot_8u462b08.msi
+2026-02-17 15:52:18.214 [pool-1-thread-4] INFO  vendors.temurin - Downloading OpenJDK8U-jdk_sparcv9_solaris_hotspot_8u452b09.tar.gz
+2026-02-17 15:52:18.440 [pool-1-thread-1] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jre_x86-32_windows_hotspot_8u462b08.msi
+2026-02-17 15:52:18.628 [pool-1-thread-1] INFO  vendors.temurin - Processed OpenJDK8U-jre_x86-32_windows_hotspot_8u462b08.msi
+2026-02-17 15:52:18.635 [pool-1-thread-1] INFO  vendors.temurin - Downloading OpenJDK8U-jdk_x64_mac_hotspot_8u452b09.pkg
+2026-02-17 15:52:20.280 [pool-1-thread-1] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jdk_x64_mac_hotspot_8u452b09.pkg
+2026-02-17 15:52:20.848 [pool-1-thread-4] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jdk_sparcv9_solaris_hotspot_8u452b09.tar.gz
+2026-02-17 15:52:20.937 [pool-1-thread-1] INFO  vendors.temurin - Processed OpenJDK8U-jdk_x64_mac_hotspot_8u452b09.pkg
+2026-02-17 15:52:20.965 [pool-1-thread-1] INFO  vendors.temurin - Downloading OpenJDK8U-jdk_x64_solaris_hotspot_8u452b09-ea.tar.gz
+2026-02-17 15:52:21.440 [pool-1-thread-4] INFO  vendors.temurin - Processed OpenJDK8U-jdk_sparcv9_solaris_hotspot_8u452b09.tar.gz
+2026-02-17 15:52:21.463 [pool-1-thread-4] INFO  vendors.temurin - Downloading OpenJDK8U-jdk_x64_windows_hotspot_8u452b09.msi
+2026-02-17 15:52:22.178 [pool-1-thread-4] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jdk_x64_windows_hotspot_8u452b09.msi
+2026-02-17 15:52:22.651 [pool-1-thread-4] INFO  vendors.temurin - Processed OpenJDK8U-jdk_x64_windows_hotspot_8u452b09.msi
+2026-02-17 15:52:23.554 [pool-1-thread-1] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jdk_x64_solaris_hotspot_8u452b09-ea.tar.gz
+2026-02-17 15:52:24.220 [pool-1-thread-1] INFO  vendors.temurin - Processed OpenJDK8U-jdk_x64_solaris_hotspot_8u452b09-ea.tar.gz

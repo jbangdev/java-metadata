@@ -43,3 +43,48 @@
 2026-02-17 14:35:42.002 [pool-1-thread-3] INFO  vendors.openlogic - Processed openlogic-openjdk-jre-25.0.2+10-mac-x64.pkg
 2026-02-17 14:35:56.258 [pool-1-thread-1] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-25.0.2+10-linux-x64-deb.deb
 2026-02-17 14:35:57.885 [pool-1-thread-1] INFO  vendors.openlogic - Processed openlogic-openjdk-25.0.2+10-linux-x64-deb.deb
+2026-02-17 15:51:19.153 [pool-2-thread-1] INFO  vendors.openlogic - Starting scraper
+2026-02-17 15:51:19.159 [pool-2-thread-1] INFO  vendors.openlogic - Fetching page 0 from https://www.openlogic.com/openjdk-downloads?page=0
+2026-02-17 15:51:19.986 [pool-2-thread-1] INFO  vendors.openlogic - Found 24 download links on page 0
+2026-02-17 15:51:19.988 [pool-2-thread-1] INFO  vendors.openlogic - Queued download for openlogic-openjdk-25.0.2+10-linux-x64.tar.gz
+2026-02-17 15:51:19.988 [pool-2-thread-1] INFO  vendors.openlogic - Queued download for openlogic-openjdk-jre-25.0.2+10-linux-x64-deb.deb
+2026-02-17 15:51:19.988 [pool-2-thread-1] INFO  vendors.openlogic - Queued download for openlogic-openjdk-jre-25.0.2+10-linux-x64-el.rpm
+2026-02-17 15:51:19.990 [pool-2-thread-1] INFO  vendors.openlogic - Queued download for openlogic-openjdk-jre-25.0.2+10-linux-x64.tar.gz
+2026-02-17 15:51:19.991 [pool-2-thread-1] INFO  vendors.openlogic - Queued download for openlogic-openjdk-25.0.1+8-windows-x64.zip
+2026-02-17 15:51:19.992 [pool-2-thread-1] INFO  vendors.openlogic - Queued download for openlogic-openjdk-25.0.1+8-windows-x64.msi
+2026-02-17 15:51:19.994 [pool-2-thread-1] INFO  vendors.openlogic - Queued download for openlogic-openjdk-jre-25.0.1+8-windows-x64.msi
+2026-02-17 15:51:19.997 [pool-2-thread-1] INFO  vendors.openlogic - Queued download for openlogic-openjdk-jre-25.0.1+8-windows-x64.zip
+2026-02-17 15:51:19.997 [pool-2-thread-1] INFO  vendors.openlogic - Queued download for openlogic-openjdk-25.0.1+8-mac-x64.pkg
+2026-02-17 15:51:19.998 [pool-2-thread-1] INFO  vendors.openlogic - Queued download for openlogic-openjdk-25.0.1+8-mac-x64.zip
+2026-02-17 15:51:19.998 [pool-2-thread-1] INFO  vendors.openlogic - Reached progress limit of 10 items, aborting
+2026-02-17 15:51:19.998 [pool-2-thread-1] INFO  vendors.openlogic - Completed successfully. Marked 10 items for processing, skipped 10 existing items, and had 0 failures.
+2026-02-17 15:51:24.488 [pool-1-thread-4] INFO  vendors.openlogic - Downloading openlogic-openjdk-25.0.2+10-linux-x64.tar.gz
+2026-02-17 15:51:27.704 [pool-1-thread-1] INFO  vendors.openlogic - Downloading openlogic-openjdk-jre-25.0.2+10-linux-x64-deb.deb
+2026-02-17 15:51:28.893 [pool-1-thread-2] INFO  vendors.openlogic - Downloading openlogic-openjdk-jre-25.0.2+10-linux-x64-el.rpm
+2026-02-17 15:51:31.140 [pool-1-thread-1] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-jre-25.0.2+10-linux-x64-deb.deb
+2026-02-17 15:51:31.443 [pool-1-thread-1] INFO  vendors.openlogic - Processed openlogic-openjdk-jre-25.0.2+10-linux-x64-deb.deb
+2026-02-17 15:51:31.458 [pool-1-thread-1] INFO  vendors.openlogic - Downloading openlogic-openjdk-25.0.1+8-windows-x64.zip
+2026-02-17 15:51:32.146 [pool-1-thread-2] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-jre-25.0.2+10-linux-x64-el.rpm
+2026-02-17 15:51:32.477 [pool-1-thread-2] INFO  vendors.openlogic - Processed openlogic-openjdk-jre-25.0.2+10-linux-x64-el.rpm
+2026-02-17 15:51:39.817 [pool-1-thread-4] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-25.0.2+10-linux-x64.tar.gz
+2026-02-17 15:51:41.503 [pool-1-thread-4] INFO  vendors.openlogic - Processed openlogic-openjdk-25.0.2+10-linux-x64.tar.gz
+2026-02-17 15:51:44.919 [pool-1-thread-1] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-25.0.1+8-windows-x64.zip
+2026-02-17 15:51:46.586 [pool-1-thread-1] INFO  vendors.openlogic - Processed openlogic-openjdk-25.0.1+8-windows-x64.zip
+2026-02-17 15:52:03.595 [pool-1-thread-2] INFO  vendors.openlogic - Downloading openlogic-openjdk-jre-25.0.2+10-linux-x64.tar.gz
+2026-02-17 15:52:04.973 [pool-1-thread-4] INFO  vendors.openlogic - Downloading openlogic-openjdk-25.0.1+8-windows-x64.msi
+2026-02-17 15:52:05.817 [pool-1-thread-3] INFO  vendors.openlogic - Downloading openlogic-openjdk-jre-25.0.1+8-windows-x64.msi
+2026-02-17 15:52:06.419 [pool-1-thread-2] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-jre-25.0.2+10-linux-x64.tar.gz
+2026-02-17 15:52:06.743 [pool-1-thread-2] INFO  vendors.openlogic - Processed openlogic-openjdk-jre-25.0.2+10-linux-x64.tar.gz
+2026-02-17 15:52:06.759 [pool-1-thread-2] INFO  vendors.openlogic - Downloading openlogic-openjdk-jre-25.0.1+8-windows-x64.zip
+2026-02-17 15:52:07.843 [pool-1-thread-3] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-jre-25.0.1+8-windows-x64.msi
+2026-02-17 15:52:08.048 [pool-1-thread-3] INFO  vendors.openlogic - Processed openlogic-openjdk-jre-25.0.1+8-windows-x64.msi
+2026-02-17 15:52:08.056 [pool-1-thread-3] INFO  vendors.openlogic - Downloading openlogic-openjdk-25.0.1+8-mac-x64.pkg
+2026-02-17 15:52:08.459 [pool-1-thread-2] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-jre-25.0.1+8-windows-x64.zip
+2026-02-17 15:52:08.666 [pool-1-thread-2] INFO  vendors.openlogic - Processed openlogic-openjdk-jre-25.0.1+8-windows-x64.zip
+2026-02-17 15:52:08.675 [pool-1-thread-2] INFO  vendors.openlogic - Downloading openlogic-openjdk-25.0.1+8-mac-x64.zip
+2026-02-17 15:52:15.874 [pool-1-thread-4] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-25.0.1+8-windows-x64.msi
+2026-02-17 15:52:17.118 [pool-1-thread-4] INFO  vendors.openlogic - Processed openlogic-openjdk-25.0.1+8-windows-x64.msi
+2026-02-17 15:52:20.854 [pool-1-thread-3] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-25.0.1+8-mac-x64.pkg
+2026-02-17 15:52:22.313 [pool-1-thread-3] INFO  vendors.openlogic - Processed openlogic-openjdk-25.0.1+8-mac-x64.pkg
+2026-02-17 15:52:25.996 [pool-1-thread-2] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-25.0.1+8-mac-x64.zip
+2026-02-17 15:52:27.443 [pool-1-thread-2] INFO  vendors.openlogic - Processed openlogic-openjdk-25.0.1+8-mac-x64.zip

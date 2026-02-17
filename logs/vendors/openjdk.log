@@ -25,3 +25,10 @@
 2026-02-17 14:34:07.833 [pool-1-thread-2] INFO  vendors.openjdk - Downloading openjdk-27-ea+9_windows-x64_bin.zip
 2026-02-17 14:34:09.664 [pool-1-thread-2] INFO  vendors.openjdk - Computing hashes for openjdk-27-ea+9_windows-x64_bin.zip
 2026-02-17 14:34:10.941 [pool-1-thread-2] INFO  vendors.openjdk - Processed openjdk-27-ea+9_windows-x64_bin.zip
+2026-02-17 15:51:08.743 [pool-2-thread-3] INFO  vendors.openjdk - Starting scraper
+2026-02-17 15:51:08.749 [pool-2-thread-3] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/archive/
+2026-02-17 15:51:09.050 [pool-2-thread-3] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/25/
+2026-02-17 15:51:09.178 [pool-2-thread-3] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/26/
+2026-02-17 15:51:09.312 [pool-2-thread-3] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/27/
+2026-02-17 15:51:09.429 [pool-2-thread-3] INFO  vendors.openjdk - Found 213 download URLs
+2026-02-17 15:51:09.432 [pool-2-thread-3] INFO  vendors.openjdk - Completed successfully. Marked 0 items for processing, skipped 213 existing items, and had 0 failures.

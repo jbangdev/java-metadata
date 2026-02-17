@@ -82,3 +82,59 @@
 2026-02-17 14:35:43.515 [pool-1-thread-4] INFO  vendors.corretto - Downloading amazon-corretto-26.0.0.34.1-macosx-aarch64.tar.gz
 2026-02-17 14:35:48.822 [pool-1-thread-4] INFO  vendors.corretto - Computing hashes for amazon-corretto-26.0.0.34.1-macosx-aarch64.tar.gz
 2026-02-17 14:35:50.049 [pool-1-thread-4] INFO  vendors.corretto - Processed amazon-corretto-26.0.0.34.1-macosx-aarch64.tar.gz
+2026-02-17 15:51:18.936 [pool-2-thread-3] INFO  vendors.corretto - Starting scraper
+2026-02-17 15:51:18.941 [pool-2-thread-3] INFO  vendors.corretto - Fetching repositories from https://api.github.com/orgs/corretto/repos?type=public&per_page=100&page=1&q=corretto
+2026-02-17 15:51:19.652 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-8
+2026-02-17 15:51:19.652 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-11
+2026-02-17 15:51:19.652 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-jdk
+2026-02-17 15:51:19.652 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-17
+2026-02-17 15:51:19.652 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-18
+2026-02-17 15:51:19.652 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-19
+2026-02-17 15:51:19.652 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-20
+2026-02-17 15:51:19.653 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-21
+2026-02-17 15:51:19.653 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-22
+2026-02-17 15:51:19.653 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-23
+2026-02-17 15:51:19.653 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-24
+2026-02-17 15:51:19.654 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-25
+2026-02-17 15:51:19.654 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-26
+2026-02-17 15:51:19.654 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-8
+2026-02-17 15:51:19.654 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-8/releases?per_page=100&page=1
+2026-02-17 15:51:19.995 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-8/releases?per_page=100&page=2
+2026-02-17 15:51:20.195 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-11
+2026-02-17 15:51:20.196 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-11/releases?per_page=100&page=1
+2026-02-17 15:51:20.540 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-11/releases?per_page=100&page=2
+2026-02-17 15:51:20.745 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-jdk
+2026-02-17 15:51:20.745 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-jdk/releases?per_page=100&page=1
+2026-02-17 15:51:21.003 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-jdk/releases?per_page=100&page=2
+2026-02-17 15:51:21.199 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-17
+2026-02-17 15:51:21.199 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-17/releases?per_page=100&page=1
+2026-02-17 15:51:21.452 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-17/releases?per_page=100&page=2
+2026-02-17 15:51:21.658 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-18
+2026-02-17 15:51:21.659 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-18/releases?per_page=100&page=1
+2026-02-17 15:51:21.889 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-18/releases?per_page=100&page=2
+2026-02-17 15:51:22.094 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-19
+2026-02-17 15:51:22.094 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-19/releases?per_page=100&page=1
+2026-02-17 15:51:22.367 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-19/releases?per_page=100&page=2
+2026-02-17 15:51:22.519 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-20
+2026-02-17 15:51:22.519 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-20/releases?per_page=100&page=1
+2026-02-17 15:51:22.738 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-20/releases?per_page=100&page=2
+2026-02-17 15:51:22.911 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-21
+2026-02-17 15:51:22.912 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-21/releases?per_page=100&page=1
+2026-02-17 15:51:23.227 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-21/releases?per_page=100&page=2
+2026-02-17 15:51:23.477 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-22
+2026-02-17 15:51:23.477 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-22/releases?per_page=100&page=1
+2026-02-17 15:51:23.704 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-22/releases?per_page=100&page=2
+2026-02-17 15:51:23.903 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-23
+2026-02-17 15:51:23.903 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-23/releases?per_page=100&page=1
+2026-02-17 15:51:24.136 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-23/releases?per_page=100&page=2
+2026-02-17 15:51:24.376 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-24
+2026-02-17 15:51:24.376 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-24/releases?per_page=100&page=1
+2026-02-17 15:51:24.659 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-24/releases?per_page=100&page=2
+2026-02-17 15:51:24.836 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-25
+2026-02-17 15:51:24.836 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-25/releases?per_page=100&page=1
+2026-02-17 15:51:25.112 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-25/releases?per_page=100&page=2
+2026-02-17 15:51:25.313 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-26
+2026-02-17 15:51:25.313 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-26/releases?per_page=100&page=1
+2026-02-17 15:51:25.583 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-26/releases?per_page=100&page=2
+2026-02-17 15:51:25.755 [pool-2-thread-3] INFO  vendors.corretto - Fetching repositories from https://api.github.com/orgs/corretto/repos?type=public&per_page=100&page=2&q=corretto
+2026-02-17 15:51:25.892 [pool-2-thread-3] INFO  vendors.corretto - Completed successfully. Marked 0 items for processing, skipped 891 existing items, and had 0 failures.

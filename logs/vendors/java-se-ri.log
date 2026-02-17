@@ -20,3 +20,25 @@
 2026-02-17 14:33:29.957 [pool-2-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/25
 2026-02-17 14:33:30.078 [pool-2-thread-1] INFO  vendors.java-se-ri - Found 35 download URLs
 2026-02-17 14:33:30.079 [pool-2-thread-1] INFO  vendors.java-se-ri - Completed successfully. Marked 0 items for processing, skipped 35 existing items, and had 0 failures.
+2026-02-17 15:51:07.019 [pool-2-thread-4] INFO  vendors.java-se-ri - Starting scraper
+2026-02-17 15:51:07.027 [pool-2-thread-4] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/7
+2026-02-17 15:51:07.332 [pool-2-thread-4] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/8-MR3
+2026-02-17 15:51:07.605 [pool-2-thread-4] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/9
+2026-02-17 15:51:07.724 [pool-2-thread-4] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/10
+2026-02-17 15:51:07.855 [pool-2-thread-4] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/11
+2026-02-17 15:51:07.971 [pool-2-thread-4] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/12
+2026-02-17 15:51:08.092 [pool-2-thread-4] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/13
+2026-02-17 15:51:08.211 [pool-2-thread-4] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/14
+2026-02-17 15:51:08.327 [pool-2-thread-4] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/15
+2026-02-17 15:51:08.446 [pool-2-thread-4] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/16
+2026-02-17 15:51:08.570 [pool-2-thread-4] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/17
+2026-02-17 15:51:08.686 [pool-2-thread-4] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/18
+2026-02-17 15:51:08.766 [pool-2-thread-4] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/19
+2026-02-17 15:51:08.896 [pool-2-thread-4] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/20
+2026-02-17 15:51:09.038 [pool-2-thread-4] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/21
+2026-02-17 15:51:09.120 [pool-2-thread-4] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/22
+2026-02-17 15:51:09.199 [pool-2-thread-4] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/23
+2026-02-17 15:51:09.280 [pool-2-thread-4] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/24
+2026-02-17 15:51:09.377 [pool-2-thread-4] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/25
+2026-02-17 15:51:09.497 [pool-2-thread-4] INFO  vendors.java-se-ri - Found 35 download URLs
+2026-02-17 15:51:09.498 [pool-2-thread-4] INFO  vendors.java-se-ri - Completed successfully. Marked 0 items for processing, skipped 35 existing items, and had 0 failures.

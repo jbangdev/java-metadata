@@ -38,3 +38,7 @@
 2026-02-17 14:35:31.965 [pool-1-thread-2] INFO  vendors.zulu - Downloading zulu8.25.0.76-ca-cp2-jre1.8.0.152-linux_aarch32sf.tar.gz
 2026-02-17 14:35:32.737 [pool-1-thread-2] INFO  vendors.zulu - Computing hashes for zulu8.25.0.76-ca-cp2-jre1.8.0.152-linux_aarch32sf.tar.gz
 2026-02-17 14:35:32.869 [pool-1-thread-2] INFO  vendors.zulu - Processed zulu8.25.0.76-ca-cp2-jre1.8.0.152-linux_aarch32sf.tar.gz
+2026-02-17 15:51:25.892 [pool-2-thread-3] INFO  vendors.zulu - Starting scraper
+2026-02-17 15:51:25.894 [pool-2-thread-3] INFO  vendors.zulu - Fetching index from https://static.azul.com/zulu/bin/
+2026-02-17 15:51:26.211 [pool-2-thread-3] INFO  vendors.zulu - Found 11104 files to process
+2026-02-17 15:51:26.273 [pool-2-thread-3] INFO  vendors.zulu - Completed successfully. Marked 0 items for processing, skipped 11080 existing items, and had 0 failures.

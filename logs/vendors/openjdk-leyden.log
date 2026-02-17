@@ -2,3 +2,7 @@
 2026-02-17 14:33:44.708 [pool-2-thread-1] INFO  vendors.openjdk-leyden - Fetching index from http://jdk.java.net/leyden/
 2026-02-17 14:33:44.877 [pool-2-thread-1] INFO  vendors.openjdk-leyden - Found 3 download URLs
 2026-02-17 14:33:44.877 [pool-2-thread-1] INFO  vendors.openjdk-leyden - Completed successfully. Marked 0 items for processing, skipped 3 existing items, and had 0 failures.
+2026-02-17 15:51:20.602 [pool-2-thread-1] INFO  vendors.openjdk-leyden - Starting scraper
+2026-02-17 15:51:20.604 [pool-2-thread-1] INFO  vendors.openjdk-leyden - Fetching index from http://jdk.java.net/leyden/
+2026-02-17 15:51:20.992 [pool-2-thread-1] INFO  vendors.openjdk-leyden - Found 3 download URLs
+2026-02-17 15:51:20.993 [pool-2-thread-1] INFO  vendors.openjdk-leyden - Completed successfully. Marked 0 items for processing, skipped 3 existing items, and had 0 failures.
