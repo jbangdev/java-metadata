@@ -1,0 +1,47 @@
+2026-02-17 14:33:35.646 [pool-2-thread-1] INFO  vendors.kona - Starting scraper
+2026-02-17 14:33:35.648 [pool-2-thread-1] INFO  vendors.kona - Fetching repositories from https://api.github.com/orgs/Tencent/repos?type=public&per_page=100&page=1&q=TencentKona
+2026-02-17 14:33:37.325 [pool-2-thread-1] INFO  vendors.kona - Matched repository: TencentKona-8
+2026-02-17 14:33:37.326 [pool-2-thread-1] INFO  vendors.kona - Processing repository: TencentKona-8
+2026-02-17 14:33:37.326 [pool-2-thread-1] INFO  vendors.kona - Fetching releases from https://api.github.com/repos/Tencent/TencentKona-8/releases?per_page=100&page=1
+2026-02-17 14:33:37.865 [pool-2-thread-1] INFO  vendors.kona - Queued download for TencentKona8.0.25.b1_jdk_linux-aarch64_8u482.tar.gz
+2026-02-17 14:33:37.867 [pool-2-thread-1] INFO  vendors.kona - Queued download for TencentKona8.0.25.b1_jdk_linux-musl-aarch64_8u482.tar.gz
+2026-02-17 14:33:37.870 [pool-2-thread-1] INFO  vendors.kona - Queued download for TencentKona8.0.25.b1_jdk_linux-musl-x86_64_8u482.tar.gz
+2026-02-17 14:33:37.871 [pool-2-thread-1] INFO  vendors.kona - Queued download for TencentKona8.0.25.b1_jdk_linux-x86_64_8u482.tar.gz
+2026-02-17 14:33:37.872 [pool-2-thread-1] INFO  vendors.kona - Queued download for TencentKona8.0.25.b1_jdk_macosx-aarch64_8u482_notarized.tar.gz
+2026-02-17 14:33:37.874 [pool-2-thread-1] INFO  vendors.kona - Queued download for TencentKona8.0.25.b1_jdk_macosx-x86_64_8u482_notarized.tar.gz
+2026-02-17 14:33:37.874 [pool-2-thread-1] INFO  vendors.kona - Queued download for TencentKona8.0.25.b1_jdk_windows-x86_64_8u482_signed.zip
+2026-02-17 14:33:37.876 [pool-2-thread-1] INFO  vendors.kona - Queued download for TencentKona8.0.25.b1_jre_linux-x86_64_8u482.tar.gz
+2026-02-17 14:33:37.879 [pool-2-thread-1] INFO  vendors.kona - Queued download for TencentKona8.0.24.b1_jdk_linux-aarch64_8u472.tar.gz
+2026-02-17 14:33:37.880 [pool-2-thread-1] INFO  vendors.kona - Queued download for TencentKona8.0.24.b1_jdk_linux-musl-aarch64_8u472.tar.gz
+2026-02-17 14:33:37.880 [pool-2-thread-1] INFO  vendors.kona - Reached progress limit of 10 items, aborting
+2026-02-17 14:33:37.880 [pool-2-thread-1] INFO  vendors.kona - Completed successfully. Marked 10 items for processing, skipped 0 existing items, and had 0 failures.
+2026-02-17 14:35:04.830 [pool-1-thread-4] INFO  vendors.kona - Downloading TencentKona8.0.25.b1_jdk_linux-musl-aarch64_8u482.tar.gz
+2026-02-17 14:35:06.296 [pool-1-thread-4] INFO  vendors.kona - Computing hashes for TencentKona8.0.25.b1_jdk_linux-musl-aarch64_8u482.tar.gz
+2026-02-17 14:35:06.860 [pool-1-thread-4] INFO  vendors.kona - Processed TencentKona8.0.25.b1_jdk_linux-musl-aarch64_8u482.tar.gz
+2026-02-17 14:36:05.846 [pool-1-thread-2] INFO  vendors.kona - Downloading TencentKona8.0.25.b1_jdk_linux-musl-x86_64_8u482.tar.gz
+2026-02-17 14:36:07.295 [pool-1-thread-2] INFO  vendors.kona - Computing hashes for TencentKona8.0.25.b1_jdk_linux-musl-x86_64_8u482.tar.gz
+2026-02-17 14:36:07.868 [pool-1-thread-2] INFO  vendors.kona - Processed TencentKona8.0.25.b1_jdk_linux-musl-x86_64_8u482.tar.gz
+2026-02-17 14:36:08.329 [pool-1-thread-4] INFO  vendors.kona - Downloading TencentKona8.0.25.b1_jdk_macosx-x86_64_8u482_notarized.tar.gz
+2026-02-17 14:36:09.574 [pool-1-thread-4] INFO  vendors.kona - Computing hashes for TencentKona8.0.25.b1_jdk_macosx-x86_64_8u482_notarized.tar.gz
+2026-02-17 14:36:10.167 [pool-1-thread-4] INFO  vendors.kona - Processed TencentKona8.0.25.b1_jdk_macosx-x86_64_8u482_notarized.tar.gz
+2026-02-17 14:36:10.180 [pool-1-thread-4] INFO  vendors.kona - Downloading TencentKona8.0.25.b1_jdk_linux-x86_64_8u482.tar.gz
+2026-02-17 14:36:11.415 [pool-1-thread-4] INFO  vendors.kona - Computing hashes for TencentKona8.0.25.b1_jdk_linux-x86_64_8u482.tar.gz
+2026-02-17 14:36:12.036 [pool-1-thread-4] INFO  vendors.kona - Processed TencentKona8.0.25.b1_jdk_linux-x86_64_8u482.tar.gz
+2026-02-17 14:36:12.050 [pool-1-thread-4] INFO  vendors.kona - Downloading TencentKona8.0.25.b1_jdk_macosx-aarch64_8u482_notarized.tar.gz
+2026-02-17 14:36:13.067 [pool-1-thread-4] INFO  vendors.kona - Computing hashes for TencentKona8.0.25.b1_jdk_macosx-aarch64_8u482_notarized.tar.gz
+2026-02-17 14:36:13.648 [pool-1-thread-4] INFO  vendors.kona - Processed TencentKona8.0.25.b1_jdk_macosx-aarch64_8u482_notarized.tar.gz
+2026-02-17 14:36:13.665 [pool-1-thread-4] INFO  vendors.kona - Downloading TencentKona8.0.25.b1_jdk_linux-aarch64_8u482.tar.gz
+2026-02-17 14:36:14.995 [pool-1-thread-4] INFO  vendors.kona - Computing hashes for TencentKona8.0.25.b1_jdk_linux-aarch64_8u482.tar.gz
+2026-02-17 14:36:15.624 [pool-1-thread-4] INFO  vendors.kona - Processed TencentKona8.0.25.b1_jdk_linux-aarch64_8u482.tar.gz
+2026-02-17 14:36:15.637 [pool-1-thread-4] INFO  vendors.kona - Downloading TencentKona8.0.24.b1_jdk_linux-musl-aarch64_8u472.tar.gz
+2026-02-17 14:36:16.561 [pool-1-thread-4] INFO  vendors.kona - Computing hashes for TencentKona8.0.24.b1_jdk_linux-musl-aarch64_8u472.tar.gz
+2026-02-17 14:36:17.169 [pool-1-thread-4] INFO  vendors.kona - Processed TencentKona8.0.24.b1_jdk_linux-musl-aarch64_8u472.tar.gz
+2026-02-17 14:36:21.085 [pool-1-thread-2] INFO  vendors.kona - Downloading TencentKona8.0.25.b1_jdk_windows-x86_64_8u482_signed.zip
+2026-02-17 14:36:22.548 [pool-1-thread-2] INFO  vendors.kona - Computing hashes for TencentKona8.0.25.b1_jdk_windows-x86_64_8u482_signed.zip
+2026-02-17 14:36:23.516 [pool-1-thread-2] INFO  vendors.kona - Processed TencentKona8.0.25.b1_jdk_windows-x86_64_8u482_signed.zip
+2026-02-17 14:36:27.180 [pool-1-thread-2] INFO  vendors.kona - Downloading TencentKona8.0.24.b1_jdk_linux-aarch64_8u472.tar.gz
+2026-02-17 14:36:28.312 [pool-1-thread-2] INFO  vendors.kona - Computing hashes for TencentKona8.0.24.b1_jdk_linux-aarch64_8u472.tar.gz
+2026-02-17 14:36:28.970 [pool-1-thread-2] INFO  vendors.kona - Processed TencentKona8.0.24.b1_jdk_linux-aarch64_8u472.tar.gz
+2026-02-17 14:36:31.720 [pool-1-thread-2] INFO  vendors.kona - Downloading TencentKona8.0.25.b1_jre_linux-x86_64_8u482.tar.gz
+2026-02-17 14:36:32.326 [pool-1-thread-2] INFO  vendors.kona - Computing hashes for TencentKona8.0.25.b1_jre_linux-x86_64_8u482.tar.gz
+2026-02-17 14:36:32.573 [pool-1-thread-2] INFO  vendors.kona - Processed TencentKona8.0.25.b1_jre_linux-x86_64_8u482.tar.gz

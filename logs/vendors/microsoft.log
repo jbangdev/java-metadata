@@ -1,0 +1,4 @@
+2026-02-17 14:33:28.293 [pool-2-thread-3] INFO  vendors.microsoft - Starting scraper
+2026-02-17 14:33:28.296 [pool-2-thread-3] INFO  vendors.microsoft - Fetching index from https://docs.microsoft.com/en-us/java/openjdk/download
+2026-02-17 14:33:28.850 [pool-2-thread-3] INFO  vendors.microsoft - Found 64 files to process
+2026-02-17 14:33:28.852 [pool-2-thread-3] INFO  vendors.microsoft - Completed successfully. Marked 0 items for processing, skipped 40 existing items, and had 0 failures.

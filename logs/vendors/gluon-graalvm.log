@@ -1,0 +1,45 @@
+2026-02-17 14:33:25.930 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Starting scraper
+2026-02-17 14:33:25.940 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Processing repository: graal
+2026-02-17 14:33:25.941 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Fetching releases from https://api.github.com/repos/gluonhq/graal/releases?per_page=100&page=1
+2026-02-17 14:33:26.915 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Queued download for graalvm-svm-java11-darwin-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:26.917 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Queued download for graalvm-svm-java11-darwin-m1-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:26.918 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Queued download for graalvm-svm-java11-linux-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:26.918 [pool-1-thread-3] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java11-darwin-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:26.918 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Queued download for graalvm-svm-java11-windows-gluon-22.1.0.1-Final.zip
+2026-02-17 14:33:26.919 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Queued download for graalvm-svm-java17-darwin-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:26.920 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Queued download for graalvm-svm-java17-darwin-m1-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:26.920 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java11-darwin-m1-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:26.920 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Queued download for graalvm-svm-java17-linux-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:26.921 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Queued download for graalvm-svm-java17-windows-gluon-22.1.0.1-Final.zip
+2026-02-17 14:33:26.921 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java11-linux-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:26.922 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Queued download for graalvm-svm-java11-darwin-gluon-22.0.0.3-Final.zip
+2026-02-17 14:33:26.922 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Queued download for graalvm-svm-java11-linux-gluon-22.0.0.3-Final.zip
+2026-02-17 14:33:26.922 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Reached progress limit of 10 items, aborting
+2026-02-17 14:33:26.924 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Completed successfully. Marked 10 items for processing, skipped 0 existing items, and had 0 failures.
+2026-02-17 14:33:34.344 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java11-darwin-m1-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:34.861 [pool-1-thread-3] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java11-darwin-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:35.620 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java11-linux-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:36.726 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java11-darwin-m1-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:37.621 [pool-1-thread-3] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java11-darwin-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:38.469 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java11-linux-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:34:05.988 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java17-linux-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:34:06.037 [pool-1-thread-3] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java17-windows-gluon-22.1.0.1-Final.zip
+2026-02-17 14:34:10.116 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java17-linux-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:34:12.160 [pool-1-thread-3] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java17-windows-gluon-22.1.0.1-Final.zip
+2026-02-17 14:34:12.399 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java17-linux-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:34:14.004 [pool-1-thread-3] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java17-windows-gluon-22.1.0.1-Final.zip
+2026-02-17 14:35:34.638 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java11-linux-gluon-22.0.0.3-Final.zip
+2026-02-17 14:35:34.760 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java17-darwin-m1-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:35:41.533 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java17-darwin-m1-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:35:43.470 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java17-darwin-m1-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:35:45.300 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java11-linux-gluon-22.0.0.3-Final.zip
+2026-02-17 14:35:48.006 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java11-linux-gluon-22.0.0.3-Final.zip
+2026-02-17 14:35:57.063 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java11-windows-gluon-22.1.0.1-Final.zip
+2026-02-17 14:35:57.248 [pool-1-thread-3] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java11-darwin-gluon-22.0.0.3-Final.zip
+2026-02-17 14:35:57.358 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java17-darwin-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:36:02.316 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java17-darwin-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:36:03.942 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java11-windows-gluon-22.1.0.1-Final.zip
+2026-02-17 14:36:04.413 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java17-darwin-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:36:04.955 [pool-1-thread-3] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java11-darwin-gluon-22.0.0.3-Final.zip
+2026-02-17 14:36:05.703 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java11-windows-gluon-22.1.0.1-Final.zip
+2026-02-17 14:36:07.249 [pool-1-thread-3] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java11-darwin-gluon-22.0.0.3-Final.zip

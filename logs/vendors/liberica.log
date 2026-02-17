@@ -1,0 +1,45 @@
+2026-02-17 14:33:47.632 [pool-2-thread-4] INFO  vendors.liberica - Starting scraper
+2026-02-17 14:33:47.634 [pool-2-thread-4] INFO  vendors.liberica - Fetching assets from https://api.bell-sw.com/v1/liberica/releases?
+2026-02-17 14:33:50.737 [pool-2-thread-4] INFO  vendors.liberica - Found 19560 assets
+2026-02-17 14:33:50.746 [pool-2-thread-4] INFO  vendors.liberica - Queued download for bellsoft-jdk10-linux-arm32-vfp-hflt.deb
+2026-02-17 14:33:50.747 [pool-2-thread-4] INFO  vendors.liberica - Queued download for bellsoft-jdk10-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:33:50.747 [pool-2-thread-4] INFO  vendors.liberica - Queued download for bellsoft-jre10-linux-arm32-vfp-hflt.deb
+2026-02-17 14:33:50.747 [pool-2-thread-4] INFO  vendors.liberica - Queued download for bellsoft-jre10-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:33:50.747 [pool-2-thread-4] INFO  vendors.liberica - Queued download for bellsoft-jdk11-windows-amd64-lite.zip
+2026-02-17 14:33:50.758 [pool-2-thread-4] INFO  vendors.liberica - Queued download for bellsoft-jdk11.0.3-linux-amd64.rpm
+2026-02-17 14:33:50.772 [pool-2-thread-4] INFO  vendors.liberica - Queued download for bellsoft-jdk9.0.1-linux-arm32-vfp-hflt.deb
+2026-02-17 14:33:50.772 [pool-2-thread-4] INFO  vendors.liberica - Queued download for bellsoft-jdk9.0.1-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:33:50.773 [pool-2-thread-4] INFO  vendors.liberica - Queued download for bellsoft-jre9.0.1-linux-arm32-vfp-hflt.deb
+2026-02-17 14:33:50.773 [pool-2-thread-4] INFO  vendors.liberica - Queued download for bellsoft-jre9.0.1-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:33:50.773 [pool-2-thread-4] INFO  vendors.liberica - Reached progress limit of 10 items, aborting
+2026-02-17 14:33:50.773 [pool-2-thread-4] INFO  vendors.liberica - Completed successfully. Marked 10 items for processing, skipped 10174 existing items, and had 0 failures.
+2026-02-17 14:34:32.138 [pool-1-thread-1] INFO  vendors.liberica - Downloading bellsoft-jdk10-linux-arm32-vfp-hflt.deb
+2026-02-17 14:34:37.094 [pool-1-thread-1] INFO  vendors.liberica - Computing hashes for bellsoft-jdk10-linux-arm32-vfp-hflt.deb
+2026-02-17 14:34:38.284 [pool-1-thread-1] INFO  vendors.liberica - Processed bellsoft-jdk10-linux-arm32-vfp-hflt.deb
+2026-02-17 14:34:38.317 [pool-1-thread-1] INFO  vendors.liberica - Downloading bellsoft-jdk10-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:34:43.666 [pool-1-thread-1] INFO  vendors.liberica - Computing hashes for bellsoft-jdk10-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:34:45.028 [pool-1-thread-1] INFO  vendors.liberica - Processed bellsoft-jdk10-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:34:45.058 [pool-1-thread-1] INFO  vendors.liberica - Downloading bellsoft-jre10-linux-arm32-vfp-hflt.deb
+2026-02-17 14:34:45.808 [pool-1-thread-1] INFO  vendors.liberica - Computing hashes for bellsoft-jre10-linux-arm32-vfp-hflt.deb
+2026-02-17 14:34:45.968 [pool-1-thread-1] INFO  vendors.liberica - Processed bellsoft-jre10-linux-arm32-vfp-hflt.deb
+2026-02-17 14:34:45.972 [pool-1-thread-1] INFO  vendors.liberica - Downloading bellsoft-jre10-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:34:47.261 [pool-1-thread-1] INFO  vendors.liberica - Computing hashes for bellsoft-jre10-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:34:47.624 [pool-1-thread-1] INFO  vendors.liberica - Processed bellsoft-jre10-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:34:47.633 [pool-1-thread-1] INFO  vendors.liberica - Downloading bellsoft-jdk11-windows-amd64-lite.zip
+2026-02-17 14:34:48.438 [pool-1-thread-4] INFO  vendors.liberica - Downloading bellsoft-jdk11.0.3-linux-amd64.rpm
+2026-02-17 14:34:48.654 [pool-1-thread-2] INFO  vendors.liberica - Downloading bellsoft-jdk9.0.1-linux-arm32-vfp-hflt.deb
+2026-02-17 14:34:49.161 [pool-1-thread-1] INFO  vendors.liberica - Computing hashes for bellsoft-jdk11-windows-amd64-lite.zip
+2026-02-17 14:34:49.565 [pool-1-thread-1] INFO  vendors.liberica - Processed bellsoft-jdk11-windows-amd64-lite.zip
+2026-02-17 14:34:49.574 [pool-1-thread-1] INFO  vendors.liberica - Downloading bellsoft-jdk9.0.1-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:34:52.542 [pool-1-thread-2] INFO  vendors.liberica - Computing hashes for bellsoft-jdk9.0.1-linux-arm32-vfp-hflt.deb
+2026-02-17 14:34:53.659 [pool-1-thread-4] INFO  vendors.liberica - Computing hashes for bellsoft-jdk11.0.3-linux-amd64.rpm
+2026-02-17 14:34:53.782 [pool-1-thread-2] INFO  vendors.liberica - Processed bellsoft-jdk9.0.1-linux-arm32-vfp-hflt.deb
+2026-02-17 14:34:54.740 [pool-1-thread-1] INFO  vendors.liberica - Computing hashes for bellsoft-jdk9.0.1-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:34:55.056 [pool-1-thread-4] INFO  vendors.liberica - Processed bellsoft-jdk11.0.3-linux-amd64.rpm
+2026-02-17 14:34:56.239 [pool-1-thread-1] INFO  vendors.liberica - Processed bellsoft-jdk9.0.1-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:35:26.385 [pool-1-thread-1] INFO  vendors.liberica - Downloading bellsoft-jre9.0.1-linux-arm32-vfp-hflt.deb
+2026-02-17 14:35:26.399 [pool-1-thread-3] INFO  vendors.liberica - Downloading bellsoft-jre9.0.1-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:35:27.179 [pool-1-thread-1] INFO  vendors.liberica - Computing hashes for bellsoft-jre9.0.1-linux-arm32-vfp-hflt.deb
+2026-02-17 14:35:27.359 [pool-1-thread-1] INFO  vendors.liberica - Processed bellsoft-jre9.0.1-linux-arm32-vfp-hflt.deb
+2026-02-17 14:35:27.846 [pool-1-thread-3] INFO  vendors.liberica - Computing hashes for bellsoft-jre9.0.1-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:35:28.134 [pool-1-thread-3] INFO  vendors.liberica - Processed bellsoft-jre9.0.1-linux-arm32-vfp-hflt.tar.gz

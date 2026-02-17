@@ -1,0 +1,21 @@
+2026-02-17 14:33:29.107 [pool-2-thread-3] INFO  vendors.graalvm-community-ea - Starting scraper
+2026-02-17 14:33:29.110 [pool-2-thread-3] INFO  vendors.graalvm-community-ea - Processing repository: graalvm-ce-dev-builds
+2026-02-17 14:33:29.110 [pool-2-thread-3] INFO  vendors.graalvm-community-ea - Fetching releases from https://api.github.com/repos/graalvm/graalvm-ce-dev-builds/releases?per_page=100&page=1
+2026-02-17 14:33:30.018 [pool-2-thread-3] INFO  vendors.graalvm-community-ea - Queued download for graalvm-community-dev-darwin-aarch64.tar.gz
+2026-02-17 14:33:30.020 [pool-2-thread-3] INFO  vendors.graalvm-community-ea - Queued download for graalvm-community-dev-linux-aarch64.tar.gz
+2026-02-17 14:33:30.020 [pool-2-thread-3] INFO  vendors.graalvm-community-ea - Queued download for graalvm-community-dev-linux-amd64.tar.gz
+2026-02-17 14:33:30.021 [pool-2-thread-3] INFO  vendors.graalvm-community-ea - Queued download for graalvm-community-dev-windows-amd64.zip
+2026-02-17 14:33:30.043 [pool-2-thread-3] INFO  vendors.graalvm-community-ea - Fetching releases from https://api.github.com/repos/graalvm/graalvm-ce-dev-builds/releases?per_page=100&page=2
+2026-02-17 14:33:30.329 [pool-2-thread-3] INFO  vendors.graalvm-community-ea - Completed successfully. Marked 4 items for processing, skipped 48 existing items, and had 0 failures.
+2026-02-17 14:33:38.637 [pool-1-thread-2] INFO  vendors.graalvm-community-ea - Downloading graalvm-community-dev-darwin-aarch64.tar.gz
+2026-02-17 14:33:43.180 [pool-1-thread-2] INFO  vendors.graalvm-community-ea - Computing hashes for graalvm-community-dev-darwin-aarch64.tar.gz
+2026-02-17 14:33:45.130 [pool-1-thread-2] INFO  vendors.graalvm-community-ea - Processed graalvm-community-dev-darwin-aarch64.tar.gz
+2026-02-17 14:33:52.162 [pool-1-thread-1] INFO  vendors.graalvm-community-ea - Downloading graalvm-community-dev-linux-aarch64.tar.gz
+2026-02-17 14:33:56.514 [pool-1-thread-4] INFO  vendors.graalvm-community-ea - Downloading graalvm-community-dev-linux-amd64.tar.gz
+2026-02-17 14:33:59.048 [pool-1-thread-4] INFO  vendors.graalvm-community-ea - Computing hashes for graalvm-community-dev-linux-amd64.tar.gz
+2026-02-17 14:34:00.010 [pool-1-thread-1] INFO  vendors.graalvm-community-ea - Computing hashes for graalvm-community-dev-linux-aarch64.tar.gz
+2026-02-17 14:34:01.034 [pool-1-thread-4] INFO  vendors.graalvm-community-ea - Processed graalvm-community-dev-linux-amd64.tar.gz
+2026-02-17 14:34:01.801 [pool-1-thread-1] INFO  vendors.graalvm-community-ea - Processed graalvm-community-dev-linux-aarch64.tar.gz
+2026-02-17 14:34:01.845 [pool-1-thread-1] INFO  vendors.graalvm-community-ea - Downloading graalvm-community-dev-windows-amd64.zip
+2026-02-17 14:34:09.171 [pool-1-thread-1] INFO  vendors.graalvm-community-ea - Computing hashes for graalvm-community-dev-windows-amd64.zip
+2026-02-17 14:34:11.451 [pool-1-thread-1] INFO  vendors.graalvm-community-ea - Processed graalvm-community-dev-windows-amd64.zip

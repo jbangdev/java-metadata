@@ -1,0 +1,44 @@
+2026-02-17 14:33:30.719 [pool-2-thread-1] INFO  vendors.debian - Starting scraper
+2026-02-17 14:33:30.721 [pool-2-thread-1] INFO  vendors.debian - Processing OpenJDK 8 from http://ftp.debian.org/debian/pool/main/o/openjdk-8/
+2026-02-17 14:33:31.031 [pool-2-thread-1] INFO  vendors.debian - Queued download for openjdk-8-jdk-headless_8u472-ga-1_amd64.deb
+2026-02-17 14:33:31.032 [pool-2-thread-1] INFO  vendors.debian - Queued download for openjdk-8-jdk-headless_8u472-ga-1_arm64.deb
+2026-02-17 14:33:31.033 [pool-2-thread-1] INFO  vendors.debian - Queued download for openjdk-8-jdk-headless_8u472-ga-1_armhf.deb
+2026-02-17 14:33:31.033 [pool-2-thread-1] INFO  vendors.debian - Queued download for openjdk-8-jdk-headless_8u472-ga-1_i386.deb
+2026-02-17 14:33:31.033 [pool-2-thread-1] INFO  vendors.debian - Queued download for openjdk-8-jdk-headless_8u472-ga-1_ppc64el.deb
+2026-02-17 14:33:31.034 [pool-2-thread-1] INFO  vendors.debian - Queued download for openjdk-8-jdk-headless_8u472-ga-1_s390x.deb
+2026-02-17 14:33:31.034 [pool-2-thread-1] INFO  vendors.debian - Queued download for openjdk-8-jdk_8u472-ga-1_amd64.deb
+2026-02-17 14:33:31.034 [pool-2-thread-1] INFO  vendors.debian - Queued download for openjdk-8-jdk_8u472-ga-1_arm64.deb
+2026-02-17 14:33:31.035 [pool-2-thread-1] INFO  vendors.debian - Queued download for openjdk-8-jdk_8u472-ga-1_armhf.deb
+2026-02-17 14:33:31.035 [pool-2-thread-1] INFO  vendors.debian - Queued download for openjdk-8-jdk_8u472-ga-1_i386.deb
+2026-02-17 14:33:31.035 [pool-2-thread-1] INFO  vendors.debian - Reached progress limit of 10 items, aborting
+2026-02-17 14:33:31.035 [pool-2-thread-1] INFO  vendors.debian - Completed successfully. Marked 10 items for processing, skipped 0 existing items, and had 0 failures.
+2026-02-17 14:34:01.076 [pool-1-thread-4] INFO  vendors.debian - Downloading openjdk-8-jdk-headless_8u472-ga-1_amd64.deb
+2026-02-17 14:34:02.200 [pool-1-thread-4] INFO  vendors.debian - Computing hashes for openjdk-8-jdk-headless_8u472-ga-1_amd64.deb
+2026-02-17 14:34:02.245 [pool-1-thread-4] INFO  vendors.debian - Processed openjdk-8-jdk-headless_8u472-ga-1_amd64.deb
+2026-02-17 14:34:02.247 [pool-1-thread-4] INFO  vendors.debian - Downloading openjdk-8-jdk-headless_8u472-ga-1_arm64.deb
+2026-02-17 14:34:02.782 [pool-1-thread-4] INFO  vendors.debian - Computing hashes for openjdk-8-jdk-headless_8u472-ga-1_arm64.deb
+2026-02-17 14:34:02.830 [pool-1-thread-4] INFO  vendors.debian - Processed openjdk-8-jdk-headless_8u472-ga-1_arm64.deb
+2026-02-17 14:34:02.831 [pool-1-thread-4] INFO  vendors.debian - Downloading openjdk-8-jdk-headless_8u472-ga-1_armhf.deb
+2026-02-17 14:34:03.618 [pool-1-thread-4] INFO  vendors.debian - Computing hashes for openjdk-8-jdk-headless_8u472-ga-1_armhf.deb
+2026-02-17 14:34:03.666 [pool-1-thread-4] INFO  vendors.debian - Processed openjdk-8-jdk-headless_8u472-ga-1_armhf.deb
+2026-02-17 14:34:03.668 [pool-1-thread-4] INFO  vendors.debian - Downloading openjdk-8-jdk-headless_8u472-ga-1_i386.deb
+2026-02-17 14:34:04.506 [pool-1-thread-3] INFO  vendors.debian - Downloading openjdk-8-jdk-headless_8u472-ga-1_ppc64el.deb
+2026-02-17 14:34:04.724 [pool-1-thread-4] INFO  vendors.debian - Computing hashes for openjdk-8-jdk-headless_8u472-ga-1_i386.deb
+2026-02-17 14:34:04.790 [pool-1-thread-4] INFO  vendors.debian - Processed openjdk-8-jdk-headless_8u472-ga-1_i386.deb
+2026-02-17 14:34:04.793 [pool-1-thread-4] INFO  vendors.debian - Downloading openjdk-8-jdk-headless_8u472-ga-1_s390x.deb
+2026-02-17 14:34:05.093 [pool-1-thread-3] INFO  vendors.debian - Computing hashes for openjdk-8-jdk-headless_8u472-ga-1_ppc64el.deb
+2026-02-17 14:34:05.131 [pool-1-thread-3] INFO  vendors.debian - Processed openjdk-8-jdk-headless_8u472-ga-1_ppc64el.deb
+2026-02-17 14:34:05.133 [pool-1-thread-3] INFO  vendors.debian - Downloading openjdk-8-jdk_8u472-ga-1_amd64.deb
+2026-02-17 14:34:05.203 [pool-1-thread-4] INFO  vendors.debian - Computing hashes for openjdk-8-jdk-headless_8u472-ga-1_s390x.deb
+2026-02-17 14:34:05.241 [pool-1-thread-4] INFO  vendors.debian - Processed openjdk-8-jdk-headless_8u472-ga-1_s390x.deb
+2026-02-17 14:34:05.242 [pool-1-thread-4] INFO  vendors.debian - Downloading openjdk-8-jdk_8u472-ga-1_arm64.deb
+2026-02-17 14:34:05.314 [pool-1-thread-2] INFO  vendors.debian - Downloading openjdk-8-jdk_8u472-ga-1_armhf.deb
+2026-02-17 14:34:05.398 [pool-1-thread-3] INFO  vendors.debian - Computing hashes for openjdk-8-jdk_8u472-ga-1_amd64.deb
+2026-02-17 14:34:05.421 [pool-1-thread-3] INFO  vendors.debian - Processed openjdk-8-jdk_8u472-ga-1_amd64.deb
+2026-02-17 14:34:05.422 [pool-1-thread-3] INFO  vendors.debian - Downloading openjdk-8-jdk_8u472-ga-1_i386.deb
+2026-02-17 14:34:05.963 [pool-1-thread-4] INFO  vendors.debian - Computing hashes for openjdk-8-jdk_8u472-ga-1_arm64.deb
+2026-02-17 14:34:05.987 [pool-1-thread-4] INFO  vendors.debian - Processed openjdk-8-jdk_8u472-ga-1_arm64.deb
+2026-02-17 14:34:06.013 [pool-1-thread-3] INFO  vendors.debian - Computing hashes for openjdk-8-jdk_8u472-ga-1_i386.deb
+2026-02-17 14:34:06.036 [pool-1-thread-3] INFO  vendors.debian - Processed openjdk-8-jdk_8u472-ga-1_i386.deb
+2026-02-17 14:34:06.303 [pool-1-thread-2] INFO  vendors.debian - Computing hashes for openjdk-8-jdk_8u472-ga-1_armhf.deb
+2026-02-17 14:34:06.330 [pool-1-thread-2] INFO  vendors.debian - Processed openjdk-8-jdk_8u472-ga-1_armhf.deb

@@ -1,0 +1,24 @@
+2026-02-17 14:33:45.774 [pool-2-thread-1] INFO  vendors.semeru-certified - Starting scraper
+2026-02-17 14:33:45.776 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching repositories from https://api.github.com/orgs/ibmruntimes/repos?type=public&per_page=100&page=1&q=semeru+certified
+2026-02-17 14:33:47.966 [pool-2-thread-1] INFO  vendors.semeru-certified - Matched repository: semeru11-certified-binaries
+2026-02-17 14:33:47.967 [pool-2-thread-1] INFO  vendors.semeru-certified - Matched repository: semeru17-certified-binaries
+2026-02-17 14:33:47.967 [pool-2-thread-1] INFO  vendors.semeru-certified - Matched repository: semeru21-certified-binaries
+2026-02-17 14:33:47.967 [pool-2-thread-1] INFO  vendors.semeru-certified - Processing repository: semeru11-certified-binaries
+2026-02-17 14:33:47.967 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru11-certified-binaries/releases?per_page=100&page=1
+2026-02-17 14:33:50.038 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru11-certified-binaries/releases?per_page=100&page=2
+2026-02-17 14:33:50.304 [pool-2-thread-1] INFO  vendors.semeru-certified - Processing repository: semeru17-certified-binaries
+2026-02-17 14:33:50.304 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru17-certified-binaries/releases?per_page=100&page=1
+2026-02-17 14:33:52.061 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru17-certified-binaries/releases?per_page=100&page=2
+2026-02-17 14:33:52.331 [pool-2-thread-1] INFO  vendors.semeru-certified - Processing repository: semeru21-certified-binaries
+2026-02-17 14:33:52.332 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru21-certified-binaries/releases?per_page=100&page=1
+2026-02-17 14:33:53.719 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru21-certified-binaries/releases?per_page=100&page=2
+2026-02-17 14:33:53.978 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching repositories from https://api.github.com/orgs/ibmruntimes/repos?type=public&per_page=100&page=2&q=semeru+certified
+2026-02-17 14:33:54.837 [pool-2-thread-1] INFO  vendors.semeru-certified - Matched repository: semeru25-certified-binaries
+2026-02-17 14:33:54.837 [pool-2-thread-1] INFO  vendors.semeru-certified - Matched repository: semeru26-certified-binaries
+2026-02-17 14:33:54.837 [pool-2-thread-1] INFO  vendors.semeru-certified - Processing repository: semeru25-certified-binaries
+2026-02-17 14:33:54.837 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru25-certified-binaries/releases?per_page=100&page=1
+2026-02-17 14:33:55.475 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru25-certified-binaries/releases?per_page=100&page=2
+2026-02-17 14:33:55.751 [pool-2-thread-1] INFO  vendors.semeru-certified - Processing repository: semeru26-certified-binaries
+2026-02-17 14:33:55.752 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru26-certified-binaries/releases?per_page=100&page=1
+2026-02-17 14:33:55.996 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching repositories from https://api.github.com/orgs/ibmruntimes/repos?type=public&per_page=100&page=3&q=semeru+certified
+2026-02-17 14:33:56.220 [pool-2-thread-1] INFO  vendors.semeru-certified - Completed successfully. Marked 0 items for processing, skipped 1388 existing items, and had 0 failures.

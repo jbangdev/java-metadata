@@ -1,0 +1,5 @@
+2026-02-17 14:33:25.929 [pool-2-thread-3] INFO  vendors.graalvm-ce - Starting scraper
+2026-02-17 14:33:25.937 [pool-2-thread-3] INFO  vendors.graalvm-ce - Processing repository: graalvm-ce-builds
+2026-02-17 14:33:25.938 [pool-2-thread-3] INFO  vendors.graalvm-ce - Fetching releases from https://api.github.com/repos/graalvm/graalvm-ce-builds/releases?per_page=100&page=1
+2026-02-17 14:33:28.009 [pool-2-thread-3] INFO  vendors.graalvm-ce - Fetching releases from https://api.github.com/repos/graalvm/graalvm-ce-builds/releases?per_page=100&page=2
+2026-02-17 14:33:28.293 [pool-2-thread-3] INFO  vendors.graalvm-ce - Completed successfully. Marked 0 items for processing, skipped 267 existing items, and had 0 failures.

@@ -1,0 +1,54 @@
+2026-02-17 14:33:40.310 [pool-2-thread-1] INFO  vendors.dragonwell - Starting scraper
+2026-02-17 14:33:40.314 [pool-2-thread-1] INFO  vendors.dragonwell - Fetching repositories from https://api.github.com/orgs/dragonwell-project/repos?type=public&per_page=100&page=1&q=dragonwell
+2026-02-17 14:33:40.889 [pool-2-thread-1] INFO  vendors.dragonwell - Matched repository: dragonwell8
+2026-02-17 14:33:40.889 [pool-2-thread-1] INFO  vendors.dragonwell - Matched repository: dragonwell11
+2026-02-17 14:33:40.889 [pool-2-thread-1] INFO  vendors.dragonwell - Matched repository: dragonwell17
+2026-02-17 14:33:40.889 [pool-2-thread-1] INFO  vendors.dragonwell - Matched repository: dragonwell21
+2026-02-17 14:33:40.889 [pool-2-thread-1] INFO  vendors.dragonwell - Matched repository: dragonwell25
+2026-02-17 14:33:40.889 [pool-2-thread-1] INFO  vendors.dragonwell - Processing repository: dragonwell8
+2026-02-17 14:33:40.889 [pool-2-thread-1] INFO  vendors.dragonwell - Fetching releases from https://api.github.com/repos/dragonwell-project/dragonwell8/releases?per_page=100&page=1
+2026-02-17 14:33:41.827 [pool-2-thread-1] INFO  vendors.dragonwell - Fetching releases from https://api.github.com/repos/dragonwell-project/dragonwell8/releases?per_page=100&page=2
+2026-02-17 14:33:42.088 [pool-2-thread-1] INFO  vendors.dragonwell - Processing repository: dragonwell11
+2026-02-17 14:33:42.089 [pool-2-thread-1] INFO  vendors.dragonwell - Fetching releases from https://api.github.com/repos/dragonwell-project/dragonwell11/releases?per_page=100&page=1
+2026-02-17 14:33:43.192 [pool-2-thread-1] INFO  vendors.dragonwell - Queued download for Alibaba_Dragonwell_Standard_11.0.29.25.7_x64_alpine-linux.tar.gz
+2026-02-17 14:33:43.192 [pool-2-thread-1] INFO  vendors.dragonwell - Queued download for Alibaba_Dragonwell_Extended_11.0.29.26.7_riscv64_linux.tar.gz
+2026-02-17 14:33:43.192 [pool-2-thread-1] INFO  vendors.dragonwell - Queued download for Alibaba_Dragonwell_Extended_11.0.29.26.7_x64_alpine-linux.tar.gz
+2026-02-17 14:33:43.193 [pool-2-thread-1] INFO  vendors.dragonwell - Queued download for Alibaba_Dragonwell_Extended_11.0.28.25.6_riscv64_linux.tar.gz
+2026-02-17 14:33:43.193 [pool-2-thread-1] INFO  vendors.dragonwell - Queued download for Alibaba_Dragonwell_Extended_11.0.28.25.6_x64_alpine-linux.tar.gz
+2026-02-17 14:33:43.193 [pool-2-thread-1] INFO  vendors.dragonwell - Queued download for Alibaba_Dragonwell_Standard_11.0.28.24.6_x64_alpine-linux.tar.gz
+2026-02-17 14:33:43.193 [pool-2-thread-1] INFO  vendors.dragonwell - Queued download for Alibaba_Dragonwell_Extended_11.0.27.24.6_riscv64_linux.tar.gz
+2026-02-17 14:33:43.194 [pool-2-thread-1] INFO  vendors.dragonwell - Queued download for Alibaba_Dragonwell_Extended_11.0.27.24.6_x64_alpine-linux.tar.gz
+2026-02-17 14:33:43.194 [pool-2-thread-1] INFO  vendors.dragonwell - Queued download for Alibaba_Dragonwell_Standard_11.0.27.23.6_x64_alpine-linux.tar.gz
+2026-02-17 14:33:43.194 [pool-2-thread-1] INFO  vendors.dragonwell - Queued download for Alibaba_Dragonwell_Extended_11.0.26.23.4_riscv64_linux.tar.gz
+2026-02-17 14:33:43.194 [pool-2-thread-1] INFO  vendors.dragonwell - Reached progress limit of 10 items, aborting
+2026-02-17 14:33:43.194 [pool-2-thread-1] INFO  vendors.dragonwell - Completed successfully. Marked 10 items for processing, skipped 144 existing items, and had 0 failures.
+2026-02-17 14:34:12.452 [pool-1-thread-4] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Standard_11.0.28.24.6_x64_alpine-linux.tar.gz
+2026-02-17 14:34:14.366 [pool-1-thread-4] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Standard_11.0.28.24.6_x64_alpine-linux.tar.gz
+2026-02-17 14:34:15.456 [pool-1-thread-4] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Standard_11.0.28.24.6_x64_alpine-linux.tar.gz
+2026-02-17 14:35:06.874 [pool-1-thread-4] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Extended_11.0.28.25.6_riscv64_linux.tar.gz
+2026-02-17 14:35:08.654 [pool-1-thread-4] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Extended_11.0.28.25.6_riscv64_linux.tar.gz
+2026-02-17 14:35:09.669 [pool-1-thread-4] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Extended_11.0.28.25.6_riscv64_linux.tar.gz
+2026-02-17 14:36:05.766 [pool-1-thread-4] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Extended_11.0.26.23.4_riscv64_linux.tar.gz
+2026-02-17 14:36:07.295 [pool-1-thread-4] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Extended_11.0.26.23.4_riscv64_linux.tar.gz
+2026-02-17 14:36:07.883 [pool-1-thread-2] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Extended_11.0.27.24.6_x64_alpine-linux.tar.gz
+2026-02-17 14:36:08.301 [pool-1-thread-4] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Extended_11.0.26.23.4_riscv64_linux.tar.gz
+2026-02-17 14:36:09.884 [pool-1-thread-2] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Extended_11.0.27.24.6_x64_alpine-linux.tar.gz
+2026-02-17 14:36:11.032 [pool-1-thread-2] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Extended_11.0.27.24.6_x64_alpine-linux.tar.gz
+2026-02-17 14:36:16.607 [pool-1-thread-2] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Extended_11.0.27.24.6_riscv64_linux.tar.gz
+2026-02-17 14:36:18.410 [pool-1-thread-2] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Extended_11.0.27.24.6_riscv64_linux.tar.gz
+2026-02-17 14:36:19.443 [pool-1-thread-2] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Extended_11.0.27.24.6_riscv64_linux.tar.gz
+2026-02-17 14:36:23.494 [pool-1-thread-4] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Extended_11.0.29.26.7_x64_alpine-linux.tar.gz
+2026-02-17 14:36:23.530 [pool-1-thread-2] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Extended_11.0.28.25.6_x64_alpine-linux.tar.gz
+2026-02-17 14:36:25.652 [pool-1-thread-4] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Extended_11.0.29.26.7_x64_alpine-linux.tar.gz
+2026-02-17 14:36:26.058 [pool-1-thread-2] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Extended_11.0.28.25.6_x64_alpine-linux.tar.gz
+2026-02-17 14:36:26.757 [pool-1-thread-4] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Extended_11.0.29.26.7_x64_alpine-linux.tar.gz
+2026-02-17 14:36:27.152 [pool-1-thread-2] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Extended_11.0.28.25.6_x64_alpine-linux.tar.gz
+2026-02-17 14:36:28.984 [pool-1-thread-2] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Standard_11.0.27.23.6_x64_alpine-linux.tar.gz
+2026-02-17 14:36:30.613 [pool-1-thread-2] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Standard_11.0.27.23.6_x64_alpine-linux.tar.gz
+2026-02-17 14:36:31.207 [pool-1-thread-4] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Standard_11.0.29.25.7_x64_alpine-linux.tar.gz
+2026-02-17 14:36:31.690 [pool-1-thread-2] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Standard_11.0.27.23.6_x64_alpine-linux.tar.gz
+2026-02-17 14:36:32.579 [pool-1-thread-2] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Extended_11.0.29.26.7_riscv64_linux.tar.gz
+2026-02-17 14:36:33.044 [pool-1-thread-4] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Standard_11.0.29.25.7_x64_alpine-linux.tar.gz
+2026-02-17 14:36:34.116 [pool-1-thread-2] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Extended_11.0.29.26.7_riscv64_linux.tar.gz
+2026-02-17 14:36:34.181 [pool-1-thread-4] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Standard_11.0.29.25.7_x64_alpine-linux.tar.gz
+2026-02-17 14:36:35.038 [pool-1-thread-2] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Extended_11.0.29.26.7_riscv64_linux.tar.gz

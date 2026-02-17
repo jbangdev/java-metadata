@@ -1,1 +1,102 @@
-[]
+[
+  {
+    "architecture": "arm32",
+    "features": [
+      "native-image"
+    ],
+    "file_type": "dmg",
+    "filename": "bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.dmg",
+    "image_type": "jdk",
+    "java_version": "17.0.6+10",
+    "jvm_impl": "graalvm",
+    "md5": "23aec2daac1b7b09bb63b8db2db92c0d",
+    "md5_file": "bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.dmg.md5",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "735956c513f31f6f37721a387bcf010c50098336",
+    "sha1_file": "bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.dmg.sha1",
+    "sha256": "4b827893e7f48dac31cfe7c0ce7cf7f21289008099ac93eed2d2ac082215ca86",
+    "sha256_file": "bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.dmg.sha256",
+    "sha512": "e9f48d619d3aa12b9498c11c31329617611d9f96325b908edd46b10f094917ebbcc58e4f8a65eaf9ccea2cb507e11efcbb013d27875a35401c5a6acb20ffb83d",
+    "sha512_file": "bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.dmg.sha512",
+    "size": 290316909,
+    "url": "https://download.bell-sw.com/vm/22.3.1/bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.dmg",
+    "vendor": "liberica-native",
+    "version": "22.3.1+1"
+  },
+  {
+    "architecture": "arm32",
+    "features": [
+      "native-image"
+    ],
+    "file_type": "pkg",
+    "filename": "bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.pkg",
+    "image_type": "jdk",
+    "java_version": "17.0.6+10",
+    "jvm_impl": "graalvm",
+    "md5": "f2635c6b78f97f3ae5a27bbb206f74a3",
+    "md5_file": "bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.pkg.md5",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "a2317946a6ec301bdca40a3485838105c25a79f2",
+    "sha1_file": "bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.pkg.sha1",
+    "sha256": "e31c4aa72a12b1bc9cf2b963b98e95274b1f3545f93dd3a936dafe532f90085a",
+    "sha256_file": "bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.pkg.sha256",
+    "sha512": "68d5d78c6ca9a2221811d14edbe55e449d2f5e01b4194a1bb1c1ac6afb308e5c2b82817bde0c73d4ae928048f81c7148c9c6dbdd7904c98b6885a79609fe6cee",
+    "sha512_file": "bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.pkg.sha512",
+    "size": 285469235,
+    "url": "https://download.bell-sw.com/vm/22.3.1/bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.pkg",
+    "vendor": "liberica-native",
+    "version": "22.3.1+1"
+  },
+  {
+    "architecture": "arm32",
+    "features": [
+      "native-image"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.6+10",
+    "jvm_impl": "graalvm",
+    "md5": "9d098c8b2b73f6f6c991c878093dcd34",
+    "md5_file": "bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.tar.gz.md5",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "c393e47f5ebc56c5d62f86be74c6b1aa9b9b1f16",
+    "sha1_file": "bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.tar.gz.sha1",
+    "sha256": "98bde2092b050aaeaf6b02f431b7e52109e3459c24dfa4efd5b3065e20050f18",
+    "sha256_file": "bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.tar.gz.sha256",
+    "sha512": "9133706d1618236b7c8c665459e92367a3fc5f5e6c4109e8b28bb1ab3dc4db9274498f3ff33ceb62fb7721b256ee83ce50599bd33017dbf3f522a6ef1fd14807",
+    "sha512_file": "bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.tar.gz.sha512",
+    "size": 285177851,
+    "url": "https://download.bell-sw.com/vm/22.3.1/bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.tar.gz",
+    "vendor": "liberica-native",
+    "version": "22.3.1+1"
+  },
+  {
+    "architecture": "arm32",
+    "features": [
+      "native-image"
+    ],
+    "file_type": "zip",
+    "filename": "bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.zip",
+    "image_type": "jdk",
+    "java_version": "17.0.6+10",
+    "jvm_impl": "graalvm",
+    "md5": "b8b291affa835734721c4a888d8c2cbb",
+    "md5_file": "bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.zip.md5",
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": "d08dd7b5d11c63c02bf109a13e0d77a37830aa71",
+    "sha1_file": "bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.zip.sha1",
+    "sha256": "01b80355514107d4b471558a120f33fdb90f1e89b92c96458a2ec01b50dce78f",
+    "sha256_file": "bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.zip.sha256",
+    "sha512": "370d350543d076825fe4ede86d694dd9555e51d43e4a0b2ecaae4e2b1b0cb48b682a925871486602000a5b7d7d28994e07aa271bba69823929bc8c3bcfc720af",
+    "sha512_file": "bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.zip.sha512",
+    "size": 290028780,
+    "url": "https://download.bell-sw.com/vm/22.3.1/bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.zip",
+    "vendor": "liberica-native",
+    "version": "22.3.1+1"
+  }
+]

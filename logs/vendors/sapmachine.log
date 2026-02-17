@@ -1,0 +1,54 @@
+2026-02-17 14:33:25.929 [pool-2-thread-2] INFO  vendors.sapmachine - Starting scraper
+2026-02-17 14:33:25.935 [pool-2-thread-2] INFO  vendors.sapmachine - Processing repository: SapMachine
+2026-02-17 14:33:25.941 [pool-2-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=1
+2026-02-17 14:33:29.718 [pool-2-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=2
+2026-02-17 14:33:33.185 [pool-2-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=3
+2026-02-17 14:33:36.406 [pool-2-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=4
+2026-02-17 14:33:40.817 [pool-2-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=5
+2026-02-17 14:33:44.483 [pool-2-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=6
+2026-02-17 14:33:47.996 [pool-2-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=7
+2026-02-17 14:33:51.294 [pool-2-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=8
+2026-02-17 14:33:53.907 [pool-2-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=9
+2026-02-17 14:33:56.400 [pool-2-thread-2] INFO  vendors.sapmachine - Queued download for sapmachine-jre-16_osx-x64_bin.tar.gz
+2026-02-17 14:33:56.402 [pool-2-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=10
+2026-02-17 14:33:58.519 [pool-2-thread-2] INFO  vendors.sapmachine - Queued download for sapmachine-jdk-13.0.1_linux-x64_bin.tar.gz
+2026-02-17 14:33:58.519 [pool-2-thread-2] INFO  vendors.sapmachine - Queued download for sapmachine-jre-13.0.1_linux-x64_bin.tar.gz
+2026-02-17 14:33:58.520 [pool-2-thread-2] INFO  vendors.sapmachine - Queued download for sapmachine-jdk-13.0.1_osx-x64_bin.tar.gz
+2026-02-17 14:33:58.520 [pool-2-thread-2] INFO  vendors.sapmachine - Queued download for sapmachine-jre-13.0.1_osx-x64_bin.tar.gz
+2026-02-17 14:33:58.520 [pool-2-thread-2] INFO  vendors.sapmachine - Queued download for sapmachine-jdk-13.0.1_osx-x64_bin.dmg
+2026-02-17 14:33:58.520 [pool-2-thread-2] INFO  vendors.sapmachine - Queued download for sapmachine-jre-13.0.1_osx-x64_bin.dmg
+2026-02-17 14:33:58.521 [pool-2-thread-2] INFO  vendors.sapmachine - Queued download for sapmachine-jdk-13.0.1_linux-ppc64_bin.tar.gz
+2026-02-17 14:33:58.521 [pool-2-thread-2] INFO  vendors.sapmachine - Queued download for sapmachine-jre-13.0.1_linux-ppc64_bin.tar.gz
+2026-02-17 14:33:58.521 [pool-2-thread-2] INFO  vendors.sapmachine - Queued download for sapmachine-jdk-13.0.1-1.x86_64.rpm
+2026-02-17 14:33:58.521 [pool-2-thread-2] INFO  vendors.sapmachine - Reached progress limit of 10 items, aborting
+2026-02-17 14:33:58.521 [pool-2-thread-2] INFO  vendors.sapmachine - Completed successfully. Marked 10 items for processing, skipped 3050 existing items, and had 0 failures.
+2026-02-17 14:35:00.324 [pool-1-thread-4] INFO  vendors.sapmachine - Downloading sapmachine-jre-16_osx-x64_bin.tar.gz
+2026-02-17 14:35:01.450 [pool-1-thread-4] INFO  vendors.sapmachine - Computing hashes for sapmachine-jre-16_osx-x64_bin.tar.gz
+2026-02-17 14:35:01.570 [pool-1-thread-2] INFO  vendors.sapmachine - Downloading sapmachine-jdk-13.0.1_linux-x64_bin.tar.gz
+2026-02-17 14:35:01.709 [pool-1-thread-4] INFO  vendors.sapmachine - Processed sapmachine-jre-16_osx-x64_bin.tar.gz
+2026-02-17 14:35:01.715 [pool-1-thread-4] INFO  vendors.sapmachine - Downloading sapmachine-jre-13.0.1_linux-x64_bin.tar.gz
+2026-02-17 14:35:02.617 [pool-1-thread-3] INFO  vendors.sapmachine - Downloading sapmachine-jdk-13.0.1_osx-x64_bin.tar.gz
+2026-02-17 14:35:02.984 [pool-1-thread-4] INFO  vendors.sapmachine - Computing hashes for sapmachine-jre-13.0.1_linux-x64_bin.tar.gz
+2026-02-17 14:35:03.248 [pool-1-thread-4] INFO  vendors.sapmachine - Processed sapmachine-jre-13.0.1_linux-x64_bin.tar.gz
+2026-02-17 14:35:06.450 [pool-1-thread-2] INFO  vendors.sapmachine - Computing hashes for sapmachine-jdk-13.0.1_linux-x64_bin.tar.gz
+2026-02-17 14:35:07.257 [pool-1-thread-3] INFO  vendors.sapmachine - Computing hashes for sapmachine-jdk-13.0.1_osx-x64_bin.tar.gz
+2026-02-17 14:35:07.595 [pool-1-thread-2] INFO  vendors.sapmachine - Processed sapmachine-jdk-13.0.1_linux-x64_bin.tar.gz
+2026-02-17 14:35:08.346 [pool-1-thread-3] INFO  vendors.sapmachine - Processed sapmachine-jdk-13.0.1_osx-x64_bin.tar.gz
+2026-02-17 14:35:32.874 [pool-1-thread-2] INFO  vendors.sapmachine - Downloading sapmachine-jre-13.0.1_osx-x64_bin.tar.gz
+2026-02-17 14:35:32.970 [pool-1-thread-3] INFO  vendors.sapmachine - Downloading sapmachine-jdk-13.0.1_osx-x64_bin.dmg
+2026-02-17 14:35:33.001 [pool-1-thread-4] INFO  vendors.sapmachine - Downloading sapmachine-jre-13.0.1_osx-x64_bin.dmg
+2026-02-17 14:35:34.402 [pool-1-thread-2] INFO  vendors.sapmachine - Computing hashes for sapmachine-jre-13.0.1_osx-x64_bin.tar.gz
+2026-02-17 14:35:34.490 [pool-1-thread-4] INFO  vendors.sapmachine - Computing hashes for sapmachine-jre-13.0.1_osx-x64_bin.dmg
+2026-02-17 14:35:34.633 [pool-1-thread-2] INFO  vendors.sapmachine - Processed sapmachine-jre-13.0.1_osx-x64_bin.tar.gz
+2026-02-17 14:35:34.755 [pool-1-thread-4] INFO  vendors.sapmachine - Processed sapmachine-jre-13.0.1_osx-x64_bin.dmg
+2026-02-17 14:35:37.570 [pool-1-thread-3] INFO  vendors.sapmachine - Computing hashes for sapmachine-jdk-13.0.1_osx-x64_bin.dmg
+2026-02-17 14:35:38.741 [pool-1-thread-3] INFO  vendors.sapmachine - Processed sapmachine-jdk-13.0.1_osx-x64_bin.dmg
+2026-02-17 14:35:48.068 [pool-1-thread-2] INFO  vendors.sapmachine - Downloading sapmachine-jdk-13.0.1_linux-ppc64_bin.tar.gz
+2026-02-17 14:35:50.051 [pool-1-thread-3] INFO  vendors.sapmachine - Downloading sapmachine-jre-13.0.1_linux-ppc64_bin.tar.gz
+2026-02-17 14:35:50.079 [pool-1-thread-4] INFO  vendors.sapmachine - Downloading sapmachine-jdk-13.0.1-1.x86_64.rpm
+2026-02-17 14:35:51.224 [pool-1-thread-3] INFO  vendors.sapmachine - Computing hashes for sapmachine-jre-13.0.1_linux-ppc64_bin.tar.gz
+2026-02-17 14:35:51.458 [pool-1-thread-3] INFO  vendors.sapmachine - Processed sapmachine-jre-13.0.1_linux-ppc64_bin.tar.gz
+2026-02-17 14:35:53.125 [pool-1-thread-2] INFO  vendors.sapmachine - Computing hashes for sapmachine-jdk-13.0.1_linux-ppc64_bin.tar.gz
+2026-02-17 14:35:54.158 [pool-1-thread-2] INFO  vendors.sapmachine - Processed sapmachine-jdk-13.0.1_linux-ppc64_bin.tar.gz
+2026-02-17 14:35:54.628 [pool-1-thread-4] INFO  vendors.sapmachine - Computing hashes for sapmachine-jdk-13.0.1-1.x86_64.rpm
+2026-02-17 14:35:55.739 [pool-1-thread-4] INFO  vendors.sapmachine - Processed sapmachine-jdk-13.0.1-1.x86_64.rpm

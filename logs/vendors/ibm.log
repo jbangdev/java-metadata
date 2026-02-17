@@ -1,0 +1,52 @@
+2026-02-17 14:33:44.267 [pool-2-thread-1] INFO  vendors.ibm - Starting scraper
+2026-02-17 14:33:44.270 [pool-2-thread-1] INFO  vendors.ibm - Fetching index
+2026-02-17 14:33:44.543 [pool-2-thread-1] INFO  vendors.ibm - Found 3 JDK versions
+2026-02-17 14:33:44.543 [pool-2-thread-1] INFO  vendors.ibm - Processing JDK version: 8.0.8.45
+2026-02-17 14:33:44.565 [pool-2-thread-1] INFO  vendors.ibm - Processing architecture: s390
+2026-02-17 14:33:44.588 [pool-2-thread-1] INFO  vendors.ibm - Queued download for ibm-java-s390-jre-8.0-8.45.s390.rpm
+2026-02-17 14:33:44.588 [pool-2-thread-1] INFO  vendors.ibm - Queued download for ibm-java-s390-sdk-8.0-8.45.s390.rpm
+2026-02-17 14:33:44.588 [pool-2-thread-1] INFO  vendors.ibm - Processing JDK version: 8.0.8.55
+2026-02-17 14:33:44.613 [pool-2-thread-1] INFO  vendors.ibm - Processing architecture: i386
+2026-02-17 14:33:44.636 [pool-2-thread-1] INFO  vendors.ibm - Queued download for ibm-java-i386-jre-8.0-8.55.i386.rpm
+2026-02-17 14:33:44.636 [pool-2-thread-1] INFO  vendors.ibm - Queued download for ibm-java-i386-sdk-8.0-8.55.i386.rpm
+2026-02-17 14:33:44.636 [pool-2-thread-1] INFO  vendors.ibm - Processing architecture: ppc64le
+2026-02-17 14:33:44.659 [pool-2-thread-1] INFO  vendors.ibm - Queued download for ibm-java-ppc64le-jre-8.0-8.55.ppc64le.rpm
+2026-02-17 14:33:44.659 [pool-2-thread-1] INFO  vendors.ibm - Queued download for ibm-java-ppc64le-sdk-8.0-8.55.ppc64le.rpm
+2026-02-17 14:33:44.660 [pool-2-thread-1] INFO  vendors.ibm - Processing architecture: s390x
+2026-02-17 14:33:44.682 [pool-2-thread-1] INFO  vendors.ibm - Queued download for ibm-java-s390x-jre-8.0-8.55.s390x.rpm
+2026-02-17 14:33:44.682 [pool-2-thread-1] INFO  vendors.ibm - Queued download for ibm-java-s390x-sdk-8.0-8.55.s390x.rpm
+2026-02-17 14:33:44.682 [pool-2-thread-1] INFO  vendors.ibm - Processing architecture: x86_64
+2026-02-17 14:33:44.704 [pool-2-thread-1] INFO  vendors.ibm - Queued download for ibm-java-x86_64-jre-8.0-8.55.x86_64.rpm
+2026-02-17 14:33:44.705 [pool-2-thread-1] INFO  vendors.ibm - Queued download for ibm-java-x86_64-sdk-8.0-8.55.x86_64.rpm
+2026-02-17 14:33:44.705 [pool-2-thread-1] INFO  vendors.ibm - Reached progress limit of 10 items, aborting
+2026-02-17 14:33:44.705 [pool-2-thread-1] INFO  vendors.ibm - Completed successfully. Marked 10 items for processing, skipped 10 existing items, and had 0 failures.
+2026-02-17 14:34:16.186 [pool-1-thread-4] INFO  vendors.ibm - Downloading ibm-java-s390-jre-8.0-8.45.s390.rpm
+2026-02-17 14:34:18.217 [pool-1-thread-3] INFO  vendors.ibm - Downloading ibm-java-s390-sdk-8.0-8.45.s390.rpm
+2026-02-17 14:34:18.424 [pool-1-thread-4] INFO  vendors.ibm - Computing hashes for ibm-java-s390-jre-8.0-8.45.s390.rpm
+2026-02-17 14:34:19.060 [pool-1-thread-4] INFO  vendors.ibm - Processed ibm-java-s390-jre-8.0-8.45.s390.rpm
+2026-02-17 14:34:19.076 [pool-1-thread-4] INFO  vendors.ibm - Downloading ibm-java-i386-jre-8.0-8.55.i386.rpm
+2026-02-17 14:34:19.461 [pool-1-thread-3] INFO  vendors.ibm - Computing hashes for ibm-java-s390-sdk-8.0-8.45.s390.rpm
+2026-02-17 14:34:19.514 [pool-1-thread-1] INFO  vendors.ibm - Downloading ibm-java-i386-sdk-8.0-8.55.i386.rpm
+2026-02-17 14:34:19.845 [pool-1-thread-4] INFO  vendors.ibm - Computing hashes for ibm-java-i386-jre-8.0-8.55.i386.rpm
+2026-02-17 14:34:20.360 [pool-1-thread-3] INFO  vendors.ibm - Processed ibm-java-s390-sdk-8.0-8.45.s390.rpm
+2026-02-17 14:34:20.382 [pool-1-thread-3] INFO  vendors.ibm - Downloading ibm-java-ppc64le-jre-8.0-8.55.ppc64le.rpm
+2026-02-17 14:34:20.406 [pool-1-thread-1] INFO  vendors.ibm - Computing hashes for ibm-java-i386-sdk-8.0-8.55.i386.rpm
+2026-02-17 14:34:20.550 [pool-1-thread-4] INFO  vendors.ibm - Processed ibm-java-i386-jre-8.0-8.55.i386.rpm
+2026-02-17 14:34:20.572 [pool-1-thread-4] INFO  vendors.ibm - Downloading ibm-java-ppc64le-sdk-8.0-8.55.ppc64le.rpm
+2026-02-17 14:34:21.268 [pool-1-thread-3] INFO  vendors.ibm - Computing hashes for ibm-java-ppc64le-jre-8.0-8.55.ppc64le.rpm
+2026-02-17 14:34:21.362 [pool-1-thread-1] INFO  vendors.ibm - Processed ibm-java-i386-sdk-8.0-8.55.i386.rpm
+2026-02-17 14:34:21.389 [pool-1-thread-1] INFO  vendors.ibm - Downloading ibm-java-s390x-jre-8.0-8.55.s390x.rpm
+2026-02-17 14:34:21.649 [pool-1-thread-4] INFO  vendors.ibm - Computing hashes for ibm-java-ppc64le-sdk-8.0-8.55.ppc64le.rpm
+2026-02-17 14:34:22.125 [pool-1-thread-3] INFO  vendors.ibm - Processed ibm-java-ppc64le-jre-8.0-8.55.ppc64le.rpm
+2026-02-17 14:34:22.148 [pool-1-thread-3] INFO  vendors.ibm - Downloading ibm-java-s390x-sdk-8.0-8.55.s390x.rpm
+2026-02-17 14:34:22.265 [pool-1-thread-1] INFO  vendors.ibm - Computing hashes for ibm-java-s390x-jre-8.0-8.55.s390x.rpm
+2026-02-17 14:34:22.719 [pool-1-thread-4] INFO  vendors.ibm - Processed ibm-java-ppc64le-sdk-8.0-8.55.ppc64le.rpm
+2026-02-17 14:34:22.745 [pool-1-thread-4] INFO  vendors.ibm - Downloading ibm-java-x86_64-jre-8.0-8.55.x86_64.rpm
+2026-02-17 14:34:23.075 [pool-1-thread-3] INFO  vendors.ibm - Computing hashes for ibm-java-s390x-sdk-8.0-8.55.s390x.rpm
+2026-02-17 14:34:23.086 [pool-1-thread-1] INFO  vendors.ibm - Processed ibm-java-s390x-jre-8.0-8.55.s390x.rpm
+2026-02-17 14:34:23.108 [pool-1-thread-1] INFO  vendors.ibm - Downloading ibm-java-x86_64-sdk-8.0-8.55.x86_64.rpm
+2026-02-17 14:34:23.602 [pool-1-thread-4] INFO  vendors.ibm - Computing hashes for ibm-java-x86_64-jre-8.0-8.55.x86_64.rpm
+2026-02-17 14:34:24.177 [pool-1-thread-3] INFO  vendors.ibm - Processed ibm-java-s390x-sdk-8.0-8.55.s390x.rpm
+2026-02-17 14:34:24.204 [pool-1-thread-1] INFO  vendors.ibm - Computing hashes for ibm-java-x86_64-sdk-8.0-8.55.x86_64.rpm
+2026-02-17 14:34:24.484 [pool-1-thread-4] INFO  vendors.ibm - Processed ibm-java-x86_64-jre-8.0-8.55.x86_64.rpm
+2026-02-17 14:34:25.184 [pool-1-thread-1] INFO  vendors.ibm - Processed ibm-java-x86_64-sdk-8.0-8.55.x86_64.rpm

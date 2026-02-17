@@ -1,0 +1,27 @@
+2026-02-17 14:33:30.079 [pool-2-thread-1] INFO  vendors.openjdk - Starting scraper
+2026-02-17 14:33:30.082 [pool-2-thread-1] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/archive/
+2026-02-17 14:33:30.309 [pool-2-thread-1] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/25/
+2026-02-17 14:33:30.450 [pool-2-thread-1] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/26/
+2026-02-17 14:33:30.565 [pool-2-thread-1] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/27/
+2026-02-17 14:33:30.715 [pool-2-thread-1] INFO  vendors.openjdk - Found 213 download URLs
+2026-02-17 14:33:30.717 [pool-2-thread-1] INFO  vendors.openjdk - Queued download for openjdk-27-ea+9_linux-aarch64_bin.tar.gz
+2026-02-17 14:33:30.717 [pool-2-thread-1] INFO  vendors.openjdk - Queued download for openjdk-27-ea+9_linux-x64_bin.tar.gz
+2026-02-17 14:33:30.717 [pool-2-thread-1] INFO  vendors.openjdk - Queued download for openjdk-27-ea+9_macos-aarch64_bin.tar.gz
+2026-02-17 14:33:30.718 [pool-2-thread-1] INFO  vendors.openjdk - Queued download for openjdk-27-ea+9_macos-x64_bin.tar.gz
+2026-02-17 14:33:30.718 [pool-2-thread-1] INFO  vendors.openjdk - Queued download for openjdk-27-ea+9_windows-x64_bin.zip
+2026-02-17 14:33:30.718 [pool-2-thread-1] INFO  vendors.openjdk - Completed successfully. Marked 5 items for processing, skipped 208 existing items, and had 0 failures.
+2026-02-17 14:33:31.834 [pool-1-thread-1] INFO  vendors.openjdk - Downloading openjdk-27-ea+9_linux-aarch64_bin.tar.gz
+2026-02-17 14:33:33.761 [pool-1-thread-1] INFO  vendors.openjdk - Computing hashes for openjdk-27-ea+9_linux-aarch64_bin.tar.gz
+2026-02-17 14:33:35.290 [pool-1-thread-1] INFO  vendors.openjdk - Processed openjdk-27-ea+9_linux-aarch64_bin.tar.gz
+2026-02-17 14:33:35.331 [pool-1-thread-1] INFO  vendors.openjdk - Downloading openjdk-27-ea+9_linux-x64_bin.tar.gz
+2026-02-17 14:33:36.790 [pool-1-thread-4] INFO  vendors.openjdk - Downloading openjdk-27-ea+9_macos-aarch64_bin.tar.gz
+2026-02-17 14:33:37.057 [pool-1-thread-1] INFO  vendors.openjdk - Computing hashes for openjdk-27-ea+9_linux-x64_bin.tar.gz
+2026-02-17 14:33:37.694 [pool-1-thread-3] INFO  vendors.openjdk - Downloading openjdk-27-ea+9_macos-x64_bin.tar.gz
+2026-02-17 14:33:38.680 [pool-1-thread-4] INFO  vendors.openjdk - Computing hashes for openjdk-27-ea+9_macos-aarch64_bin.tar.gz
+2026-02-17 14:33:38.718 [pool-1-thread-1] INFO  vendors.openjdk - Processed openjdk-27-ea+9_linux-x64_bin.tar.gz
+2026-02-17 14:33:40.067 [pool-1-thread-4] INFO  vendors.openjdk - Processed openjdk-27-ea+9_macos-aarch64_bin.tar.gz
+2026-02-17 14:33:40.184 [pool-1-thread-3] INFO  vendors.openjdk - Computing hashes for openjdk-27-ea+9_macos-x64_bin.tar.gz
+2026-02-17 14:33:41.508 [pool-1-thread-3] INFO  vendors.openjdk - Processed openjdk-27-ea+9_macos-x64_bin.tar.gz
+2026-02-17 14:34:07.833 [pool-1-thread-2] INFO  vendors.openjdk - Downloading openjdk-27-ea+9_windows-x64_bin.zip
+2026-02-17 14:34:09.664 [pool-1-thread-2] INFO  vendors.openjdk - Computing hashes for openjdk-27-ea+9_windows-x64_bin.zip
+2026-02-17 14:34:10.941 [pool-1-thread-2] INFO  vendors.openjdk - Processed openjdk-27-ea+9_windows-x64_bin.zip

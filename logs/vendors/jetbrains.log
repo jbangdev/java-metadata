@@ -1,0 +1,45 @@
+2026-02-17 14:33:44.877 [pool-2-thread-1] INFO  vendors.jetbrains - Starting scraper
+2026-02-17 14:33:44.879 [pool-2-thread-1] INFO  vendors.jetbrains - Processing repository: JetBrainsRuntime
+2026-02-17 14:33:44.880 [pool-2-thread-1] INFO  vendors.jetbrains - Fetching releases from https://api.github.com/repos/JetBrains/JetBrainsRuntime/releases?per_page=100&page=1
+2026-02-17 14:33:45.770 [pool-2-thread-1] INFO  vendors.jetbrains - Queued download for jbr_jcef-25.0.2-linux-aarch64-b329.66.tar.gz
+2026-02-17 14:33:45.771 [pool-2-thread-1] INFO  vendors.jetbrains - Queued download for jbr_jcef-25.0.2-linux-x64-b329.66.tar.gz
+2026-02-17 14:33:45.771 [pool-2-thread-1] INFO  vendors.jetbrains - Queued download for jbr_jcef-25.0.2-osx-aarch64-b329.66.pkg
+2026-02-17 14:33:45.772 [pool-2-thread-1] INFO  vendors.jetbrains - Queued download for jbr_jcef-25.0.2-osx-aarch64-b329.66.tar.gz
+2026-02-17 14:33:45.772 [pool-2-thread-1] INFO  vendors.jetbrains - Queued download for jbr_jcef-25.0.2-osx-x64-b329.66.pkg
+2026-02-17 14:33:45.772 [pool-2-thread-1] INFO  vendors.jetbrains - Queued download for jbr_jcef-25.0.2-osx-x64-b329.66.tar.gz
+2026-02-17 14:33:45.773 [pool-2-thread-1] INFO  vendors.jetbrains - Queued download for jbr_jcef-25.0.2-windows-aarch64-b329.66.tar.gz
+2026-02-17 14:33:45.773 [pool-2-thread-1] INFO  vendors.jetbrains - Queued download for jbr_jcef-25.0.2-windows-aarch64-b329.66.zip
+2026-02-17 14:33:45.773 [pool-2-thread-1] INFO  vendors.jetbrains - Queued download for jbr_jcef-25.0.2-windows-x64-b329.66.tar.gz
+2026-02-17 14:33:45.774 [pool-2-thread-1] INFO  vendors.jetbrains - Queued download for jbr_jcef-25.0.2-windows-x64-b329.66.zip
+2026-02-17 14:33:45.774 [pool-2-thread-1] INFO  vendors.jetbrains - Reached progress limit of 10 items, aborting
+2026-02-17 14:33:45.774 [pool-2-thread-1] INFO  vendors.jetbrains - Completed successfully. Marked 10 items for processing, skipped 0 existing items, and had 0 failures.
+2026-02-17 14:34:24.205 [pool-1-thread-3] INFO  vendors.jetbrains - Downloading jbr_jcef-25.0.2-linux-aarch64-b329.66.tar.gz
+2026-02-17 14:34:24.510 [pool-1-thread-4] INFO  vendors.jetbrains - Downloading jbr_jcef-25.0.2-linux-x64-b329.66.tar.gz
+2026-02-17 14:34:25.208 [pool-1-thread-1] INFO  vendors.jetbrains - Downloading jbr_jcef-25.0.2-osx-aarch64-b329.66.pkg
+2026-02-17 14:34:25.896 [pool-1-thread-4] INFO  vendors.jetbrains - Computing hashes for jbr_jcef-25.0.2-linux-x64-b329.66.tar.gz
+2026-02-17 14:34:27.287 [pool-1-thread-4] INFO  vendors.jetbrains - Processed jbr_jcef-25.0.2-linux-x64-b329.66.tar.gz
+2026-02-17 14:34:30.623 [pool-1-thread-3] INFO  vendors.jetbrains - Computing hashes for jbr_jcef-25.0.2-linux-aarch64-b329.66.tar.gz
+2026-02-17 14:34:30.843 [pool-1-thread-1] INFO  vendors.jetbrains - Computing hashes for jbr_jcef-25.0.2-osx-aarch64-b329.66.pkg
+2026-02-17 14:34:31.952 [pool-1-thread-3] INFO  vendors.jetbrains - Processed jbr_jcef-25.0.2-linux-aarch64-b329.66.tar.gz
+2026-02-17 14:34:32.108 [pool-1-thread-1] INFO  vendors.jetbrains - Processed jbr_jcef-25.0.2-osx-aarch64-b329.66.pkg
+2026-02-17 14:35:09.992 [pool-1-thread-4] INFO  vendors.jetbrains - Downloading jbr_jcef-25.0.2-osx-aarch64-b329.66.tar.gz
+2026-02-17 14:35:11.731 [pool-1-thread-4] INFO  vendors.jetbrains - Computing hashes for jbr_jcef-25.0.2-osx-aarch64-b329.66.tar.gz
+2026-02-17 14:35:13.020 [pool-1-thread-4] INFO  vendors.jetbrains - Processed jbr_jcef-25.0.2-osx-aarch64-b329.66.tar.gz
+2026-02-17 14:35:13.050 [pool-1-thread-4] INFO  vendors.jetbrains - Downloading jbr_jcef-25.0.2-osx-x64-b329.66.pkg
+2026-02-17 14:35:15.342 [pool-1-thread-3] INFO  vendors.jetbrains - Downloading jbr_jcef-25.0.2-osx-x64-b329.66.tar.gz
+2026-02-17 14:35:18.828 [pool-1-thread-4] INFO  vendors.jetbrains - Computing hashes for jbr_jcef-25.0.2-osx-x64-b329.66.pkg
+2026-02-17 14:35:20.189 [pool-1-thread-4] INFO  vendors.jetbrains - Processed jbr_jcef-25.0.2-osx-x64-b329.66.pkg
+2026-02-17 14:35:20.221 [pool-1-thread-4] INFO  vendors.jetbrains - Downloading jbr_jcef-25.0.2-windows-aarch64-b329.66.tar.gz
+2026-02-17 14:35:21.277 [pool-1-thread-3] INFO  vendors.jetbrains - Computing hashes for jbr_jcef-25.0.2-osx-x64-b329.66.tar.gz
+2026-02-17 14:35:21.667 [pool-1-thread-2] INFO  vendors.jetbrains - Downloading jbr_jcef-25.0.2-windows-aarch64-b329.66.zip
+2026-02-17 14:35:22.620 [pool-1-thread-3] INFO  vendors.jetbrains - Processed jbr_jcef-25.0.2-osx-x64-b329.66.tar.gz
+2026-02-17 14:35:22.652 [pool-1-thread-3] INFO  vendors.jetbrains - Downloading jbr_jcef-25.0.2-windows-x64-b329.66.tar.gz
+2026-02-17 14:35:24.843 [pool-1-thread-3] INFO  vendors.jetbrains - Computing hashes for jbr_jcef-25.0.2-windows-x64-b329.66.tar.gz
+2026-02-17 14:35:26.214 [pool-1-thread-4] INFO  vendors.jetbrains - Computing hashes for jbr_jcef-25.0.2-windows-aarch64-b329.66.tar.gz
+2026-02-17 14:35:26.363 [pool-1-thread-3] INFO  vendors.jetbrains - Processed jbr_jcef-25.0.2-windows-x64-b329.66.tar.gz
+2026-02-17 14:35:27.332 [pool-1-thread-2] INFO  vendors.jetbrains - Computing hashes for jbr_jcef-25.0.2-windows-aarch64-b329.66.zip
+2026-02-17 14:35:27.543 [pool-1-thread-4] INFO  vendors.jetbrains - Processed jbr_jcef-25.0.2-windows-aarch64-b329.66.tar.gz
+2026-02-17 14:35:28.676 [pool-1-thread-2] INFO  vendors.jetbrains - Processed jbr_jcef-25.0.2-windows-aarch64-b329.66.zip
+2026-02-17 14:35:42.012 [pool-1-thread-3] INFO  vendors.jetbrains - Downloading jbr_jcef-25.0.2-windows-x64-b329.66.zip
+2026-02-17 14:35:48.565 [pool-1-thread-3] INFO  vendors.jetbrains - Computing hashes for jbr_jcef-25.0.2-windows-x64-b329.66.zip
+2026-02-17 14:35:50.014 [pool-1-thread-3] INFO  vendors.jetbrains - Processed jbr_jcef-25.0.2-windows-x64-b329.66.zip

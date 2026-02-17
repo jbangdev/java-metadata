@@ -1,0 +1,5 @@
+2026-02-17 14:33:26.925 [pool-2-thread-4] INFO  vendors.graalvm-legacy - Starting scraper
+2026-02-17 14:33:26.928 [pool-2-thread-4] INFO  vendors.graalvm-legacy - Processing repository: graal
+2026-02-17 14:33:26.928 [pool-2-thread-4] INFO  vendors.graalvm-legacy - Fetching releases from https://api.github.com/repos/oracle/graal/releases?per_page=100&page=1
+2026-02-17 14:33:28.461 [pool-2-thread-4] INFO  vendors.graalvm-legacy - Fetching releases from https://api.github.com/repos/oracle/graal/releases?per_page=100&page=2
+2026-02-17 14:33:28.784 [pool-2-thread-4] INFO  vendors.graalvm-legacy - Completed successfully. Marked 0 items for processing, skipped 21 existing items, and had 0 failures.

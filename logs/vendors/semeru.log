@@ -1,0 +1,54 @@
+2026-02-17 14:33:30.329 [pool-2-thread-3] INFO  vendors.semeru - Starting scraper
+2026-02-17 14:33:30.332 [pool-2-thread-3] INFO  vendors.semeru - Fetching repositories from https://api.github.com/orgs/ibmruntimes/repos?type=public&per_page=100&page=1&q=semeru
+2026-02-17 14:33:33.195 [pool-2-thread-3] INFO  vendors.semeru - Matched repository: semeru11-binaries
+2026-02-17 14:33:33.196 [pool-2-thread-3] INFO  vendors.semeru - Matched repository: semeru8-binaries
+2026-02-17 14:33:33.196 [pool-2-thread-3] INFO  vendors.semeru - Matched repository: semeru16-binaries
+2026-02-17 14:33:33.197 [pool-2-thread-3] INFO  vendors.semeru - Matched repository: semeru17-binaries
+2026-02-17 14:33:33.197 [pool-2-thread-3] INFO  vendors.semeru - Matched repository: semeru18-binaries
+2026-02-17 14:33:33.197 [pool-2-thread-3] INFO  vendors.semeru - Matched repository: semeru19-binaries
+2026-02-17 14:33:33.197 [pool-2-thread-3] INFO  vendors.semeru - Matched repository: semeru20-binaries
+2026-02-17 14:33:33.198 [pool-2-thread-3] INFO  vendors.semeru - Matched repository: semeru21-binaries
+2026-02-17 14:33:33.198 [pool-2-thread-3] INFO  vendors.semeru - Processing repository: semeru11-binaries
+2026-02-17 14:33:33.198 [pool-2-thread-3] INFO  vendors.semeru - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru11-binaries/releases?per_page=100&page=1
+2026-02-17 14:33:39.890 [pool-2-thread-3] INFO  vendors.semeru - Queued download for ibm-semeru-open-jdk_aarch64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:33:39.891 [pool-2-thread-3] INFO  vendors.semeru - Queued download for ibm-semeru-open-jdk_x64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:33:39.891 [pool-2-thread-3] INFO  vendors.semeru - Queued download for ibm-semeru-open-jre_aarch64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:33:39.891 [pool-2-thread-3] INFO  vendors.semeru - Queued download for ibm-semeru-open-jre_x64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:33:39.892 [pool-2-thread-3] INFO  vendors.semeru - Queued download for ibm-semeru-open-jdk_aarch64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:33:39.892 [pool-2-thread-3] INFO  vendors.semeru - Queued download for ibm-semeru-open-jdk_x64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:33:39.893 [pool-2-thread-3] INFO  vendors.semeru - Queued download for ibm-semeru-open-jre_aarch64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:33:39.893 [pool-2-thread-3] INFO  vendors.semeru - Queued download for ibm-semeru-open-jre_x64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:33:39.894 [pool-2-thread-3] INFO  vendors.semeru - Queued download for ibm-semeru-open-jdk_aarch64_mac_11.0.28_6_openj9-0.53.0.pkg
+2026-02-17 14:33:39.894 [pool-2-thread-3] INFO  vendors.semeru - Queued download for ibm-semeru-open-jdk_x64_mac_11.0.28_6_openj9-0.53.0.pkg
+2026-02-17 14:33:39.894 [pool-2-thread-3] INFO  vendors.semeru - Reached progress limit of 10 items, aborting
+2026-02-17 14:33:39.894 [pool-2-thread-3] INFO  vendors.semeru - Completed successfully. Marked 10 items for processing, skipped 72 existing items, and had 0 failures.
+2026-02-17 14:34:11.500 [pool-1-thread-1] INFO  vendors.semeru - Downloading ibm-semeru-open-jre_aarch64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:34:12.671 [pool-1-thread-1] INFO  vendors.semeru - Computing hashes for ibm-semeru-open-jre_aarch64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:34:12.942 [pool-1-thread-1] INFO  vendors.semeru - Processed ibm-semeru-open-jre_aarch64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:36:04.466 [pool-1-thread-2] INFO  vendors.semeru - Downloading ibm-semeru-open-jre_x64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:05.519 [pool-1-thread-2] INFO  vendors.semeru - Computing hashes for ibm-semeru-open-jre_x64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:05.836 [pool-1-thread-2] INFO  vendors.semeru - Processed ibm-semeru-open-jre_x64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:07.305 [pool-1-thread-3] INFO  vendors.semeru - Downloading ibm-semeru-open-jdk_x64_mac_11.0.28_6_openj9-0.53.0.pkg
+2026-02-17 14:36:11.060 [pool-1-thread-2] INFO  vendors.semeru - Downloading ibm-semeru-open-jdk_x64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:36:11.755 [pool-1-thread-3] INFO  vendors.semeru - Computing hashes for ibm-semeru-open-jdk_x64_mac_11.0.28_6_openj9-0.53.0.pkg
+2026-02-17 14:36:12.988 [pool-1-thread-3] INFO  vendors.semeru - Processed ibm-semeru-open-jdk_x64_mac_11.0.28_6_openj9-0.53.0.pkg
+2026-02-17 14:36:13.015 [pool-1-thread-3] INFO  vendors.semeru - Downloading ibm-semeru-open-jdk_aarch64_mac_11.0.28_6_openj9-0.53.0.pkg
+2026-02-17 14:36:15.341 [pool-1-thread-2] INFO  vendors.semeru - Computing hashes for ibm-semeru-open-jdk_x64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:36:16.579 [pool-1-thread-2] INFO  vendors.semeru - Processed ibm-semeru-open-jdk_x64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:36:17.132 [pool-1-thread-3] INFO  vendors.semeru - Computing hashes for ibm-semeru-open-jdk_aarch64_mac_11.0.28_6_openj9-0.53.0.pkg
+2026-02-17 14:36:17.183 [pool-1-thread-4] INFO  vendors.semeru - Downloading ibm-semeru-open-jre_aarch64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:18.084 [pool-1-thread-4] INFO  vendors.semeru - Computing hashes for ibm-semeru-open-jre_aarch64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:18.325 [pool-1-thread-3] INFO  vendors.semeru - Processed ibm-semeru-open-jdk_aarch64_mac_11.0.28_6_openj9-0.53.0.pkg
+2026-02-17 14:36:18.355 [pool-1-thread-3] INFO  vendors.semeru - Downloading ibm-semeru-open-jdk_x64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:18.360 [pool-1-thread-4] INFO  vendors.semeru - Processed ibm-semeru-open-jre_aarch64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:18.366 [pool-1-thread-4] INFO  vendors.semeru - Downloading ibm-semeru-open-jdk_aarch64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:36:19.469 [pool-1-thread-2] INFO  vendors.semeru - Downloading ibm-semeru-open-jre_x64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:36:20.792 [pool-1-thread-2] INFO  vendors.semeru - Computing hashes for ibm-semeru-open-jre_x64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:36:21.076 [pool-1-thread-2] INFO  vendors.semeru - Processed ibm-semeru-open-jre_x64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:36:22.371 [pool-1-thread-4] INFO  vendors.semeru - Computing hashes for ibm-semeru-open-jdk_aarch64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:36:22.527 [pool-1-thread-3] INFO  vendors.semeru - Computing hashes for ibm-semeru-open-jdk_x64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:23.469 [pool-1-thread-4] INFO  vendors.semeru - Processed ibm-semeru-open-jdk_aarch64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:36:23.883 [pool-1-thread-3] INFO  vendors.semeru - Processed ibm-semeru-open-jdk_x64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:26.780 [pool-1-thread-4] INFO  vendors.semeru - Downloading ibm-semeru-open-jdk_aarch64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:30.000 [pool-1-thread-4] INFO  vendors.semeru - Computing hashes for ibm-semeru-open-jdk_aarch64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:31.175 [pool-1-thread-4] INFO  vendors.semeru - Processed ibm-semeru-open-jdk_aarch64_mac_11.0.30_7_openj9-0.57.0.pkg

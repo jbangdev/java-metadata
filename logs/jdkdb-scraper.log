@@ -1,0 +1,1223 @@
+2026-02-17 14:33:25.877 [main] INFO  d.j.j.scraper.DefaultDownloadManager - Starting DownloadManager with 4 threads, max 3 downloads per host
+2026-02-17 14:33:25.928 [pool-2-thread-1] INFO  vendors.mandrel - Starting scraper
+2026-02-17 14:33:25.929 [pool-2-thread-2] INFO  vendors.sapmachine - Starting scraper
+2026-02-17 14:33:25.929 [pool-2-thread-3] INFO  vendors.graalvm-ce - Starting scraper
+2026-02-17 14:33:25.930 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Starting scraper
+2026-02-17 14:33:25.933 [pool-2-thread-1] INFO  vendors.mandrel - Processing repository: mandrel
+2026-02-17 14:33:25.935 [pool-2-thread-2] INFO  vendors.sapmachine - Processing repository: SapMachine
+2026-02-17 14:33:25.937 [pool-2-thread-3] INFO  vendors.graalvm-ce - Processing repository: graalvm-ce-builds
+2026-02-17 14:33:25.938 [pool-2-thread-3] INFO  vendors.graalvm-ce - Fetching releases from https://api.github.com/repos/graalvm/graalvm-ce-builds/releases?per_page=100&page=1
+2026-02-17 14:33:25.940 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Processing repository: graal
+2026-02-17 14:33:25.941 [pool-2-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=1
+2026-02-17 14:33:25.941 [pool-2-thread-1] INFO  vendors.mandrel - Fetching releases from https://api.github.com/repos/graalvm/mandrel/releases?per_page=100&page=1
+2026-02-17 14:33:25.941 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Fetching releases from https://api.github.com/repos/gluonhq/graal/releases?per_page=100&page=1
+2026-02-17 14:33:26.915 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Queued download for graalvm-svm-java11-darwin-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:26.916 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 0 queued, 0 active, 0 completed, 0 failed
+2026-02-17 14:33:26.917 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Queued download for graalvm-svm-java11-darwin-m1-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:26.917 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 1 queued, 1 active, 0 completed, 0 failed
+2026-02-17 14:33:26.918 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Queued download for graalvm-svm-java11-linux-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:26.918 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 2 queued, 1 active, 0 completed, 0 failed
+2026-02-17 14:33:26.918 [pool-1-thread-3] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java11-darwin-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:26.918 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Queued download for graalvm-svm-java11-windows-gluon-22.1.0.1-Final.zip
+2026-02-17 14:33:26.918 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 3 queued, 1 active, 0 completed, 0 failed
+2026-02-17 14:33:26.919 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Queued download for graalvm-svm-java17-darwin-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:26.919 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 4 queued, 1 active, 0 completed, 0 failed
+2026-02-17 14:33:26.920 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Queued download for graalvm-svm-java17-darwin-m1-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:26.920 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java11-darwin-m1-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:26.920 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 4 queued, 2 active, 0 completed, 0 failed
+2026-02-17 14:33:26.920 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Queued download for graalvm-svm-java17-linux-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:26.920 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 5 queued, 2 active, 0 completed, 0 failed
+2026-02-17 14:33:26.921 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Queued download for graalvm-svm-java17-windows-gluon-22.1.0.1-Final.zip
+2026-02-17 14:33:26.921 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 5 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:26.921 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java11-linux-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:26.922 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Queued download for graalvm-svm-java11-darwin-gluon-22.0.0.3-Final.zip
+2026-02-17 14:33:26.922 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 6 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:26.922 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Queued download for graalvm-svm-java11-linux-gluon-22.0.0.3-Final.zip
+2026-02-17 14:33:26.922 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 7 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:26.922 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Reached progress limit of 10 items, aborting
+2026-02-17 14:33:26.924 [pool-2-thread-4] INFO  vendors.gluon-graalvm - Completed successfully. Marked 10 items for processing, skipped 0 existing items, and had 0 failures.
+2026-02-17 14:33:26.925 [pool-2-thread-4] INFO  vendors.graalvm-legacy - Starting scraper
+2026-02-17 14:33:26.928 [pool-2-thread-4] INFO  vendors.graalvm-legacy - Processing repository: graal
+2026-02-17 14:33:26.928 [pool-2-thread-4] INFO  vendors.graalvm-legacy - Fetching releases from https://api.github.com/repos/oracle/graal/releases?per_page=100&page=1
+2026-02-17 14:33:27.749 [pool-2-thread-1] INFO  vendors.mandrel - Fetching releases from https://api.github.com/repos/graalvm/mandrel/releases?per_page=100&page=2
+2026-02-17 14:33:28.009 [pool-2-thread-3] INFO  vendors.graalvm-ce - Fetching releases from https://api.github.com/repos/graalvm/graalvm-ce-builds/releases?per_page=100&page=2
+2026-02-17 14:33:28.060 [pool-2-thread-1] INFO  vendors.mandrel - Completed successfully. Marked 0 items for processing, skipped 158 existing items, and had 0 failures.
+2026-02-17 14:33:28.061 [pool-2-thread-1] INFO  vendors.java-se-ri - Starting scraper
+2026-02-17 14:33:28.068 [pool-2-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/7
+2026-02-17 14:33:28.293 [pool-2-thread-3] INFO  vendors.graalvm-ce - Completed successfully. Marked 0 items for processing, skipped 267 existing items, and had 0 failures.
+2026-02-17 14:33:28.293 [pool-2-thread-3] INFO  vendors.microsoft - Starting scraper
+2026-02-17 14:33:28.296 [pool-2-thread-3] INFO  vendors.microsoft - Fetching index from https://docs.microsoft.com/en-us/java/openjdk/download
+2026-02-17 14:33:28.461 [pool-2-thread-4] INFO  vendors.graalvm-legacy - Fetching releases from https://api.github.com/repos/oracle/graal/releases?per_page=100&page=2
+2026-02-17 14:33:28.682 [pool-2-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/8-MR3
+2026-02-17 14:33:28.746 [pool-2-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/9
+2026-02-17 14:33:28.784 [pool-2-thread-4] INFO  vendors.graalvm-legacy - Completed successfully. Marked 0 items for processing, skipped 21 existing items, and had 0 failures.
+2026-02-17 14:33:28.785 [pool-2-thread-4] INFO  vendors.liberica-native - Starting scraper
+2026-02-17 14:33:28.789 [pool-2-thread-4] INFO  vendors.liberica-native - Fetching assets from https://api.bell-sw.com/v1/nik/releases?bundle-type=full&components=liberica&components=nik
+2026-02-17 14:33:28.807 [pool-2-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/10
+2026-02-17 14:33:28.850 [pool-2-thread-3] INFO  vendors.microsoft - Found 64 files to process
+2026-02-17 14:33:28.852 [pool-2-thread-3] INFO  vendors.microsoft - Completed successfully. Marked 0 items for processing, skipped 40 existing items, and had 0 failures.
+2026-02-17 14:33:28.852 [pool-2-thread-3] INFO  vendors.openjdk-valhalla - Starting scraper
+2026-02-17 14:33:28.855 [pool-2-thread-3] INFO  vendors.openjdk-valhalla - Fetching index from http://jdk.java.net/valhalla/
+2026-02-17 14:33:28.870 [pool-2-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/11
+2026-02-17 14:33:28.985 [pool-2-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/12
+2026-02-17 14:33:29.106 [pool-2-thread-3] INFO  vendors.openjdk-valhalla - Found 5 download URLs
+2026-02-17 14:33:29.107 [pool-2-thread-3] INFO  vendors.openjdk-valhalla - Completed successfully. Marked 0 items for processing, skipped 5 existing items, and had 0 failures.
+2026-02-17 14:33:29.107 [pool-2-thread-3] INFO  vendors.graalvm-community-ea - Starting scraper
+2026-02-17 14:33:29.110 [pool-2-thread-3] INFO  vendors.graalvm-community-ea - Processing repository: graalvm-ce-dev-builds
+2026-02-17 14:33:29.110 [pool-2-thread-3] INFO  vendors.graalvm-community-ea - Fetching releases from https://api.github.com/repos/graalvm/graalvm-ce-dev-builds/releases?per_page=100&page=1
+2026-02-17 14:33:29.115 [pool-2-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/13
+2026-02-17 14:33:29.193 [pool-2-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/14
+2026-02-17 14:33:29.296 [pool-2-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/15
+2026-02-17 14:33:29.355 [pool-2-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/16
+2026-02-17 14:33:29.419 [pool-2-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/17
+2026-02-17 14:33:29.477 [pool-2-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/18
+2026-02-17 14:33:29.574 [pool-2-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/19
+2026-02-17 14:33:29.636 [pool-2-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/20
+2026-02-17 14:33:29.715 [pool-2-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/21
+2026-02-17 14:33:29.718 [pool-2-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=2
+2026-02-17 14:33:29.777 [pool-2-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/22
+2026-02-17 14:33:29.834 [pool-2-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/23
+2026-02-17 14:33:29.896 [pool-2-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/24
+2026-02-17 14:33:29.957 [pool-2-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/25
+2026-02-17 14:33:30.018 [pool-2-thread-3] INFO  vendors.graalvm-community-ea - Queued download for graalvm-community-dev-darwin-aarch64.tar.gz
+2026-02-17 14:33:30.019 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 8 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:30.020 [pool-2-thread-3] INFO  vendors.graalvm-community-ea - Queued download for graalvm-community-dev-linux-aarch64.tar.gz
+2026-02-17 14:33:30.020 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 9 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:30.020 [pool-2-thread-3] INFO  vendors.graalvm-community-ea - Queued download for graalvm-community-dev-linux-amd64.tar.gz
+2026-02-17 14:33:30.020 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 10 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:30.021 [pool-2-thread-3] INFO  vendors.graalvm-community-ea - Queued download for graalvm-community-dev-windows-amd64.zip
+2026-02-17 14:33:30.022 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 11 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:30.043 [pool-2-thread-3] INFO  vendors.graalvm-community-ea - Fetching releases from https://api.github.com/repos/graalvm/graalvm-ce-dev-builds/releases?per_page=100&page=2
+2026-02-17 14:33:30.078 [pool-2-thread-1] INFO  vendors.java-se-ri - Found 35 download URLs
+2026-02-17 14:33:30.079 [pool-2-thread-1] INFO  vendors.java-se-ri - Completed successfully. Marked 0 items for processing, skipped 35 existing items, and had 0 failures.
+2026-02-17 14:33:30.079 [pool-2-thread-1] INFO  vendors.openjdk - Starting scraper
+2026-02-17 14:33:30.082 [pool-2-thread-1] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/archive/
+2026-02-17 14:33:30.309 [pool-2-thread-1] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/25/
+2026-02-17 14:33:30.329 [pool-2-thread-3] INFO  vendors.graalvm-community-ea - Completed successfully. Marked 4 items for processing, skipped 48 existing items, and had 0 failures.
+2026-02-17 14:33:30.329 [pool-2-thread-3] INFO  vendors.semeru - Starting scraper
+2026-02-17 14:33:30.332 [pool-2-thread-3] INFO  vendors.semeru - Fetching repositories from https://api.github.com/orgs/ibmruntimes/repos?type=public&per_page=100&page=1&q=semeru
+2026-02-17 14:33:30.450 [pool-2-thread-1] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/26/
+2026-02-17 14:33:30.565 [pool-2-thread-1] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/27/
+2026-02-17 14:33:30.715 [pool-2-thread-1] INFO  vendors.openjdk - Found 213 download URLs
+2026-02-17 14:33:30.717 [pool-2-thread-1] INFO  vendors.openjdk - Queued download for openjdk-27-ea+9_linux-aarch64_bin.tar.gz
+2026-02-17 14:33:30.717 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 12 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:30.717 [pool-2-thread-1] INFO  vendors.openjdk - Queued download for openjdk-27-ea+9_linux-x64_bin.tar.gz
+2026-02-17 14:33:30.717 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 13 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:30.717 [pool-2-thread-1] INFO  vendors.openjdk - Queued download for openjdk-27-ea+9_macos-aarch64_bin.tar.gz
+2026-02-17 14:33:30.718 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 14 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:30.718 [pool-2-thread-1] INFO  vendors.openjdk - Queued download for openjdk-27-ea+9_macos-x64_bin.tar.gz
+2026-02-17 14:33:30.718 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 15 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:30.718 [pool-2-thread-1] INFO  vendors.openjdk - Queued download for openjdk-27-ea+9_windows-x64_bin.zip
+2026-02-17 14:33:30.718 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 16 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:30.718 [pool-2-thread-1] INFO  vendors.openjdk - Completed successfully. Marked 5 items for processing, skipped 208 existing items, and had 0 failures.
+2026-02-17 14:33:30.719 [pool-2-thread-1] INFO  vendors.debian - Starting scraper
+2026-02-17 14:33:30.721 [pool-2-thread-1] INFO  vendors.debian - Processing OpenJDK 8 from http://ftp.debian.org/debian/pool/main/o/openjdk-8/
+2026-02-17 14:33:30.801 [pool-2-thread-4] INFO  vendors.liberica-native - Found 917 assets
+2026-02-17 14:33:30.802 [pool-2-thread-4] INFO  vendors.liberica-native - Queued download for bellsoft-liberica-vm-full-openjdk25.0.1+16-25.0.1+3-linux-amd64.deb
+2026-02-17 14:33:30.802 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 17 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:30.803 [pool-2-thread-4] INFO  vendors.liberica-native - Queued download for bellsoft-liberica-vm-full-openjdk25.0.1+16-25.0.1+3-linux-amd64.rpm
+2026-02-17 14:33:30.803 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 18 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:30.803 [pool-2-thread-4] INFO  vendors.liberica-native - Queued download for bellsoft-liberica-vm-full-openjdk25.0.1+16-25.0.1+3-linux-amd64.tar.gz
+2026-02-17 14:33:30.803 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 19 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:30.803 [pool-2-thread-4] INFO  vendors.liberica-native - Queued download for bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.tar.gz
+2026-02-17 14:33:30.803 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 20 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:30.804 [pool-2-thread-4] INFO  vendors.liberica-native - Queued download for bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.dmg
+2026-02-17 14:33:30.804 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 21 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:30.804 [pool-2-thread-4] INFO  vendors.liberica-native - Queued download for bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.zip
+2026-02-17 14:33:30.804 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 22 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:30.804 [pool-2-thread-4] INFO  vendors.liberica-native - Queued download for bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.pkg
+2026-02-17 14:33:30.805 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 23 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:30.805 [pool-2-thread-4] INFO  vendors.liberica-native - Queued download for bellsoft-liberica-vm-full-openjdk11-21.3.1-windows-amd64.msi
+2026-02-17 14:33:30.805 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 24 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:30.805 [pool-2-thread-4] INFO  vendors.liberica-native - Queued download for bellsoft-liberica-vm-full-openjdk11-21.3.1-windows-amd64.zip
+2026-02-17 14:33:30.805 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 25 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:30.806 [pool-2-thread-4] INFO  vendors.liberica-native - Queued download for bellsoft-liberica-vm-full-openjdk21.0.9+12-23.1.9+1-macos-amd64.dmg
+2026-02-17 14:33:30.806 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 26 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:30.806 [pool-2-thread-4] INFO  vendors.liberica-native - Reached progress limit of 10 items, aborting
+2026-02-17 14:33:30.806 [pool-2-thread-4] INFO  vendors.liberica-native - Completed successfully. Marked 10 items for processing, skipped 0 existing items, and had 0 failures.
+2026-02-17 14:33:30.806 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Starting scraper
+2026-02-17 14:33:30.808 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Fetching available releases: https://api.adoptopenjdk.net/v3/info/available_releases
+2026-02-17 14:33:30.995 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Processing release: 8
+2026-02-17 14:33:31.031 [pool-2-thread-1] INFO  vendors.debian - Queued download for openjdk-8-jdk-headless_8u472-ga-1_amd64.deb
+2026-02-17 14:33:31.032 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 27 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:31.032 [pool-2-thread-1] INFO  vendors.debian - Queued download for openjdk-8-jdk-headless_8u472-ga-1_arm64.deb
+2026-02-17 14:33:31.032 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 28 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:31.033 [pool-2-thread-1] INFO  vendors.debian - Queued download for openjdk-8-jdk-headless_8u472-ga-1_armhf.deb
+2026-02-17 14:33:31.033 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 29 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:31.033 [pool-2-thread-1] INFO  vendors.debian - Queued download for openjdk-8-jdk-headless_8u472-ga-1_i386.deb
+2026-02-17 14:33:31.033 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 30 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:31.033 [pool-2-thread-1] INFO  vendors.debian - Queued download for openjdk-8-jdk-headless_8u472-ga-1_ppc64el.deb
+2026-02-17 14:33:31.033 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 31 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:31.034 [pool-2-thread-1] INFO  vendors.debian - Queued download for openjdk-8-jdk-headless_8u472-ga-1_s390x.deb
+2026-02-17 14:33:31.034 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 32 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:31.034 [pool-2-thread-1] INFO  vendors.debian - Queued download for openjdk-8-jdk_8u472-ga-1_amd64.deb
+2026-02-17 14:33:31.034 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 33 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:31.034 [pool-2-thread-1] INFO  vendors.debian - Queued download for openjdk-8-jdk_8u472-ga-1_arm64.deb
+2026-02-17 14:33:31.035 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 34 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:31.035 [pool-2-thread-1] INFO  vendors.debian - Queued download for openjdk-8-jdk_8u472-ga-1_armhf.deb
+2026-02-17 14:33:31.035 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 35 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:31.035 [pool-2-thread-1] INFO  vendors.debian - Queued download for openjdk-8-jdk_8u472-ga-1_i386.deb
+2026-02-17 14:33:31.035 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 36 queued, 3 active, 0 completed, 0 failed
+2026-02-17 14:33:31.035 [pool-2-thread-1] INFO  vendors.debian - Reached progress limit of 10 items, aborting
+2026-02-17 14:33:31.035 [pool-2-thread-1] INFO  vendors.debian - Completed successfully. Marked 10 items for processing, skipped 0 existing items, and had 0 failures.
+2026-02-17 14:33:31.035 [pool-2-thread-1] INFO  vendors.openjdk-loom - Starting scraper
+2026-02-17 14:33:31.038 [pool-2-thread-1] INFO  vendors.openjdk-loom - Fetching index from https://jdk.java.net/loom/
+2026-02-17 14:33:31.203 [pool-2-thread-1] INFO  vendors.openjdk-loom - Found 5 download URLs
+2026-02-17 14:33:31.203 [pool-2-thread-1] INFO  vendors.openjdk-loom - Completed successfully. Marked 0 items for processing, skipped 5 existing items, and had 0 failures.
+2026-02-17 14:33:31.203 [pool-2-thread-1] INFO  vendors.oracle - Starting scraper
+2026-02-17 14:33:31.205 [pool-2-thread-1] INFO  vendors.oracle - Scraping Oracle JDK releases
+2026-02-17 14:33:31.206 [pool-2-thread-1] INFO  vendors.oracle - Fetching Oracle JDK versions from https://java.oraclecloud.com/javaVersions
+2026-02-17 14:33:31.671 [pool-2-thread-1] INFO  vendors.oracle - Fetching release info for version 25.0.2
+2026-02-17 14:33:31.731 [pool-2-thread-1] INFO  vendors.oracle - Fetching release info for version 24.0.2
+2026-02-17 14:33:31.789 [pool-2-thread-1] INFO  vendors.oracle - Fetching release info for version 23.0.2
+2026-02-17 14:33:31.834 [pool-1-thread-1] INFO  vendors.openjdk - Downloading openjdk-27-ea+9_linux-aarch64_bin.tar.gz
+2026-02-17 14:33:31.846 [pool-2-thread-1] INFO  vendors.oracle - Fetching release info for version 22.0.2
+2026-02-17 14:33:31.904 [pool-2-thread-1] INFO  vendors.oracle - Fetching release info for version 21.0.10
+2026-02-17 14:33:31.961 [pool-2-thread-1] INFO  vendors.oracle - Fetching release info for version 20.0.2
+2026-02-17 14:33:32.018 [pool-2-thread-1] INFO  vendors.oracle - Fetching release info for version 19.0.2
+2026-02-17 14:33:32.073 [pool-2-thread-1] INFO  vendors.oracle - Fetching release info for version 18.0.2.1
+2026-02-17 14:33:32.129 [pool-2-thread-1] INFO  vendors.oracle - Fetching release info for version 17.0.18
+2026-02-17 14:33:32.187 [pool-2-thread-1] INFO  vendors.oracle - Skipping OTN licensed version 17.0.18
+2026-02-17 14:33:32.187 [pool-2-thread-1] INFO  vendors.oracle - Fetching release info for version 16.0.2
+2026-02-17 14:33:32.244 [pool-2-thread-1] INFO  vendors.oracle - Skipping OTN licensed version 16.0.2
+2026-02-17 14:33:32.246 [pool-2-thread-1] INFO  vendors.oracle - Scraping Oracle JDK 17 archive from https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+2026-02-17 14:33:32.355 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Could not download page 2 of assets for release 8, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/8/ga?project=jdk&vendor=adoptopenjdk&page=2&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:32.356 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Processing release: 9
+2026-02-17 14:33:32.652 [pool-2-thread-1] INFO  vendors.oracle - Scraping Oracle JDK 18 archive from https://www.oracle.com/java/technologies/javase/jdk18-archive-downloads.html
+2026-02-17 14:33:32.693 [pool-2-thread-1] INFO  vendors.oracle - Scraping Oracle JDK 19 archive from https://www.oracle.com/java/technologies/javase/jdk19-archive-downloads.html
+2026-02-17 14:33:32.733 [pool-2-thread-1] INFO  vendors.oracle - Scraping Oracle JDK 20 archive from https://www.oracle.com/java/technologies/javase/jdk20-archive-downloads.html
+2026-02-17 14:33:32.776 [pool-2-thread-1] INFO  vendors.oracle - Scraping Oracle JDK 21 archive from https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html
+2026-02-17 14:33:32.863 [pool-2-thread-1] INFO  vendors.oracle - Scraping Oracle JDK 22 archive from https://www.oracle.com/java/technologies/javase/jdk22-archive-downloads.html
+2026-02-17 14:33:32.908 [pool-2-thread-1] INFO  vendors.oracle - Scraping Oracle JDK 23 archive from https://www.oracle.com/java/technologies/javase/jdk23-archive-downloads.html
+2026-02-17 14:33:32.994 [pool-2-thread-1] INFO  vendors.oracle - Scraping Oracle JDK 24 archive from https://www.oracle.com/java/technologies/javase/jdk24-archive-downloads.html
+2026-02-17 14:33:33.062 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 9, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/9/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:33.062 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Processing release: 10
+2026-02-17 14:33:33.082 [pool-2-thread-1] INFO  vendors.oracle - Completed successfully. Marked 0 items for processing, skipped 600 existing items, and had 0 failures.
+2026-02-17 14:33:33.082 [pool-2-thread-1] INFO  vendors.graalvm-community - Starting scraper
+2026-02-17 14:33:33.084 [pool-2-thread-1] INFO  vendors.graalvm-community - Processing repository: graalvm-ce-builds
+2026-02-17 14:33:33.084 [pool-2-thread-1] INFO  vendors.graalvm-community - Fetching releases from https://api.github.com/repos/graalvm/graalvm-ce-builds/releases?per_page=100&page=1
+2026-02-17 14:33:33.185 [pool-2-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=3
+2026-02-17 14:33:33.195 [pool-2-thread-3] INFO  vendors.semeru - Matched repository: semeru11-binaries
+2026-02-17 14:33:33.196 [pool-2-thread-3] INFO  vendors.semeru - Matched repository: semeru8-binaries
+2026-02-17 14:33:33.196 [pool-2-thread-3] INFO  vendors.semeru - Matched repository: semeru16-binaries
+2026-02-17 14:33:33.197 [pool-2-thread-3] INFO  vendors.semeru - Matched repository: semeru17-binaries
+2026-02-17 14:33:33.197 [pool-2-thread-3] INFO  vendors.semeru - Matched repository: semeru18-binaries
+2026-02-17 14:33:33.197 [pool-2-thread-3] INFO  vendors.semeru - Matched repository: semeru19-binaries
+2026-02-17 14:33:33.197 [pool-2-thread-3] INFO  vendors.semeru - Matched repository: semeru20-binaries
+2026-02-17 14:33:33.198 [pool-2-thread-3] INFO  vendors.semeru - Matched repository: semeru21-binaries
+2026-02-17 14:33:33.198 [pool-2-thread-3] INFO  vendors.semeru - Processing repository: semeru11-binaries
+2026-02-17 14:33:33.198 [pool-2-thread-3] INFO  vendors.semeru - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru11-binaries/releases?per_page=100&page=1
+2026-02-17 14:33:33.761 [pool-1-thread-1] INFO  vendors.openjdk - Computing hashes for openjdk-27-ea+9_linux-aarch64_bin.tar.gz
+2026-02-17 14:33:33.784 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 10, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/10/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:33.784 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Processing release: 11
+2026-02-17 14:33:34.344 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java11-darwin-m1-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:34.861 [pool-1-thread-3] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java11-darwin-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:35.290 [pool-1-thread-1] INFO  vendors.openjdk - Processed openjdk-27-ea+9_linux-aarch64_bin.tar.gz
+2026-02-17 14:33:35.331 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 35 queued, 3 active, 1 completed, 0 failed
+2026-02-17 14:33:35.331 [pool-1-thread-1] INFO  vendors.openjdk - Downloading openjdk-27-ea+9_linux-x64_bin.tar.gz
+2026-02-17 14:33:35.341 [pool-2-thread-1] INFO  vendors.graalvm-community - Fetching releases from https://api.github.com/repos/graalvm/graalvm-ce-builds/releases?per_page=100&page=2
+2026-02-17 14:33:35.610 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Could not download page 2 of assets for release 11, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/11/ga?project=jdk&vendor=adoptopenjdk&page=2&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:35.610 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Processing release: 12
+2026-02-17 14:33:35.620 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java11-linux-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:35.646 [pool-2-thread-1] INFO  vendors.graalvm-community - Completed successfully. Marked 0 items for processing, skipped 99 existing items, and had 0 failures.
+2026-02-17 14:33:35.646 [pool-2-thread-1] INFO  vendors.kona - Starting scraper
+2026-02-17 14:33:35.648 [pool-2-thread-1] INFO  vendors.kona - Fetching repositories from https://api.github.com/orgs/Tencent/repos?type=public&per_page=100&page=1&q=TencentKona
+2026-02-17 14:33:36.409 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 12, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/12/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:36.409 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Processing release: 13
+2026-02-17 14:33:36.406 [pool-2-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=4
+2026-02-17 14:33:36.726 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java11-darwin-m1-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:36.789 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 34 queued, 3 active, 2 completed, 0 failed
+2026-02-17 14:33:36.790 [pool-1-thread-4] INFO  vendors.openjdk - Downloading openjdk-27-ea+9_macos-aarch64_bin.tar.gz
+2026-02-17 14:33:37.057 [pool-1-thread-1] INFO  vendors.openjdk - Computing hashes for openjdk-27-ea+9_linux-x64_bin.tar.gz
+2026-02-17 14:33:37.115 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 13, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/13/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:37.115 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Processing release: 14
+2026-02-17 14:33:37.325 [pool-2-thread-1] INFO  vendors.kona - Matched repository: TencentKona-8
+2026-02-17 14:33:37.326 [pool-2-thread-1] INFO  vendors.kona - Processing repository: TencentKona-8
+2026-02-17 14:33:37.326 [pool-2-thread-1] INFO  vendors.kona - Fetching releases from https://api.github.com/repos/Tencent/TencentKona-8/releases?per_page=100&page=1
+2026-02-17 14:33:37.621 [pool-1-thread-3] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java11-darwin-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:37.693 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 33 queued, 3 active, 3 completed, 0 failed
+2026-02-17 14:33:37.694 [pool-1-thread-3] INFO  vendors.openjdk - Downloading openjdk-27-ea+9_macos-x64_bin.tar.gz
+2026-02-17 14:33:37.865 [pool-2-thread-1] INFO  vendors.kona - Queued download for TencentKona8.0.25.b1_jdk_linux-aarch64_8u482.tar.gz
+2026-02-17 14:33:37.866 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 33 queued, 4 active, 3 completed, 0 failed
+2026-02-17 14:33:37.867 [pool-2-thread-1] INFO  vendors.kona - Queued download for TencentKona8.0.25.b1_jdk_linux-musl-aarch64_8u482.tar.gz
+2026-02-17 14:33:37.867 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 34 queued, 4 active, 3 completed, 0 failed
+2026-02-17 14:33:37.870 [pool-2-thread-1] INFO  vendors.kona - Queued download for TencentKona8.0.25.b1_jdk_linux-musl-x86_64_8u482.tar.gz
+2026-02-17 14:33:37.870 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 35 queued, 4 active, 3 completed, 0 failed
+2026-02-17 14:33:37.871 [pool-2-thread-1] INFO  vendors.kona - Queued download for TencentKona8.0.25.b1_jdk_linux-x86_64_8u482.tar.gz
+2026-02-17 14:33:37.871 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 36 queued, 4 active, 3 completed, 0 failed
+2026-02-17 14:33:37.872 [pool-2-thread-1] INFO  vendors.kona - Queued download for TencentKona8.0.25.b1_jdk_macosx-aarch64_8u482_notarized.tar.gz
+2026-02-17 14:33:37.873 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 37 queued, 4 active, 3 completed, 0 failed
+2026-02-17 14:33:37.874 [pool-2-thread-1] INFO  vendors.kona - Queued download for TencentKona8.0.25.b1_jdk_macosx-x86_64_8u482_notarized.tar.gz
+2026-02-17 14:33:37.874 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 38 queued, 4 active, 3 completed, 0 failed
+2026-02-17 14:33:37.874 [pool-2-thread-1] INFO  vendors.kona - Queued download for TencentKona8.0.25.b1_jdk_windows-x86_64_8u482_signed.zip
+2026-02-17 14:33:37.874 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 39 queued, 4 active, 3 completed, 0 failed
+2026-02-17 14:33:37.876 [pool-2-thread-1] INFO  vendors.kona - Queued download for TencentKona8.0.25.b1_jre_linux-x86_64_8u482.tar.gz
+2026-02-17 14:33:37.876 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 40 queued, 4 active, 3 completed, 0 failed
+2026-02-17 14:33:37.879 [pool-2-thread-1] INFO  vendors.kona - Queued download for TencentKona8.0.24.b1_jdk_linux-aarch64_8u472.tar.gz
+2026-02-17 14:33:37.879 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 41 queued, 4 active, 3 completed, 0 failed
+2026-02-17 14:33:37.880 [pool-2-thread-1] INFO  vendors.kona - Queued download for TencentKona8.0.24.b1_jdk_linux-musl-aarch64_8u472.tar.gz
+2026-02-17 14:33:37.880 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 42 queued, 4 active, 3 completed, 0 failed
+2026-02-17 14:33:37.880 [pool-2-thread-1] INFO  vendors.kona - Reached progress limit of 10 items, aborting
+2026-02-17 14:33:37.880 [pool-2-thread-1] INFO  vendors.kona - Completed successfully. Marked 10 items for processing, skipped 0 existing items, and had 0 failures.
+2026-02-17 14:33:37.880 [pool-2-thread-1] INFO  vendors.oracle-graalvm-ea - Starting scraper
+2026-02-17 14:33:37.887 [pool-2-thread-1] INFO  vendors.oracle-graalvm-ea - Processing repository: oracle-graalvm-ea-builds
+2026-02-17 14:33:37.887 [pool-2-thread-1] INFO  vendors.oracle-graalvm-ea - Fetching releases from https://api.github.com/repos/graalvm/oracle-graalvm-ea-builds/releases?per_page=100&page=1
+2026-02-17 14:33:37.966 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 14, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/14/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:37.966 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Processing release: 15
+2026-02-17 14:33:38.469 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java11-linux-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:33:38.536 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 42 queued, 3 active, 4 completed, 0 failed
+2026-02-17 14:33:38.637 [pool-1-thread-2] INFO  vendors.graalvm-community-ea - Downloading graalvm-community-dev-darwin-aarch64.tar.gz
+2026-02-17 14:33:38.680 [pool-1-thread-4] INFO  vendors.openjdk - Computing hashes for openjdk-27-ea+9_macos-aarch64_bin.tar.gz
+2026-02-17 14:33:38.718 [pool-1-thread-1] INFO  vendors.openjdk - Processed openjdk-27-ea+9_linux-x64_bin.tar.gz
+2026-02-17 14:33:38.746 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 41 queued, 3 active, 5 completed, 0 failed
+2026-02-17 14:33:38.747 [pool-1-thread-1] INFO  vendors.liberica-native - Downloading bellsoft-liberica-vm-full-openjdk25.0.1+16-25.0.1+3-linux-amd64.deb
+2026-02-17 14:33:38.832 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 15, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/15/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:38.833 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Processing release: 16
+2026-02-17 14:33:39.360 [pool-2-thread-1] INFO  vendors.oracle-graalvm-ea - Fetching releases from https://api.github.com/repos/graalvm/oracle-graalvm-ea-builds/releases?per_page=100&page=2
+2026-02-17 14:33:39.617 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 16, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/16/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:39.617 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Processing release: 17
+2026-02-17 14:33:39.890 [pool-2-thread-3] INFO  vendors.semeru - Queued download for ibm-semeru-open-jdk_aarch64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:33:39.890 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 41 queued, 4 active, 5 completed, 0 failed
+2026-02-17 14:33:39.891 [pool-2-thread-3] INFO  vendors.semeru - Queued download for ibm-semeru-open-jdk_x64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:33:39.891 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 42 queued, 4 active, 5 completed, 0 failed
+2026-02-17 14:33:39.891 [pool-2-thread-3] INFO  vendors.semeru - Queued download for ibm-semeru-open-jre_aarch64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:33:39.891 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 43 queued, 4 active, 5 completed, 0 failed
+2026-02-17 14:33:39.891 [pool-2-thread-3] INFO  vendors.semeru - Queued download for ibm-semeru-open-jre_x64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:33:39.892 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 44 queued, 4 active, 5 completed, 0 failed
+2026-02-17 14:33:39.892 [pool-2-thread-3] INFO  vendors.semeru - Queued download for ibm-semeru-open-jdk_aarch64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:33:39.892 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 45 queued, 4 active, 5 completed, 0 failed
+2026-02-17 14:33:39.892 [pool-2-thread-3] INFO  vendors.semeru - Queued download for ibm-semeru-open-jdk_x64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:33:39.892 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 46 queued, 4 active, 5 completed, 0 failed
+2026-02-17 14:33:39.893 [pool-2-thread-3] INFO  vendors.semeru - Queued download for ibm-semeru-open-jre_aarch64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:33:39.893 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 47 queued, 4 active, 5 completed, 0 failed
+2026-02-17 14:33:39.893 [pool-2-thread-3] INFO  vendors.semeru - Queued download for ibm-semeru-open-jre_x64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:33:39.893 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 48 queued, 4 active, 5 completed, 0 failed
+2026-02-17 14:33:39.894 [pool-2-thread-3] INFO  vendors.semeru - Queued download for ibm-semeru-open-jdk_aarch64_mac_11.0.28_6_openj9-0.53.0.pkg
+2026-02-17 14:33:39.894 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 49 queued, 4 active, 5 completed, 0 failed
+2026-02-17 14:33:39.894 [pool-2-thread-3] INFO  vendors.semeru - Queued download for ibm-semeru-open-jdk_x64_mac_11.0.28_6_openj9-0.53.0.pkg
+2026-02-17 14:33:39.894 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 50 queued, 4 active, 5 completed, 0 failed
+2026-02-17 14:33:39.894 [pool-2-thread-3] INFO  vendors.semeru - Reached progress limit of 10 items, aborting
+2026-02-17 14:33:39.894 [pool-2-thread-3] INFO  vendors.semeru - Completed successfully. Marked 10 items for processing, skipped 72 existing items, and had 0 failures.
+2026-02-17 14:33:39.894 [pool-2-thread-3] INFO  vendors.oracle-graalvm - Starting scraper
+2026-02-17 14:33:39.896 [pool-2-thread-3] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM releases
+2026-02-17 14:33:40.011 [pool-2-thread-1] INFO  vendors.oracle-graalvm-ea - Fetching releases from https://api.github.com/repos/graalvm/oracle-graalvm-ea-builds/releases?per_page=100&page=3
+2026-02-17 14:33:40.067 [pool-1-thread-4] INFO  vendors.openjdk - Processed openjdk-27-ea+9_macos-aarch64_bin.tar.gz
+2026-02-17 14:33:40.102 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 50 queued, 3 active, 6 completed, 0 failed
+2026-02-17 14:33:40.102 [pool-1-thread-4] INFO  vendors.liberica-native - Downloading bellsoft-liberica-vm-full-openjdk25.0.1+16-25.0.1+3-linux-amd64.rpm
+2026-02-17 14:33:40.184 [pool-1-thread-3] INFO  vendors.openjdk - Computing hashes for openjdk-27-ea+9_macos-x64_bin.tar.gz
+2026-02-17 14:33:40.239 [pool-2-thread-3] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM 17 archive from https://www.oracle.com/java/technologies/javase/graalvm-jdk17-archive-downloads.html
+2026-02-17 14:33:40.310 [pool-2-thread-1] INFO  vendors.oracle-graalvm-ea - Completed successfully. Marked 0 items for processing, skipped 65 existing items, and had 0 failures.
+2026-02-17 14:33:40.310 [pool-2-thread-1] INFO  vendors.dragonwell - Starting scraper
+2026-02-17 14:33:40.314 [pool-2-thread-1] INFO  vendors.dragonwell - Fetching repositories from https://api.github.com/orgs/dragonwell-project/repos?type=public&per_page=100&page=1&q=dragonwell
+2026-02-17 14:33:40.771 [pool-2-thread-3] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM 20 archive from https://www.oracle.com/java/technologies/javase/graalvm-jdk20-archive-downloads.html
+2026-02-17 14:33:40.817 [pool-2-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=5
+2026-02-17 14:33:40.889 [pool-2-thread-1] INFO  vendors.dragonwell - Matched repository: dragonwell8
+2026-02-17 14:33:40.889 [pool-2-thread-1] INFO  vendors.dragonwell - Matched repository: dragonwell11
+2026-02-17 14:33:40.889 [pool-2-thread-1] INFO  vendors.dragonwell - Matched repository: dragonwell17
+2026-02-17 14:33:40.889 [pool-2-thread-1] INFO  vendors.dragonwell - Matched repository: dragonwell21
+2026-02-17 14:33:40.889 [pool-2-thread-1] INFO  vendors.dragonwell - Matched repository: dragonwell25
+2026-02-17 14:33:40.889 [pool-2-thread-1] INFO  vendors.dragonwell - Processing repository: dragonwell8
+2026-02-17 14:33:40.889 [pool-2-thread-1] INFO  vendors.dragonwell - Fetching releases from https://api.github.com/repos/dragonwell-project/dragonwell8/releases?per_page=100&page=1
+2026-02-17 14:33:41.024 [pool-2-thread-3] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM 21 archive from https://www.oracle.com/java/technologies/javase/graalvm-jdk21-archive-downloads.html
+2026-02-17 14:33:41.205 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Could not download page 2 of assets for release 17, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/17/ga?project=jdk&vendor=adoptopenjdk&page=2&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:41.206 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Processing release: 18
+2026-02-17 14:33:41.219 [pool-2-thread-3] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM 22 archive from https://www.oracle.com/java/technologies/javase/graalvm-jdk22-archive-downloads.html
+2026-02-17 14:33:41.332 [pool-2-thread-3] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM 23 archive from https://www.oracle.com/java/technologies/javase/graalvm-jdk23-archive-downloads.html
+2026-02-17 14:33:41.508 [pool-1-thread-3] INFO  vendors.openjdk - Processed openjdk-27-ea+9_macos-x64_bin.tar.gz
+2026-02-17 14:33:41.542 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 49 queued, 3 active, 7 completed, 0 failed
+2026-02-17 14:33:41.654 [pool-1-thread-3] INFO  vendors.liberica-native - Downloading bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.tar.gz
+2026-02-17 14:33:41.720 [pool-2-thread-3] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM 24 archive from https://www.oracle.com/java/technologies/javase/graalvm-jdk24-archive-downloads.html
+2026-02-17 14:33:41.827 [pool-2-thread-1] INFO  vendors.dragonwell - Fetching releases from https://api.github.com/repos/dragonwell-project/dragonwell8/releases?per_page=100&page=2
+2026-02-17 14:33:42.088 [pool-2-thread-1] INFO  vendors.dragonwell - Processing repository: dragonwell11
+2026-02-17 14:33:42.089 [pool-2-thread-1] INFO  vendors.dragonwell - Fetching releases from https://api.github.com/repos/dragonwell-project/dragonwell11/releases?per_page=100&page=1
+2026-02-17 14:33:42.118 [pool-2-thread-3] INFO  vendors.oracle-graalvm - Completed successfully. Marked 0 items for processing, skipped 125 existing items, and had 0 failures.
+2026-02-17 14:33:42.119 [pool-2-thread-3] INFO  vendors.redhat - Starting scraper
+2026-02-17 14:33:42.122 [pool-2-thread-3] INFO  vendors.redhat - Fetching available releases: https://marketplace-api.adoptium.net/v1/info/available_releases/redhat
+2026-02-17 14:33:42.145 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 18, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/18/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:42.145 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Processing release: 19
+2026-02-17 14:33:42.351 [pool-2-thread-3] INFO  vendors.redhat - Processing release: 8
+2026-02-17 14:33:42.513 [pool-2-thread-3] INFO  vendors.redhat - Could not download page 1 of assets for release 8, assuming no more pages (Failed to download content: https://marketplace-api.adoptium.net/v1/assets/feature_releases/redhat/8?&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:42.513 [pool-2-thread-3] INFO  vendors.redhat - Processing release: 17
+2026-02-17 14:33:42.647 [pool-2-thread-3] INFO  vendors.redhat - Could not download page 1 of assets for release 17, assuming no more pages (Failed to download content: https://marketplace-api.adoptium.net/v1/assets/feature_releases/redhat/17?&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:42.647 [pool-2-thread-3] INFO  vendors.redhat - Processing release: 21
+2026-02-17 14:33:42.782 [pool-2-thread-3] INFO  vendors.redhat - Could not download page 1 of assets for release 21, assuming no more pages (Failed to download content: https://marketplace-api.adoptium.net/v1/assets/feature_releases/redhat/21?&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:42.783 [pool-2-thread-3] INFO  vendors.redhat - Completed successfully. Marked 0 items for processing, skipped 12 existing items, and had 0 failures.
+2026-02-17 14:33:42.783 [pool-2-thread-3] INFO  vendors.corretto - Starting scraper
+2026-02-17 14:33:42.784 [pool-2-thread-3] INFO  vendors.corretto - Fetching repositories from https://api.github.com/orgs/corretto/repos?type=public&per_page=100&page=1&q=corretto
+2026-02-17 14:33:43.081 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 19, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/19/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:43.081 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Processing release: 20
+2026-02-17 14:33:43.180 [pool-1-thread-2] INFO  vendors.graalvm-community-ea - Computing hashes for graalvm-community-dev-darwin-aarch64.tar.gz
+2026-02-17 14:33:43.192 [pool-2-thread-1] INFO  vendors.dragonwell - Queued download for Alibaba_Dragonwell_Standard_11.0.29.25.7_x64_alpine-linux.tar.gz
+2026-02-17 14:33:43.192 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 49 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:43.192 [pool-2-thread-1] INFO  vendors.dragonwell - Queued download for Alibaba_Dragonwell_Extended_11.0.29.26.7_riscv64_linux.tar.gz
+2026-02-17 14:33:43.192 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 50 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:43.192 [pool-2-thread-1] INFO  vendors.dragonwell - Queued download for Alibaba_Dragonwell_Extended_11.0.29.26.7_x64_alpine-linux.tar.gz
+2026-02-17 14:33:43.192 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 51 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:43.193 [pool-2-thread-1] INFO  vendors.dragonwell - Queued download for Alibaba_Dragonwell_Extended_11.0.28.25.6_riscv64_linux.tar.gz
+2026-02-17 14:33:43.193 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 52 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:43.193 [pool-2-thread-1] INFO  vendors.dragonwell - Queued download for Alibaba_Dragonwell_Extended_11.0.28.25.6_x64_alpine-linux.tar.gz
+2026-02-17 14:33:43.193 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 53 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:43.193 [pool-2-thread-1] INFO  vendors.dragonwell - Queued download for Alibaba_Dragonwell_Standard_11.0.28.24.6_x64_alpine-linux.tar.gz
+2026-02-17 14:33:43.193 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 54 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:43.193 [pool-2-thread-1] INFO  vendors.dragonwell - Queued download for Alibaba_Dragonwell_Extended_11.0.27.24.6_riscv64_linux.tar.gz
+2026-02-17 14:33:43.194 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 55 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:43.194 [pool-2-thread-1] INFO  vendors.dragonwell - Queued download for Alibaba_Dragonwell_Extended_11.0.27.24.6_x64_alpine-linux.tar.gz
+2026-02-17 14:33:43.194 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 56 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:43.194 [pool-2-thread-1] INFO  vendors.dragonwell - Queued download for Alibaba_Dragonwell_Standard_11.0.27.23.6_x64_alpine-linux.tar.gz
+2026-02-17 14:33:43.194 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 57 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:43.194 [pool-2-thread-1] INFO  vendors.dragonwell - Queued download for Alibaba_Dragonwell_Extended_11.0.26.23.4_riscv64_linux.tar.gz
+2026-02-17 14:33:43.194 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 58 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:43.194 [pool-2-thread-1] INFO  vendors.dragonwell - Reached progress limit of 10 items, aborting
+2026-02-17 14:33:43.194 [pool-2-thread-1] INFO  vendors.dragonwell - Completed successfully. Marked 10 items for processing, skipped 144 existing items, and had 0 failures.
+2026-02-17 14:33:43.194 [pool-2-thread-1] INFO  vendors.openlogic - Starting scraper
+2026-02-17 14:33:43.197 [pool-2-thread-1] INFO  vendors.openlogic - Fetching page 0 from https://www.openlogic.com/openjdk-downloads?page=0
+2026-02-17 14:33:43.530 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-8
+2026-02-17 14:33:43.530 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-11
+2026-02-17 14:33:43.530 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-jdk
+2026-02-17 14:33:43.530 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-17
+2026-02-17 14:33:43.530 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-18
+2026-02-17 14:33:43.530 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-19
+2026-02-17 14:33:43.530 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-20
+2026-02-17 14:33:43.530 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-21
+2026-02-17 14:33:43.530 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-22
+2026-02-17 14:33:43.530 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-23
+2026-02-17 14:33:43.530 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-24
+2026-02-17 14:33:43.530 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-25
+2026-02-17 14:33:43.530 [pool-2-thread-3] INFO  vendors.corretto - Matched repository: corretto-26
+2026-02-17 14:33:43.530 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-8
+2026-02-17 14:33:43.530 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-8/releases?per_page=100&page=1
+2026-02-17 14:33:43.774 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 20, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/20/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:43.775 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Processing release: 21
+2026-02-17 14:33:44.238 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-8/releases?per_page=100&page=2
+2026-02-17 14:33:44.258 [pool-2-thread-1] INFO  vendors.openlogic - Found 24 download links on page 0
+2026-02-17 14:33:44.260 [pool-2-thread-1] INFO  vendors.openlogic - Queued download for openlogic-openjdk-25.0.2+10-windows-x64.msi
+2026-02-17 14:33:44.261 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 59 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:44.262 [pool-2-thread-1] INFO  vendors.openlogic - Queued download for openlogic-openjdk-25.0.2+10-windows-x64.zip
+2026-02-17 14:33:44.262 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 60 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:44.262 [pool-2-thread-1] INFO  vendors.openlogic - Queued download for openlogic-openjdk-jre-25.0.2+10-windows-x64.msi
+2026-02-17 14:33:44.262 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 61 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:44.265 [pool-2-thread-1] INFO  vendors.openlogic - Queued download for openlogic-openjdk-jre-25.0.2+10-windows-x64.zip
+2026-02-17 14:33:44.265 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 62 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:44.265 [pool-2-thread-1] INFO  vendors.openlogic - Queued download for openlogic-openjdk-25.0.2+10-mac-x64.pkg
+2026-02-17 14:33:44.265 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 63 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:44.265 [pool-2-thread-1] INFO  vendors.openlogic - Queued download for openlogic-openjdk-25.0.2+10-mac-x64.zip
+2026-02-17 14:33:44.265 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 64 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:44.266 [pool-2-thread-1] INFO  vendors.openlogic - Queued download for openlogic-openjdk-jre-25.0.2+10-mac-x64.zip
+2026-02-17 14:33:44.266 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 65 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:44.266 [pool-2-thread-1] INFO  vendors.openlogic - Queued download for openlogic-openjdk-jre-25.0.2+10-mac-x64.pkg
+2026-02-17 14:33:44.266 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 66 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:44.266 [pool-2-thread-1] INFO  vendors.openlogic - Queued download for openlogic-openjdk-25.0.2+10-linux-x64-deb.deb
+2026-02-17 14:33:44.266 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 67 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:44.266 [pool-2-thread-1] INFO  vendors.openlogic - Queued download for openlogic-openjdk-25.0.2+10-linux-x64-el.rpm
+2026-02-17 14:33:44.266 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 68 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:44.266 [pool-2-thread-1] INFO  vendors.openlogic - Reached progress limit of 10 items, aborting
+2026-02-17 14:33:44.266 [pool-2-thread-1] INFO  vendors.openlogic - Completed successfully. Marked 10 items for processing, skipped 0 existing items, and had 0 failures.
+2026-02-17 14:33:44.267 [pool-2-thread-1] INFO  vendors.ibm - Starting scraper
+2026-02-17 14:33:44.270 [pool-2-thread-1] INFO  vendors.ibm - Fetching index
+2026-02-17 14:33:44.403 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 21, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/21/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:44.403 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Processing release: 22
+2026-02-17 14:33:44.483 [pool-2-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=6
+2026-02-17 14:33:44.486 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-11
+2026-02-17 14:33:44.486 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-11/releases?per_page=100&page=1
+2026-02-17 14:33:44.543 [pool-2-thread-1] INFO  vendors.ibm - Found 3 JDK versions
+2026-02-17 14:33:44.543 [pool-2-thread-1] INFO  vendors.ibm - Processing JDK version: 8.0.8.45
+2026-02-17 14:33:44.565 [pool-2-thread-1] INFO  vendors.ibm - Processing architecture: s390
+2026-02-17 14:33:44.588 [pool-2-thread-1] INFO  vendors.ibm - Queued download for ibm-java-s390-jre-8.0-8.45.s390.rpm
+2026-02-17 14:33:44.588 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 69 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:44.588 [pool-2-thread-1] INFO  vendors.ibm - Queued download for ibm-java-s390-sdk-8.0-8.45.s390.rpm
+2026-02-17 14:33:44.588 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 70 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:44.588 [pool-2-thread-1] INFO  vendors.ibm - Processing JDK version: 8.0.8.55
+2026-02-17 14:33:44.613 [pool-2-thread-1] INFO  vendors.ibm - Processing architecture: i386
+2026-02-17 14:33:44.636 [pool-2-thread-1] INFO  vendors.ibm - Queued download for ibm-java-i386-jre-8.0-8.55.i386.rpm
+2026-02-17 14:33:44.636 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 71 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:44.636 [pool-2-thread-1] INFO  vendors.ibm - Queued download for ibm-java-i386-sdk-8.0-8.55.i386.rpm
+2026-02-17 14:33:44.636 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 72 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:44.636 [pool-2-thread-1] INFO  vendors.ibm - Processing architecture: ppc64le
+2026-02-17 14:33:44.659 [pool-2-thread-1] INFO  vendors.ibm - Queued download for ibm-java-ppc64le-jre-8.0-8.55.ppc64le.rpm
+2026-02-17 14:33:44.659 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 73 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:44.659 [pool-2-thread-1] INFO  vendors.ibm - Queued download for ibm-java-ppc64le-sdk-8.0-8.55.ppc64le.rpm
+2026-02-17 14:33:44.660 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 74 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:44.660 [pool-2-thread-1] INFO  vendors.ibm - Processing architecture: s390x
+2026-02-17 14:33:44.682 [pool-2-thread-1] INFO  vendors.ibm - Queued download for ibm-java-s390x-jre-8.0-8.55.s390x.rpm
+2026-02-17 14:33:44.682 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 75 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:44.682 [pool-2-thread-1] INFO  vendors.ibm - Queued download for ibm-java-s390x-sdk-8.0-8.55.s390x.rpm
+2026-02-17 14:33:44.682 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 76 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:44.682 [pool-2-thread-1] INFO  vendors.ibm - Processing architecture: x86_64
+2026-02-17 14:33:44.704 [pool-2-thread-1] INFO  vendors.ibm - Queued download for ibm-java-x86_64-jre-8.0-8.55.x86_64.rpm
+2026-02-17 14:33:44.704 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 77 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:44.705 [pool-2-thread-1] INFO  vendors.ibm - Queued download for ibm-java-x86_64-sdk-8.0-8.55.x86_64.rpm
+2026-02-17 14:33:44.705 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 78 queued, 4 active, 7 completed, 0 failed
+2026-02-17 14:33:44.705 [pool-2-thread-1] INFO  vendors.ibm - Reached progress limit of 10 items, aborting
+2026-02-17 14:33:44.705 [pool-2-thread-1] INFO  vendors.ibm - Completed successfully. Marked 10 items for processing, skipped 10 existing items, and had 0 failures.
+2026-02-17 14:33:44.706 [pool-2-thread-1] INFO  vendors.openjdk-leyden - Starting scraper
+2026-02-17 14:33:44.708 [pool-2-thread-1] INFO  vendors.openjdk-leyden - Fetching index from http://jdk.java.net/leyden/
+2026-02-17 14:33:44.877 [pool-2-thread-1] INFO  vendors.openjdk-leyden - Found 3 download URLs
+2026-02-17 14:33:44.877 [pool-2-thread-1] INFO  vendors.openjdk-leyden - Completed successfully. Marked 0 items for processing, skipped 3 existing items, and had 0 failures.
+2026-02-17 14:33:44.877 [pool-2-thread-1] INFO  vendors.jetbrains - Starting scraper
+2026-02-17 14:33:44.879 [pool-2-thread-1] INFO  vendors.jetbrains - Processing repository: JetBrainsRuntime
+2026-02-17 14:33:44.880 [pool-2-thread-1] INFO  vendors.jetbrains - Fetching releases from https://api.github.com/repos/JetBrains/JetBrainsRuntime/releases?per_page=100&page=1
+2026-02-17 14:33:44.989 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 22, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/22/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:44.989 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Processing release: 23
+2026-02-17 14:33:45.084 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-11/releases?per_page=100&page=2
+2026-02-17 14:33:45.130 [pool-1-thread-2] INFO  vendors.graalvm-community-ea - Processed graalvm-community-dev-darwin-aarch64.tar.gz
+2026-02-17 14:33:45.179 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 78 queued, 3 active, 8 completed, 0 failed
+2026-02-17 14:33:45.180 [pool-1-thread-2] INFO  vendors.liberica-native - Downloading bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.dmg
+2026-02-17 14:33:45.334 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-jdk
+2026-02-17 14:33:45.334 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-jdk/releases?per_page=100&page=1
+2026-02-17 14:33:45.755 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-jdk/releases?per_page=100&page=2
+2026-02-17 14:33:45.770 [pool-2-thread-1] INFO  vendors.jetbrains - Queued download for jbr_jcef-25.0.2-linux-aarch64-b329.66.tar.gz
+2026-02-17 14:33:45.770 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 78 queued, 4 active, 8 completed, 0 failed
+2026-02-17 14:33:45.771 [pool-2-thread-1] INFO  vendors.jetbrains - Queued download for jbr_jcef-25.0.2-linux-x64-b329.66.tar.gz
+2026-02-17 14:33:45.771 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 79 queued, 4 active, 8 completed, 0 failed
+2026-02-17 14:33:45.771 [pool-2-thread-1] INFO  vendors.jetbrains - Queued download for jbr_jcef-25.0.2-osx-aarch64-b329.66.pkg
+2026-02-17 14:33:45.771 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 80 queued, 4 active, 8 completed, 0 failed
+2026-02-17 14:33:45.772 [pool-2-thread-1] INFO  vendors.jetbrains - Queued download for jbr_jcef-25.0.2-osx-aarch64-b329.66.tar.gz
+2026-02-17 14:33:45.772 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 81 queued, 4 active, 8 completed, 0 failed
+2026-02-17 14:33:45.772 [pool-2-thread-1] INFO  vendors.jetbrains - Queued download for jbr_jcef-25.0.2-osx-x64-b329.66.pkg
+2026-02-17 14:33:45.772 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 82 queued, 4 active, 8 completed, 0 failed
+2026-02-17 14:33:45.772 [pool-2-thread-1] INFO  vendors.jetbrains - Queued download for jbr_jcef-25.0.2-osx-x64-b329.66.tar.gz
+2026-02-17 14:33:45.772 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 83 queued, 4 active, 8 completed, 0 failed
+2026-02-17 14:33:45.773 [pool-2-thread-1] INFO  vendors.jetbrains - Queued download for jbr_jcef-25.0.2-windows-aarch64-b329.66.tar.gz
+2026-02-17 14:33:45.773 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 84 queued, 4 active, 8 completed, 0 failed
+2026-02-17 14:33:45.773 [pool-2-thread-1] INFO  vendors.jetbrains - Queued download for jbr_jcef-25.0.2-windows-aarch64-b329.66.zip
+2026-02-17 14:33:45.773 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 85 queued, 4 active, 8 completed, 0 failed
+2026-02-17 14:33:45.773 [pool-2-thread-1] INFO  vendors.jetbrains - Queued download for jbr_jcef-25.0.2-windows-x64-b329.66.tar.gz
+2026-02-17 14:33:45.773 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 86 queued, 4 active, 8 completed, 0 failed
+2026-02-17 14:33:45.774 [pool-2-thread-1] INFO  vendors.jetbrains - Queued download for jbr_jcef-25.0.2-windows-x64-b329.66.zip
+2026-02-17 14:33:45.774 [pool-2-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 87 queued, 4 active, 8 completed, 0 failed
+2026-02-17 14:33:45.774 [pool-2-thread-1] INFO  vendors.jetbrains - Reached progress limit of 10 items, aborting
+2026-02-17 14:33:45.774 [pool-2-thread-1] INFO  vendors.jetbrains - Completed successfully. Marked 10 items for processing, skipped 0 existing items, and had 0 failures.
+2026-02-17 14:33:45.774 [pool-2-thread-1] INFO  vendors.semeru-certified - Starting scraper
+2026-02-17 14:33:45.776 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching repositories from https://api.github.com/orgs/ibmruntimes/repos?type=public&per_page=100&page=1&q=semeru+certified
+2026-02-17 14:33:45.915 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 23, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/23/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:45.915 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Processing release: 24
+2026-02-17 14:33:45.986 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-17
+2026-02-17 14:33:45.987 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-17/releases?per_page=100&page=1
+2026-02-17 14:33:46.005 [pool-1-thread-1] INFO  vendors.liberica-native - Computing hashes for bellsoft-liberica-vm-full-openjdk25.0.1+16-25.0.1+3-linux-amd64.deb
+2026-02-17 14:33:46.429 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-17/releases?per_page=100&page=2
+2026-02-17 14:33:46.649 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 24, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/24/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:46.649 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Processing release: 25
+2026-02-17 14:33:46.706 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-18
+2026-02-17 14:33:46.707 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-18/releases?per_page=100&page=1
+2026-02-17 14:33:46.762 [pool-1-thread-4] INFO  vendors.liberica-native - Computing hashes for bellsoft-liberica-vm-full-openjdk25.0.1+16-25.0.1+3-linux-amd64.rpm
+2026-02-17 14:33:47.039 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-18/releases?per_page=100&page=2
+2026-02-17 14:33:47.327 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-19
+2026-02-17 14:33:47.327 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-19/releases?per_page=100&page=1
+2026-02-17 14:33:47.632 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 25, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/25/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-17 14:33:47.632 [pool-2-thread-4] INFO  vendors.adoptopenjdk - Completed successfully. Marked 0 items for processing, skipped 2573 existing items, and had 0 failures.
+2026-02-17 14:33:47.632 [pool-2-thread-4] INFO  vendors.liberica - Starting scraper
+2026-02-17 14:33:47.634 [pool-2-thread-4] INFO  vendors.liberica - Fetching assets from https://api.bell-sw.com/v1/liberica/releases?
+2026-02-17 14:33:47.639 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-19/releases?per_page=100&page=2
+2026-02-17 14:33:47.675 [pool-1-thread-1] INFO  vendors.liberica-native - Processed bellsoft-liberica-vm-full-openjdk25.0.1+16-25.0.1+3-linux-amd64.deb
+2026-02-17 14:33:47.715 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 87 queued, 3 active, 9 completed, 0 failed
+2026-02-17 14:33:47.715 [pool-1-thread-1] INFO  vendors.liberica-native - Downloading bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.zip
+2026-02-17 14:33:47.889 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-20
+2026-02-17 14:33:47.889 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-20/releases?per_page=100&page=1
+2026-02-17 14:33:47.966 [pool-2-thread-1] INFO  vendors.semeru-certified - Matched repository: semeru11-certified-binaries
+2026-02-17 14:33:47.967 [pool-2-thread-1] INFO  vendors.semeru-certified - Matched repository: semeru17-certified-binaries
+2026-02-17 14:33:47.967 [pool-2-thread-1] INFO  vendors.semeru-certified - Matched repository: semeru21-certified-binaries
+2026-02-17 14:33:47.967 [pool-2-thread-1] INFO  vendors.semeru-certified - Processing repository: semeru11-certified-binaries
+2026-02-17 14:33:47.967 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru11-certified-binaries/releases?per_page=100&page=1
+2026-02-17 14:33:47.996 [pool-2-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=7
+2026-02-17 14:33:48.246 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-20/releases?per_page=100&page=2
+2026-02-17 14:33:48.465 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-21
+2026-02-17 14:33:48.465 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-21/releases?per_page=100&page=1
+2026-02-17 14:33:48.532 [pool-1-thread-4] INFO  vendors.liberica-native - Processed bellsoft-liberica-vm-full-openjdk25.0.1+16-25.0.1+3-linux-amd64.rpm
+2026-02-17 14:33:48.573 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 86 queued, 3 active, 10 completed, 0 failed
+2026-02-17 14:33:48.773 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-21/releases?per_page=100&page=2
+2026-02-17 14:33:48.874 [pool-1-thread-4] INFO  vendors.liberica-native - Downloading bellsoft-liberica-vm-full-openjdk21.0.9+12-23.1.9+1-macos-amd64.dmg
+2026-02-17 14:33:49.125 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-22
+2026-02-17 14:33:49.125 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-22/releases?per_page=100&page=1
+2026-02-17 14:33:49.558 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-22/releases?per_page=100&page=2
+2026-02-17 14:33:49.817 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-23
+2026-02-17 14:33:49.817 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-23/releases?per_page=100&page=1
+2026-02-17 14:33:50.038 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru11-certified-binaries/releases?per_page=100&page=2
+2026-02-17 14:33:50.236 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-23/releases?per_page=100&page=2
+2026-02-17 14:33:50.304 [pool-2-thread-1] INFO  vendors.semeru-certified - Processing repository: semeru17-certified-binaries
+2026-02-17 14:33:50.304 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru17-certified-binaries/releases?per_page=100&page=1
+2026-02-17 14:33:50.437 [pool-1-thread-1] INFO  vendors.liberica-native - Computing hashes for bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.zip
+2026-02-17 14:33:50.456 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-24
+2026-02-17 14:33:50.456 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-24/releases?per_page=100&page=1
+2026-02-17 14:33:50.737 [pool-2-thread-4] INFO  vendors.liberica - Found 19560 assets
+2026-02-17 14:33:50.746 [pool-2-thread-4] INFO  vendors.liberica - Queued download for bellsoft-jdk10-linux-arm32-vfp-hflt.deb
+2026-02-17 14:33:50.746 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 86 queued, 4 active, 10 completed, 0 failed
+2026-02-17 14:33:50.747 [pool-2-thread-4] INFO  vendors.liberica - Queued download for bellsoft-jdk10-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:33:50.747 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 87 queued, 4 active, 10 completed, 0 failed
+2026-02-17 14:33:50.747 [pool-2-thread-4] INFO  vendors.liberica - Queued download for bellsoft-jre10-linux-arm32-vfp-hflt.deb
+2026-02-17 14:33:50.747 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 88 queued, 4 active, 10 completed, 0 failed
+2026-02-17 14:33:50.747 [pool-2-thread-4] INFO  vendors.liberica - Queued download for bellsoft-jre10-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:33:50.747 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 89 queued, 4 active, 10 completed, 0 failed
+2026-02-17 14:33:50.747 [pool-2-thread-4] INFO  vendors.liberica - Queued download for bellsoft-jdk11-windows-amd64-lite.zip
+2026-02-17 14:33:50.747 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 90 queued, 4 active, 10 completed, 0 failed
+2026-02-17 14:33:50.758 [pool-2-thread-4] INFO  vendors.liberica - Queued download for bellsoft-jdk11.0.3-linux-amd64.rpm
+2026-02-17 14:33:50.758 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 91 queued, 4 active, 10 completed, 0 failed
+2026-02-17 14:33:50.772 [pool-2-thread-4] INFO  vendors.liberica - Queued download for bellsoft-jdk9.0.1-linux-arm32-vfp-hflt.deb
+2026-02-17 14:33:50.772 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 92 queued, 4 active, 10 completed, 0 failed
+2026-02-17 14:33:50.772 [pool-2-thread-4] INFO  vendors.liberica - Queued download for bellsoft-jdk9.0.1-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:33:50.772 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 93 queued, 4 active, 10 completed, 0 failed
+2026-02-17 14:33:50.773 [pool-2-thread-4] INFO  vendors.liberica - Queued download for bellsoft-jre9.0.1-linux-arm32-vfp-hflt.deb
+2026-02-17 14:33:50.773 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 94 queued, 4 active, 10 completed, 0 failed
+2026-02-17 14:33:50.773 [pool-2-thread-4] INFO  vendors.liberica - Queued download for bellsoft-jre9.0.1-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:33:50.773 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 95 queued, 4 active, 10 completed, 0 failed
+2026-02-17 14:33:50.773 [pool-2-thread-4] INFO  vendors.liberica - Reached progress limit of 10 items, aborting
+2026-02-17 14:33:50.773 [pool-2-thread-4] INFO  vendors.liberica - Completed successfully. Marked 10 items for processing, skipped 10174 existing items, and had 0 failures.
+2026-02-17 14:33:50.773 [pool-2-thread-4] INFO  vendors.temurin - Starting scraper
+2026-02-17 14:33:50.776 [pool-2-thread-4] INFO  vendors.temurin - Fetching repositories from https://api.github.com/orgs/adoptium/repos?type=public&per_page=100&page=1&q=temurin
+2026-02-17 14:33:50.912 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-24/releases?per_page=100&page=2
+2026-02-17 14:33:51.195 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-25
+2026-02-17 14:33:51.195 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-25/releases?per_page=100&page=1
+2026-02-17 14:33:51.294 [pool-2-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=8
+2026-02-17 14:33:51.816 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-25/releases?per_page=100&page=2
+2026-02-17 14:33:52.061 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru17-certified-binaries/releases?per_page=100&page=2
+2026-02-17 14:33:52.072 [pool-2-thread-3] INFO  vendors.corretto - Processing repository: corretto-26
+2026-02-17 14:33:52.072 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-26/releases?per_page=100&page=1
+2026-02-17 14:33:52.106 [pool-1-thread-1] INFO  vendors.liberica-native - Processed bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.zip
+2026-02-17 14:33:52.161 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 95 queued, 3 active, 11 completed, 0 failed
+2026-02-17 14:33:52.162 [pool-1-thread-1] INFO  vendors.graalvm-community-ea - Downloading graalvm-community-dev-linux-aarch64.tar.gz
+2026-02-17 14:33:52.331 [pool-2-thread-1] INFO  vendors.semeru-certified - Processing repository: semeru21-certified-binaries
+2026-02-17 14:33:52.332 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru21-certified-binaries/releases?per_page=100&page=1
+2026-02-17 14:33:52.342 [pool-2-thread-3] INFO  vendors.corretto - Queued download for amazon-corretto-26.0.0.34.1-linux-x64.tar.gz
+2026-02-17 14:33:52.342 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 95 queued, 4 active, 11 completed, 0 failed
+2026-02-17 14:33:52.342 [pool-2-thread-3] INFO  vendors.corretto - Queued download for amazon-corretto-26.0.0.34.1-linux-aarch64.tar.gz
+2026-02-17 14:33:52.342 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 96 queued, 4 active, 11 completed, 0 failed
+2026-02-17 14:33:52.342 [pool-2-thread-3] INFO  vendors.corretto - Queued download for amazon-corretto-26.0.0.34.1-windows-x64.msi
+2026-02-17 14:33:52.342 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 97 queued, 4 active, 11 completed, 0 failed
+2026-02-17 14:33:52.343 [pool-2-thread-3] INFO  vendors.corretto - Queued download for amazon-corretto-26.0.0.34.1-macosx-x64.pkg
+2026-02-17 14:33:52.343 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 98 queued, 4 active, 11 completed, 0 failed
+2026-02-17 14:33:52.343 [pool-2-thread-3] INFO  vendors.corretto - Queued download for amazon-corretto-26.0.0.34.1-macosx-x64.tar.gz
+2026-02-17 14:33:52.343 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 99 queued, 4 active, 11 completed, 0 failed
+2026-02-17 14:33:52.343 [pool-2-thread-3] INFO  vendors.corretto - Queued download for amazon-corretto-26.0.0.34.1-macosx-aarch64.pkg
+2026-02-17 14:33:52.343 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 100 queued, 4 active, 11 completed, 0 failed
+2026-02-17 14:33:52.343 [pool-2-thread-3] INFO  vendors.corretto - Queued download for amazon-corretto-26.0.0.34.1-macosx-aarch64.tar.gz
+2026-02-17 14:33:52.343 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 101 queued, 4 active, 11 completed, 0 failed
+2026-02-17 14:33:52.344 [pool-2-thread-3] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-26/releases?per_page=100&page=2
+2026-02-17 14:33:52.567 [pool-2-thread-4] INFO  vendors.temurin - Matched repository: temurin8-binaries
+2026-02-17 14:33:52.567 [pool-2-thread-4] INFO  vendors.temurin - Matched repository: temurin11-binaries
+2026-02-17 14:33:52.567 [pool-2-thread-4] INFO  vendors.temurin - Matched repository: temurin16-binaries
+2026-02-17 14:33:52.567 [pool-2-thread-4] INFO  vendors.temurin - Matched repository: temurin17-binaries
+2026-02-17 14:33:52.568 [pool-2-thread-4] INFO  vendors.temurin - Matched repository: temurin18-binaries
+2026-02-17 14:33:52.568 [pool-2-thread-4] INFO  vendors.temurin - Matched repository: temurin19-binaries
+2026-02-17 14:33:52.568 [pool-2-thread-4] INFO  vendors.temurin - Matched repository: temurin20-binaries
+2026-02-17 14:33:52.568 [pool-2-thread-4] INFO  vendors.temurin - Matched repository: temurin21-binaries
+2026-02-17 14:33:52.568 [pool-2-thread-4] INFO  vendors.temurin - Matched repository: temurin22-binaries
+2026-02-17 14:33:52.568 [pool-2-thread-4] INFO  vendors.temurin - Matched repository: temurin23-binaries
+2026-02-17 14:33:52.568 [pool-2-thread-4] INFO  vendors.temurin - Matched repository: temurin24-binaries
+2026-02-17 14:33:52.568 [pool-2-thread-4] INFO  vendors.temurin - Matched repository: temurin25-binaries
+2026-02-17 14:33:52.568 [pool-2-thread-4] INFO  vendors.temurin - Matched repository: temurin26-binaries
+2026-02-17 14:33:52.568 [pool-2-thread-4] INFO  vendors.temurin - Matched repository: temurin27-binaries
+2026-02-17 14:33:52.568 [pool-2-thread-4] INFO  vendors.temurin - Processing repository: temurin8-binaries
+2026-02-17 14:33:52.568 [pool-2-thread-4] INFO  vendors.temurin - Fetching releases from https://api.github.com/repos/adoptium/temurin8-binaries/releases?per_page=100&page=1
+2026-02-17 14:33:52.584 [pool-2-thread-3] INFO  vendors.corretto - Fetching repositories from https://api.github.com/orgs/corretto/repos?type=public&per_page=100&page=2&q=corretto
+2026-02-17 14:33:52.773 [pool-2-thread-3] INFO  vendors.corretto - Completed successfully. Marked 7 items for processing, skipped 884 existing items, and had 0 failures.
+2026-02-17 14:33:52.773 [pool-2-thread-3] INFO  vendors.zulu - Starting scraper
+2026-02-17 14:33:52.775 [pool-2-thread-3] INFO  vendors.zulu - Fetching index from https://static.azul.com/zulu/bin/
+2026-02-17 14:33:53.077 [pool-2-thread-3] INFO  vendors.zulu - Found 11104 files to process
+2026-02-17 14:33:53.125 [pool-2-thread-3] INFO  vendors.zulu - Queued download for zulu8.17.0.19-ca-cp2-jre1.8.0.102-linux_aarch32sf.tar.gz
+2026-02-17 14:33:53.125 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 102 queued, 4 active, 11 completed, 0 failed
+2026-02-17 14:33:53.125 [pool-2-thread-3] INFO  vendors.zulu - Queued download for zulu8.17.0.19-ea-cp1-jre8.0.102-linux_aarch32sf.tar.gz
+2026-02-17 14:33:53.125 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 103 queued, 4 active, 11 completed, 0 failed
+2026-02-17 14:33:53.126 [pool-2-thread-3] INFO  vendors.zulu - Queued download for zulu8.17.0.19-ea-hl-jre8.0.102-linux_aarch32sf.tar.gz
+2026-02-17 14:33:53.126 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 104 queued, 4 active, 11 completed, 0 failed
+2026-02-17 14:33:53.126 [pool-2-thread-3] INFO  vendors.zulu - Queued download for zulu8.17.0.21-ca-cp2-jre1.8.0.102-linux_aarch32hf.tar.gz
+2026-02-17 14:33:53.126 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 105 queued, 4 active, 11 completed, 0 failed
+2026-02-17 14:33:53.126 [pool-2-thread-3] INFO  vendors.zulu - Queued download for zulu8.19.0.25-ca-cp2-jre1.8.0.112-linux_aarch32sf.tar.gz
+2026-02-17 14:33:53.126 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 106 queued, 4 active, 11 completed, 0 failed
+2026-02-17 14:33:53.126 [pool-2-thread-3] INFO  vendors.zulu - Queued download for zulu8.19.0.31-ca-cp2-jre1.8.0.112-linux_aarch32hf.tar.gz
+2026-02-17 14:33:53.126 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 107 queued, 4 active, 11 completed, 0 failed
+2026-02-17 14:33:53.127 [pool-2-thread-3] INFO  vendors.zulu - Queued download for zulu8.23.0.3-ca-cp3-jre8.0.144-linux_i686.tar.gz
+2026-02-17 14:33:53.127 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 108 queued, 4 active, 11 completed, 0 failed
+2026-02-17 14:33:53.127 [pool-2-thread-3] INFO  vendors.zulu - Queued download for zulu8.23.0.74-ea-hl-jre8.0.144-linux_ppc64.tar.gz
+2026-02-17 14:33:53.127 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 109 queued, 4 active, 11 completed, 0 failed
+2026-02-17 14:33:53.127 [pool-2-thread-3] INFO  vendors.zulu - Queued download for zulu8.25.0.76-ca-cp2-jre1.8.0.152-linux_aarch32sf.tar.gz
+2026-02-17 14:33:53.127 [pool-2-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 110 queued, 4 active, 11 completed, 0 failed
+2026-02-17 14:33:53.134 [pool-2-thread-3] INFO  vendors.zulu - Completed successfully. Marked 9 items for processing, skipped 11071 existing items, and had 0 failures.
+2026-02-17 14:33:53.719 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru21-certified-binaries/releases?per_page=100&page=2
+2026-02-17 14:33:53.907 [pool-2-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=9
+2026-02-17 14:33:53.978 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching repositories from https://api.github.com/orgs/ibmruntimes/repos?type=public&per_page=100&page=2&q=semeru+certified
+2026-02-17 14:33:54.837 [pool-2-thread-1] INFO  vendors.semeru-certified - Matched repository: semeru25-certified-binaries
+2026-02-17 14:33:54.837 [pool-2-thread-1] INFO  vendors.semeru-certified - Matched repository: semeru26-certified-binaries
+2026-02-17 14:33:54.837 [pool-2-thread-1] INFO  vendors.semeru-certified - Processing repository: semeru25-certified-binaries
+2026-02-17 14:33:54.837 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru25-certified-binaries/releases?per_page=100&page=1
+2026-02-17 14:33:54.847 [pool-1-thread-4] INFO  vendors.liberica-native - Computing hashes for bellsoft-liberica-vm-full-openjdk21.0.9+12-23.1.9+1-macos-amd64.dmg
+2026-02-17 14:33:55.475 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru25-certified-binaries/releases?per_page=100&page=2
+2026-02-17 14:33:55.751 [pool-2-thread-1] INFO  vendors.semeru-certified - Processing repository: semeru26-certified-binaries
+2026-02-17 14:33:55.752 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru26-certified-binaries/releases?per_page=100&page=1
+2026-02-17 14:33:55.996 [pool-2-thread-1] INFO  vendors.semeru-certified - Fetching repositories from https://api.github.com/orgs/ibmruntimes/repos?type=public&per_page=100&page=3&q=semeru+certified
+2026-02-17 14:33:56.220 [pool-2-thread-1] INFO  vendors.semeru-certified - Completed successfully. Marked 0 items for processing, skipped 1388 existing items, and had 0 failures.
+2026-02-17 14:33:56.400 [pool-2-thread-2] INFO  vendors.sapmachine - Queued download for sapmachine-jre-16_osx-x64_bin.tar.gz
+2026-02-17 14:33:56.400 [pool-2-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 111 queued, 4 active, 11 completed, 0 failed
+2026-02-17 14:33:56.402 [pool-2-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=10
+2026-02-17 14:33:56.479 [pool-1-thread-4] INFO  vendors.liberica-native - Processed bellsoft-liberica-vm-full-openjdk21.0.9+12-23.1.9+1-macos-amd64.dmg
+2026-02-17 14:33:56.513 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 111 queued, 3 active, 12 completed, 0 failed
+2026-02-17 14:33:56.514 [pool-1-thread-4] INFO  vendors.graalvm-community-ea - Downloading graalvm-community-dev-linux-amd64.tar.gz
+2026-02-17 14:33:58.519 [pool-2-thread-2] INFO  vendors.sapmachine - Queued download for sapmachine-jdk-13.0.1_linux-x64_bin.tar.gz
+2026-02-17 14:33:58.519 [pool-2-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 111 queued, 4 active, 12 completed, 0 failed
+2026-02-17 14:33:58.519 [pool-2-thread-2] INFO  vendors.sapmachine - Queued download for sapmachine-jre-13.0.1_linux-x64_bin.tar.gz
+2026-02-17 14:33:58.519 [pool-2-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 112 queued, 4 active, 12 completed, 0 failed
+2026-02-17 14:33:58.520 [pool-2-thread-2] INFO  vendors.sapmachine - Queued download for sapmachine-jdk-13.0.1_osx-x64_bin.tar.gz
+2026-02-17 14:33:58.520 [pool-2-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 113 queued, 4 active, 12 completed, 0 failed
+2026-02-17 14:33:58.520 [pool-2-thread-2] INFO  vendors.sapmachine - Queued download for sapmachine-jre-13.0.1_osx-x64_bin.tar.gz
+2026-02-17 14:33:58.520 [pool-2-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 114 queued, 4 active, 12 completed, 0 failed
+2026-02-17 14:33:58.520 [pool-2-thread-2] INFO  vendors.sapmachine - Queued download for sapmachine-jdk-13.0.1_osx-x64_bin.dmg
+2026-02-17 14:33:58.520 [pool-2-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 115 queued, 4 active, 12 completed, 0 failed
+2026-02-17 14:33:58.520 [pool-2-thread-2] INFO  vendors.sapmachine - Queued download for sapmachine-jre-13.0.1_osx-x64_bin.dmg
+2026-02-17 14:33:58.520 [pool-2-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 116 queued, 4 active, 12 completed, 0 failed
+2026-02-17 14:33:58.521 [pool-2-thread-2] INFO  vendors.sapmachine - Queued download for sapmachine-jdk-13.0.1_linux-ppc64_bin.tar.gz
+2026-02-17 14:33:58.521 [pool-2-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 117 queued, 4 active, 12 completed, 0 failed
+2026-02-17 14:33:58.521 [pool-2-thread-2] INFO  vendors.sapmachine - Queued download for sapmachine-jre-13.0.1_linux-ppc64_bin.tar.gz
+2026-02-17 14:33:58.521 [pool-2-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 118 queued, 4 active, 12 completed, 0 failed
+2026-02-17 14:33:58.521 [pool-2-thread-2] INFO  vendors.sapmachine - Queued download for sapmachine-jdk-13.0.1-1.x86_64.rpm
+2026-02-17 14:33:58.521 [pool-2-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 119 queued, 4 active, 12 completed, 0 failed
+2026-02-17 14:33:58.521 [pool-2-thread-2] INFO  vendors.sapmachine - Reached progress limit of 10 items, aborting
+2026-02-17 14:33:58.521 [pool-2-thread-2] INFO  vendors.sapmachine - Completed successfully. Marked 10 items for processing, skipped 3050 existing items, and had 0 failures.
+2026-02-17 14:33:59.048 [pool-1-thread-4] INFO  vendors.graalvm-community-ea - Computing hashes for graalvm-community-dev-linux-amd64.tar.gz
+2026-02-17 14:34:00.010 [pool-1-thread-1] INFO  vendors.graalvm-community-ea - Computing hashes for graalvm-community-dev-linux-aarch64.tar.gz
+2026-02-17 14:34:00.591 [pool-2-thread-4] INFO  vendors.temurin - Queued download for OpenJDK8U-jdk_x64_mac_hotspot_8u482b08.pkg
+2026-02-17 14:34:00.591 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 120 queued, 4 active, 12 completed, 0 failed
+2026-02-17 14:34:00.591 [pool-2-thread-4] INFO  vendors.temurin - Queued download for OpenJDK8U-jdk_x64_windows_hotspot_8u482b08.msi
+2026-02-17 14:34:00.591 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 121 queued, 4 active, 12 completed, 0 failed
+2026-02-17 14:34:00.592 [pool-2-thread-4] INFO  vendors.temurin - Queued download for OpenJDK8U-jre_x64_mac_hotspot_8u482b08.pkg
+2026-02-17 14:34:00.592 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 122 queued, 4 active, 12 completed, 0 failed
+2026-02-17 14:34:00.592 [pool-2-thread-4] INFO  vendors.temurin - Queued download for OpenJDK8U-jre_x64_windows_hotspot_8u482b08.msi
+2026-02-17 14:34:00.592 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 123 queued, 4 active, 12 completed, 0 failed
+2026-02-17 14:34:00.592 [pool-2-thread-4] INFO  vendors.temurin - Queued download for OpenJDK8U-jdk_x64_mac_hotspot_8u472b08.pkg
+2026-02-17 14:34:00.592 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 124 queued, 4 active, 12 completed, 0 failed
+2026-02-17 14:34:00.593 [pool-2-thread-4] INFO  vendors.temurin - Queued download for OpenJDK8U-jdk_x64_windows_hotspot_8u472b08.msi
+2026-02-17 14:34:00.593 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 125 queued, 4 active, 12 completed, 0 failed
+2026-02-17 14:34:00.593 [pool-2-thread-4] INFO  vendors.temurin - Queued download for OpenJDK8U-jdk_x86-32_windows_hotspot_8u472b08.msi
+2026-02-17 14:34:00.593 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 126 queued, 4 active, 12 completed, 0 failed
+2026-02-17 14:34:00.597 [pool-2-thread-4] INFO  vendors.temurin - Queued download for OpenJDK8U-jre_x64_mac_hotspot_8u472b08.pkg
+2026-02-17 14:34:00.597 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 127 queued, 4 active, 12 completed, 0 failed
+2026-02-17 14:34:00.597 [pool-2-thread-4] INFO  vendors.temurin - Queued download for OpenJDK8U-jre_x64_windows_hotspot_8u472b08.msi
+2026-02-17 14:34:00.597 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 128 queued, 4 active, 12 completed, 0 failed
+2026-02-17 14:34:00.597 [pool-2-thread-4] INFO  vendors.temurin - Queued download for OpenJDK8U-jre_x86-32_windows_hotspot_8u472b08.msi
+2026-02-17 14:34:00.597 [pool-2-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 129 queued, 4 active, 12 completed, 0 failed
+2026-02-17 14:34:00.597 [pool-2-thread-4] INFO  vendors.temurin - Reached progress limit of 10 items, aborting
+2026-02-17 14:34:00.597 [pool-2-thread-4] INFO  vendors.temurin - Completed successfully. Marked 10 items for processing, skipped 37 existing items, and had 0 failures.
+2026-02-17 14:34:00.597 [main] INFO  d.j.j.scraper.DefaultDownloadManager - Shutting down DownloadManager
+2026-02-17 14:34:01.034 [pool-1-thread-4] INFO  vendors.graalvm-community-ea - Processed graalvm-community-dev-linux-amd64.tar.gz
+2026-02-17 14:34:01.076 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 129 queued, 3 active, 13 completed, 0 failed
+2026-02-17 14:34:01.076 [pool-1-thread-4] INFO  vendors.debian - Downloading openjdk-8-jdk-headless_8u472-ga-1_amd64.deb
+2026-02-17 14:34:01.801 [pool-1-thread-1] INFO  vendors.graalvm-community-ea - Processed graalvm-community-dev-linux-aarch64.tar.gz
+2026-02-17 14:34:01.845 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 128 queued, 3 active, 14 completed, 0 failed
+2026-02-17 14:34:01.845 [pool-1-thread-1] INFO  vendors.graalvm-community-ea - Downloading graalvm-community-dev-windows-amd64.zip
+2026-02-17 14:34:02.200 [pool-1-thread-4] INFO  vendors.debian - Computing hashes for openjdk-8-jdk-headless_8u472-ga-1_amd64.deb
+2026-02-17 14:34:02.245 [pool-1-thread-4] INFO  vendors.debian - Processed openjdk-8-jdk-headless_8u472-ga-1_amd64.deb
+2026-02-17 14:34:02.247 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 127 queued, 3 active, 15 completed, 0 failed
+2026-02-17 14:34:02.247 [pool-1-thread-4] INFO  vendors.debian - Downloading openjdk-8-jdk-headless_8u472-ga-1_arm64.deb
+2026-02-17 14:34:02.782 [pool-1-thread-4] INFO  vendors.debian - Computing hashes for openjdk-8-jdk-headless_8u472-ga-1_arm64.deb
+2026-02-17 14:34:02.827 [pool-1-thread-3] INFO  vendors.liberica-native - Computing hashes for bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.tar.gz
+2026-02-17 14:34:02.830 [pool-1-thread-4] INFO  vendors.debian - Processed openjdk-8-jdk-headless_8u472-ga-1_arm64.deb
+2026-02-17 14:34:02.831 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 126 queued, 3 active, 16 completed, 0 failed
+2026-02-17 14:34:02.831 [pool-1-thread-4] INFO  vendors.debian - Downloading openjdk-8-jdk-headless_8u472-ga-1_armhf.deb
+2026-02-17 14:34:03.573 [pool-1-thread-2] INFO  vendors.liberica-native - Computing hashes for bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.dmg
+2026-02-17 14:34:03.618 [pool-1-thread-4] INFO  vendors.debian - Computing hashes for openjdk-8-jdk-headless_8u472-ga-1_armhf.deb
+2026-02-17 14:34:03.666 [pool-1-thread-4] INFO  vendors.debian - Processed openjdk-8-jdk-headless_8u472-ga-1_armhf.deb
+2026-02-17 14:34:03.667 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 125 queued, 3 active, 17 completed, 0 failed
+2026-02-17 14:34:03.668 [pool-1-thread-4] INFO  vendors.debian - Downloading openjdk-8-jdk-headless_8u472-ga-1_i386.deb
+2026-02-17 14:34:04.469 [pool-1-thread-3] INFO  vendors.liberica-native - Processed bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.tar.gz
+2026-02-17 14:34:04.506 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 124 queued, 3 active, 18 completed, 0 failed
+2026-02-17 14:34:04.506 [pool-1-thread-3] INFO  vendors.debian - Downloading openjdk-8-jdk-headless_8u472-ga-1_ppc64el.deb
+2026-02-17 14:34:04.724 [pool-1-thread-4] INFO  vendors.debian - Computing hashes for openjdk-8-jdk-headless_8u472-ga-1_i386.deb
+2026-02-17 14:34:04.790 [pool-1-thread-4] INFO  vendors.debian - Processed openjdk-8-jdk-headless_8u472-ga-1_i386.deb
+2026-02-17 14:34:04.792 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 123 queued, 3 active, 19 completed, 0 failed
+2026-02-17 14:34:04.793 [pool-1-thread-4] INFO  vendors.debian - Downloading openjdk-8-jdk-headless_8u472-ga-1_s390x.deb
+2026-02-17 14:34:05.093 [pool-1-thread-3] INFO  vendors.debian - Computing hashes for openjdk-8-jdk-headless_8u472-ga-1_ppc64el.deb
+2026-02-17 14:34:05.131 [pool-1-thread-3] INFO  vendors.debian - Processed openjdk-8-jdk-headless_8u472-ga-1_ppc64el.deb
+2026-02-17 14:34:05.132 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 122 queued, 3 active, 20 completed, 0 failed
+2026-02-17 14:34:05.133 [pool-1-thread-3] INFO  vendors.debian - Downloading openjdk-8-jdk_8u472-ga-1_amd64.deb
+2026-02-17 14:34:05.203 [pool-1-thread-4] INFO  vendors.debian - Computing hashes for openjdk-8-jdk-headless_8u472-ga-1_s390x.deb
+2026-02-17 14:34:05.241 [pool-1-thread-4] INFO  vendors.debian - Processed openjdk-8-jdk-headless_8u472-ga-1_s390x.deb
+2026-02-17 14:34:05.242 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 121 queued, 3 active, 21 completed, 0 failed
+2026-02-17 14:34:05.242 [pool-1-thread-4] INFO  vendors.debian - Downloading openjdk-8-jdk_8u472-ga-1_arm64.deb
+2026-02-17 14:34:05.272 [pool-1-thread-2] INFO  vendors.liberica-native - Processed bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.dmg
+2026-02-17 14:34:05.314 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 120 queued, 3 active, 22 completed, 0 failed
+2026-02-17 14:34:05.314 [pool-1-thread-2] INFO  vendors.debian - Downloading openjdk-8-jdk_8u472-ga-1_armhf.deb
+2026-02-17 14:34:05.398 [pool-1-thread-3] INFO  vendors.debian - Computing hashes for openjdk-8-jdk_8u472-ga-1_amd64.deb
+2026-02-17 14:34:05.421 [pool-1-thread-3] INFO  vendors.debian - Processed openjdk-8-jdk_8u472-ga-1_amd64.deb
+2026-02-17 14:34:05.422 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 119 queued, 3 active, 23 completed, 0 failed
+2026-02-17 14:34:05.422 [pool-1-thread-3] INFO  vendors.debian - Downloading openjdk-8-jdk_8u472-ga-1_i386.deb
+2026-02-17 14:34:05.963 [pool-1-thread-4] INFO  vendors.debian - Computing hashes for openjdk-8-jdk_8u472-ga-1_arm64.deb
+2026-02-17 14:34:05.987 [pool-1-thread-4] INFO  vendors.debian - Processed openjdk-8-jdk_8u472-ga-1_arm64.deb
+2026-02-17 14:34:05.988 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 118 queued, 3 active, 24 completed, 0 failed
+2026-02-17 14:34:05.988 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java17-linux-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:34:06.013 [pool-1-thread-3] INFO  vendors.debian - Computing hashes for openjdk-8-jdk_8u472-ga-1_i386.deb
+2026-02-17 14:34:06.036 [pool-1-thread-3] INFO  vendors.debian - Processed openjdk-8-jdk_8u472-ga-1_i386.deb
+2026-02-17 14:34:06.037 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 117 queued, 3 active, 25 completed, 0 failed
+2026-02-17 14:34:06.037 [pool-1-thread-3] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java17-windows-gluon-22.1.0.1-Final.zip
+2026-02-17 14:34:06.303 [pool-1-thread-2] INFO  vendors.debian - Computing hashes for openjdk-8-jdk_8u472-ga-1_armhf.deb
+2026-02-17 14:34:06.330 [pool-1-thread-2] INFO  vendors.debian - Processed openjdk-8-jdk_8u472-ga-1_armhf.deb
+2026-02-17 14:34:06.331 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 116 queued, 3 active, 26 completed, 0 failed
+2026-02-17 14:34:07.833 [pool-1-thread-2] INFO  vendors.openjdk - Downloading openjdk-27-ea+9_windows-x64_bin.zip
+2026-02-17 14:34:09.171 [pool-1-thread-1] INFO  vendors.graalvm-community-ea - Computing hashes for graalvm-community-dev-windows-amd64.zip
+2026-02-17 14:34:09.664 [pool-1-thread-2] INFO  vendors.openjdk - Computing hashes for openjdk-27-ea+9_windows-x64_bin.zip
+2026-02-17 14:34:10.116 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java17-linux-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:34:10.941 [pool-1-thread-2] INFO  vendors.openjdk - Processed openjdk-27-ea+9_windows-x64_bin.zip
+2026-02-17 14:34:10.967 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 115 queued, 3 active, 27 completed, 0 failed
+2026-02-17 14:34:11.451 [pool-1-thread-1] INFO  vendors.graalvm-community-ea - Processed graalvm-community-dev-windows-amd64.zip
+2026-02-17 14:34:11.499 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 115 queued, 2 active, 28 completed, 0 failed
+2026-02-17 14:34:11.500 [pool-1-thread-1] INFO  vendors.semeru - Downloading ibm-semeru-open-jre_aarch64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:34:12.160 [pool-1-thread-3] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java17-windows-gluon-22.1.0.1-Final.zip
+2026-02-17 14:34:12.399 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java17-linux-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:34:12.451 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 114 queued, 2 active, 29 completed, 0 failed
+2026-02-17 14:34:12.452 [pool-1-thread-4] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Standard_11.0.28.24.6_x64_alpine-linux.tar.gz
+2026-02-17 14:34:12.671 [pool-1-thread-1] INFO  vendors.semeru - Computing hashes for ibm-semeru-open-jre_aarch64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:34:12.871 [pool-1-thread-2] INFO  vendors.openlogic - Downloading openlogic-openjdk-25.0.2+10-windows-x64.msi
+2026-02-17 14:34:12.942 [pool-1-thread-1] INFO  vendors.semeru - Processed ibm-semeru-open-jre_aarch64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:34:12.953 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 112 queued, 3 active, 30 completed, 0 failed
+2026-02-17 14:34:12.953 [pool-1-thread-1] INFO  vendors.openlogic - Downloading openlogic-openjdk-25.0.2+10-windows-x64.zip
+2026-02-17 14:34:14.004 [pool-1-thread-3] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java17-windows-gluon-22.1.0.1-Final.zip
+2026-02-17 14:34:14.053 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 111 queued, 3 active, 31 completed, 0 failed
+2026-02-17 14:34:14.053 [pool-1-thread-3] INFO  vendors.openlogic - Downloading openlogic-openjdk-jre-25.0.2+10-windows-x64.msi
+2026-02-17 14:34:14.366 [pool-1-thread-4] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Standard_11.0.28.24.6_x64_alpine-linux.tar.gz
+2026-02-17 14:34:15.456 [pool-1-thread-4] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Standard_11.0.28.24.6_x64_alpine-linux.tar.gz
+2026-02-17 14:34:15.483 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 110 queued, 3 active, 32 completed, 0 failed
+2026-02-17 14:34:16.186 [pool-1-thread-4] INFO  vendors.ibm - Downloading ibm-java-s390-jre-8.0-8.45.s390.rpm
+2026-02-17 14:34:17.930 [pool-1-thread-1] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-25.0.2+10-windows-x64.zip
+2026-02-17 14:34:17.987 [pool-1-thread-3] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-jre-25.0.2+10-windows-x64.msi
+2026-02-17 14:34:18.211 [pool-1-thread-3] INFO  vendors.openlogic - Processed openlogic-openjdk-jre-25.0.2+10-windows-x64.msi
+2026-02-17 14:34:18.217 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 109 queued, 3 active, 33 completed, 0 failed
+2026-02-17 14:34:18.217 [pool-1-thread-3] INFO  vendors.ibm - Downloading ibm-java-s390-sdk-8.0-8.45.s390.rpm
+2026-02-17 14:34:18.424 [pool-1-thread-4] INFO  vendors.ibm - Computing hashes for ibm-java-s390-jre-8.0-8.45.s390.rpm
+2026-02-17 14:34:19.060 [pool-1-thread-4] INFO  vendors.ibm - Processed ibm-java-s390-jre-8.0-8.45.s390.rpm
+2026-02-17 14:34:19.075 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 108 queued, 3 active, 34 completed, 0 failed
+2026-02-17 14:34:19.076 [pool-1-thread-4] INFO  vendors.ibm - Downloading ibm-java-i386-jre-8.0-8.55.i386.rpm
+2026-02-17 14:34:19.461 [pool-1-thread-3] INFO  vendors.ibm - Computing hashes for ibm-java-s390-sdk-8.0-8.45.s390.rpm
+2026-02-17 14:34:19.473 [pool-1-thread-1] INFO  vendors.openlogic - Processed openlogic-openjdk-25.0.2+10-windows-x64.zip
+2026-02-17 14:34:19.514 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 107 queued, 3 active, 35 completed, 0 failed
+2026-02-17 14:34:19.514 [pool-1-thread-1] INFO  vendors.ibm - Downloading ibm-java-i386-sdk-8.0-8.55.i386.rpm
+2026-02-17 14:34:19.845 [pool-1-thread-4] INFO  vendors.ibm - Computing hashes for ibm-java-i386-jre-8.0-8.55.i386.rpm
+2026-02-17 14:34:20.360 [pool-1-thread-3] INFO  vendors.ibm - Processed ibm-java-s390-sdk-8.0-8.45.s390.rpm
+2026-02-17 14:34:20.381 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 106 queued, 3 active, 36 completed, 0 failed
+2026-02-17 14:34:20.382 [pool-1-thread-3] INFO  vendors.ibm - Downloading ibm-java-ppc64le-jre-8.0-8.55.ppc64le.rpm
+2026-02-17 14:34:20.406 [pool-1-thread-1] INFO  vendors.ibm - Computing hashes for ibm-java-i386-sdk-8.0-8.55.i386.rpm
+2026-02-17 14:34:20.550 [pool-1-thread-4] INFO  vendors.ibm - Processed ibm-java-i386-jre-8.0-8.55.i386.rpm
+2026-02-17 14:34:20.572 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 105 queued, 3 active, 37 completed, 0 failed
+2026-02-17 14:34:20.572 [pool-1-thread-4] INFO  vendors.ibm - Downloading ibm-java-ppc64le-sdk-8.0-8.55.ppc64le.rpm
+2026-02-17 14:34:21.268 [pool-1-thread-3] INFO  vendors.ibm - Computing hashes for ibm-java-ppc64le-jre-8.0-8.55.ppc64le.rpm
+2026-02-17 14:34:21.362 [pool-1-thread-1] INFO  vendors.ibm - Processed ibm-java-i386-sdk-8.0-8.55.i386.rpm
+2026-02-17 14:34:21.389 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 104 queued, 3 active, 38 completed, 0 failed
+2026-02-17 14:34:21.389 [pool-1-thread-1] INFO  vendors.ibm - Downloading ibm-java-s390x-jre-8.0-8.55.s390x.rpm
+2026-02-17 14:34:21.649 [pool-1-thread-4] INFO  vendors.ibm - Computing hashes for ibm-java-ppc64le-sdk-8.0-8.55.ppc64le.rpm
+2026-02-17 14:34:22.125 [pool-1-thread-3] INFO  vendors.ibm - Processed ibm-java-ppc64le-jre-8.0-8.55.ppc64le.rpm
+2026-02-17 14:34:22.148 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 103 queued, 3 active, 39 completed, 0 failed
+2026-02-17 14:34:22.148 [pool-1-thread-3] INFO  vendors.ibm - Downloading ibm-java-s390x-sdk-8.0-8.55.s390x.rpm
+2026-02-17 14:34:22.265 [pool-1-thread-1] INFO  vendors.ibm - Computing hashes for ibm-java-s390x-jre-8.0-8.55.s390x.rpm
+2026-02-17 14:34:22.719 [pool-1-thread-4] INFO  vendors.ibm - Processed ibm-java-ppc64le-sdk-8.0-8.55.ppc64le.rpm
+2026-02-17 14:34:22.744 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 102 queued, 3 active, 40 completed, 0 failed
+2026-02-17 14:34:22.745 [pool-1-thread-4] INFO  vendors.ibm - Downloading ibm-java-x86_64-jre-8.0-8.55.x86_64.rpm
+2026-02-17 14:34:23.075 [pool-1-thread-3] INFO  vendors.ibm - Computing hashes for ibm-java-s390x-sdk-8.0-8.55.s390x.rpm
+2026-02-17 14:34:23.086 [pool-1-thread-1] INFO  vendors.ibm - Processed ibm-java-s390x-jre-8.0-8.55.s390x.rpm
+2026-02-17 14:34:23.108 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 101 queued, 3 active, 41 completed, 0 failed
+2026-02-17 14:34:23.108 [pool-1-thread-1] INFO  vendors.ibm - Downloading ibm-java-x86_64-sdk-8.0-8.55.x86_64.rpm
+2026-02-17 14:34:23.602 [pool-1-thread-4] INFO  vendors.ibm - Computing hashes for ibm-java-x86_64-jre-8.0-8.55.x86_64.rpm
+2026-02-17 14:34:24.177 [pool-1-thread-3] INFO  vendors.ibm - Processed ibm-java-s390x-sdk-8.0-8.55.s390x.rpm
+2026-02-17 14:34:24.204 [pool-1-thread-1] INFO  vendors.ibm - Computing hashes for ibm-java-x86_64-sdk-8.0-8.55.x86_64.rpm
+2026-02-17 14:34:24.205 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 100 queued, 3 active, 42 completed, 0 failed
+2026-02-17 14:34:24.205 [pool-1-thread-3] INFO  vendors.jetbrains - Downloading jbr_jcef-25.0.2-linux-aarch64-b329.66.tar.gz
+2026-02-17 14:34:24.395 [pool-1-thread-2] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-25.0.2+10-windows-x64.msi
+2026-02-17 14:34:24.484 [pool-1-thread-4] INFO  vendors.ibm - Processed ibm-java-x86_64-jre-8.0-8.55.x86_64.rpm
+2026-02-17 14:34:24.510 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 99 queued, 3 active, 43 completed, 0 failed
+2026-02-17 14:34:24.510 [pool-1-thread-4] INFO  vendors.jetbrains - Downloading jbr_jcef-25.0.2-linux-x64-b329.66.tar.gz
+2026-02-17 14:34:25.184 [pool-1-thread-1] INFO  vendors.ibm - Processed ibm-java-x86_64-sdk-8.0-8.55.x86_64.rpm
+2026-02-17 14:34:25.207 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 98 queued, 3 active, 44 completed, 0 failed
+2026-02-17 14:34:25.208 [pool-1-thread-1] INFO  vendors.jetbrains - Downloading jbr_jcef-25.0.2-osx-aarch64-b329.66.pkg
+2026-02-17 14:34:25.752 [pool-1-thread-2] INFO  vendors.openlogic - Processed openlogic-openjdk-25.0.2+10-windows-x64.msi
+2026-02-17 14:34:25.788 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 97 queued, 3 active, 45 completed, 0 failed
+2026-02-17 14:34:25.896 [pool-1-thread-4] INFO  vendors.jetbrains - Computing hashes for jbr_jcef-25.0.2-linux-x64-b329.66.tar.gz
+2026-02-17 14:34:26.490 [pool-1-thread-2] INFO  vendors.liberica-native - Downloading bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.pkg
+2026-02-17 14:34:27.287 [pool-1-thread-4] INFO  vendors.jetbrains - Processed jbr_jcef-25.0.2-linux-x64-b329.66.tar.gz
+2026-02-17 14:34:27.320 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 96 queued, 3 active, 46 completed, 0 failed
+2026-02-17 14:34:27.321 [pool-1-thread-4] INFO  vendors.liberica-native - Downloading bellsoft-liberica-vm-full-openjdk11-21.3.1-windows-amd64.msi
+2026-02-17 14:34:30.623 [pool-1-thread-3] INFO  vendors.jetbrains - Computing hashes for jbr_jcef-25.0.2-linux-aarch64-b329.66.tar.gz
+2026-02-17 14:34:30.843 [pool-1-thread-1] INFO  vendors.jetbrains - Computing hashes for jbr_jcef-25.0.2-osx-aarch64-b329.66.pkg
+2026-02-17 14:34:31.952 [pool-1-thread-3] INFO  vendors.jetbrains - Processed jbr_jcef-25.0.2-linux-aarch64-b329.66.tar.gz
+2026-02-17 14:34:31.984 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 95 queued, 3 active, 47 completed, 0 failed
+2026-02-17 14:34:31.984 [pool-1-thread-3] INFO  vendors.liberica-native - Downloading bellsoft-liberica-vm-full-openjdk11-21.3.1-windows-amd64.zip
+2026-02-17 14:34:32.108 [pool-1-thread-1] INFO  vendors.jetbrains - Processed jbr_jcef-25.0.2-osx-aarch64-b329.66.pkg
+2026-02-17 14:34:32.138 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 94 queued, 3 active, 48 completed, 0 failed
+2026-02-17 14:34:32.138 [pool-1-thread-1] INFO  vendors.liberica - Downloading bellsoft-jdk10-linux-arm32-vfp-hflt.deb
+2026-02-17 14:34:37.094 [pool-1-thread-1] INFO  vendors.liberica - Computing hashes for bellsoft-jdk10-linux-arm32-vfp-hflt.deb
+2026-02-17 14:34:38.284 [pool-1-thread-1] INFO  vendors.liberica - Processed bellsoft-jdk10-linux-arm32-vfp-hflt.deb
+2026-02-17 14:34:38.317 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 93 queued, 3 active, 49 completed, 0 failed
+2026-02-17 14:34:38.317 [pool-1-thread-1] INFO  vendors.liberica - Downloading bellsoft-jdk10-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:34:43.666 [pool-1-thread-1] INFO  vendors.liberica - Computing hashes for bellsoft-jdk10-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:34:45.028 [pool-1-thread-1] INFO  vendors.liberica - Processed bellsoft-jdk10-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:34:45.058 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 92 queued, 3 active, 50 completed, 0 failed
+2026-02-17 14:34:45.058 [pool-1-thread-1] INFO  vendors.liberica - Downloading bellsoft-jre10-linux-arm32-vfp-hflt.deb
+2026-02-17 14:34:45.808 [pool-1-thread-1] INFO  vendors.liberica - Computing hashes for bellsoft-jre10-linux-arm32-vfp-hflt.deb
+2026-02-17 14:34:45.968 [pool-1-thread-1] INFO  vendors.liberica - Processed bellsoft-jre10-linux-arm32-vfp-hflt.deb
+2026-02-17 14:34:45.972 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 91 queued, 3 active, 51 completed, 0 failed
+2026-02-17 14:34:45.972 [pool-1-thread-1] INFO  vendors.liberica - Downloading bellsoft-jre10-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:34:46.834 [pool-1-thread-4] INFO  vendors.liberica-native - Computing hashes for bellsoft-liberica-vm-full-openjdk11-21.3.1-windows-amd64.msi
+2026-02-17 14:34:47.053 [pool-1-thread-2] INFO  vendors.liberica-native - Computing hashes for bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.pkg
+2026-02-17 14:34:47.261 [pool-1-thread-1] INFO  vendors.liberica - Computing hashes for bellsoft-jre10-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:34:47.624 [pool-1-thread-1] INFO  vendors.liberica - Processed bellsoft-jre10-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:34:47.633 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 90 queued, 3 active, 52 completed, 0 failed
+2026-02-17 14:34:47.633 [pool-1-thread-1] INFO  vendors.liberica - Downloading bellsoft-jdk11-windows-amd64-lite.zip
+2026-02-17 14:34:48.397 [pool-1-thread-4] INFO  vendors.liberica-native - Processed bellsoft-liberica-vm-full-openjdk11-21.3.1-windows-amd64.msi
+2026-02-17 14:34:48.437 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 89 queued, 3 active, 53 completed, 0 failed
+2026-02-17 14:34:48.438 [pool-1-thread-4] INFO  vendors.liberica - Downloading bellsoft-jdk11.0.3-linux-amd64.rpm
+2026-02-17 14:34:48.619 [pool-1-thread-2] INFO  vendors.liberica-native - Processed bellsoft-liberica-vm-full-openjdk17.0.6+10-22.3.1+1-macos-aarch64.pkg
+2026-02-17 14:34:48.653 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 88 queued, 3 active, 54 completed, 0 failed
+2026-02-17 14:34:48.654 [pool-1-thread-2] INFO  vendors.liberica - Downloading bellsoft-jdk9.0.1-linux-arm32-vfp-hflt.deb
+2026-02-17 14:34:49.161 [pool-1-thread-1] INFO  vendors.liberica - Computing hashes for bellsoft-jdk11-windows-amd64-lite.zip
+2026-02-17 14:34:49.565 [pool-1-thread-1] INFO  vendors.liberica - Processed bellsoft-jdk11-windows-amd64-lite.zip
+2026-02-17 14:34:49.574 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 87 queued, 3 active, 55 completed, 0 failed
+2026-02-17 14:34:49.574 [pool-1-thread-1] INFO  vendors.liberica - Downloading bellsoft-jdk9.0.1-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:34:52.073 [pool-1-thread-3] INFO  vendors.liberica-native - Computing hashes for bellsoft-liberica-vm-full-openjdk11-21.3.1-windows-amd64.zip
+2026-02-17 14:34:52.542 [pool-1-thread-2] INFO  vendors.liberica - Computing hashes for bellsoft-jdk9.0.1-linux-arm32-vfp-hflt.deb
+2026-02-17 14:34:53.659 [pool-1-thread-4] INFO  vendors.liberica - Computing hashes for bellsoft-jdk11.0.3-linux-amd64.rpm
+2026-02-17 14:34:53.668 [pool-1-thread-3] INFO  vendors.liberica-native - Processed bellsoft-liberica-vm-full-openjdk11-21.3.1-windows-amd64.zip
+2026-02-17 14:34:53.706 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 86 queued, 3 active, 56 completed, 0 failed
+2026-02-17 14:34:53.782 [pool-1-thread-2] INFO  vendors.liberica - Processed bellsoft-jdk9.0.1-linux-arm32-vfp-hflt.deb
+2026-02-17 14:34:53.807 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 86 queued, 2 active, 57 completed, 0 failed
+2026-02-17 14:34:53.807 [pool-1-thread-2] INFO  vendors.corretto - Downloading amazon-corretto-26.0.0.34.1-linux-x64.tar.gz
+2026-02-17 14:34:53.906 [pool-1-thread-3] INFO  vendors.corretto - Downloading amazon-corretto-26.0.0.34.1-linux-aarch64.tar.gz
+2026-02-17 14:34:54.740 [pool-1-thread-1] INFO  vendors.liberica - Computing hashes for bellsoft-jdk9.0.1-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:34:55.056 [pool-1-thread-4] INFO  vendors.liberica - Processed bellsoft-jdk11.0.3-linux-amd64.rpm
+2026-02-17 14:34:55.093 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 84 queued, 3 active, 58 completed, 0 failed
+2026-02-17 14:34:55.093 [pool-1-thread-4] INFO  vendors.corretto - Downloading amazon-corretto-26.0.0.34.1-windows-x64.msi
+2026-02-17 14:34:56.239 [pool-1-thread-1] INFO  vendors.liberica - Processed bellsoft-jdk9.0.1-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:34:56.279 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 83 queued, 3 active, 59 completed, 0 failed
+2026-02-17 14:34:56.680 [pool-1-thread-1] INFO  vendors.zulu - Downloading zulu8.17.0.19-ca-cp2-jre1.8.0.102-linux_aarch32sf.tar.gz
+2026-02-17 14:34:57.491 [pool-1-thread-2] INFO  vendors.corretto - Computing hashes for amazon-corretto-26.0.0.34.1-linux-x64.tar.gz
+2026-02-17 14:34:57.548 [pool-1-thread-1] INFO  vendors.zulu - Computing hashes for zulu8.17.0.19-ca-cp2-jre1.8.0.102-linux_aarch32sf.tar.gz
+2026-02-17 14:34:57.640 [pool-1-thread-1] INFO  vendors.zulu - Processed zulu8.17.0.19-ca-cp2-jre1.8.0.102-linux_aarch32sf.tar.gz
+2026-02-17 14:34:57.642 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 82 queued, 3 active, 60 completed, 0 failed
+2026-02-17 14:34:57.642 [pool-1-thread-1] INFO  vendors.zulu - Downloading zulu8.17.0.19-ea-cp1-jre8.0.102-linux_aarch32sf.tar.gz
+2026-02-17 14:34:58.137 [pool-1-thread-3] INFO  vendors.corretto - Computing hashes for amazon-corretto-26.0.0.34.1-linux-aarch64.tar.gz
+2026-02-17 14:34:58.234 [pool-1-thread-1] INFO  vendors.zulu - Computing hashes for zulu8.17.0.19-ea-cp1-jre8.0.102-linux_aarch32sf.tar.gz
+2026-02-17 14:34:58.326 [pool-1-thread-1] INFO  vendors.zulu - Processed zulu8.17.0.19-ea-cp1-jre8.0.102-linux_aarch32sf.tar.gz
+2026-02-17 14:34:58.328 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 81 queued, 3 active, 61 completed, 0 failed
+2026-02-17 14:34:58.328 [pool-1-thread-1] INFO  vendors.zulu - Downloading zulu8.17.0.19-ea-hl-jre8.0.102-linux_aarch32sf.tar.gz
+2026-02-17 14:34:58.825 [pool-1-thread-2] INFO  vendors.corretto - Processed amazon-corretto-26.0.0.34.1-linux-x64.tar.gz
+2026-02-17 14:34:58.852 [pool-1-thread-4] INFO  vendors.corretto - Computing hashes for amazon-corretto-26.0.0.34.1-windows-x64.msi
+2026-02-17 14:34:58.862 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 80 queued, 3 active, 62 completed, 0 failed
+2026-02-17 14:34:58.862 [pool-1-thread-2] INFO  vendors.zulu - Downloading zulu8.17.0.21-ca-cp2-jre1.8.0.102-linux_aarch32hf.tar.gz
+2026-02-17 14:34:59.405 [pool-1-thread-1] INFO  vendors.zulu - Computing hashes for zulu8.17.0.19-ea-hl-jre8.0.102-linux_aarch32sf.tar.gz
+2026-02-17 14:34:59.425 [pool-1-thread-3] INFO  vendors.corretto - Processed amazon-corretto-26.0.0.34.1-linux-aarch64.tar.gz
+2026-02-17 14:34:59.471 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 79 queued, 3 active, 63 completed, 0 failed
+2026-02-17 14:34:59.471 [pool-1-thread-3] INFO  vendors.zulu - Downloading zulu8.19.0.25-ca-cp2-jre1.8.0.112-linux_aarch32sf.tar.gz
+2026-02-17 14:34:59.654 [pool-1-thread-1] INFO  vendors.zulu - Processed zulu8.17.0.19-ea-hl-jre8.0.102-linux_aarch32sf.tar.gz
+2026-02-17 14:34:59.660 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 78 queued, 3 active, 64 completed, 0 failed
+2026-02-17 14:34:59.660 [pool-1-thread-1] INFO  vendors.zulu - Downloading zulu8.19.0.31-ca-cp2-jre1.8.0.112-linux_aarch32hf.tar.gz
+2026-02-17 14:34:59.990 [pool-1-thread-4] INFO  vendors.corretto - Processed amazon-corretto-26.0.0.34.1-windows-x64.msi
+2026-02-17 14:35:00.024 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 77 queued, 3 active, 65 completed, 0 failed
+2026-02-17 14:35:00.324 [pool-1-thread-4] INFO  vendors.sapmachine - Downloading sapmachine-jre-16_osx-x64_bin.tar.gz
+2026-02-17 14:35:01.117 [pool-1-thread-2] INFO  vendors.zulu - Computing hashes for zulu8.17.0.21-ca-cp2-jre1.8.0.102-linux_aarch32hf.tar.gz
+2026-02-17 14:35:01.450 [pool-1-thread-4] INFO  vendors.sapmachine - Computing hashes for sapmachine-jre-16_osx-x64_bin.tar.gz
+2026-02-17 14:35:01.558 [pool-1-thread-2] INFO  vendors.zulu - Processed zulu8.17.0.21-ca-cp2-jre1.8.0.102-linux_aarch32hf.tar.gz
+2026-02-17 14:35:01.569 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 76 queued, 3 active, 66 completed, 0 failed
+2026-02-17 14:35:01.570 [pool-1-thread-2] INFO  vendors.sapmachine - Downloading sapmachine-jdk-13.0.1_linux-x64_bin.tar.gz
+2026-02-17 14:35:01.709 [pool-1-thread-4] INFO  vendors.sapmachine - Processed sapmachine-jre-16_osx-x64_bin.tar.gz
+2026-02-17 14:35:01.715 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 75 queued, 3 active, 67 completed, 0 failed
+2026-02-17 14:35:01.715 [pool-1-thread-4] INFO  vendors.sapmachine - Downloading sapmachine-jre-13.0.1_linux-x64_bin.tar.gz
+2026-02-17 14:35:02.101 [pool-1-thread-3] INFO  vendors.zulu - Computing hashes for zulu8.19.0.25-ca-cp2-jre1.8.0.112-linux_aarch32sf.tar.gz
+2026-02-17 14:35:02.293 [pool-1-thread-1] INFO  vendors.zulu - Computing hashes for zulu8.19.0.31-ca-cp2-jre1.8.0.112-linux_aarch32hf.tar.gz
+2026-02-17 14:35:02.606 [pool-1-thread-3] INFO  vendors.zulu - Processed zulu8.19.0.25-ca-cp2-jre1.8.0.112-linux_aarch32sf.tar.gz
+2026-02-17 14:35:02.616 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 74 queued, 3 active, 68 completed, 0 failed
+2026-02-17 14:35:02.617 [pool-1-thread-3] INFO  vendors.sapmachine - Downloading sapmachine-jdk-13.0.1_osx-x64_bin.tar.gz
+2026-02-17 14:35:02.742 [pool-1-thread-1] INFO  vendors.zulu - Processed zulu8.19.0.31-ca-cp2-jre1.8.0.112-linux_aarch32hf.tar.gz
+2026-02-17 14:35:02.752 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 73 queued, 3 active, 69 completed, 0 failed
+2026-02-17 14:35:02.984 [pool-1-thread-4] INFO  vendors.sapmachine - Computing hashes for sapmachine-jre-13.0.1_linux-x64_bin.tar.gz
+2026-02-17 14:35:03.248 [pool-1-thread-4] INFO  vendors.sapmachine - Processed sapmachine-jre-13.0.1_linux-x64_bin.tar.gz
+2026-02-17 14:35:03.254 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 73 queued, 2 active, 70 completed, 0 failed
+2026-02-17 14:35:03.254 [pool-1-thread-4] INFO  vendors.temurin - Downloading OpenJDK8U-jdk_x64_mac_hotspot_8u482b08.pkg
+2026-02-17 14:35:04.218 [pool-1-thread-4] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jdk_x64_mac_hotspot_8u482b08.pkg
+2026-02-17 14:35:04.817 [pool-1-thread-4] INFO  vendors.temurin - Processed OpenJDK8U-jdk_x64_mac_hotspot_8u482b08.pkg
+2026-02-17 14:35:04.830 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 72 queued, 2 active, 71 completed, 0 failed
+2026-02-17 14:35:04.830 [pool-1-thread-4] INFO  vendors.kona - Downloading TencentKona8.0.25.b1_jdk_linux-musl-aarch64_8u482.tar.gz
+2026-02-17 14:35:06.296 [pool-1-thread-4] INFO  vendors.kona - Computing hashes for TencentKona8.0.25.b1_jdk_linux-musl-aarch64_8u482.tar.gz
+2026-02-17 14:35:06.450 [pool-1-thread-2] INFO  vendors.sapmachine - Computing hashes for sapmachine-jdk-13.0.1_linux-x64_bin.tar.gz
+2026-02-17 14:35:06.860 [pool-1-thread-4] INFO  vendors.kona - Processed TencentKona8.0.25.b1_jdk_linux-musl-aarch64_8u482.tar.gz
+2026-02-17 14:35:06.874 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 71 queued, 2 active, 72 completed, 0 failed
+2026-02-17 14:35:06.874 [pool-1-thread-4] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Extended_11.0.28.25.6_riscv64_linux.tar.gz
+2026-02-17 14:35:07.257 [pool-1-thread-3] INFO  vendors.sapmachine - Computing hashes for sapmachine-jdk-13.0.1_osx-x64_bin.tar.gz
+2026-02-17 14:35:07.459 [pool-1-thread-1] INFO  vendors.openlogic - Downloading openlogic-openjdk-jre-25.0.2+10-windows-x64.zip
+2026-02-17 14:35:07.595 [pool-1-thread-2] INFO  vendors.sapmachine - Processed sapmachine-jdk-13.0.1_linux-x64_bin.tar.gz
+2026-02-17 14:35:07.626 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 69 queued, 3 active, 73 completed, 0 failed
+2026-02-17 14:35:07.626 [pool-1-thread-2] INFO  vendors.openlogic - Downloading openlogic-openjdk-25.0.2+10-mac-x64.pkg
+2026-02-17 14:35:08.346 [pool-1-thread-3] INFO  vendors.sapmachine - Processed sapmachine-jdk-13.0.1_osx-x64_bin.tar.gz
+2026-02-17 14:35:08.375 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 68 queued, 3 active, 74 completed, 0 failed
+2026-02-17 14:35:08.375 [pool-1-thread-3] INFO  vendors.openlogic - Downloading openlogic-openjdk-25.0.2+10-mac-x64.zip
+2026-02-17 14:35:08.654 [pool-1-thread-4] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Extended_11.0.28.25.6_riscv64_linux.tar.gz
+2026-02-17 14:35:09.669 [pool-1-thread-4] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Extended_11.0.28.25.6_riscv64_linux.tar.gz
+2026-02-17 14:35:09.692 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 67 queued, 3 active, 75 completed, 0 failed
+2026-02-17 14:35:09.710 [pool-1-thread-1] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-jre-25.0.2+10-windows-x64.zip
+2026-02-17 14:35:09.918 [pool-1-thread-1] INFO  vendors.openlogic - Processed openlogic-openjdk-jre-25.0.2+10-windows-x64.zip
+2026-02-17 14:35:09.923 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 67 queued, 2 active, 76 completed, 0 failed
+2026-02-17 14:35:09.923 [pool-1-thread-1] INFO  vendors.openlogic - Downloading openlogic-openjdk-25.0.2+10-linux-x64-el.rpm
+2026-02-17 14:35:09.992 [pool-1-thread-4] INFO  vendors.jetbrains - Downloading jbr_jcef-25.0.2-osx-aarch64-b329.66.tar.gz
+2026-02-17 14:35:11.731 [pool-1-thread-4] INFO  vendors.jetbrains - Computing hashes for jbr_jcef-25.0.2-osx-aarch64-b329.66.tar.gz
+2026-02-17 14:35:13.020 [pool-1-thread-4] INFO  vendors.jetbrains - Processed jbr_jcef-25.0.2-osx-aarch64-b329.66.tar.gz
+2026-02-17 14:35:13.049 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 65 queued, 3 active, 77 completed, 0 failed
+2026-02-17 14:35:13.050 [pool-1-thread-4] INFO  vendors.jetbrains - Downloading jbr_jcef-25.0.2-osx-x64-b329.66.pkg
+2026-02-17 14:35:13.885 [pool-1-thread-3] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-25.0.2+10-mac-x64.zip
+2026-02-17 14:35:15.311 [pool-1-thread-3] INFO  vendors.openlogic - Processed openlogic-openjdk-25.0.2+10-mac-x64.zip
+2026-02-17 14:35:15.342 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 64 queued, 3 active, 78 completed, 0 failed
+2026-02-17 14:35:15.342 [pool-1-thread-3] INFO  vendors.jetbrains - Downloading jbr_jcef-25.0.2-osx-x64-b329.66.tar.gz
+2026-02-17 14:35:18.828 [pool-1-thread-4] INFO  vendors.jetbrains - Computing hashes for jbr_jcef-25.0.2-osx-x64-b329.66.pkg
+2026-02-17 14:35:20.189 [pool-1-thread-4] INFO  vendors.jetbrains - Processed jbr_jcef-25.0.2-osx-x64-b329.66.pkg
+2026-02-17 14:35:20.219 [pool-1-thread-2] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-25.0.2+10-mac-x64.pkg
+2026-02-17 14:35:20.221 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 63 queued, 3 active, 79 completed, 0 failed
+2026-02-17 14:35:20.221 [pool-1-thread-4] INFO  vendors.jetbrains - Downloading jbr_jcef-25.0.2-windows-aarch64-b329.66.tar.gz
+2026-02-17 14:35:21.277 [pool-1-thread-3] INFO  vendors.jetbrains - Computing hashes for jbr_jcef-25.0.2-osx-x64-b329.66.tar.gz
+2026-02-17 14:35:21.634 [pool-1-thread-2] INFO  vendors.openlogic - Processed openlogic-openjdk-25.0.2+10-mac-x64.pkg
+2026-02-17 14:35:21.667 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 62 queued, 3 active, 80 completed, 0 failed
+2026-02-17 14:35:21.667 [pool-1-thread-2] INFO  vendors.jetbrains - Downloading jbr_jcef-25.0.2-windows-aarch64-b329.66.zip
+2026-02-17 14:35:22.620 [pool-1-thread-3] INFO  vendors.jetbrains - Processed jbr_jcef-25.0.2-osx-x64-b329.66.tar.gz
+2026-02-17 14:35:22.652 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 61 queued, 3 active, 81 completed, 0 failed
+2026-02-17 14:35:22.652 [pool-1-thread-3] INFO  vendors.jetbrains - Downloading jbr_jcef-25.0.2-windows-x64-b329.66.tar.gz
+2026-02-17 14:35:24.586 [pool-1-thread-1] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-25.0.2+10-linux-x64-el.rpm
+2026-02-17 14:35:24.843 [pool-1-thread-3] INFO  vendors.jetbrains - Computing hashes for jbr_jcef-25.0.2-windows-x64-b329.66.tar.gz
+2026-02-17 14:35:26.214 [pool-1-thread-4] INFO  vendors.jetbrains - Computing hashes for jbr_jcef-25.0.2-windows-aarch64-b329.66.tar.gz
+2026-02-17 14:35:26.226 [pool-1-thread-1] INFO  vendors.openlogic - Processed openlogic-openjdk-25.0.2+10-linux-x64-el.rpm
+2026-02-17 14:35:26.284 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 60 queued, 3 active, 82 completed, 0 failed
+2026-02-17 14:35:26.363 [pool-1-thread-3] INFO  vendors.jetbrains - Processed jbr_jcef-25.0.2-windows-x64-b329.66.tar.gz
+2026-02-17 14:35:26.385 [pool-1-thread-1] INFO  vendors.liberica - Downloading bellsoft-jre9.0.1-linux-arm32-vfp-hflt.deb
+2026-02-17 14:35:26.398 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 59 queued, 3 active, 83 completed, 0 failed
+2026-02-17 14:35:26.399 [pool-1-thread-3] INFO  vendors.liberica - Downloading bellsoft-jre9.0.1-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:35:27.179 [pool-1-thread-1] INFO  vendors.liberica - Computing hashes for bellsoft-jre9.0.1-linux-arm32-vfp-hflt.deb
+2026-02-17 14:35:27.332 [pool-1-thread-2] INFO  vendors.jetbrains - Computing hashes for jbr_jcef-25.0.2-windows-aarch64-b329.66.zip
+2026-02-17 14:35:27.359 [pool-1-thread-1] INFO  vendors.liberica - Processed bellsoft-jre9.0.1-linux-arm32-vfp-hflt.deb
+2026-02-17 14:35:27.365 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 58 queued, 3 active, 84 completed, 0 failed
+2026-02-17 14:35:27.365 [pool-1-thread-1] INFO  vendors.corretto - Downloading amazon-corretto-26.0.0.34.1-macosx-x64.pkg
+2026-02-17 14:35:27.543 [pool-1-thread-4] INFO  vendors.jetbrains - Processed jbr_jcef-25.0.2-windows-aarch64-b329.66.tar.gz
+2026-02-17 14:35:27.571 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 57 queued, 3 active, 85 completed, 0 failed
+2026-02-17 14:35:27.571 [pool-1-thread-4] INFO  vendors.corretto - Downloading amazon-corretto-26.0.0.34.1-macosx-x64.tar.gz
+2026-02-17 14:35:27.846 [pool-1-thread-3] INFO  vendors.liberica - Computing hashes for bellsoft-jre9.0.1-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:35:28.134 [pool-1-thread-3] INFO  vendors.liberica - Processed bellsoft-jre9.0.1-linux-arm32-vfp-hflt.tar.gz
+2026-02-17 14:35:28.140 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 56 queued, 3 active, 86 completed, 0 failed
+2026-02-17 14:35:28.140 [pool-1-thread-3] INFO  vendors.corretto - Downloading amazon-corretto-26.0.0.34.1-macosx-aarch64.pkg
+2026-02-17 14:35:28.676 [pool-1-thread-2] INFO  vendors.jetbrains - Processed jbr_jcef-25.0.2-windows-aarch64-b329.66.zip
+2026-02-17 14:35:28.705 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 55 queued, 3 active, 87 completed, 0 failed
+2026-02-17 14:35:28.805 [pool-1-thread-2] INFO  vendors.zulu - Downloading zulu8.23.0.3-ca-cp3-jre8.0.144-linux_i686.tar.gz
+2026-02-17 14:35:29.546 [pool-1-thread-2] INFO  vendors.zulu - Computing hashes for zulu8.23.0.3-ca-cp3-jre8.0.144-linux_i686.tar.gz
+2026-02-17 14:35:29.683 [pool-1-thread-2] INFO  vendors.zulu - Processed zulu8.23.0.3-ca-cp3-jre8.0.144-linux_i686.tar.gz
+2026-02-17 14:35:29.687 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 54 queued, 3 active, 88 completed, 0 failed
+2026-02-17 14:35:29.687 [pool-1-thread-2] INFO  vendors.zulu - Downloading zulu8.23.0.74-ea-hl-jre8.0.144-linux_ppc64.tar.gz
+2026-02-17 14:35:31.314 [pool-1-thread-2] INFO  vendors.zulu - Computing hashes for zulu8.23.0.74-ea-hl-jre8.0.144-linux_ppc64.tar.gz
+2026-02-17 14:35:31.500 [pool-1-thread-4] INFO  vendors.corretto - Computing hashes for amazon-corretto-26.0.0.34.1-macosx-x64.tar.gz
+2026-02-17 14:35:31.502 [pool-1-thread-3] INFO  vendors.corretto - Computing hashes for amazon-corretto-26.0.0.34.1-macosx-aarch64.pkg
+2026-02-17 14:35:31.685 [pool-1-thread-1] INFO  vendors.corretto - Computing hashes for amazon-corretto-26.0.0.34.1-macosx-x64.pkg
+2026-02-17 14:35:31.947 [pool-1-thread-2] INFO  vendors.zulu - Processed zulu8.23.0.74-ea-hl-jre8.0.144-linux_ppc64.tar.gz
+2026-02-17 14:35:31.964 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 53 queued, 3 active, 89 completed, 0 failed
+2026-02-17 14:35:31.965 [pool-1-thread-2] INFO  vendors.zulu - Downloading zulu8.25.0.76-ca-cp2-jre1.8.0.152-linux_aarch32sf.tar.gz
+2026-02-17 14:35:32.737 [pool-1-thread-2] INFO  vendors.zulu - Computing hashes for zulu8.25.0.76-ca-cp2-jre1.8.0.152-linux_aarch32sf.tar.gz
+2026-02-17 14:35:32.869 [pool-1-thread-2] INFO  vendors.zulu - Processed zulu8.25.0.76-ca-cp2-jre1.8.0.152-linux_aarch32sf.tar.gz
+2026-02-17 14:35:32.873 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 52 queued, 3 active, 90 completed, 0 failed
+2026-02-17 14:35:32.874 [pool-1-thread-2] INFO  vendors.sapmachine - Downloading sapmachine-jre-13.0.1_osx-x64_bin.tar.gz
+2026-02-17 14:35:32.926 [pool-1-thread-3] INFO  vendors.corretto - Processed amazon-corretto-26.0.0.34.1-macosx-aarch64.pkg
+2026-02-17 14:35:32.970 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 51 queued, 3 active, 91 completed, 0 failed
+2026-02-17 14:35:32.970 [pool-1-thread-3] INFO  vendors.sapmachine - Downloading sapmachine-jdk-13.0.1_osx-x64_bin.dmg
+2026-02-17 14:35:32.973 [pool-1-thread-4] INFO  vendors.corretto - Processed amazon-corretto-26.0.0.34.1-macosx-x64.tar.gz
+2026-02-17 14:35:33.001 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 50 queued, 3 active, 92 completed, 0 failed
+2026-02-17 14:35:33.001 [pool-1-thread-4] INFO  vendors.sapmachine - Downloading sapmachine-jre-13.0.1_osx-x64_bin.dmg
+2026-02-17 14:35:33.230 [pool-1-thread-1] INFO  vendors.corretto - Processed amazon-corretto-26.0.0.34.1-macosx-x64.pkg
+2026-02-17 14:35:33.258 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 49 queued, 3 active, 93 completed, 0 failed
+2026-02-17 14:35:34.402 [pool-1-thread-2] INFO  vendors.sapmachine - Computing hashes for sapmachine-jre-13.0.1_osx-x64_bin.tar.gz
+2026-02-17 14:35:34.490 [pool-1-thread-4] INFO  vendors.sapmachine - Computing hashes for sapmachine-jre-13.0.1_osx-x64_bin.dmg
+2026-02-17 14:35:34.633 [pool-1-thread-2] INFO  vendors.sapmachine - Processed sapmachine-jre-13.0.1_osx-x64_bin.tar.gz
+2026-02-17 14:35:34.638 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 49 queued, 2 active, 94 completed, 0 failed
+2026-02-17 14:35:34.638 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java11-linux-gluon-22.0.0.3-Final.zip
+2026-02-17 14:35:34.755 [pool-1-thread-4] INFO  vendors.sapmachine - Processed sapmachine-jre-13.0.1_osx-x64_bin.dmg
+2026-02-17 14:35:34.760 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 48 queued, 2 active, 95 completed, 0 failed
+2026-02-17 14:35:34.760 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java17-darwin-m1-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:35:37.465 [pool-1-thread-1] INFO  vendors.openlogic - Downloading openlogic-openjdk-jre-25.0.2+10-mac-x64.zip
+2026-02-17 14:35:37.570 [pool-1-thread-3] INFO  vendors.sapmachine - Computing hashes for sapmachine-jdk-13.0.1_osx-x64_bin.dmg
+2026-02-17 14:35:38.741 [pool-1-thread-3] INFO  vendors.sapmachine - Processed sapmachine-jdk-13.0.1_osx-x64_bin.dmg
+2026-02-17 14:35:38.769 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 46 queued, 3 active, 96 completed, 0 failed
+2026-02-17 14:35:38.770 [pool-1-thread-3] INFO  vendors.openlogic - Downloading openlogic-openjdk-jre-25.0.2+10-mac-x64.pkg
+2026-02-17 14:35:40.305 [pool-1-thread-1] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-jre-25.0.2+10-mac-x64.zip
+2026-02-17 14:35:40.597 [pool-1-thread-1] INFO  vendors.openlogic - Processed openlogic-openjdk-jre-25.0.2+10-mac-x64.zip
+2026-02-17 14:35:40.603 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 45 queued, 3 active, 97 completed, 0 failed
+2026-02-17 14:35:40.603 [pool-1-thread-1] INFO  vendors.openlogic - Downloading openlogic-openjdk-25.0.2+10-linux-x64-deb.deb
+2026-02-17 14:35:41.533 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java17-darwin-m1-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:35:41.678 [pool-1-thread-3] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-jre-25.0.2+10-mac-x64.pkg
+2026-02-17 14:35:42.002 [pool-1-thread-3] INFO  vendors.openlogic - Processed openlogic-openjdk-jre-25.0.2+10-mac-x64.pkg
+2026-02-17 14:35:42.012 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 44 queued, 3 active, 98 completed, 0 failed
+2026-02-17 14:35:42.012 [pool-1-thread-3] INFO  vendors.jetbrains - Downloading jbr_jcef-25.0.2-windows-x64-b329.66.zip
+2026-02-17 14:35:43.470 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java17-darwin-m1-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:35:43.515 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 43 queued, 3 active, 99 completed, 0 failed
+2026-02-17 14:35:43.515 [pool-1-thread-4] INFO  vendors.corretto - Downloading amazon-corretto-26.0.0.34.1-macosx-aarch64.tar.gz
+2026-02-17 14:35:45.300 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java11-linux-gluon-22.0.0.3-Final.zip
+2026-02-17 14:35:48.006 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java11-linux-gluon-22.0.0.3-Final.zip
+2026-02-17 14:35:48.067 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 42 queued, 3 active, 100 completed, 0 failed
+2026-02-17 14:35:48.068 [pool-1-thread-2] INFO  vendors.sapmachine - Downloading sapmachine-jdk-13.0.1_linux-ppc64_bin.tar.gz
+2026-02-17 14:35:48.565 [pool-1-thread-3] INFO  vendors.jetbrains - Computing hashes for jbr_jcef-25.0.2-windows-x64-b329.66.zip
+2026-02-17 14:35:48.822 [pool-1-thread-4] INFO  vendors.corretto - Computing hashes for amazon-corretto-26.0.0.34.1-macosx-aarch64.tar.gz
+2026-02-17 14:35:50.014 [pool-1-thread-3] INFO  vendors.jetbrains - Processed jbr_jcef-25.0.2-windows-x64-b329.66.zip
+2026-02-17 14:35:50.049 [pool-1-thread-4] INFO  vendors.corretto - Processed amazon-corretto-26.0.0.34.1-macosx-aarch64.tar.gz
+2026-02-17 14:35:50.051 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 41 queued, 3 active, 101 completed, 0 failed
+2026-02-17 14:35:50.051 [pool-1-thread-3] INFO  vendors.sapmachine - Downloading sapmachine-jre-13.0.1_linux-ppc64_bin.tar.gz
+2026-02-17 14:35:50.078 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 40 queued, 3 active, 102 completed, 0 failed
+2026-02-17 14:35:50.079 [pool-1-thread-4] INFO  vendors.sapmachine - Downloading sapmachine-jdk-13.0.1-1.x86_64.rpm
+2026-02-17 14:35:51.224 [pool-1-thread-3] INFO  vendors.sapmachine - Computing hashes for sapmachine-jre-13.0.1_linux-ppc64_bin.tar.gz
+2026-02-17 14:35:51.458 [pool-1-thread-3] INFO  vendors.sapmachine - Processed sapmachine-jre-13.0.1_linux-ppc64_bin.tar.gz
+2026-02-17 14:35:51.464 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 39 queued, 3 active, 103 completed, 0 failed
+2026-02-17 14:35:51.464 [pool-1-thread-3] INFO  vendors.temurin - Downloading OpenJDK8U-jdk_x64_windows_hotspot_8u482b08.msi
+2026-02-17 14:35:52.099 [pool-1-thread-3] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jdk_x64_windows_hotspot_8u482b08.msi
+2026-02-17 14:35:52.603 [pool-1-thread-3] INFO  vendors.temurin - Processed OpenJDK8U-jdk_x64_windows_hotspot_8u482b08.msi
+2026-02-17 14:35:52.613 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 38 queued, 3 active, 104 completed, 0 failed
+2026-02-17 14:35:52.614 [pool-1-thread-3] INFO  vendors.temurin - Downloading OpenJDK8U-jre_x64_mac_hotspot_8u482b08.pkg
+2026-02-17 14:35:53.125 [pool-1-thread-2] INFO  vendors.sapmachine - Computing hashes for sapmachine-jdk-13.0.1_linux-ppc64_bin.tar.gz
+2026-02-17 14:35:53.641 [pool-1-thread-3] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jre_x64_mac_hotspot_8u482b08.pkg
+2026-02-17 14:35:53.888 [pool-1-thread-3] INFO  vendors.temurin - Processed OpenJDK8U-jre_x64_mac_hotspot_8u482b08.pkg
+2026-02-17 14:35:53.893 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 37 queued, 3 active, 105 completed, 0 failed
+2026-02-17 14:35:53.893 [pool-1-thread-3] INFO  vendors.temurin - Downloading OpenJDK8U-jre_x64_windows_hotspot_8u482b08.msi
+2026-02-17 14:35:54.158 [pool-1-thread-2] INFO  vendors.sapmachine - Processed sapmachine-jdk-13.0.1_linux-ppc64_bin.tar.gz
+2026-02-17 14:35:54.185 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 36 queued, 3 active, 106 completed, 0 failed
+2026-02-17 14:35:54.185 [pool-1-thread-2] INFO  vendors.temurin - Downloading OpenJDK8U-jdk_x64_mac_hotspot_8u472b08.pkg
+2026-02-17 14:35:54.280 [pool-1-thread-3] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jre_x64_windows_hotspot_8u482b08.msi
+2026-02-17 14:35:54.460 [pool-1-thread-3] INFO  vendors.temurin - Processed OpenJDK8U-jre_x64_windows_hotspot_8u482b08.msi
+2026-02-17 14:35:54.465 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 35 queued, 3 active, 107 completed, 0 failed
+2026-02-17 14:35:54.465 [pool-1-thread-3] INFO  vendors.temurin - Downloading OpenJDK8U-jdk_x64_windows_hotspot_8u472b08.msi
+2026-02-17 14:35:54.628 [pool-1-thread-4] INFO  vendors.sapmachine - Computing hashes for sapmachine-jdk-13.0.1-1.x86_64.rpm
+2026-02-17 14:35:55.323 [pool-1-thread-3] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jdk_x64_windows_hotspot_8u472b08.msi
+2026-02-17 14:35:55.552 [pool-1-thread-2] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jdk_x64_mac_hotspot_8u472b08.pkg
+2026-02-17 14:35:55.739 [pool-1-thread-4] INFO  vendors.sapmachine - Processed sapmachine-jdk-13.0.1-1.x86_64.rpm
+2026-02-17 14:35:55.776 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 34 queued, 3 active, 108 completed, 0 failed
+2026-02-17 14:35:55.777 [pool-1-thread-4] INFO  vendors.temurin - Downloading OpenJDK8U-jdk_x86-32_windows_hotspot_8u472b08.msi
+2026-02-17 14:35:55.878 [pool-1-thread-3] INFO  vendors.temurin - Processed OpenJDK8U-jdk_x64_windows_hotspot_8u472b08.msi
+2026-02-17 14:35:55.888 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 33 queued, 3 active, 109 completed, 0 failed
+2026-02-17 14:35:55.888 [pool-1-thread-3] INFO  vendors.temurin - Downloading OpenJDK8U-jre_x64_mac_hotspot_8u472b08.pkg
+2026-02-17 14:35:56.188 [pool-1-thread-2] INFO  vendors.temurin - Processed OpenJDK8U-jdk_x64_mac_hotspot_8u472b08.pkg
+2026-02-17 14:35:56.204 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 32 queued, 3 active, 110 completed, 0 failed
+2026-02-17 14:35:56.204 [pool-1-thread-2] INFO  vendors.temurin - Downloading OpenJDK8U-jre_x64_windows_hotspot_8u472b08.msi
+2026-02-17 14:35:56.258 [pool-1-thread-1] INFO  vendors.openlogic - Computing hashes for openlogic-openjdk-25.0.2+10-linux-x64-deb.deb
+2026-02-17 14:35:56.421 [pool-1-thread-4] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jdk_x86-32_windows_hotspot_8u472b08.msi
+2026-02-17 14:35:56.674 [pool-1-thread-2] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jre_x64_windows_hotspot_8u472b08.msi
+2026-02-17 14:35:56.860 [pool-1-thread-2] INFO  vendors.temurin - Processed OpenJDK8U-jre_x64_windows_hotspot_8u472b08.msi
+2026-02-17 14:35:56.864 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 31 queued, 3 active, 111 completed, 0 failed
+2026-02-17 14:35:56.864 [pool-1-thread-2] INFO  vendors.temurin - Downloading OpenJDK8U-jre_x86-32_windows_hotspot_8u472b08.msi
+2026-02-17 14:35:56.936 [pool-1-thread-3] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jre_x64_mac_hotspot_8u472b08.pkg
+2026-02-17 14:35:57.045 [pool-1-thread-4] INFO  vendors.temurin - Processed OpenJDK8U-jdk_x86-32_windows_hotspot_8u472b08.msi
+2026-02-17 14:35:57.062 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 30 queued, 3 active, 112 completed, 0 failed
+2026-02-17 14:35:57.063 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java11-windows-gluon-22.1.0.1-Final.zip
+2026-02-17 14:35:57.188 [pool-1-thread-2] INFO  vendors.temurin - Computing hashes for OpenJDK8U-jre_x86-32_windows_hotspot_8u472b08.msi
+2026-02-17 14:35:57.238 [pool-1-thread-3] INFO  vendors.temurin - Processed OpenJDK8U-jre_x64_mac_hotspot_8u472b08.pkg
+2026-02-17 14:35:57.247 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 29 queued, 3 active, 113 completed, 0 failed
+2026-02-17 14:35:57.248 [pool-1-thread-3] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java11-darwin-gluon-22.0.0.3-Final.zip
+2026-02-17 14:35:57.354 [pool-1-thread-2] INFO  vendors.temurin - Processed OpenJDK8U-jre_x86-32_windows_hotspot_8u472b08.msi
+2026-02-17 14:35:57.358 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 28 queued, 3 active, 114 completed, 0 failed
+2026-02-17 14:35:57.358 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java17-darwin-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:35:57.885 [pool-1-thread-1] INFO  vendors.openlogic - Processed openlogic-openjdk-25.0.2+10-linux-x64-deb.deb
+2026-02-17 14:35:57.923 [pool-1-thread-1] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 27 queued, 3 active, 115 completed, 0 failed
+2026-02-17 14:36:02.316 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java17-darwin-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:36:03.942 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java11-windows-gluon-22.1.0.1-Final.zip
+2026-02-17 14:36:04.413 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java17-darwin-gluon-22.1.0.1-Final.tar.gz
+2026-02-17 14:36:04.465 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 27 queued, 2 active, 116 completed, 0 failed
+2026-02-17 14:36:04.466 [pool-1-thread-2] INFO  vendors.semeru - Downloading ibm-semeru-open-jre_x64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:04.955 [pool-1-thread-3] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java11-darwin-gluon-22.0.0.3-Final.zip
+2026-02-17 14:36:05.519 [pool-1-thread-2] INFO  vendors.semeru - Computing hashes for ibm-semeru-open-jre_x64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:05.703 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java11-windows-gluon-22.1.0.1-Final.zip
+2026-02-17 14:36:05.765 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 26 queued, 2 active, 117 completed, 0 failed
+2026-02-17 14:36:05.766 [pool-1-thread-4] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Extended_11.0.26.23.4_riscv64_linux.tar.gz
+2026-02-17 14:36:05.836 [pool-1-thread-2] INFO  vendors.semeru - Processed ibm-semeru-open-jre_x64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:05.845 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 25 queued, 2 active, 118 completed, 0 failed
+2026-02-17 14:36:05.846 [pool-1-thread-2] INFO  vendors.kona - Downloading TencentKona8.0.25.b1_jdk_linux-musl-x86_64_8u482.tar.gz
+2026-02-17 14:36:07.249 [pool-1-thread-3] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java11-darwin-gluon-22.0.0.3-Final.zip
+2026-02-17 14:36:07.295 [pool-1-thread-2] INFO  vendors.kona - Computing hashes for TencentKona8.0.25.b1_jdk_linux-musl-x86_64_8u482.tar.gz
+2026-02-17 14:36:07.295 [pool-1-thread-4] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Extended_11.0.26.23.4_riscv64_linux.tar.gz
+2026-02-17 14:36:07.305 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 24 queued, 2 active, 119 completed, 0 failed
+2026-02-17 14:36:07.305 [pool-1-thread-3] INFO  vendors.semeru - Downloading ibm-semeru-open-jdk_x64_mac_11.0.28_6_openj9-0.53.0.pkg
+2026-02-17 14:36:07.868 [pool-1-thread-2] INFO  vendors.kona - Processed TencentKona8.0.25.b1_jdk_linux-musl-x86_64_8u482.tar.gz
+2026-02-17 14:36:07.883 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 23 queued, 2 active, 120 completed, 0 failed
+2026-02-17 14:36:07.883 [pool-1-thread-2] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Extended_11.0.27.24.6_x64_alpine-linux.tar.gz
+2026-02-17 14:36:08.301 [pool-1-thread-4] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Extended_11.0.26.23.4_riscv64_linux.tar.gz
+2026-02-17 14:36:08.329 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 22 queued, 2 active, 121 completed, 0 failed
+2026-02-17 14:36:08.329 [pool-1-thread-4] INFO  vendors.kona - Downloading TencentKona8.0.25.b1_jdk_macosx-x86_64_8u482_notarized.tar.gz
+2026-02-17 14:36:09.574 [pool-1-thread-4] INFO  vendors.kona - Computing hashes for TencentKona8.0.25.b1_jdk_macosx-x86_64_8u482_notarized.tar.gz
+2026-02-17 14:36:09.884 [pool-1-thread-2] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Extended_11.0.27.24.6_x64_alpine-linux.tar.gz
+2026-02-17 14:36:10.167 [pool-1-thread-4] INFO  vendors.kona - Processed TencentKona8.0.25.b1_jdk_macosx-x86_64_8u482_notarized.tar.gz
+2026-02-17 14:36:10.180 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 21 queued, 2 active, 122 completed, 0 failed
+2026-02-17 14:36:10.180 [pool-1-thread-4] INFO  vendors.kona - Downloading TencentKona8.0.25.b1_jdk_linux-x86_64_8u482.tar.gz
+2026-02-17 14:36:11.032 [pool-1-thread-2] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Extended_11.0.27.24.6_x64_alpine-linux.tar.gz
+2026-02-17 14:36:11.060 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 20 queued, 2 active, 123 completed, 0 failed
+2026-02-17 14:36:11.060 [pool-1-thread-2] INFO  vendors.semeru - Downloading ibm-semeru-open-jdk_x64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:36:11.415 [pool-1-thread-4] INFO  vendors.kona - Computing hashes for TencentKona8.0.25.b1_jdk_linux-x86_64_8u482.tar.gz
+2026-02-17 14:36:11.755 [pool-1-thread-3] INFO  vendors.semeru - Computing hashes for ibm-semeru-open-jdk_x64_mac_11.0.28_6_openj9-0.53.0.pkg
+2026-02-17 14:36:12.036 [pool-1-thread-4] INFO  vendors.kona - Processed TencentKona8.0.25.b1_jdk_linux-x86_64_8u482.tar.gz
+2026-02-17 14:36:12.049 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 19 queued, 2 active, 124 completed, 0 failed
+2026-02-17 14:36:12.050 [pool-1-thread-4] INFO  vendors.kona - Downloading TencentKona8.0.25.b1_jdk_macosx-aarch64_8u482_notarized.tar.gz
+2026-02-17 14:36:12.988 [pool-1-thread-3] INFO  vendors.semeru - Processed ibm-semeru-open-jdk_x64_mac_11.0.28_6_openj9-0.53.0.pkg
+2026-02-17 14:36:13.015 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 18 queued, 2 active, 125 completed, 0 failed
+2026-02-17 14:36:13.015 [pool-1-thread-3] INFO  vendors.semeru - Downloading ibm-semeru-open-jdk_aarch64_mac_11.0.28_6_openj9-0.53.0.pkg
+2026-02-17 14:36:13.067 [pool-1-thread-4] INFO  vendors.kona - Computing hashes for TencentKona8.0.25.b1_jdk_macosx-aarch64_8u482_notarized.tar.gz
+2026-02-17 14:36:13.648 [pool-1-thread-4] INFO  vendors.kona - Processed TencentKona8.0.25.b1_jdk_macosx-aarch64_8u482_notarized.tar.gz
+2026-02-17 14:36:13.664 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 17 queued, 2 active, 126 completed, 0 failed
+2026-02-17 14:36:13.665 [pool-1-thread-4] INFO  vendors.kona - Downloading TencentKona8.0.25.b1_jdk_linux-aarch64_8u482.tar.gz
+2026-02-17 14:36:14.995 [pool-1-thread-4] INFO  vendors.kona - Computing hashes for TencentKona8.0.25.b1_jdk_linux-aarch64_8u482.tar.gz
+2026-02-17 14:36:15.341 [pool-1-thread-2] INFO  vendors.semeru - Computing hashes for ibm-semeru-open-jdk_x64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:36:15.624 [pool-1-thread-4] INFO  vendors.kona - Processed TencentKona8.0.25.b1_jdk_linux-aarch64_8u482.tar.gz
+2026-02-17 14:36:15.637 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 16 queued, 2 active, 127 completed, 0 failed
+2026-02-17 14:36:15.637 [pool-1-thread-4] INFO  vendors.kona - Downloading TencentKona8.0.24.b1_jdk_linux-musl-aarch64_8u472.tar.gz
+2026-02-17 14:36:16.561 [pool-1-thread-4] INFO  vendors.kona - Computing hashes for TencentKona8.0.24.b1_jdk_linux-musl-aarch64_8u472.tar.gz
+2026-02-17 14:36:16.579 [pool-1-thread-2] INFO  vendors.semeru - Processed ibm-semeru-open-jdk_x64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:36:16.607 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 15 queued, 2 active, 128 completed, 0 failed
+2026-02-17 14:36:16.607 [pool-1-thread-2] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Extended_11.0.27.24.6_riscv64_linux.tar.gz
+2026-02-17 14:36:17.132 [pool-1-thread-3] INFO  vendors.semeru - Computing hashes for ibm-semeru-open-jdk_aarch64_mac_11.0.28_6_openj9-0.53.0.pkg
+2026-02-17 14:36:17.169 [pool-1-thread-4] INFO  vendors.kona - Processed TencentKona8.0.24.b1_jdk_linux-musl-aarch64_8u472.tar.gz
+2026-02-17 14:36:17.183 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 14 queued, 2 active, 129 completed, 0 failed
+2026-02-17 14:36:17.183 [pool-1-thread-4] INFO  vendors.semeru - Downloading ibm-semeru-open-jre_aarch64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:18.084 [pool-1-thread-4] INFO  vendors.semeru - Computing hashes for ibm-semeru-open-jre_aarch64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:18.325 [pool-1-thread-3] INFO  vendors.semeru - Processed ibm-semeru-open-jdk_aarch64_mac_11.0.28_6_openj9-0.53.0.pkg
+2026-02-17 14:36:18.355 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 13 queued, 2 active, 130 completed, 0 failed
+2026-02-17 14:36:18.355 [pool-1-thread-3] INFO  vendors.semeru - Downloading ibm-semeru-open-jdk_x64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:18.360 [pool-1-thread-4] INFO  vendors.semeru - Processed ibm-semeru-open-jre_aarch64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:18.366 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 12 queued, 2 active, 131 completed, 0 failed
+2026-02-17 14:36:18.366 [pool-1-thread-4] INFO  vendors.semeru - Downloading ibm-semeru-open-jdk_aarch64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:36:18.410 [pool-1-thread-2] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Extended_11.0.27.24.6_riscv64_linux.tar.gz
+2026-02-17 14:36:19.443 [pool-1-thread-2] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Extended_11.0.27.24.6_riscv64_linux.tar.gz
+2026-02-17 14:36:19.468 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 11 queued, 2 active, 132 completed, 0 failed
+2026-02-17 14:36:19.469 [pool-1-thread-2] INFO  vendors.semeru - Downloading ibm-semeru-open-jre_x64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:36:20.792 [pool-1-thread-2] INFO  vendors.semeru - Computing hashes for ibm-semeru-open-jre_x64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:36:21.076 [pool-1-thread-2] INFO  vendors.semeru - Processed ibm-semeru-open-jre_x64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:36:21.085 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 10 queued, 2 active, 133 completed, 0 failed
+2026-02-17 14:36:21.085 [pool-1-thread-2] INFO  vendors.kona - Downloading TencentKona8.0.25.b1_jdk_windows-x86_64_8u482_signed.zip
+2026-02-17 14:36:22.371 [pool-1-thread-4] INFO  vendors.semeru - Computing hashes for ibm-semeru-open-jdk_aarch64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:36:22.527 [pool-1-thread-3] INFO  vendors.semeru - Computing hashes for ibm-semeru-open-jdk_x64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:22.548 [pool-1-thread-2] INFO  vendors.kona - Computing hashes for TencentKona8.0.25.b1_jdk_windows-x86_64_8u482_signed.zip
+2026-02-17 14:36:23.469 [pool-1-thread-4] INFO  vendors.semeru - Processed ibm-semeru-open-jdk_aarch64_mac_11.0.29_7_openj9-0.56.0.pkg
+2026-02-17 14:36:23.494 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 9 queued, 2 active, 134 completed, 0 failed
+2026-02-17 14:36:23.494 [pool-1-thread-4] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Extended_11.0.29.26.7_x64_alpine-linux.tar.gz
+2026-02-17 14:36:23.516 [pool-1-thread-2] INFO  vendors.kona - Processed TencentKona8.0.25.b1_jdk_windows-x86_64_8u482_signed.zip
+2026-02-17 14:36:23.530 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 8 queued, 2 active, 135 completed, 0 failed
+2026-02-17 14:36:23.530 [pool-1-thread-2] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Extended_11.0.28.25.6_x64_alpine-linux.tar.gz
+2026-02-17 14:36:23.883 [pool-1-thread-3] INFO  vendors.semeru - Processed ibm-semeru-open-jdk_x64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:23.916 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 7 queued, 2 active, 136 completed, 0 failed
+2026-02-17 14:36:23.916 [pool-1-thread-3] INFO  vendors.liberica-native - Downloading bellsoft-liberica-vm-full-openjdk25.0.1+16-25.0.1+3-linux-amd64.tar.gz
+2026-02-17 14:36:25.652 [pool-1-thread-4] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Extended_11.0.29.26.7_x64_alpine-linux.tar.gz
+2026-02-17 14:36:26.058 [pool-1-thread-2] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Extended_11.0.28.25.6_x64_alpine-linux.tar.gz
+2026-02-17 14:36:26.757 [pool-1-thread-4] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Extended_11.0.29.26.7_x64_alpine-linux.tar.gz
+2026-02-17 14:36:26.780 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 6 queued, 2 active, 137 completed, 0 failed
+2026-02-17 14:36:26.780 [pool-1-thread-4] INFO  vendors.semeru - Downloading ibm-semeru-open-jdk_aarch64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:27.152 [pool-1-thread-2] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Extended_11.0.28.25.6_x64_alpine-linux.tar.gz
+2026-02-17 14:36:27.180 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 5 queued, 2 active, 138 completed, 0 failed
+2026-02-17 14:36:27.180 [pool-1-thread-2] INFO  vendors.kona - Downloading TencentKona8.0.24.b1_jdk_linux-aarch64_8u472.tar.gz
+2026-02-17 14:36:28.312 [pool-1-thread-2] INFO  vendors.kona - Computing hashes for TencentKona8.0.24.b1_jdk_linux-aarch64_8u472.tar.gz
+2026-02-17 14:36:28.970 [pool-1-thread-2] INFO  vendors.kona - Processed TencentKona8.0.24.b1_jdk_linux-aarch64_8u472.tar.gz
+2026-02-17 14:36:28.984 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 4 queued, 2 active, 139 completed, 0 failed
+2026-02-17 14:36:28.984 [pool-1-thread-2] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Standard_11.0.27.23.6_x64_alpine-linux.tar.gz
+2026-02-17 14:36:30.000 [pool-1-thread-4] INFO  vendors.semeru - Computing hashes for ibm-semeru-open-jdk_aarch64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:30.613 [pool-1-thread-2] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Standard_11.0.27.23.6_x64_alpine-linux.tar.gz
+2026-02-17 14:36:31.175 [pool-1-thread-4] INFO  vendors.semeru - Processed ibm-semeru-open-jdk_aarch64_mac_11.0.30_7_openj9-0.57.0.pkg
+2026-02-17 14:36:31.206 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 3 queued, 2 active, 140 completed, 0 failed
+2026-02-17 14:36:31.207 [pool-1-thread-4] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Standard_11.0.29.25.7_x64_alpine-linux.tar.gz
+2026-02-17 14:36:31.690 [pool-1-thread-2] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Standard_11.0.27.23.6_x64_alpine-linux.tar.gz
+2026-02-17 14:36:31.719 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 2 queued, 2 active, 141 completed, 0 failed
+2026-02-17 14:36:31.720 [pool-1-thread-2] INFO  vendors.kona - Downloading TencentKona8.0.25.b1_jre_linux-x86_64_8u482.tar.gz
+2026-02-17 14:36:32.084 [pool-1-thread-3] INFO  vendors.liberica-native - Computing hashes for bellsoft-liberica-vm-full-openjdk25.0.1+16-25.0.1+3-linux-amd64.tar.gz
+2026-02-17 14:36:32.326 [pool-1-thread-2] INFO  vendors.kona - Computing hashes for TencentKona8.0.25.b1_jre_linux-x86_64_8u482.tar.gz
+2026-02-17 14:36:32.573 [pool-1-thread-2] INFO  vendors.kona - Processed TencentKona8.0.25.b1_jre_linux-x86_64_8u482.tar.gz
+2026-02-17 14:36:32.579 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 1 queued, 2 active, 142 completed, 0 failed
+2026-02-17 14:36:32.579 [pool-1-thread-2] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Extended_11.0.29.26.7_riscv64_linux.tar.gz
+2026-02-17 14:36:33.044 [pool-1-thread-4] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Standard_11.0.29.25.7_x64_alpine-linux.tar.gz
+2026-02-17 14:36:34.089 [pool-1-thread-3] INFO  vendors.liberica-native - Processed bellsoft-liberica-vm-full-openjdk25.0.1+16-25.0.1+3-linux-amd64.tar.gz
+2026-02-17 14:36:34.116 [pool-1-thread-2] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Extended_11.0.29.26.7_riscv64_linux.tar.gz
+2026-02-17 14:36:34.147 [pool-1-thread-3] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 0 queued, 2 active, 143 completed, 0 failed
+2026-02-17 14:36:34.181 [pool-1-thread-4] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Standard_11.0.29.25.7_x64_alpine-linux.tar.gz
+2026-02-17 14:36:34.204 [pool-1-thread-4] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 0 queued, 1 active, 144 completed, 0 failed
+2026-02-17 14:36:35.038 [pool-1-thread-2] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Extended_11.0.29.26.7_riscv64_linux.tar.gz
+2026-02-17 14:36:35.058 [pool-1-thread-2] INFO  d.j.j.scraper.DefaultDownloadManager - Downloads: 0 queued, 0 active, 145 completed, 0 failed
