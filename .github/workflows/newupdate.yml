@@ -1,6 +1,11 @@
 name: Update jdkdb
 on:
   workflow_dispatch:
+    inputs:
+      limit-progress:
+        description: 'Limit progress updates (0 or empty for no limit)'
+        required: false
+        default: '10'
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -17,7 +22,14 @@ jobs:
       env:
         GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: jbang --java 21+ https://github.com/jbangdev/jdkdb-scraper/releases/latest/download/jdkdb-scraper-standalone.jar update --limit-progress 10
+      run: |
+        LIMIT_PROGRESS="${{ inputs.limit-progress }}"
+        if [ -n "$LIMIT_PROGRESS" ] && [ "$LIMIT_PROGRESS" != "0" ]; then
+          LIMIT_PROGRESS_OPT="--limit-progress $LIMIT_PROGRESS"
+        else
+          LIMIT_PROGRESS_OPT=""
+        fi
+        jbang --java 21+ https://github.com/jbangdev/jdkdb-scraper/releases/latest/download/jdkdb-scraper-standalone.jar update $LIMIT_PROGRESS_OPT
 
     - name: Commit & Push changes
       uses: actions-js/push@master
