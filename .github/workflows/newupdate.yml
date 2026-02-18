@@ -6,6 +6,21 @@ on:
         description: 'Limit progress updates (0 or empty for no limit)'
         required: false
         default: '10'
+      download:
+        description: 'Download JDKs to update metadata with checksums'
+        required: true
+        type: boolean
+        default: true
+      index:
+        description: 'Create indices for the updated metadata'
+        required: true
+        type: boolean
+        default: true
+      do_commit:
+        description: 'Commit the changes after updating metadata'
+        required: true
+        type: boolean
+        default: true
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -23,16 +38,23 @@ jobs:
         GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        LIMIT_PROGRESS="${{ inputs.limit-progress }}"
-        if [ -n "$LIMIT_PROGRESS" ] && [ "$LIMIT_PROGRESS" != "0" ]; then
-          LIMIT_PROGRESS_OPT="--limit-progress $LIMIT_PROGRESS"
+        EXTRA_OPTS="${{ inputs.limit-progress }}"
+        if [ -n "$EXTRA_OPTS" ] && [ "$EXTRA_OPTS" != "0" ]; then
+          EXTRA_OPTS="--limit-progress $EXTRA_OPTS"
         else
-          LIMIT_PROGRESS_OPT=""
+          EXTRA_OPTS=""
         fi
-        jbang --java 21+ https://github.com/jbangdev/jdkdb-scraper/releases/latest/download/jdkdb-scraper-standalone.jar update $LIMIT_PROGRESS_OPT
+        if [ "${{ inputs.download }}" = "false" ]; then
+          EXTRA_OPTS="$EXTRA_OPTS --no-download"
+        fi
+        if [ "${{ inputs.index }}" = "false" ]; then
+          EXTRA_OPTS="$EXTRA_OPTS --no-index"
+        fi
+        jbang --java 21+ https://github.com/jbangdev/jdkdb-scraper/releases/latest/download/jdkdb-scraper-standalone.jar update $EXTRA_OPTS
 
     - name: Commit & Push changes
       uses: actions-js/push@master
+      if: ${{ inputs.do_commit }}
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         message: "Update release metadata"
