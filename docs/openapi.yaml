@@ -29,7 +29,9 @@ components:
         - "adoptopenjdk"
         - "bisheng"
         - "corretto"
+        - "debian"
         - "dragonwell"
+        - "gluon-graalvm"
         - "graalvm"
         - "graalvm-community"
         - "ibm"
@@ -37,6 +39,7 @@ components:
         - "jetbrains"
         - "kona"
         - "liberica"
+        - "liberica-native"
         - "mandrel"
         - "microsoft"
         - "openjdk"
@@ -71,6 +74,7 @@ components:
         - "s390x"
         - "sparcv9"
         - "riscv64"
+        - "loong64"
     releaseTypes:
       type: string
       enum:
