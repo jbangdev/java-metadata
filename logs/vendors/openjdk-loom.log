@@ -1,8 +1,0 @@
-2026-02-17 14:33:31.035 [pool-2-thread-1] INFO  vendors.openjdk-loom - Starting scraper
-2026-02-17 14:33:31.038 [pool-2-thread-1] INFO  vendors.openjdk-loom - Fetching index from https://jdk.java.net/loom/
-2026-02-17 14:33:31.203 [pool-2-thread-1] INFO  vendors.openjdk-loom - Found 5 download URLs
-2026-02-17 14:33:31.203 [pool-2-thread-1] INFO  vendors.openjdk-loom - Completed successfully. Marked 0 items for processing, skipped 5 existing items, and had 0 failures.
-2026-02-17 15:51:09.811 [pool-2-thread-1] INFO  vendors.openjdk-loom - Starting scraper
-2026-02-17 15:51:09.813 [pool-2-thread-1] INFO  vendors.openjdk-loom - Fetching index from https://jdk.java.net/loom/
-2026-02-17 15:51:09.929 [pool-2-thread-1] INFO  vendors.openjdk-loom - Found 5 download URLs
-2026-02-17 15:51:09.929 [pool-2-thread-1] INFO  vendors.openjdk-loom - Completed successfully. Marked 0 items for processing, skipped 5 existing items, and had 0 failures.

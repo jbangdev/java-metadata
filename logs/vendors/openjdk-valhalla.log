@@ -1,8 +1,0 @@
-2026-02-17 14:33:28.852 [pool-2-thread-3] INFO  vendors.openjdk-valhalla - Starting scraper
-2026-02-17 14:33:28.855 [pool-2-thread-3] INFO  vendors.openjdk-valhalla - Fetching index from http://jdk.java.net/valhalla/
-2026-02-17 14:33:29.106 [pool-2-thread-3] INFO  vendors.openjdk-valhalla - Found 5 download URLs
-2026-02-17 14:33:29.107 [pool-2-thread-3] INFO  vendors.openjdk-valhalla - Completed successfully. Marked 0 items for processing, skipped 5 existing items, and had 0 failures.
-2026-02-17 15:51:07.442 [pool-2-thread-3] INFO  vendors.openjdk-valhalla - Starting scraper
-2026-02-17 15:51:07.445 [pool-2-thread-3] INFO  vendors.openjdk-valhalla - Fetching index from http://jdk.java.net/valhalla/
-2026-02-17 15:51:07.778 [pool-2-thread-3] INFO  vendors.openjdk-valhalla - Found 5 download URLs
-2026-02-17 15:51:07.779 [pool-2-thread-3] INFO  vendors.openjdk-valhalla - Completed successfully. Marked 0 items for processing, skipped 5 existing items, and had 0 failures.
