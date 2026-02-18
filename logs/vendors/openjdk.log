@@ -51,3 +51,22 @@
 2026-02-18 23:19:50.638 [pool-1-thread-1] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/leyden/
 2026-02-18 23:19:50.742 [pool-1-thread-1] INFO  vendors.openjdk - Found 3 download URLs
 2026-02-18 23:19:50.743 [pool-1-thread-1] INFO  vendors.openjdk - Completed successfully. Marked 0 items for processing, skipped 3 existing items, and had 0 failures.
+2026-02-18 23:32:06.236 [pool-1-thread-3] INFO  vendors.openjdk - Starting scraper
+2026-02-18 23:32:06.238 [pool-1-thread-3] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/valhalla/
+2026-02-18 23:32:06.552 [pool-1-thread-3] INFO  vendors.openjdk - Found 5 download URLs
+2026-02-18 23:32:06.552 [pool-1-thread-3] INFO  vendors.openjdk - Completed successfully. Marked 0 items for processing, skipped 5 existing items, and had 0 failures.
+2026-02-18 23:32:06.883 [pool-1-thread-2] INFO  vendors.openjdk - Starting scraper
+2026-02-18 23:32:06.883 [pool-1-thread-2] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/archive/
+2026-02-18 23:32:07.418 [pool-1-thread-2] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/25/
+2026-02-18 23:32:07.762 [pool-1-thread-2] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/26/
+2026-02-18 23:32:07.877 [pool-1-thread-2] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/27/
+2026-02-18 23:32:07.970 [pool-1-thread-2] INFO  vendors.openjdk - Found 213 download URLs
+2026-02-18 23:32:07.971 [pool-1-thread-2] INFO  vendors.openjdk - Completed successfully. Marked 0 items for processing, skipped 213 existing items, and had 0 failures.
+2026-02-18 23:32:07.971 [pool-1-thread-2] INFO  vendors.openjdk - Starting scraper
+2026-02-18 23:32:07.972 [pool-1-thread-2] INFO  vendors.openjdk - Fetching index from https://jdk.java.net/loom/
+2026-02-18 23:32:08.067 [pool-1-thread-2] INFO  vendors.openjdk - Found 5 download URLs
+2026-02-18 23:32:08.067 [pool-1-thread-2] INFO  vendors.openjdk - Completed successfully. Marked 0 items for processing, skipped 5 existing items, and had 0 failures.
+2026-02-18 23:32:12.775 [pool-1-thread-1] INFO  vendors.openjdk - Starting scraper
+2026-02-18 23:32:12.775 [pool-1-thread-1] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/leyden/
+2026-02-18 23:32:12.962 [pool-1-thread-1] INFO  vendors.openjdk - Found 3 download URLs
+2026-02-18 23:32:12.962 [pool-1-thread-1] INFO  vendors.openjdk - Completed successfully. Marked 0 items for processing, skipped 3 existing items, and had 0 failures.

@@ -54,6 +54,56 @@
     "features": [
       "native-image"
     ],
+    "file_type": "msi",
+    "filename": "bellsoft-liberica-vm-full-openjdk11.0.15+10-21.3.2+1-windows-amd64.msi",
+    "image_type": "jdk",
+    "java_version": "11.0.15+10",
+    "jvm_impl": "graalvm",
+    "md5": null,
+    "md5_file": null,
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://download.bell-sw.com/vm/21.3.2/bellsoft-liberica-vm-full-openjdk11.0.15+10-21.3.2+1-windows-amd64.msi",
+    "vendor": "liberica-native",
+    "version": "21.3.2+1"
+  },
+  {
+    "architecture": "i686",
+    "features": [
+      "native-image"
+    ],
+    "file_type": "zip",
+    "filename": "bellsoft-liberica-vm-full-openjdk11.0.15+10-21.3.2+1-windows-amd64.zip",
+    "image_type": "jdk",
+    "java_version": "11.0.15+10",
+    "jvm_impl": "graalvm",
+    "md5": null,
+    "md5_file": null,
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://download.bell-sw.com/vm/21.3.2/bellsoft-liberica-vm-full-openjdk11.0.15+10-21.3.2+1-windows-amd64.zip",
+    "vendor": "liberica-native",
+    "version": "21.3.2+1"
+  },
+  {
+    "architecture": "i686",
+    "features": [
+      "native-image"
+    ],
     "file_type": "deb",
     "filename": "bellsoft-liberica-vm-full-openjdk11.0.15.1+2-21.3.2+2-linux-amd64.deb",
     "image_type": "jdk",
@@ -125,6 +175,56 @@
     "version": "21.3.2+2"
   },
   {
+    "architecture": "i686",
+    "features": [
+      "native-image"
+    ],
+    "file_type": "msi",
+    "filename": "bellsoft-liberica-vm-full-openjdk11.0.16+8-21.3.3+1-windows-amd64.msi",
+    "image_type": "jdk",
+    "java_version": "11.0.16+8",
+    "jvm_impl": "graalvm",
+    "md5": null,
+    "md5_file": null,
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://download.bell-sw.com/vm/21.3.3/bellsoft-liberica-vm-full-openjdk11.0.16+8-21.3.3+1-windows-amd64.msi",
+    "vendor": "liberica-native",
+    "version": "21.3.3+1"
+  },
+  {
+    "architecture": "i686",
+    "features": [
+      "native-image"
+    ],
+    "file_type": "zip",
+    "filename": "bellsoft-liberica-vm-full-openjdk11.0.16+8-21.3.3+1-windows-amd64.zip",
+    "image_type": "jdk",
+    "java_version": "11.0.16+8",
+    "jvm_impl": "graalvm",
+    "md5": null,
+    "md5_file": null,
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://download.bell-sw.com/vm/21.3.3/bellsoft-liberica-vm-full-openjdk11.0.16+8-21.3.3+1-windows-amd64.zip",
+    "vendor": "liberica-native",
+    "version": "21.3.3+1"
+  },
+  {
     "architecture": "arm32",
     "features": [
       "native-image"
@@ -179,6 +279,31 @@
     "features": [
       "native-image"
     ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-liberica-vm-full-openjdk17.0.4+8-22.2.0+2-macos-aarch64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.4+8",
+    "jvm_impl": "graalvm",
+    "md5": null,
+    "md5_file": null,
+    "os": "macosx",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://download.bell-sw.com/vm/22.2.0/bellsoft-liberica-vm-full-openjdk17.0.4+8-22.2.0+2-macos-aarch64.tar.gz",
+    "vendor": "liberica-native",
+    "version": "22.2.0+2"
+  },
+  {
+    "architecture": "arm32",
+    "features": [
+      "native-image"
+    ],
     "file_type": "zip",
     "filename": "bellsoft-liberica-vm-full-openjdk17.0.4+8-22.2.0+2-macos-aarch64.zip",
     "image_type": "jdk",
@@ -198,6 +323,81 @@
     "url": "https://download.bell-sw.com/vm/22.2.0/bellsoft-liberica-vm-full-openjdk17.0.4+8-22.2.0+2-macos-aarch64.zip",
     "vendor": "liberica-native",
     "version": "22.2.0+2"
+  },
+  {
+    "architecture": "i686",
+    "features": [
+      "native-image"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-liberica-vm-full-openjdk17.0.5+8-22.3.0+2-linux-amd64.deb",
+    "image_type": "jdk",
+    "java_version": "17.0.5+8",
+    "jvm_impl": "graalvm",
+    "md5": null,
+    "md5_file": null,
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://download.bell-sw.com/vm/22.3.0/bellsoft-liberica-vm-full-openjdk17.0.5+8-22.3.0+2-linux-amd64.deb",
+    "vendor": "liberica-native",
+    "version": "22.3.0+2"
+  },
+  {
+    "architecture": "i686",
+    "features": [
+      "native-image"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-liberica-vm-full-openjdk17.0.5+8-22.3.0+2-linux-amd64.rpm",
+    "image_type": "jdk",
+    "java_version": "17.0.5+8",
+    "jvm_impl": "graalvm",
+    "md5": null,
+    "md5_file": null,
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://download.bell-sw.com/vm/22.3.0/bellsoft-liberica-vm-full-openjdk17.0.5+8-22.3.0+2-linux-amd64.rpm",
+    "vendor": "liberica-native",
+    "version": "22.3.0+2"
+  },
+  {
+    "architecture": "i686",
+    "features": [
+      "native-image"
+    ],
+    "file_type": "tar.gz",
+    "filename": "bellsoft-liberica-vm-full-openjdk17.0.5+8-22.3.0+2-linux-amd64.tar.gz",
+    "image_type": "jdk",
+    "java_version": "17.0.5+8",
+    "jvm_impl": "graalvm",
+    "md5": null,
+    "md5_file": null,
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://download.bell-sw.com/vm/22.3.0/bellsoft-liberica-vm-full-openjdk17.0.5+8-22.3.0+2-linux-amd64.tar.gz",
+    "vendor": "liberica-native",
+    "version": "22.3.0+2"
   },
   {
     "architecture": "arm32",
@@ -448,6 +648,56 @@
     "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.0.6+1-17.0.13+12/bellsoft-liberica-vm-full-openjdk17.0.13+12-23.0.6+1-macos-amd64.zip",
     "vendor": "liberica-native",
     "version": "23.0.6+1"
+  },
+  {
+    "architecture": "i686",
+    "features": [
+      "native-image"
+    ],
+    "file_type": "deb",
+    "filename": "bellsoft-liberica-vm-full-openjdk17.0.16+13-23.0.9+1-linux-amd64.deb",
+    "image_type": "jdk",
+    "java_version": "17.0.16+13",
+    "jvm_impl": "graalvm",
+    "md5": null,
+    "md5_file": null,
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.0.9+1-17.0.16+13/bellsoft-liberica-vm-full-openjdk17.0.16+13-23.0.9+1-linux-amd64.deb",
+    "vendor": "liberica-native",
+    "version": "23.0.9+1"
+  },
+  {
+    "architecture": "i686",
+    "features": [
+      "native-image"
+    ],
+    "file_type": "rpm",
+    "filename": "bellsoft-liberica-vm-full-openjdk17.0.16+13-23.0.9+1-linux-amd64.rpm",
+    "image_type": "jdk",
+    "java_version": "17.0.16+13",
+    "jvm_impl": "graalvm",
+    "md5": null,
+    "md5_file": null,
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.0.9+1-17.0.16+13/bellsoft-liberica-vm-full-openjdk17.0.16+13-23.0.9+1-linux-amd64.rpm",
+    "vendor": "liberica-native",
+    "version": "23.0.9+1"
   },
   {
     "architecture": "i686",

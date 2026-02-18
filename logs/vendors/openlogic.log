@@ -96,3 +96,11 @@
 2026-02-18 23:19:54.103 [pool-1-thread-4] INFO  vendors.openlogic - Found 24 download links on page 1
 2026-02-18 23:19:54.104 [pool-1-thread-4] INFO  vendors.openlogic - Reached progress limit of 10 items, aborting
 2026-02-18 23:19:54.104 [pool-1-thread-4] INFO  vendors.openlogic - Completed successfully. Marked 10 items for processing, skipped 20 existing items, and had 0 failures.
+2026-02-18 23:32:11.702 [pool-1-thread-4] INFO  vendors.openlogic - Starting scraper
+2026-02-18 23:32:11.704 [pool-1-thread-4] INFO  vendors.openlogic - Fetching page 0 from https://www.openlogic.com/openjdk-downloads?page=0
+2026-02-18 23:32:11.871 [pool-1-thread-4] INFO  vendors.openlogic - Found 24 download links on page 0
+2026-02-18 23:32:11.871 [pool-1-thread-4] INFO  vendors.openlogic - Waiting 3 seconds before fetching next page...
+2026-02-18 23:32:14.871 [pool-1-thread-4] INFO  vendors.openlogic - Fetching page 1 from https://www.openlogic.com/openjdk-downloads?page=1
+2026-02-18 23:32:14.929 [pool-1-thread-4] INFO  vendors.openlogic - Found 24 download links on page 1
+2026-02-18 23:32:14.931 [pool-1-thread-4] INFO  vendors.openlogic - Reached progress limit of 10 items, aborting
+2026-02-18 23:32:14.931 [pool-1-thread-4] INFO  vendors.openlogic - Completed successfully. Marked 10 items for processing, skipped 30 existing items, and had 0 failures.

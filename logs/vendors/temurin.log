@@ -138,3 +138,23 @@
 2026-02-18 23:19:56.118 [pool-1-thread-4] INFO  vendors.temurin - Fetching releases from https://api.github.com/repos/adoptium/temurin8-binaries/releases?per_page=100&page=1
 2026-02-18 23:20:03.590 [pool-1-thread-4] INFO  vendors.temurin - Reached progress limit of 10 items, aborting
 2026-02-18 23:20:03.591 [pool-1-thread-4] INFO  vendors.temurin - Completed successfully. Marked 10 items for processing, skipped 105 existing items, and had 0 failures.
+2026-02-18 23:32:16.278 [pool-1-thread-2] INFO  vendors.temurin - Starting scraper
+2026-02-18 23:32:16.280 [pool-1-thread-2] INFO  vendors.temurin - Fetching repositories from https://api.github.com/orgs/adoptium/repos?type=public&per_page=100&page=1&q=temurin
+2026-02-18 23:32:17.399 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin8-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin11-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin16-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin17-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin18-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin19-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin20-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin21-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin22-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin23-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin24-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin25-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin26-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin27-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Processing repository: temurin8-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Fetching releases from https://api.github.com/repos/adoptium/temurin8-binaries/releases?per_page=100&page=1
+2026-02-18 23:32:27.180 [pool-1-thread-2] INFO  vendors.temurin - Reached progress limit of 10 items, aborting
+2026-02-18 23:32:27.181 [pool-1-thread-2] INFO  vendors.temurin - Completed successfully. Marked 10 items for processing, skipped 151 existing items, and had 0 failures.

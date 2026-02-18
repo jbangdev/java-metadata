@@ -87,3 +87,7 @@
 2026-02-18 23:19:54.106 [pool-1-thread-4] INFO  vendors.liberica - Fetching assets from https://api.bell-sw.com/v1/liberica/releases?
 2026-02-18 23:19:54.548 [pool-1-thread-4] INFO  vendors.liberica - Found 19560 assets
 2026-02-18 23:19:54.620 [pool-1-thread-4] INFO  vendors.liberica - Completed successfully. Marked 0 items for processing, skipped 19288 existing items, and had 0 failures.
+2026-02-18 23:32:14.932 [pool-1-thread-4] INFO  vendors.liberica - Starting scraper
+2026-02-18 23:32:14.934 [pool-1-thread-4] INFO  vendors.liberica - Fetching assets from https://api.bell-sw.com/v1/liberica/releases?
+2026-02-18 23:32:17.130 [pool-1-thread-4] INFO  vendors.liberica - Found 19560 assets
+2026-02-18 23:32:17.191 [pool-1-thread-4] INFO  vendors.liberica - Completed successfully. Marked 0 items for processing, skipped 19288 existing items, and had 0 failures.

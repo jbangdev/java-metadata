@@ -115,3 +115,42 @@
 2026-02-18 23:19:56.919 [pool-1-thread-2] INFO  vendors.adoptopenjdk - Processing release: 25
 2026-02-18 23:19:57.603 [pool-1-thread-2] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 25, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/25/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
 2026-02-18 23:19:57.603 [pool-1-thread-2] INFO  vendors.adoptopenjdk - Completed successfully. Marked 0 items for processing, skipped 2573 existing items, and had 0 failures.
+2026-02-18 23:32:07.644 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Starting scraper
+2026-02-18 23:32:07.646 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Fetching available releases: https://api.adoptopenjdk.net/v3/info/available_releases
+2026-02-18 23:32:07.778 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 8
+2026-02-18 23:32:09.410 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 2 of assets for release 8, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/8/ga?project=jdk&vendor=adoptopenjdk&page=2&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:09.411 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 9
+2026-02-18 23:32:09.990 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 9, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/9/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:09.990 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 10
+2026-02-18 23:32:10.719 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 10, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/10/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:10.720 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 11
+2026-02-18 23:32:13.394 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 2 of assets for release 11, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/11/ga?project=jdk&vendor=adoptopenjdk&page=2&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:13.394 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 12
+2026-02-18 23:32:13.816 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 12, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/12/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:13.816 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 13
+2026-02-18 23:32:14.240 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 13, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/13/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:14.241 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 14
+2026-02-18 23:32:15.006 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 14, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/14/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:15.007 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 15
+2026-02-18 23:32:16.116 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 15, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/15/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:16.116 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 16
+2026-02-18 23:32:16.719 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 16, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/16/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:16.719 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 17
+2026-02-18 23:32:18.283 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 2 of assets for release 17, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/17/ga?project=jdk&vendor=adoptopenjdk&page=2&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:18.283 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 18
+2026-02-18 23:32:18.764 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 18, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/18/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:18.764 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 19
+2026-02-18 23:32:19.247 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 19, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/19/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:19.247 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 20
+2026-02-18 23:32:19.725 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 20, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/20/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:19.725 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 21
+2026-02-18 23:32:20.839 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 21, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/21/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:20.839 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 22
+2026-02-18 23:32:21.633 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 22, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/22/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:21.633 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 23
+2026-02-18 23:32:22.194 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 23, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/23/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:22.194 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 24
+2026-02-18 23:32:22.656 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 24, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/24/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:22.656 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 25
+2026-02-18 23:32:23.207 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 25, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/25/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:23.207 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Completed successfully. Marked 0 items for processing, skipped 2573 existing items, and had 0 failures.

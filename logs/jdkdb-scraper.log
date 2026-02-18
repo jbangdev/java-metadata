@@ -2633,3 +2633,358 @@
 2026-02-18 23:20:03.590 [pool-1-thread-4] INFO  vendors.temurin - Reached progress limit of 10 items, aborting
 2026-02-18 23:20:03.591 [pool-1-thread-4] INFO  vendors.temurin - Completed successfully. Marked 10 items for processing, skipped 105 existing items, and had 0 failures.
 2026-02-18 23:20:03.591 [main] INFO  d.j.j.scraper.NoOpDownloadManager - NoOpDownloadManager shutdown
+2026-02-18 23:32:04.199 [main] INFO  d.j.j.scraper.NoOpDownloadManager - NoOpDownloadManager started - all downloads will be skipped
+2026-02-18 23:32:04.418 [pool-1-thread-1] INFO  vendors.mandrel - Starting scraper
+2026-02-18 23:32:04.419 [pool-1-thread-2] INFO  vendors.sapmachine - Starting scraper
+2026-02-18 23:32:04.420 [pool-1-thread-3] INFO  vendors.graalvm - Starting scraper
+2026-02-18 23:32:04.422 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Starting scraper
+2026-02-18 23:32:04.425 [pool-1-thread-1] INFO  vendors.mandrel - Processing repository: mandrel
+2026-02-18 23:32:04.428 [pool-1-thread-2] INFO  vendors.sapmachine - Processing repository: SapMachine
+2026-02-18 23:32:04.430 [pool-1-thread-3] INFO  vendors.graalvm - Processing repository: graalvm-ce-builds
+2026-02-18 23:32:04.434 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Processing repository: graal
+2026-02-18 23:32:04.435 [pool-1-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=1
+2026-02-18 23:32:04.435 [pool-1-thread-3] INFO  vendors.graalvm - Fetching releases from https://api.github.com/repos/graalvm/graalvm-ce-builds/releases?per_page=100&page=1
+2026-02-18 23:32:04.435 [pool-1-thread-1] INFO  vendors.mandrel - Fetching releases from https://api.github.com/repos/graalvm/mandrel/releases?per_page=100&page=1
+2026-02-18 23:32:04.435 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Fetching releases from https://api.github.com/repos/gluonhq/graal/releases?per_page=100&page=1
+2026-02-18 23:32:05.102 [pool-1-thread-4] WARN  vendors.gluon-graalvm - Skipping graalvm-svm-darwin-21.1-gluon-latest.zip (does not match pattern)
+2026-02-18 23:32:05.103 [pool-1-thread-4] WARN  vendors.gluon-graalvm - Skipping graalvm-svm-linux-21.1-gluon-latest.zip (does not match pattern)
+2026-02-18 23:32:05.103 [pool-1-thread-4] WARN  vendors.gluon-graalvm - Skipping graalvm-svm-windows-21.1-gluon-latest.zip (does not match pattern)
+2026-02-18 23:32:05.103 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Fetching releases from https://api.github.com/repos/gluonhq/graal/releases?per_page=100&page=2
+2026-02-18 23:32:05.227 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Completed successfully. Marked 0 items for processing, skipped 20 existing items, and had 0 failures.
+2026-02-18 23:32:05.228 [pool-1-thread-4] INFO  vendors.graalvm - Starting scraper
+2026-02-18 23:32:05.228 [pool-1-thread-4] INFO  vendors.graalvm - Processing repository: graal
+2026-02-18 23:32:05.228 [pool-1-thread-4] INFO  vendors.graalvm - Fetching releases from https://api.github.com/repos/oracle/graal/releases?per_page=100&page=1
+2026-02-18 23:32:05.544 [pool-1-thread-4] INFO  vendors.graalvm - Fetching releases from https://api.github.com/repos/oracle/graal/releases?per_page=100&page=2
+2026-02-18 23:32:05.550 [pool-1-thread-1] INFO  vendors.mandrel - Fetching releases from https://api.github.com/repos/graalvm/mandrel/releases?per_page=100&page=2
+2026-02-18 23:32:05.673 [pool-1-thread-1] INFO  vendors.mandrel - Completed successfully. Marked 0 items for processing, skipped 158 existing items, and had 0 failures.
+2026-02-18 23:32:05.674 [pool-1-thread-1] INFO  vendors.java-se-ri - Starting scraper
+2026-02-18 23:32:05.676 [pool-1-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/7
+2026-02-18 23:32:05.681 [pool-1-thread-4] INFO  vendors.graalvm - Completed successfully. Marked 0 items for processing, skipped 21 existing items, and had 0 failures.
+2026-02-18 23:32:05.681 [pool-1-thread-4] INFO  vendors.microsoft - Starting scraper
+2026-02-18 23:32:05.683 [pool-1-thread-4] INFO  vendors.microsoft - Fetching index from https://docs.microsoft.com/en-us/java/openjdk/download
+2026-02-18 23:32:05.816 [pool-1-thread-4] INFO  vendors.microsoft - Found 64 files to process
+2026-02-18 23:32:05.818 [pool-1-thread-4] INFO  vendors.microsoft - Completed successfully. Marked 0 items for processing, skipped 40 existing items, and had 0 failures.
+2026-02-18 23:32:05.818 [pool-1-thread-4] INFO  vendors.liberica-native - Starting scraper
+2026-02-18 23:32:05.821 [pool-1-thread-4] INFO  vendors.liberica-native - Fetching assets from https://api.bell-sw.com/v1/nik/releases?bundle-type=full&components=liberica&components=nik
+2026-02-18 23:32:05.913 [pool-1-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/8-MR3
+2026-02-18 23:32:06.053 [pool-1-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/9
+2026-02-18 23:32:06.113 [pool-1-thread-3] INFO  vendors.graalvm - Fetching releases from https://api.github.com/repos/graalvm/graalvm-ce-builds/releases?per_page=100&page=2
+2026-02-18 23:32:06.235 [pool-1-thread-3] INFO  vendors.graalvm - Completed successfully. Marked 0 items for processing, skipped 267 existing items, and had 0 failures.
+2026-02-18 23:32:06.236 [pool-1-thread-3] INFO  vendors.openjdk - Starting scraper
+2026-02-18 23:32:06.238 [pool-1-thread-3] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/valhalla/
+2026-02-18 23:32:06.298 [pool-1-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/10
+2026-02-18 23:32:06.381 [pool-1-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/11
+2026-02-18 23:32:06.464 [pool-1-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/12
+2026-02-18 23:32:06.550 [pool-1-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/13
+2026-02-18 23:32:06.552 [pool-1-thread-3] INFO  vendors.openjdk - Found 5 download URLs
+2026-02-18 23:32:06.552 [pool-1-thread-3] INFO  vendors.openjdk - Completed successfully. Marked 0 items for processing, skipped 5 existing items, and had 0 failures.
+2026-02-18 23:32:06.552 [pool-1-thread-3] INFO  vendors.graalvm-community - Starting scraper
+2026-02-18 23:32:06.555 [pool-1-thread-3] INFO  vendors.graalvm-community - Processing repository: graalvm-ce-dev-builds
+2026-02-18 23:32:06.555 [pool-1-thread-3] INFO  vendors.graalvm-community - Fetching releases from https://api.github.com/repos/graalvm/graalvm-ce-dev-builds/releases?per_page=100&page=1
+2026-02-18 23:32:06.624 [pool-1-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/14
+2026-02-18 23:32:06.721 [pool-1-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/15
+2026-02-18 23:32:06.882 [pool-1-thread-2] INFO  vendors.sapmachine - Reached progress limit of 10 items, aborting
+2026-02-18 23:32:06.883 [pool-1-thread-2] INFO  vendors.sapmachine - Completed successfully. Marked 10 items for processing, skipped 10 existing items, and had 0 failures.
+2026-02-18 23:32:06.883 [pool-1-thread-2] INFO  vendors.openjdk - Starting scraper
+2026-02-18 23:32:06.883 [pool-1-thread-2] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/archive/
+2026-02-18 23:32:07.010 [pool-1-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/16
+2026-02-18 23:32:07.090 [pool-1-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/17
+2026-02-18 23:32:07.177 [pool-1-thread-3] INFO  vendors.graalvm-community - Fetching releases from https://api.github.com/repos/graalvm/graalvm-ce-dev-builds/releases?per_page=100&page=2
+2026-02-18 23:32:07.180 [pool-1-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/18
+2026-02-18 23:32:07.264 [pool-1-thread-4] INFO  vendors.liberica-native - Found 917 assets
+2026-02-18 23:32:07.270 [pool-1-thread-4] INFO  vendors.liberica-native - Reached progress limit of 10 items, aborting
+2026-02-18 23:32:07.270 [pool-1-thread-4] INFO  vendors.liberica-native - Completed successfully. Marked 10 items for processing, skipped 30 existing items, and had 0 failures.
+2026-02-18 23:32:07.270 [pool-1-thread-4] INFO  vendors.semeru - Starting scraper
+2026-02-18 23:32:07.275 [pool-1-thread-4] INFO  vendors.semeru - Fetching repositories from https://api.github.com/orgs/ibmruntimes/repos?type=public&per_page=100&page=1&q=semeru
+2026-02-18 23:32:07.312 [pool-1-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/19
+2026-02-18 23:32:07.312 [pool-1-thread-3] INFO  vendors.graalvm-community - Completed successfully. Marked 0 items for processing, skipped 56 existing items, and had 0 failures.
+2026-02-18 23:32:07.312 [pool-1-thread-3] INFO  vendors.debian - Starting scraper
+2026-02-18 23:32:07.315 [pool-1-thread-3] INFO  vendors.debian - Processing OpenJDK 8 from http://ftp.debian.org/debian/pool/main/o/openjdk-8/
+2026-02-18 23:32:07.418 [pool-1-thread-2] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/25/
+2026-02-18 23:32:07.426 [pool-1-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/20
+2026-02-18 23:32:07.448 [pool-1-thread-3] INFO  vendors.debian - Processing OpenJDK 11 from http://ftp.debian.org/debian/pool/main/o/openjdk-11/
+2026-02-18 23:32:07.560 [pool-1-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/21
+2026-02-18 23:32:07.634 [pool-1-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/22
+2026-02-18 23:32:07.644 [pool-1-thread-3] INFO  vendors.debian - Reached progress limit of 10 items, aborting
+2026-02-18 23:32:07.644 [pool-1-thread-3] INFO  vendors.debian - Completed successfully. Marked 10 items for processing, skipped 27 existing items, and had 0 failures.
+2026-02-18 23:32:07.644 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Starting scraper
+2026-02-18 23:32:07.646 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Fetching available releases: https://api.adoptopenjdk.net/v3/info/available_releases
+2026-02-18 23:32:07.708 [pool-1-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/23
+2026-02-18 23:32:07.762 [pool-1-thread-2] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/26/
+2026-02-18 23:32:07.778 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 8
+2026-02-18 23:32:07.838 [pool-1-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/24
+2026-02-18 23:32:07.877 [pool-1-thread-2] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/27/
+2026-02-18 23:32:07.943 [pool-1-thread-1] INFO  vendors.java-se-ri - Fetching index from https://jdk.java.net/java-se-ri/25
+2026-02-18 23:32:07.970 [pool-1-thread-2] INFO  vendors.openjdk - Found 213 download URLs
+2026-02-18 23:32:07.971 [pool-1-thread-2] INFO  vendors.openjdk - Completed successfully. Marked 0 items for processing, skipped 213 existing items, and had 0 failures.
+2026-02-18 23:32:07.971 [pool-1-thread-2] INFO  vendors.openjdk - Starting scraper
+2026-02-18 23:32:07.972 [pool-1-thread-2] INFO  vendors.openjdk - Fetching index from https://jdk.java.net/loom/
+2026-02-18 23:32:08.015 [pool-1-thread-1] INFO  vendors.java-se-ri - Found 35 download URLs
+2026-02-18 23:32:08.015 [pool-1-thread-1] INFO  vendors.java-se-ri - Completed successfully. Marked 0 items for processing, skipped 35 existing items, and had 0 failures.
+2026-02-18 23:32:08.016 [pool-1-thread-1] INFO  vendors.oracle - Starting scraper
+2026-02-18 23:32:08.018 [pool-1-thread-1] INFO  vendors.oracle - Scraping Oracle JDK releases
+2026-02-18 23:32:08.018 [pool-1-thread-1] INFO  vendors.oracle - Fetching Oracle JDK versions from https://java.oraclecloud.com/javaVersions
+2026-02-18 23:32:08.067 [pool-1-thread-2] INFO  vendors.openjdk - Found 5 download URLs
+2026-02-18 23:32:08.067 [pool-1-thread-2] INFO  vendors.openjdk - Completed successfully. Marked 0 items for processing, skipped 5 existing items, and had 0 failures.
+2026-02-18 23:32:08.067 [pool-1-thread-2] INFO  vendors.graalvm-community - Starting scraper
+2026-02-18 23:32:08.068 [pool-1-thread-2] INFO  vendors.graalvm-community - Processing repository: graalvm-ce-builds
+2026-02-18 23:32:08.068 [pool-1-thread-2] INFO  vendors.graalvm-community - Fetching releases from https://api.github.com/repos/graalvm/graalvm-ce-builds/releases?per_page=100&page=1
+2026-02-18 23:32:08.217 [pool-1-thread-1] INFO  vendors.oracle - Fetching release info for version 25.0.2
+2026-02-18 23:32:08.234 [pool-1-thread-1] INFO  vendors.oracle - Fetching release info for version 24.0.2
+2026-02-18 23:32:08.249 [pool-1-thread-1] INFO  vendors.oracle - Fetching release info for version 23.0.2
+2026-02-18 23:32:08.270 [pool-1-thread-1] INFO  vendors.oracle - Fetching release info for version 22.0.2
+2026-02-18 23:32:08.285 [pool-1-thread-1] INFO  vendors.oracle - Fetching release info for version 21.0.10
+2026-02-18 23:32:08.298 [pool-1-thread-1] INFO  vendors.oracle - Fetching release info for version 20.0.2
+2026-02-18 23:32:08.313 [pool-1-thread-1] INFO  vendors.oracle - Fetching release info for version 19.0.2
+2026-02-18 23:32:08.327 [pool-1-thread-1] INFO  vendors.oracle - Fetching release info for version 18.0.2.1
+2026-02-18 23:32:08.341 [pool-1-thread-1] INFO  vendors.oracle - Fetching release info for version 17.0.18
+2026-02-18 23:32:08.355 [pool-1-thread-1] INFO  vendors.oracle - Skipping OTN licensed version 17.0.18
+2026-02-18 23:32:08.355 [pool-1-thread-1] INFO  vendors.oracle - Fetching release info for version 16.0.2
+2026-02-18 23:32:08.368 [pool-1-thread-1] INFO  vendors.oracle - Skipping OTN licensed version 16.0.2
+2026-02-18 23:32:08.369 [pool-1-thread-1] INFO  vendors.oracle - Scraping Oracle JDK 17 archive from https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+2026-02-18 23:32:08.492 [pool-1-thread-1] INFO  vendors.oracle - Scraping Oracle JDK 18 archive from https://www.oracle.com/java/technologies/javase/jdk18-archive-downloads.html
+2026-02-18 23:32:08.531 [pool-1-thread-1] INFO  vendors.oracle - Scraping Oracle JDK 19 archive from https://www.oracle.com/java/technologies/javase/jdk19-archive-downloads.html
+2026-02-18 23:32:08.546 [pool-1-thread-1] INFO  vendors.oracle - Scraping Oracle JDK 20 archive from https://www.oracle.com/java/technologies/javase/jdk20-archive-downloads.html
+2026-02-18 23:32:08.562 [pool-1-thread-1] INFO  vendors.oracle - Scraping Oracle JDK 21 archive from https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html
+2026-02-18 23:32:08.579 [pool-1-thread-1] INFO  vendors.oracle - Scraping Oracle JDK 22 archive from https://www.oracle.com/java/technologies/javase/jdk22-archive-downloads.html
+2026-02-18 23:32:08.648 [pool-1-thread-1] INFO  vendors.oracle - Scraping Oracle JDK 23 archive from https://www.oracle.com/java/technologies/javase/jdk23-archive-downloads.html
+2026-02-18 23:32:08.694 [pool-1-thread-1] INFO  vendors.oracle - Scraping Oracle JDK 24 archive from https://www.oracle.com/java/technologies/javase/jdk24-archive-downloads.html
+2026-02-18 23:32:08.805 [pool-1-thread-1] INFO  vendors.oracle - Completed successfully. Marked 0 items for processing, skipped 600 existing items, and had 0 failures.
+2026-02-18 23:32:08.805 [pool-1-thread-1] INFO  vendors.kona - Starting scraper
+2026-02-18 23:32:08.808 [pool-1-thread-1] INFO  vendors.kona - Fetching repositories from https://api.github.com/orgs/Tencent/repos?type=public&per_page=100&page=1&q=TencentKona
+2026-02-18 23:32:09.074 [pool-1-thread-2] INFO  vendors.graalvm-community - Fetching releases from https://api.github.com/repos/graalvm/graalvm-ce-builds/releases?per_page=100&page=2
+2026-02-18 23:32:09.237 [pool-1-thread-2] INFO  vendors.graalvm-community - Completed successfully. Marked 0 items for processing, skipped 99 existing items, and had 0 failures.
+2026-02-18 23:32:09.237 [pool-1-thread-2] INFO  vendors.oracle-graalvm - Starting scraper
+2026-02-18 23:32:09.239 [pool-1-thread-2] INFO  vendors.oracle-graalvm - Processing repository: oracle-graalvm-ea-builds
+2026-02-18 23:32:09.239 [pool-1-thread-2] INFO  vendors.oracle-graalvm - Fetching releases from https://api.github.com/repos/graalvm/oracle-graalvm-ea-builds/releases?per_page=100&page=1
+2026-02-18 23:32:09.407 [pool-1-thread-4] INFO  vendors.semeru - Matched repository: semeru11-binaries
+2026-02-18 23:32:09.407 [pool-1-thread-4] INFO  vendors.semeru - Matched repository: semeru8-binaries
+2026-02-18 23:32:09.407 [pool-1-thread-4] INFO  vendors.semeru - Matched repository: semeru16-binaries
+2026-02-18 23:32:09.407 [pool-1-thread-4] INFO  vendors.semeru - Matched repository: semeru17-binaries
+2026-02-18 23:32:09.407 [pool-1-thread-4] INFO  vendors.semeru - Matched repository: semeru18-binaries
+2026-02-18 23:32:09.407 [pool-1-thread-4] INFO  vendors.semeru - Matched repository: semeru19-binaries
+2026-02-18 23:32:09.407 [pool-1-thread-4] INFO  vendors.semeru - Matched repository: semeru20-binaries
+2026-02-18 23:32:09.407 [pool-1-thread-4] INFO  vendors.semeru - Matched repository: semeru21-binaries
+2026-02-18 23:32:09.407 [pool-1-thread-4] INFO  vendors.semeru - Processing repository: semeru11-binaries
+2026-02-18 23:32:09.407 [pool-1-thread-4] INFO  vendors.semeru - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru11-binaries/releases?per_page=100&page=1
+2026-02-18 23:32:09.410 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 2 of assets for release 8, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/8/ga?project=jdk&vendor=adoptopenjdk&page=2&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:09.411 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 9
+2026-02-18 23:32:09.990 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 9, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/9/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:09.990 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 10
+2026-02-18 23:32:10.027 [pool-1-thread-1] INFO  vendors.kona - Matched repository: TencentKona-8
+2026-02-18 23:32:10.028 [pool-1-thread-1] INFO  vendors.kona - Processing repository: TencentKona-8
+2026-02-18 23:32:10.028 [pool-1-thread-1] INFO  vendors.kona - Fetching releases from https://api.github.com/repos/Tencent/TencentKona-8/releases?per_page=100&page=1
+2026-02-18 23:32:10.281 [pool-1-thread-2] INFO  vendors.oracle-graalvm - Reached progress limit of 10 items, aborting
+2026-02-18 23:32:10.281 [pool-1-thread-2] INFO  vendors.oracle-graalvm - Completed successfully. Marked 10 items for processing, skipped 10 existing items, and had 0 failures.
+2026-02-18 23:32:10.281 [pool-1-thread-2] INFO  vendors.oracle-graalvm - Starting scraper
+2026-02-18 23:32:10.281 [pool-1-thread-2] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM releases
+2026-02-18 23:32:10.315 [pool-1-thread-2] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM 17 archive from https://www.oracle.com/java/technologies/javase/graalvm-jdk17-archive-downloads.html
+2026-02-18 23:32:10.380 [pool-1-thread-1] INFO  vendors.kona - Reached progress limit of 10 items, aborting
+2026-02-18 23:32:10.381 [pool-1-thread-1] INFO  vendors.kona - Completed successfully. Marked 10 items for processing, skipped 30 existing items, and had 0 failures.
+2026-02-18 23:32:10.381 [pool-1-thread-1] INFO  vendors.dragonwell - Starting scraper
+2026-02-18 23:32:10.384 [pool-1-thread-1] INFO  vendors.dragonwell - Fetching repositories from https://api.github.com/orgs/dragonwell-project/repos?type=public&per_page=100&page=1&q=dragonwell
+2026-02-18 23:32:10.524 [pool-1-thread-2] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM 20 archive from https://www.oracle.com/java/technologies/javase/graalvm-jdk20-archive-downloads.html
+2026-02-18 23:32:10.574 [pool-1-thread-2] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM 21 archive from https://www.oracle.com/java/technologies/javase/graalvm-jdk21-archive-downloads.html
+2026-02-18 23:32:10.610 [pool-1-thread-2] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM 22 archive from https://www.oracle.com/java/technologies/javase/graalvm-jdk22-archive-downloads.html
+2026-02-18 23:32:10.649 [pool-1-thread-2] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM 23 archive from https://www.oracle.com/java/technologies/javase/graalvm-jdk23-archive-downloads.html
+2026-02-18 23:32:10.697 [pool-1-thread-2] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM 24 archive from https://www.oracle.com/java/technologies/javase/graalvm-jdk24-archive-downloads.html
+2026-02-18 23:32:10.719 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 10, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/10/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:10.720 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 11
+2026-02-18 23:32:10.736 [pool-1-thread-2] INFO  vendors.oracle-graalvm - Completed successfully. Marked 0 items for processing, skipped 125 existing items, and had 0 failures.
+2026-02-18 23:32:10.736 [pool-1-thread-2] INFO  vendors.redhat - Starting scraper
+2026-02-18 23:32:10.738 [pool-1-thread-2] INFO  vendors.redhat - Fetching available releases: https://marketplace-api.adoptium.net/v1/info/available_releases/redhat
+2026-02-18 23:32:10.832 [pool-1-thread-2] INFO  vendors.redhat - Processing release: 8
+2026-02-18 23:32:10.852 [pool-1-thread-1] INFO  vendors.dragonwell - Matched repository: dragonwell8
+2026-02-18 23:32:10.852 [pool-1-thread-1] INFO  vendors.dragonwell - Matched repository: dragonwell11
+2026-02-18 23:32:10.852 [pool-1-thread-1] INFO  vendors.dragonwell - Matched repository: dragonwell17
+2026-02-18 23:32:10.852 [pool-1-thread-1] INFO  vendors.dragonwell - Matched repository: dragonwell21
+2026-02-18 23:32:10.852 [pool-1-thread-1] INFO  vendors.dragonwell - Matched repository: dragonwell25
+2026-02-18 23:32:10.852 [pool-1-thread-1] INFO  vendors.dragonwell - Processing repository: dragonwell8
+2026-02-18 23:32:10.852 [pool-1-thread-1] INFO  vendors.dragonwell - Fetching releases from https://api.github.com/repos/dragonwell-project/dragonwell8/releases?per_page=100&page=1
+2026-02-18 23:32:10.914 [pool-1-thread-2] INFO  vendors.redhat - Could not download page 1 of assets for release 8, assuming no more pages (Failed to download content: https://marketplace-api.adoptium.net/v1/assets/feature_releases/redhat/8?&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:10.914 [pool-1-thread-2] INFO  vendors.redhat - Processing release: 17
+2026-02-18 23:32:10.975 [pool-1-thread-2] INFO  vendors.redhat - Could not download page 1 of assets for release 17, assuming no more pages (Failed to download content: https://marketplace-api.adoptium.net/v1/assets/feature_releases/redhat/17?&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:10.975 [pool-1-thread-2] INFO  vendors.redhat - Processing release: 21
+2026-02-18 23:32:11.050 [pool-1-thread-2] INFO  vendors.redhat - Could not download page 1 of assets for release 21, assuming no more pages (Failed to download content: https://marketplace-api.adoptium.net/v1/assets/feature_releases/redhat/21?&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:11.051 [pool-1-thread-2] INFO  vendors.redhat - Completed successfully. Marked 4 items for processing, skipped 8 existing items, and had 0 failures.
+2026-02-18 23:32:11.051 [pool-1-thread-2] INFO  vendors.corretto - Starting scraper
+2026-02-18 23:32:11.052 [pool-1-thread-2] INFO  vendors.corretto - Fetching repositories from https://api.github.com/orgs/corretto/repos?type=public&per_page=100&page=1&q=corretto
+2026-02-18 23:32:11.320 [pool-1-thread-1] INFO  vendors.dragonwell - Fetching releases from https://api.github.com/repos/dragonwell-project/dragonwell8/releases?per_page=100&page=2
+2026-02-18 23:32:11.455 [pool-1-thread-1] INFO  vendors.dragonwell - Processing repository: dragonwell11
+2026-02-18 23:32:11.456 [pool-1-thread-1] INFO  vendors.dragonwell - Fetching releases from https://api.github.com/repos/dragonwell-project/dragonwell11/releases?per_page=100&page=1
+2026-02-18 23:32:11.519 [pool-1-thread-2] INFO  vendors.corretto - Matched repository: corretto-8
+2026-02-18 23:32:11.519 [pool-1-thread-2] INFO  vendors.corretto - Matched repository: corretto-11
+2026-02-18 23:32:11.519 [pool-1-thread-2] INFO  vendors.corretto - Matched repository: corretto-jdk
+2026-02-18 23:32:11.519 [pool-1-thread-2] INFO  vendors.corretto - Matched repository: corretto-17
+2026-02-18 23:32:11.519 [pool-1-thread-2] INFO  vendors.corretto - Matched repository: corretto-18
+2026-02-18 23:32:11.519 [pool-1-thread-2] INFO  vendors.corretto - Matched repository: corretto-19
+2026-02-18 23:32:11.519 [pool-1-thread-2] INFO  vendors.corretto - Matched repository: corretto-20
+2026-02-18 23:32:11.520 [pool-1-thread-2] INFO  vendors.corretto - Matched repository: corretto-21
+2026-02-18 23:32:11.520 [pool-1-thread-2] INFO  vendors.corretto - Matched repository: corretto-22
+2026-02-18 23:32:11.520 [pool-1-thread-2] INFO  vendors.corretto - Matched repository: corretto-23
+2026-02-18 23:32:11.520 [pool-1-thread-2] INFO  vendors.corretto - Matched repository: corretto-24
+2026-02-18 23:32:11.520 [pool-1-thread-2] INFO  vendors.corretto - Matched repository: corretto-25
+2026-02-18 23:32:11.520 [pool-1-thread-2] INFO  vendors.corretto - Matched repository: corretto-26
+2026-02-18 23:32:11.520 [pool-1-thread-2] INFO  vendors.corretto - Processing repository: corretto-8
+2026-02-18 23:32:11.520 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-8/releases?per_page=100&page=1
+2026-02-18 23:32:11.701 [pool-1-thread-4] INFO  vendors.semeru - Reached progress limit of 10 items, aborting
+2026-02-18 23:32:11.701 [pool-1-thread-4] INFO  vendors.semeru - Completed successfully. Marked 10 items for processing, skipped 72 existing items, and had 0 failures.
+2026-02-18 23:32:11.702 [pool-1-thread-4] INFO  vendors.openlogic - Starting scraper
+2026-02-18 23:32:11.704 [pool-1-thread-4] INFO  vendors.openlogic - Fetching page 0 from https://www.openlogic.com/openjdk-downloads?page=0
+2026-02-18 23:32:11.833 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-8/releases?per_page=100&page=2
+2026-02-18 23:32:11.871 [pool-1-thread-4] INFO  vendors.openlogic - Found 24 download links on page 0
+2026-02-18 23:32:11.871 [pool-1-thread-4] INFO  vendors.openlogic - Waiting 3 seconds before fetching next page...
+2026-02-18 23:32:11.955 [pool-1-thread-1] INFO  vendors.dragonwell - Reached progress limit of 10 items, aborting
+2026-02-18 23:32:11.955 [pool-1-thread-1] INFO  vendors.dragonwell - Completed successfully. Marked 10 items for processing, skipped 234 existing items, and had 0 failures.
+2026-02-18 23:32:11.955 [pool-1-thread-1] INFO  vendors.ibm - Starting scraper
+2026-02-18 23:32:11.961 [pool-1-thread-1] INFO  vendors.ibm - Fetching index
+2026-02-18 23:32:11.971 [pool-1-thread-2] INFO  vendors.corretto - Processing repository: corretto-11
+2026-02-18 23:32:11.971 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-11/releases?per_page=100&page=1
+2026-02-18 23:32:12.317 [pool-1-thread-1] INFO  vendors.ibm - Found 3 JDK versions
+2026-02-18 23:32:12.317 [pool-1-thread-1] INFO  vendors.ibm - Processing JDK version: 8.0.8.45
+2026-02-18 23:32:12.334 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-11/releases?per_page=100&page=2
+2026-02-18 23:32:12.354 [pool-1-thread-1] INFO  vendors.ibm - Processing architecture: s390
+2026-02-18 23:32:12.393 [pool-1-thread-1] ERROR vendors.ibm - Failed to submit download for ibm-java-jre-8.0-8.45-linux-s390.tgz: Metadata is missing required fields or has invalid values for ibm - ibm-java-jre-8.0-8.45-linux-s390.tgz
+2026-02-18 23:32:12.393 [pool-1-thread-1] ERROR vendors.ibm - Failed to submit download for ibm-java-sdk-8.0-8.45-linux-s390.tgz: Metadata is missing required fields or has invalid values for ibm - ibm-java-sdk-8.0-8.45-linux-s390.tgz
+2026-02-18 23:32:12.394 [pool-1-thread-1] INFO  vendors.ibm - Processing JDK version: 8.0.8.55
+2026-02-18 23:32:12.433 [pool-1-thread-1] INFO  vendors.ibm - Processing architecture: i386
+2026-02-18 23:32:12.471 [pool-1-thread-1] INFO  vendors.ibm - Processing architecture: ppc64le
+2026-02-18 23:32:12.499 [pool-1-thread-2] INFO  vendors.corretto - Processing repository: corretto-jdk
+2026-02-18 23:32:12.499 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-jdk/releases?per_page=100&page=1
+2026-02-18 23:32:12.508 [pool-1-thread-1] INFO  vendors.ibm - Processing architecture: s390x
+2026-02-18 23:32:12.546 [pool-1-thread-1] INFO  vendors.ibm - Processing architecture: x86_64
+2026-02-18 23:32:12.584 [pool-1-thread-1] INFO  vendors.ibm - Processing JDK version: 8.0.8.60
+2026-02-18 23:32:12.624 [pool-1-thread-1] INFO  vendors.ibm - Processing architecture: i386
+2026-02-18 23:32:12.662 [pool-1-thread-1] INFO  vendors.ibm - Processing architecture: ppc64le
+2026-02-18 23:32:12.699 [pool-1-thread-1] INFO  vendors.ibm - Processing architecture: s390x
+2026-02-18 23:32:12.713 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-jdk/releases?per_page=100&page=2
+2026-02-18 23:32:12.737 [pool-1-thread-1] INFO  vendors.ibm - Processing architecture: x86_64
+2026-02-18 23:32:12.774 [pool-1-thread-1] INFO  vendors.ibm - Completed successfully. Marked 0 items for processing, skipped 34 existing items, and had 2 failures.
+2026-02-18 23:32:12.775 [pool-1-thread-1] INFO  vendors.openjdk - Starting scraper
+2026-02-18 23:32:12.775 [pool-1-thread-1] INFO  vendors.openjdk - Fetching index from http://jdk.java.net/leyden/
+2026-02-18 23:32:12.847 [pool-1-thread-2] INFO  vendors.corretto - Processing repository: corretto-17
+2026-02-18 23:32:12.847 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-17/releases?per_page=100&page=1
+2026-02-18 23:32:12.962 [pool-1-thread-1] INFO  vendors.openjdk - Found 3 download URLs
+2026-02-18 23:32:12.962 [pool-1-thread-1] INFO  vendors.openjdk - Completed successfully. Marked 0 items for processing, skipped 3 existing items, and had 0 failures.
+2026-02-18 23:32:12.962 [pool-1-thread-1] INFO  vendors.jetbrains - Starting scraper
+2026-02-18 23:32:12.965 [pool-1-thread-1] INFO  vendors.jetbrains - Processing repository: JetBrainsRuntime
+2026-02-18 23:32:12.965 [pool-1-thread-1] INFO  vendors.jetbrains - Fetching releases from https://api.github.com/repos/JetBrains/JetBrainsRuntime/releases?per_page=100&page=1
+2026-02-18 23:32:13.079 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-17/releases?per_page=100&page=2
+2026-02-18 23:32:13.220 [pool-1-thread-2] INFO  vendors.corretto - Processing repository: corretto-18
+2026-02-18 23:32:13.220 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-18/releases?per_page=100&page=1
+2026-02-18 23:32:13.378 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-18/releases?per_page=100&page=2
+2026-02-18 23:32:13.394 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 2 of assets for release 11, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/11/ga?project=jdk&vendor=adoptopenjdk&page=2&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:13.394 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 12
+2026-02-18 23:32:13.487 [pool-1-thread-2] INFO  vendors.corretto - Processing repository: corretto-19
+2026-02-18 23:32:13.488 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-19/releases?per_page=100&page=1
+2026-02-18 23:32:13.593 [pool-1-thread-1] INFO  vendors.jetbrains - Reached progress limit of 10 items, aborting
+2026-02-18 23:32:13.593 [pool-1-thread-1] INFO  vendors.jetbrains - Completed successfully. Marked 10 items for processing, skipped 28 existing items, and had 0 failures.
+2026-02-18 23:32:13.594 [pool-1-thread-1] INFO  vendors.semeru - Starting scraper
+2026-02-18 23:32:13.595 [pool-1-thread-1] INFO  vendors.semeru - Fetching repositories from https://api.github.com/orgs/ibmruntimes/repos?type=public&per_page=100&page=1&q=semeru+certified
+2026-02-18 23:32:13.628 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-19/releases?per_page=100&page=2
+2026-02-18 23:32:13.754 [pool-1-thread-2] INFO  vendors.corretto - Processing repository: corretto-20
+2026-02-18 23:32:13.754 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-20/releases?per_page=100&page=1
+2026-02-18 23:32:13.816 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 12, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/12/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:13.816 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 13
+2026-02-18 23:32:13.943 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-20/releases?per_page=100&page=2
+2026-02-18 23:32:14.061 [pool-1-thread-2] INFO  vendors.corretto - Processing repository: corretto-21
+2026-02-18 23:32:14.061 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-21/releases?per_page=100&page=1
+2026-02-18 23:32:14.240 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 13, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/13/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:14.241 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 14
+2026-02-18 23:32:14.288 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-21/releases?per_page=100&page=2
+2026-02-18 23:32:14.436 [pool-1-thread-2] INFO  vendors.corretto - Processing repository: corretto-22
+2026-02-18 23:32:14.436 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-22/releases?per_page=100&page=1
+2026-02-18 23:32:14.625 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-22/releases?per_page=100&page=2
+2026-02-18 23:32:14.762 [pool-1-thread-1] INFO  vendors.semeru - Matched repository: semeru11-certified-binaries
+2026-02-18 23:32:14.762 [pool-1-thread-1] INFO  vendors.semeru - Matched repository: semeru17-certified-binaries
+2026-02-18 23:32:14.762 [pool-1-thread-1] INFO  vendors.semeru - Matched repository: semeru21-certified-binaries
+2026-02-18 23:32:14.762 [pool-1-thread-1] INFO  vendors.semeru - Processing repository: semeru11-certified-binaries
+2026-02-18 23:32:14.762 [pool-1-thread-1] INFO  vendors.semeru - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru11-certified-binaries/releases?per_page=100&page=1
+2026-02-18 23:32:14.781 [pool-1-thread-2] INFO  vendors.corretto - Processing repository: corretto-23
+2026-02-18 23:32:14.781 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-23/releases?per_page=100&page=1
+2026-02-18 23:32:14.871 [pool-1-thread-4] INFO  vendors.openlogic - Fetching page 1 from https://www.openlogic.com/openjdk-downloads?page=1
+2026-02-18 23:32:14.929 [pool-1-thread-4] INFO  vendors.openlogic - Found 24 download links on page 1
+2026-02-18 23:32:14.931 [pool-1-thread-4] INFO  vendors.openlogic - Reached progress limit of 10 items, aborting
+2026-02-18 23:32:14.931 [pool-1-thread-4] INFO  vendors.openlogic - Completed successfully. Marked 10 items for processing, skipped 30 existing items, and had 0 failures.
+2026-02-18 23:32:14.932 [pool-1-thread-4] INFO  vendors.liberica - Starting scraper
+2026-02-18 23:32:14.934 [pool-1-thread-4] INFO  vendors.liberica - Fetching assets from https://api.bell-sw.com/v1/liberica/releases?
+2026-02-18 23:32:15.006 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 14, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/14/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:15.007 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 15
+2026-02-18 23:32:15.007 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-23/releases?per_page=100&page=2
+2026-02-18 23:32:15.124 [pool-1-thread-2] INFO  vendors.corretto - Processing repository: corretto-24
+2026-02-18 23:32:15.125 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-24/releases?per_page=100&page=1
+2026-02-18 23:32:15.307 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-24/releases?per_page=100&page=2
+2026-02-18 23:32:15.467 [pool-1-thread-2] INFO  vendors.corretto - Processing repository: corretto-25
+2026-02-18 23:32:15.468 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-25/releases?per_page=100&page=1
+2026-02-18 23:32:15.659 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-25/releases?per_page=100&page=2
+2026-02-18 23:32:15.703 [pool-1-thread-1] INFO  vendors.semeru - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru11-certified-binaries/releases?per_page=100&page=2
+2026-02-18 23:32:15.810 [pool-1-thread-2] INFO  vendors.corretto - Processing repository: corretto-26
+2026-02-18 23:32:15.810 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-26/releases?per_page=100&page=1
+2026-02-18 23:32:15.858 [pool-1-thread-1] INFO  vendors.semeru - Processing repository: semeru17-certified-binaries
+2026-02-18 23:32:15.858 [pool-1-thread-1] INFO  vendors.semeru - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru17-certified-binaries/releases?per_page=100&page=1
+2026-02-18 23:32:16.027 [pool-1-thread-2] INFO  vendors.corretto - Fetching releases from https://api.github.com/repos/corretto/corretto-26/releases?per_page=100&page=2
+2026-02-18 23:32:16.116 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 15, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/15/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:16.116 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 16
+2026-02-18 23:32:16.195 [pool-1-thread-2] INFO  vendors.corretto - Fetching repositories from https://api.github.com/orgs/corretto/repos?type=public&per_page=100&page=2&q=corretto
+2026-02-18 23:32:16.278 [pool-1-thread-2] INFO  vendors.corretto - Completed successfully. Marked 0 items for processing, skipped 884 existing items, and had 0 failures.
+2026-02-18 23:32:16.278 [pool-1-thread-2] INFO  vendors.temurin - Starting scraper
+2026-02-18 23:32:16.280 [pool-1-thread-2] INFO  vendors.temurin - Fetching repositories from https://api.github.com/orgs/adoptium/repos?type=public&per_page=100&page=1&q=temurin
+2026-02-18 23:32:16.671 [pool-1-thread-1] INFO  vendors.semeru - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru17-certified-binaries/releases?per_page=100&page=2
+2026-02-18 23:32:16.719 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 16, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/16/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:16.719 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 17
+2026-02-18 23:32:16.818 [pool-1-thread-1] INFO  vendors.semeru - Processing repository: semeru21-certified-binaries
+2026-02-18 23:32:16.818 [pool-1-thread-1] INFO  vendors.semeru - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru21-certified-binaries/releases?per_page=100&page=1
+2026-02-18 23:32:17.130 [pool-1-thread-4] INFO  vendors.liberica - Found 19560 assets
+2026-02-18 23:32:17.191 [pool-1-thread-4] INFO  vendors.liberica - Completed successfully. Marked 0 items for processing, skipped 19288 existing items, and had 0 failures.
+2026-02-18 23:32:17.191 [pool-1-thread-4] INFO  vendors.zulu - Starting scraper
+2026-02-18 23:32:17.193 [pool-1-thread-4] INFO  vendors.zulu - Fetching index from https://static.azul.com/zulu/bin/
+2026-02-18 23:32:17.364 [pool-1-thread-4] INFO  vendors.zulu - Found 11104 files to process
+2026-02-18 23:32:17.399 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin8-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin11-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin16-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin17-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin18-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin19-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin20-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin21-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin22-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin23-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin24-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin25-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin26-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Matched repository: temurin27-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Processing repository: temurin8-binaries
+2026-02-18 23:32:17.400 [pool-1-thread-2] INFO  vendors.temurin - Fetching releases from https://api.github.com/repos/adoptium/temurin8-binaries/releases?per_page=100&page=1
+2026-02-18 23:32:17.406 [pool-1-thread-4] INFO  vendors.zulu - Completed successfully. Marked 0 items for processing, skipped 11080 existing items, and had 0 failures.
+2026-02-18 23:32:17.469 [pool-1-thread-1] INFO  vendors.semeru - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru21-certified-binaries/releases?per_page=100&page=2
+2026-02-18 23:32:17.625 [pool-1-thread-1] INFO  vendors.semeru - Fetching repositories from https://api.github.com/orgs/ibmruntimes/repos?type=public&per_page=100&page=2&q=semeru+certified
+2026-02-18 23:32:18.100 [pool-1-thread-1] INFO  vendors.semeru - Matched repository: semeru25-certified-binaries
+2026-02-18 23:32:18.100 [pool-1-thread-1] INFO  vendors.semeru - Matched repository: semeru26-certified-binaries
+2026-02-18 23:32:18.100 [pool-1-thread-1] INFO  vendors.semeru - Processing repository: semeru25-certified-binaries
+2026-02-18 23:32:18.100 [pool-1-thread-1] INFO  vendors.semeru - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru25-certified-binaries/releases?per_page=100&page=1
+2026-02-18 23:32:18.283 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 2 of assets for release 17, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/17/ga?project=jdk&vendor=adoptopenjdk&page=2&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:18.283 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 18
+2026-02-18 23:32:18.481 [pool-1-thread-1] INFO  vendors.semeru - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru25-certified-binaries/releases?per_page=100&page=2
+2026-02-18 23:32:18.647 [pool-1-thread-1] INFO  vendors.semeru - Processing repository: semeru26-certified-binaries
+2026-02-18 23:32:18.647 [pool-1-thread-1] INFO  vendors.semeru - Fetching releases from https://api.github.com/repos/ibmruntimes/semeru26-certified-binaries/releases?per_page=100&page=1
+2026-02-18 23:32:18.764 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 18, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/18/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:18.764 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 19
+2026-02-18 23:32:18.786 [pool-1-thread-1] INFO  vendors.semeru - Fetching repositories from https://api.github.com/orgs/ibmruntimes/repos?type=public&per_page=100&page=3&q=semeru+certified
+2026-02-18 23:32:18.871 [pool-1-thread-1] INFO  vendors.semeru - Completed successfully. Marked 0 items for processing, skipped 1388 existing items, and had 0 failures.
+2026-02-18 23:32:19.247 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 19, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/19/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:19.247 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 20
+2026-02-18 23:32:19.725 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 20, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/20/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:19.725 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 21
+2026-02-18 23:32:20.839 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 21, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/21/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:20.839 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 22
+2026-02-18 23:32:21.633 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 22, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/22/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:21.633 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 23
+2026-02-18 23:32:22.194 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 23, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/23/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:22.194 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 24
+2026-02-18 23:32:22.656 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 24, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/24/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:22.656 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Processing release: 25
+2026-02-18 23:32:23.207 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Could not download page 1 of assets for release 25, assuming no more pages (Failed to download content: https://api.adoptopenjdk.net/v3/assets/feature_releases/25/ga?project=jdk&vendor=adoptopenjdk&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:32:23.207 [pool-1-thread-3] INFO  vendors.adoptopenjdk - Completed successfully. Marked 0 items for processing, skipped 2573 existing items, and had 0 failures.
+2026-02-18 23:32:27.180 [pool-1-thread-2] INFO  vendors.temurin - Reached progress limit of 10 items, aborting
+2026-02-18 23:32:27.181 [pool-1-thread-2] INFO  vendors.temurin - Completed successfully. Marked 10 items for processing, skipped 151 existing items, and had 0 failures.
+2026-02-18 23:32:27.181 [main] INFO  d.j.j.scraper.NoOpDownloadManager - NoOpDownloadManager shutdown

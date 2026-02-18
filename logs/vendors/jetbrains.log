@@ -93,3 +93,8 @@
 2026-02-18 23:19:50.745 [pool-1-thread-1] INFO  vendors.jetbrains - Fetching releases from https://api.github.com/repos/JetBrains/JetBrainsRuntime/releases?per_page=100&page=1
 2026-02-18 23:19:51.534 [pool-1-thread-1] INFO  vendors.jetbrains - Reached progress limit of 10 items, aborting
 2026-02-18 23:19:51.534 [pool-1-thread-1] INFO  vendors.jetbrains - Completed successfully. Marked 10 items for processing, skipped 18 existing items, and had 0 failures.
+2026-02-18 23:32:12.962 [pool-1-thread-1] INFO  vendors.jetbrains - Starting scraper
+2026-02-18 23:32:12.965 [pool-1-thread-1] INFO  vendors.jetbrains - Processing repository: JetBrainsRuntime
+2026-02-18 23:32:12.965 [pool-1-thread-1] INFO  vendors.jetbrains - Fetching releases from https://api.github.com/repos/JetBrains/JetBrainsRuntime/releases?per_page=100&page=1
+2026-02-18 23:32:13.593 [pool-1-thread-1] INFO  vendors.jetbrains - Reached progress limit of 10 items, aborting
+2026-02-18 23:32:13.593 [pool-1-thread-1] INFO  vendors.jetbrains - Completed successfully. Marked 10 items for processing, skipped 28 existing items, and had 0 failures.

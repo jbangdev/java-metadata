@@ -93,3 +93,8 @@
 2026-02-18 23:19:42.837 [pool-1-thread-3] INFO  vendors.liberica-native - Found 917 assets
 2026-02-18 23:19:42.843 [pool-1-thread-3] INFO  vendors.liberica-native - Reached progress limit of 10 items, aborting
 2026-02-18 23:19:42.843 [pool-1-thread-3] INFO  vendors.liberica-native - Completed successfully. Marked 10 items for processing, skipped 20 existing items, and had 0 failures.
+2026-02-18 23:32:05.818 [pool-1-thread-4] INFO  vendors.liberica-native - Starting scraper
+2026-02-18 23:32:05.821 [pool-1-thread-4] INFO  vendors.liberica-native - Fetching assets from https://api.bell-sw.com/v1/nik/releases?bundle-type=full&components=liberica&components=nik
+2026-02-18 23:32:07.264 [pool-1-thread-4] INFO  vendors.liberica-native - Found 917 assets
+2026-02-18 23:32:07.270 [pool-1-thread-4] INFO  vendors.liberica-native - Reached progress limit of 10 items, aborting
+2026-02-18 23:32:07.270 [pool-1-thread-4] INFO  vendors.liberica-native - Completed successfully. Marked 10 items for processing, skipped 30 existing items, and had 0 failures.

@@ -111,3 +111,8 @@
 2026-02-18 23:19:40.343 [pool-1-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=1
 2026-02-18 23:19:42.649 [pool-1-thread-2] INFO  vendors.sapmachine - Reached progress limit of 10 items, aborting
 2026-02-18 23:19:42.649 [pool-1-thread-2] INFO  vendors.sapmachine - Completed successfully. Marked 10 items for processing, skipped 0 existing items, and had 0 failures.
+2026-02-18 23:32:04.419 [pool-1-thread-2] INFO  vendors.sapmachine - Starting scraper
+2026-02-18 23:32:04.428 [pool-1-thread-2] INFO  vendors.sapmachine - Processing repository: SapMachine
+2026-02-18 23:32:04.435 [pool-1-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=1
+2026-02-18 23:32:06.882 [pool-1-thread-2] INFO  vendors.sapmachine - Reached progress limit of 10 items, aborting
+2026-02-18 23:32:06.883 [pool-1-thread-2] INFO  vendors.sapmachine - Completed successfully. Marked 10 items for processing, skipped 10 existing items, and had 0 failures.

@@ -13,3 +13,8 @@
 2026-02-18 23:19:40.333 [pool-1-thread-1] INFO  vendors.mandrel - Fetching releases from https://api.github.com/repos/graalvm/mandrel/releases?per_page=100&page=1
 2026-02-18 23:19:41.744 [pool-1-thread-1] INFO  vendors.mandrel - Fetching releases from https://api.github.com/repos/graalvm/mandrel/releases?per_page=100&page=2
 2026-02-18 23:19:41.923 [pool-1-thread-1] INFO  vendors.mandrel - Completed successfully. Marked 0 items for processing, skipped 158 existing items, and had 0 failures.
+2026-02-18 23:32:04.418 [pool-1-thread-1] INFO  vendors.mandrel - Starting scraper
+2026-02-18 23:32:04.425 [pool-1-thread-1] INFO  vendors.mandrel - Processing repository: mandrel
+2026-02-18 23:32:04.435 [pool-1-thread-1] INFO  vendors.mandrel - Fetching releases from https://api.github.com/repos/graalvm/mandrel/releases?per_page=100&page=1
+2026-02-18 23:32:05.550 [pool-1-thread-1] INFO  vendors.mandrel - Fetching releases from https://api.github.com/repos/graalvm/mandrel/releases?per_page=100&page=2
+2026-02-18 23:32:05.673 [pool-1-thread-1] INFO  vendors.mandrel - Completed successfully. Marked 0 items for processing, skipped 158 existing items, and had 0 failures.

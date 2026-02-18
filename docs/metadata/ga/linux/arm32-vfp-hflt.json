@@ -11080,6 +11080,32 @@
   {
     "architecture": "arm32-vfp-hflt",
     "features": [
+      "headless",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-11-jdk-headless_11.0.24+8-2~deb11u1_armhf.deb",
+    "image_type": "jdk",
+    "java_version": "11.0.24+8",
+    "jvm_impl": "hotspot",
+    "md5": null,
+    "md5_file": null,
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jdk-headless_11.0.24+8-2~deb11u1_armhf.deb",
+    "vendor": "debian",
+    "version": "11.0.24+8-2~deb11u1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "features": [
       "libericafx",
       "minimal-vm",
       "javafx"
@@ -13701,6 +13727,32 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.29+12/bellsoft-jre11.0.29+12-linux-arm32-vfp-hflt.tar.gz",
     "vendor": "liberica",
     "version": "11.0.29+12"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "features": [
+      "headless",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-11-jdk-headless_11.0.30+7-1_armhf.deb",
+    "image_type": "jdk",
+    "java_version": "11.0.30+7",
+    "jvm_impl": "hotspot",
+    "md5": null,
+    "md5_file": null,
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-11/openjdk-11-jdk-headless_11.0.30+7-1_armhf.deb",
+    "vendor": "debian",
+    "version": "11.0.30+7-1"
   },
   {
     "architecture": "arm32-vfp-hflt",
