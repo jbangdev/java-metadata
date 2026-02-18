@@ -80,6 +80,7 @@ components:
       enum:
         - "ea"
         - "ga"
+        - "ga-ea"
     imageTypes:
       type: string
       enum:
