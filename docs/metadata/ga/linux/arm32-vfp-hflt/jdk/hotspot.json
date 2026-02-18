@@ -1,6 +1,57 @@
 [
   {
     "architecture": "arm32-vfp-hflt",
+    "features": [
+      "headless",
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jdk-headless_8u472-ga-1_armhf.deb",
+    "image_type": "jdk",
+    "java_version": "8u472",
+    "jvm_impl": "hotspot",
+    "md5": null,
+    "md5_file": null,
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk-headless_8u472-ga-1_armhf.deb",
+    "vendor": "debian",
+    "version": "8u472-ga-1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
+    "features": [
+      "hard-float"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-8-jdk_8u472-ga-1_armhf.deb",
+    "image_type": "jdk",
+    "java_version": "8u472",
+    "jvm_impl": "hotspot",
+    "md5": null,
+    "md5_file": null,
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk_8u472-ga-1_armhf.deb",
+    "vendor": "debian",
+    "version": "8u472-ga-1"
+  },
+  {
+    "architecture": "arm32-vfp-hflt",
     "features": [],
     "file_type": "tar.gz",
     "filename": "zulu8.17.0.21-ca-jdk1.8.0.102-linux_aarch32hf.tar.gz",

@@ -106,3 +106,8 @@
 2026-02-17 15:53:26.899 [pool-1-thread-2] INFO  vendors.sapmachine - Downloading sapmachine-jdk-11.0.5_linux-ppc64le_bin.tar.gz
 2026-02-17 15:53:31.528 [pool-1-thread-2] INFO  vendors.sapmachine - Computing hashes for sapmachine-jdk-11.0.5_linux-ppc64le_bin.tar.gz
 2026-02-17 15:53:32.413 [pool-1-thread-2] INFO  vendors.sapmachine - Processed sapmachine-jdk-11.0.5_linux-ppc64le_bin.tar.gz
+2026-02-18 23:19:40.327 [pool-1-thread-2] INFO  vendors.sapmachine - Starting scraper
+2026-02-18 23:19:40.337 [pool-1-thread-2] INFO  vendors.sapmachine - Processing repository: SapMachine
+2026-02-18 23:19:40.343 [pool-1-thread-2] INFO  vendors.sapmachine - Fetching releases from https://api.github.com/repos/SAP/SapMachine/releases?per_page=100&page=1
+2026-02-18 23:19:42.649 [pool-1-thread-2] INFO  vendors.sapmachine - Reached progress limit of 10 items, aborting
+2026-02-18 23:19:42.649 [pool-1-thread-2] INFO  vendors.sapmachine - Completed successfully. Marked 10 items for processing, skipped 0 existing items, and had 0 failures.

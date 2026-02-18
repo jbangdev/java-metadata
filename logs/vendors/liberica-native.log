@@ -88,3 +88,8 @@
 2026-02-17 15:53:31.660 [pool-1-thread-4] INFO  vendors.liberica-native - Computing hashes for bellsoft-liberica-vm-full-openjdk23+38-24.1.0+1-linux-amd64.deb
 2026-02-17 15:53:32.378 [pool-1-thread-1] INFO  vendors.liberica-native - Processed bellsoft-liberica-vm-full-openjdk17.0.17+12-23.0.10+1-windows-amd64.zip
 2026-02-17 15:53:33.326 [pool-1-thread-4] INFO  vendors.liberica-native - Processed bellsoft-liberica-vm-full-openjdk23+38-24.1.0+1-linux-amd64.deb
+2026-02-18 23:19:42.237 [pool-1-thread-3] INFO  vendors.liberica-native - Starting scraper
+2026-02-18 23:19:42.240 [pool-1-thread-3] INFO  vendors.liberica-native - Fetching assets from https://api.bell-sw.com/v1/nik/releases?bundle-type=full&components=liberica&components=nik
+2026-02-18 23:19:42.837 [pool-1-thread-3] INFO  vendors.liberica-native - Found 917 assets
+2026-02-18 23:19:42.843 [pool-1-thread-3] INFO  vendors.liberica-native - Reached progress limit of 10 items, aborting
+2026-02-18 23:19:42.843 [pool-1-thread-3] INFO  vendors.liberica-native - Completed successfully. Marked 10 items for processing, skipped 20 existing items, and had 0 failures.

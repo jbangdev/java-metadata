@@ -92,3 +92,10 @@
 2026-02-17 15:53:34.486 [pool-1-thread-1] INFO  vendors.kona - Downloading TencentKona8.0.24.b1_jdk_macosx-aarch64_8u472_notarized.tar.gz
 2026-02-17 15:53:35.714 [pool-1-thread-1] INFO  vendors.kona - Computing hashes for TencentKona8.0.24.b1_jdk_macosx-aarch64_8u472_notarized.tar.gz
 2026-02-17 15:53:36.279 [pool-1-thread-1] INFO  vendors.kona - Processed TencentKona8.0.24.b1_jdk_macosx-aarch64_8u472_notarized.tar.gz
+2026-02-18 23:19:44.935 [pool-1-thread-4] INFO  vendors.kona - Starting scraper
+2026-02-18 23:19:44.938 [pool-1-thread-4] INFO  vendors.kona - Fetching repositories from https://api.github.com/orgs/Tencent/repos?type=public&per_page=100&page=1&q=TencentKona
+2026-02-18 23:19:47.094 [pool-1-thread-4] INFO  vendors.kona - Matched repository: TencentKona-8
+2026-02-18 23:19:47.095 [pool-1-thread-4] INFO  vendors.kona - Processing repository: TencentKona-8
+2026-02-18 23:19:47.095 [pool-1-thread-4] INFO  vendors.kona - Fetching releases from https://api.github.com/repos/Tencent/TencentKona-8/releases?per_page=100&page=1
+2026-02-18 23:19:47.464 [pool-1-thread-4] INFO  vendors.kona - Reached progress limit of 10 items, aborting
+2026-02-18 23:19:47.464 [pool-1-thread-4] INFO  vendors.kona - Completed successfully. Marked 10 items for processing, skipped 20 existing items, and had 0 failures.

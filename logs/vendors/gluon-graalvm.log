@@ -88,3 +88,11 @@
 2026-02-17 15:53:13.976 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Downloading graalvm-svm-java17-linux-gluon-22.0.0.2-Final.zip
 2026-02-17 15:53:24.004 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Computing hashes for graalvm-svm-java17-linux-gluon-22.0.0.2-Final.zip
 2026-02-17 15:53:26.789 [pool-1-thread-2] INFO  vendors.gluon-graalvm - Processed graalvm-svm-java17-linux-gluon-22.0.0.2-Final.zip
+2026-02-18 23:19:40.330 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Starting scraper
+2026-02-18 23:19:40.341 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Processing repository: graal
+2026-02-18 23:19:40.341 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Fetching releases from https://api.github.com/repos/gluonhq/graal/releases?per_page=100&page=1
+2026-02-18 23:19:41.617 [pool-1-thread-4] WARN  vendors.gluon-graalvm - Skipping graalvm-svm-darwin-21.1-gluon-latest.zip (does not match pattern)
+2026-02-18 23:19:41.618 [pool-1-thread-4] WARN  vendors.gluon-graalvm - Skipping graalvm-svm-linux-21.1-gluon-latest.zip (does not match pattern)
+2026-02-18 23:19:41.618 [pool-1-thread-4] WARN  vendors.gluon-graalvm - Skipping graalvm-svm-windows-21.1-gluon-latest.zip (does not match pattern)
+2026-02-18 23:19:41.618 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Fetching releases from https://api.github.com/repos/gluonhq/graal/releases?per_page=100&page=2
+2026-02-18 23:19:41.863 [pool-1-thread-4] INFO  vendors.gluon-graalvm - Completed successfully. Marked 0 items for processing, skipped 20 existing items, and had 0 failures.

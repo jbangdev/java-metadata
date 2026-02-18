@@ -16,3 +16,12 @@
 2026-02-17 15:51:18.769 [pool-2-thread-3] INFO  vendors.redhat - Processing release: 21
 2026-02-17 15:51:18.934 [pool-2-thread-3] INFO  vendors.redhat - Could not download page 1 of assets for release 21, assuming no more pages (Failed to download content: https://marketplace-api.adoptium.net/v1/assets/feature_releases/redhat/21?&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
 2026-02-17 15:51:18.936 [pool-2-thread-3] INFO  vendors.redhat - Completed successfully. Marked 0 items for processing, skipped 12 existing items, and had 0 failures.
+2026-02-18 23:19:47.944 [pool-1-thread-4] INFO  vendors.redhat - Starting scraper
+2026-02-18 23:19:47.947 [pool-1-thread-4] INFO  vendors.redhat - Fetching available releases: https://marketplace-api.adoptium.net/v1/info/available_releases/redhat
+2026-02-18 23:19:48.237 [pool-1-thread-4] INFO  vendors.redhat - Processing release: 8
+2026-02-18 23:19:48.476 [pool-1-thread-4] INFO  vendors.redhat - Could not download page 1 of assets for release 8, assuming no more pages (Failed to download content: https://marketplace-api.adoptium.net/v1/assets/feature_releases/redhat/8?&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:19:48.476 [pool-1-thread-4] INFO  vendors.redhat - Processing release: 17
+2026-02-18 23:19:48.702 [pool-1-thread-4] INFO  vendors.redhat - Could not download page 1 of assets for release 17, assuming no more pages (Failed to download content: https://marketplace-api.adoptium.net/v1/assets/feature_releases/redhat/17?&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:19:48.702 [pool-1-thread-4] INFO  vendors.redhat - Processing release: 21
+2026-02-18 23:19:48.888 [pool-1-thread-4] INFO  vendors.redhat - Could not download page 1 of assets for release 21, assuming no more pages (Failed to download content: https://marketplace-api.adoptium.net/v1/assets/feature_releases/redhat/21?&page=1&page_size=20&sort_order=ASC - HTTP status: 404)
+2026-02-18 23:19:48.888 [pool-1-thread-4] INFO  vendors.redhat - Completed successfully. Marked 4 items for processing, skipped 8 existing items, and had 0 failures.

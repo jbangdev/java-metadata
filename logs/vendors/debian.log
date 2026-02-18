@@ -86,3 +86,7 @@
 2026-02-17 15:51:16.481 [pool-1-thread-1] INFO  vendors.debian - Processed openjdk-8-jre-zero_8u472-ga-1_arm64.deb
 2026-02-17 15:51:16.752 [pool-1-thread-4] INFO  vendors.debian - Computing hashes for openjdk-8-jre-zero_8u472-ga-1_amd64.deb
 2026-02-17 15:51:16.764 [pool-1-thread-4] INFO  vendors.debian - Processed openjdk-8-jre-zero_8u472-ga-1_amd64.deb
+2026-02-18 23:19:43.561 [pool-1-thread-2] INFO  vendors.debian - Starting scraper
+2026-02-18 23:19:43.564 [pool-1-thread-2] INFO  vendors.debian - Processing OpenJDK 8 from http://ftp.debian.org/debian/pool/main/o/openjdk-8/
+2026-02-18 23:19:43.693 [pool-1-thread-2] INFO  vendors.debian - Reached progress limit of 10 items, aborting
+2026-02-18 23:19:43.693 [pool-1-thread-2] INFO  vendors.debian - Completed successfully. Marked 10 items for processing, skipped 17 existing items, and had 0 failures.

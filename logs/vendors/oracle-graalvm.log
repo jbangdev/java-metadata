@@ -16,3 +16,17 @@
 2026-02-17 15:51:17.953 [pool-2-thread-3] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM 23 archive from https://www.oracle.com/java/technologies/javase/graalvm-jdk23-archive-downloads.html
 2026-02-17 15:51:18.077 [pool-2-thread-3] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM 24 archive from https://www.oracle.com/java/technologies/javase/graalvm-jdk24-archive-downloads.html
 2026-02-17 15:51:18.249 [pool-2-thread-3] INFO  vendors.oracle-graalvm - Completed successfully. Marked 0 items for processing, skipped 125 existing items, and had 0 failures.
+2026-02-18 23:19:46.106 [pool-1-thread-1] INFO  vendors.oracle-graalvm - Starting scraper
+2026-02-18 23:19:46.108 [pool-1-thread-1] INFO  vendors.oracle-graalvm - Processing repository: oracle-graalvm-ea-builds
+2026-02-18 23:19:46.108 [pool-1-thread-1] INFO  vendors.oracle-graalvm - Fetching releases from https://api.github.com/repos/graalvm/oracle-graalvm-ea-builds/releases?per_page=100&page=1
+2026-02-18 23:19:47.465 [pool-1-thread-4] INFO  vendors.oracle-graalvm - Starting scraper
+2026-02-18 23:19:47.465 [pool-1-thread-4] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM releases
+2026-02-18 23:19:47.509 [pool-1-thread-4] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM 17 archive from https://www.oracle.com/java/technologies/javase/graalvm-jdk17-archive-downloads.html
+2026-02-18 23:19:47.515 [pool-1-thread-1] INFO  vendors.oracle-graalvm - Reached progress limit of 10 items, aborting
+2026-02-18 23:19:47.515 [pool-1-thread-1] INFO  vendors.oracle-graalvm - Completed successfully. Marked 10 items for processing, skipped 0 existing items, and had 0 failures.
+2026-02-18 23:19:47.650 [pool-1-thread-4] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM 20 archive from https://www.oracle.com/java/technologies/javase/graalvm-jdk20-archive-downloads.html
+2026-02-18 23:19:47.732 [pool-1-thread-4] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM 21 archive from https://www.oracle.com/java/technologies/javase/graalvm-jdk21-archive-downloads.html
+2026-02-18 23:19:47.801 [pool-1-thread-4] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM 22 archive from https://www.oracle.com/java/technologies/javase/graalvm-jdk22-archive-downloads.html
+2026-02-18 23:19:47.873 [pool-1-thread-4] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM 23 archive from https://www.oracle.com/java/technologies/javase/graalvm-jdk23-archive-downloads.html
+2026-02-18 23:19:47.916 [pool-1-thread-4] INFO  vendors.oracle-graalvm - Scraping Oracle GraalVM 24 archive from https://www.oracle.com/java/technologies/javase/graalvm-jdk24-archive-downloads.html
+2026-02-18 23:19:47.944 [pool-1-thread-4] INFO  vendors.oracle-graalvm - Completed successfully. Marked 0 items for processing, skipped 125 existing items, and had 0 failures.

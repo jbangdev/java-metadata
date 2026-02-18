@@ -46,3 +46,27 @@
 2026-02-17 15:51:12.390 [pool-2-thread-1] INFO  vendors.oracle - Scraping Oracle JDK 23 archive from https://www.oracle.com/java/technologies/javase/jdk23-archive-downloads.html
 2026-02-17 15:51:12.487 [pool-2-thread-1] INFO  vendors.oracle - Scraping Oracle JDK 24 archive from https://www.oracle.com/java/technologies/javase/jdk24-archive-downloads.html
 2026-02-17 15:51:12.564 [pool-2-thread-1] INFO  vendors.oracle - Completed successfully. Marked 0 items for processing, skipped 600 existing items, and had 0 failures.
+2026-02-18 23:19:43.838 [pool-1-thread-4] INFO  vendors.oracle - Starting scraper
+2026-02-18 23:19:43.841 [pool-1-thread-4] INFO  vendors.oracle - Scraping Oracle JDK releases
+2026-02-18 23:19:43.841 [pool-1-thread-4] INFO  vendors.oracle - Fetching Oracle JDK versions from https://java.oraclecloud.com/javaVersions
+2026-02-18 23:19:44.245 [pool-1-thread-4] INFO  vendors.oracle - Fetching release info for version 25.0.2
+2026-02-18 23:19:44.351 [pool-1-thread-4] INFO  vendors.oracle - Fetching release info for version 24.0.2
+2026-02-18 23:19:44.391 [pool-1-thread-4] INFO  vendors.oracle - Fetching release info for version 23.0.2
+2026-02-18 23:19:44.407 [pool-1-thread-4] INFO  vendors.oracle - Fetching release info for version 22.0.2
+2026-02-18 23:19:44.422 [pool-1-thread-4] INFO  vendors.oracle - Fetching release info for version 21.0.10
+2026-02-18 23:19:44.438 [pool-1-thread-4] INFO  vendors.oracle - Fetching release info for version 20.0.2
+2026-02-18 23:19:44.451 [pool-1-thread-4] INFO  vendors.oracle - Fetching release info for version 19.0.2
+2026-02-18 23:19:44.465 [pool-1-thread-4] INFO  vendors.oracle - Fetching release info for version 18.0.2.1
+2026-02-18 23:19:44.478 [pool-1-thread-4] INFO  vendors.oracle - Fetching release info for version 17.0.18
+2026-02-18 23:19:44.495 [pool-1-thread-4] INFO  vendors.oracle - Skipping OTN licensed version 17.0.18
+2026-02-18 23:19:44.495 [pool-1-thread-4] INFO  vendors.oracle - Fetching release info for version 16.0.2
+2026-02-18 23:19:44.509 [pool-1-thread-4] INFO  vendors.oracle - Skipping OTN licensed version 16.0.2
+2026-02-18 23:19:44.511 [pool-1-thread-4] INFO  vendors.oracle - Scraping Oracle JDK 17 archive from https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+2026-02-18 23:19:44.642 [pool-1-thread-4] INFO  vendors.oracle - Scraping Oracle JDK 18 archive from https://www.oracle.com/java/technologies/javase/jdk18-archive-downloads.html
+2026-02-18 23:19:44.711 [pool-1-thread-4] INFO  vendors.oracle - Scraping Oracle JDK 19 archive from https://www.oracle.com/java/technologies/javase/jdk19-archive-downloads.html
+2026-02-18 23:19:44.774 [pool-1-thread-4] INFO  vendors.oracle - Scraping Oracle JDK 20 archive from https://www.oracle.com/java/technologies/javase/jdk20-archive-downloads.html
+2026-02-18 23:19:44.808 [pool-1-thread-4] INFO  vendors.oracle - Scraping Oracle JDK 21 archive from https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html
+2026-02-18 23:19:44.836 [pool-1-thread-4] INFO  vendors.oracle - Scraping Oracle JDK 22 archive from https://www.oracle.com/java/technologies/javase/jdk22-archive-downloads.html
+2026-02-18 23:19:44.863 [pool-1-thread-4] INFO  vendors.oracle - Scraping Oracle JDK 23 archive from https://www.oracle.com/java/technologies/javase/jdk23-archive-downloads.html
+2026-02-18 23:19:44.892 [pool-1-thread-4] INFO  vendors.oracle - Scraping Oracle JDK 24 archive from https://www.oracle.com/java/technologies/javase/jdk24-archive-downloads.html
+2026-02-18 23:19:44.935 [pool-1-thread-4] INFO  vendors.oracle - Completed successfully. Marked 0 items for processing, skipped 600 existing items, and had 0 failures.

@@ -98,3 +98,21 @@
 2026-02-17 15:51:49.218 [pool-1-thread-3] INFO  vendors.ibm - Processed ibm-java-x86_64-jre-8.0-8.60.x86_64.rpm
 2026-02-17 15:51:49.739 [pool-1-thread-4] INFO  vendors.ibm - Computing hashes for ibm-java-x86_64-sdk-8.0-8.60.x86_64.rpm
 2026-02-17 15:51:50.722 [pool-1-thread-4] INFO  vendors.ibm - Processed ibm-java-x86_64-sdk-8.0-8.60.x86_64.rpm
+2026-02-18 23:19:49.789 [pool-1-thread-1] INFO  vendors.ibm - Starting scraper
+2026-02-18 23:19:49.791 [pool-1-thread-1] INFO  vendors.ibm - Fetching index
+2026-02-18 23:19:50.129 [pool-1-thread-1] INFO  vendors.ibm - Found 3 JDK versions
+2026-02-18 23:19:50.129 [pool-1-thread-1] INFO  vendors.ibm - Processing JDK version: 8.0.8.45
+2026-02-18 23:19:50.169 [pool-1-thread-1] INFO  vendors.ibm - Processing architecture: s390
+2026-02-18 23:19:50.218 [pool-1-thread-1] ERROR vendors.ibm - Failed to submit download for ibm-java-jre-8.0-8.45-linux-s390.tgz: Metadata is missing required fields or has invalid values for ibm - ibm-java-jre-8.0-8.45-linux-s390.tgz
+2026-02-18 23:19:50.218 [pool-1-thread-1] ERROR vendors.ibm - Failed to submit download for ibm-java-sdk-8.0-8.45-linux-s390.tgz: Metadata is missing required fields or has invalid values for ibm - ibm-java-sdk-8.0-8.45-linux-s390.tgz
+2026-02-18 23:19:50.218 [pool-1-thread-1] INFO  vendors.ibm - Processing JDK version: 8.0.8.55
+2026-02-18 23:19:50.260 [pool-1-thread-1] INFO  vendors.ibm - Processing architecture: i386
+2026-02-18 23:19:50.300 [pool-1-thread-1] INFO  vendors.ibm - Processing architecture: ppc64le
+2026-02-18 23:19:50.340 [pool-1-thread-1] INFO  vendors.ibm - Processing architecture: s390x
+2026-02-18 23:19:50.379 [pool-1-thread-1] INFO  vendors.ibm - Processing architecture: x86_64
+2026-02-18 23:19:50.419 [pool-1-thread-1] INFO  vendors.ibm - Processing JDK version: 8.0.8.60
+2026-02-18 23:19:50.460 [pool-1-thread-1] INFO  vendors.ibm - Processing architecture: i386
+2026-02-18 23:19:50.503 [pool-1-thread-1] INFO  vendors.ibm - Processing architecture: ppc64le
+2026-02-18 23:19:50.558 [pool-1-thread-1] INFO  vendors.ibm - Processing architecture: s390x
+2026-02-18 23:19:50.598 [pool-1-thread-1] INFO  vendors.ibm - Processing architecture: x86_64
+2026-02-18 23:19:50.638 [pool-1-thread-1] INFO  vendors.ibm - Completed successfully. Marked 0 items for processing, skipped 34 existing items, and had 2 failures.

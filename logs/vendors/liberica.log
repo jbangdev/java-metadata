@@ -83,3 +83,7 @@
 2026-02-17 15:53:37.705 [pool-1-thread-1] INFO  vendors.liberica - Processed bellsoft-jre9.0.4-linux-arm32-vfp-hflt.tar.gz
 2026-02-17 15:53:38.709 [pool-1-thread-4] INFO  vendors.liberica - Computing hashes for bellsoft-jdk10.0.2-linux-arm32-vfp-hflt.tar.gz
 2026-02-17 15:53:39.988 [pool-1-thread-4] INFO  vendors.liberica - Processed bellsoft-jdk10.0.2-linux-arm32-vfp-hflt.tar.gz
+2026-02-18 23:19:54.104 [pool-1-thread-4] INFO  vendors.liberica - Starting scraper
+2026-02-18 23:19:54.106 [pool-1-thread-4] INFO  vendors.liberica - Fetching assets from https://api.bell-sw.com/v1/liberica/releases?
+2026-02-18 23:19:54.548 [pool-1-thread-4] INFO  vendors.liberica - Found 19560 assets
+2026-02-18 23:19:54.620 [pool-1-thread-4] INFO  vendors.liberica - Completed successfully. Marked 0 items for processing, skipped 19288 existing items, and had 0 failures.

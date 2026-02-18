@@ -106,3 +106,17 @@
 2026-02-17 15:53:32.447 [pool-1-thread-2] INFO  vendors.dragonwell - Downloading Alibaba_Dragonwell_Extended_11.0.24.21.8_x64_alpine-linux.tar.gz
 2026-02-17 15:53:34.308 [pool-1-thread-2] INFO  vendors.dragonwell - Computing hashes for Alibaba_Dragonwell_Extended_11.0.24.21.8_x64_alpine-linux.tar.gz
 2026-02-17 15:53:35.525 [pool-1-thread-2] INFO  vendors.dragonwell - Processed Alibaba_Dragonwell_Extended_11.0.24.21.8_x64_alpine-linux.tar.gz
+2026-02-18 23:19:47.515 [pool-1-thread-1] INFO  vendors.dragonwell - Starting scraper
+2026-02-18 23:19:47.517 [pool-1-thread-1] INFO  vendors.dragonwell - Fetching repositories from https://api.github.com/orgs/dragonwell-project/repos?type=public&per_page=100&page=1&q=dragonwell
+2026-02-18 23:19:48.067 [pool-1-thread-1] INFO  vendors.dragonwell - Matched repository: dragonwell8
+2026-02-18 23:19:48.068 [pool-1-thread-1] INFO  vendors.dragonwell - Matched repository: dragonwell11
+2026-02-18 23:19:48.068 [pool-1-thread-1] INFO  vendors.dragonwell - Matched repository: dragonwell17
+2026-02-18 23:19:48.068 [pool-1-thread-1] INFO  vendors.dragonwell - Matched repository: dragonwell21
+2026-02-18 23:19:48.068 [pool-1-thread-1] INFO  vendors.dragonwell - Matched repository: dragonwell25
+2026-02-18 23:19:48.068 [pool-1-thread-1] INFO  vendors.dragonwell - Processing repository: dragonwell8
+2026-02-18 23:19:48.068 [pool-1-thread-1] INFO  vendors.dragonwell - Fetching releases from https://api.github.com/repos/dragonwell-project/dragonwell8/releases?per_page=100&page=1
+2026-02-18 23:19:48.719 [pool-1-thread-1] INFO  vendors.dragonwell - Fetching releases from https://api.github.com/repos/dragonwell-project/dragonwell8/releases?per_page=100&page=2
+2026-02-18 23:19:48.909 [pool-1-thread-1] INFO  vendors.dragonwell - Processing repository: dragonwell11
+2026-02-18 23:19:48.909 [pool-1-thread-1] INFO  vendors.dragonwell - Fetching releases from https://api.github.com/repos/dragonwell-project/dragonwell11/releases?per_page=100&page=1
+2026-02-18 23:19:49.789 [pool-1-thread-1] INFO  vendors.dragonwell - Reached progress limit of 10 items, aborting
+2026-02-18 23:19:49.789 [pool-1-thread-1] INFO  vendors.dragonwell - Completed successfully. Marked 10 items for processing, skipped 203 existing items, and had 0 failures.

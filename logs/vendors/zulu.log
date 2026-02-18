@@ -42,3 +42,7 @@
 2026-02-17 15:51:25.894 [pool-2-thread-3] INFO  vendors.zulu - Fetching index from https://static.azul.com/zulu/bin/
 2026-02-17 15:51:26.211 [pool-2-thread-3] INFO  vendors.zulu - Found 11104 files to process
 2026-02-17 15:51:26.273 [pool-2-thread-3] INFO  vendors.zulu - Completed successfully. Marked 0 items for processing, skipped 11080 existing items, and had 0 failures.
+2026-02-18 23:19:54.886 [pool-1-thread-3] INFO  vendors.zulu - Starting scraper
+2026-02-18 23:19:54.888 [pool-1-thread-3] INFO  vendors.zulu - Fetching index from https://static.azul.com/zulu/bin/
+2026-02-18 23:19:57.017 [pool-1-thread-3] INFO  vendors.zulu - Found 11104 files to process
+2026-02-18 23:19:57.057 [pool-1-thread-3] INFO  vendors.zulu - Completed successfully. Marked 3 items for processing, skipped 11077 existing items, and had 0 failures.
