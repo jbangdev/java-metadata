@@ -78,14 +78,25 @@ components:
     releaseTypes:
       type: string
       enum:
-        - "ea"
         - "ga"
-        - "ga-ea"
+        - "ea"
+    releaseTypesQuery:
+      type: string
+      enum:
+        - "ga"
+        - "ea"
+        - "all"
     imageTypes:
       type: string
       enum:
-        - "jre"
         - "jdk"
+        - "jre"
+    imageTypesQuery:
+      type: string
+      enum:
+        - "jdk"
+        - "jre"
+        - "all"
     jvmImpls:
       type: string
       enum:
@@ -200,48 +211,45 @@ components:
           }
         ]
 paths:
-  "/checksums/{vendor}/{artifact_name}.{hash_algorithm}":
-    get:
-      description: "Get the checksum file for a download artifact"
-      tags:
-      - "checksum"
-      operationId: "getChecksum"
-      parameters:
-        - name: "vendor"
-          in: path
-          description: "The JDK/JRE vendor"
-          required: true
-          schema:
-            $ref: '#/components/schemas/vendors'
-        - name: "artifact_name"
-          in: path
-          description: "The (file) name of the download artifact"
-          required: true
-          schema:
-            type: string
-        - name: "hash_algorithm"
-          in: path
-          description: "The hash algorithm"
-          required: true
-          schema:
-            $ref: '#/components/schemas/hashAlgorithms'
-      responses:
-        200:
-          description: "Checksum file for the download artifact"
-          content:
-            "text/plain":
-              schema:
-                type: string
-              example: >-
-                6c06853332585ab58834d9e8a02774b388e6e062ef6c4084b4f058c67f2e81b5  OpenJDK14U-jdk_x64_linux_hotspot_14_36.tar.gz
-        404:
-          description: "Invalid input"
   "/metadata/all.json":
     get:
       description: "List of information about all indexed Java distributions"
       tags:
       - "metadata"
       operationId: "findAll"
+      responses:
+        200:
+          description: "Meta data about download artifact"
+          content:
+            "application/json":
+              schema:
+                $ref: '#/components/schemas/response'
+  "/metadata/latest.json":
+    get:
+      description: "List of information about all indexed Java distributions containing only the latest release for each major version"
+      tags:
+      - "metadata"
+      operationId: "findLatest"
+      responses:
+        200:
+          description: "Meta data about download artifact"
+          content:
+            "application/json":
+              schema:
+                $ref: '#/components/schemas/response'
+  "/metadata/{release_type}.json":
+    get:
+      description: "List of information about all indexed Java distributions by release type"
+      tags:
+      - "metadata"
+      operationId: "findByReleaseType"
+      parameters:
+        - name: "release_type"
+          in: path
+          description: "The release type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/releaseTypes'
       responses:
         200:
           description: "Meta data about download artifact"
@@ -282,7 +290,29 @@ paths:
       description: "List of information about Java distributions by the given vendor"
       tags:
       - "metadata"
-      operationId: "findByVendor"
+      operationId: "findAllByVendor"
+      parameters:
+        - name: "vendor"
+          in: path
+          description: "The JVM vendor"
+          required: true
+          schema:
+            $ref: '#/components/schemas/vendors'
+      responses:
+        200:
+          description: "Meta data about download artifact"
+          content:
+            "application/json":
+              schema:
+                $ref: '#/components/schemas/response'
+        404:
+          description: "Invalid input"
+  "/metadata/vendor/{vendor}/latest.json":
+    get:
+      description: "List of information about Java distributions by the given vendor containing only the latest release for each major version"
+      tags:
+      - "metadata"
+      operationId: "findLatestByVendor"
       parameters:
         - name: "vendor"
           in: path
@@ -304,14 +334,14 @@ paths:
       description: "List of information about Java distributions that match the current query"
       tags:
       - "metadata"
-      operationId: "findByReleaseTypeOsArchVariantJvmImpl/Vendor"
+      operationId: "findByReleaseTypeOsArchVariantJvmImplVendor"
       parameters:
         - name: "release_type"
           in: path
           description: "The release type"
           required: true
           schema:
-            $ref: '#/components/schemas/releaseTypes'
+            $ref: '#/components/schemas/releaseTypesQuery'
         - name: "os"
           in: path
           description: "The operating system"
@@ -329,7 +359,7 @@ paths:
           description: "The distribution image type"
           required: true
           schema:
-            $ref: '#/components/schemas/imageTypes'
+            $ref: '#/components/schemas/imageTypesQuery'
         - name: "jvm_impl"
           in: path
           description: "The JVM implementation"
@@ -349,5 +379,197 @@ paths:
             "application/json":
               schema:
                 $ref: '#/components/schemas/response'
+        404:
+          description: "Invalid input"
+  "/metadata/{release_type}/{os}/{arch}/{image_type}/{jvm_impl}/{vendor}-latest.json":
+    get:
+      description: "List of information about Java distributions that match the current query containing only the latest release for each major version"
+      tags:
+      - "metadata"
+      operationId: "findLatestByReleaseTypeOsArchVariantJvmImplVendor"
+      parameters:
+        - name: "release_type"
+          in: path
+          description: "The release type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/releaseTypesQuery'
+        - name: "os"
+          in: path
+          description: "The operating system"
+          required: true
+          schema:
+            $ref: '#/components/schemas/operatingSystems'
+        - name: "arch"
+          in: path
+          description: "The machine architecture"
+          required: true
+          schema:
+            $ref: '#/components/schemas/architectures'
+        - name: "image_type"
+          in: path
+          description: "The distribution image type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/imageTypesQuery'
+        - name: "jvm_impl"
+          in: path
+          description: "The JVM implementation"
+          required: true
+          schema:
+            $ref: '#/components/schemas/jvmImpls'
+        - name: "vendor"
+          in: path
+          description: "The JVM vendor"
+          required: true
+          schema:
+            $ref: '#/components/schemas/vendors'
+      responses:
+        200:
+          description: "Meta data about download artifact"
+          content:
+            "application/json":
+              schema:
+                $ref: '#/components/schemas/response'
+        404:
+          description: "Invalid input"
+  "/metadata/{release_type}/{os}/{arch}/{image_type}/{jvm_impl}/all.json":
+    get:
+      description: "List of information about Java distributions for all vendors that match the current query"
+      tags:
+      - "metadata"
+      operationId: "findAllByReleaseTypeOsArchVariantJvmImpl"
+      parameters:
+        - name: "release_type"
+          in: path
+          description: "The release type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/releaseTypesQuery'
+        - name: "os"
+          in: path
+          description: "The operating system"
+          required: true
+          schema:
+            $ref: '#/components/schemas/operatingSystems'
+        - name: "arch"
+          in: path
+          description: "The machine architecture"
+          required: true
+          schema:
+            $ref: '#/components/schemas/architectures'
+        - name: "image_type"
+          in: path
+          description: "The distribution image type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/imageTypesQuery'
+        - name: "jvm_impl"
+          in: path
+          description: "The JVM implementation"
+          required: true
+          schema:
+            $ref: '#/components/schemas/jvmImpls'
+        - name: "vendor"
+          in: path
+          description: "The JVM vendor"
+          required: true
+          schema:
+            $ref: '#/components/schemas/vendors'
+      responses:
+        200:
+          description: "Meta data about download artifact"
+          content:
+            "application/json":
+              schema:
+                $ref: '#/components/schemas/response'
+        404:
+          description: "Invalid input"
+  "/metadata/{release_type}/{os}/{arch}/{image_type}/{jvm_impl}/latest.json":
+    get:
+      description: "List of information about Java distributions for all vendors that match the current query and contain only the latest release for each major version"
+      tags:
+      - "metadata"
+      operationId: "findLatestByReleaseTypeOsArchVariantJvmImpl"
+      parameters:
+        - name: "release_type"
+          in: path
+          description: "The release type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/releaseTypesQuery'
+        - name: "os"
+          in: path
+          description: "The operating system"
+          required: true
+          schema:
+            $ref: '#/components/schemas/operatingSystems'
+        - name: "arch"
+          in: path
+          description: "The machine architecture"
+          required: true
+          schema:
+            $ref: '#/components/schemas/architectures'
+        - name: "image_type"
+          in: path
+          description: "The distribution image type"
+          required: true
+          schema:
+            $ref: '#/components/schemas/imageTypesQuery'
+        - name: "jvm_impl"
+          in: path
+          description: "The JVM implementation"
+          required: true
+          schema:
+            $ref: '#/components/schemas/jvmImpls'
+        - name: "vendor"
+          in: path
+          description: "The JVM vendor"
+          required: true
+          schema:
+            $ref: '#/components/schemas/vendors'
+      responses:
+        200:
+          description: "Meta data about download artifact"
+          content:
+            "application/json":
+              schema:
+                $ref: '#/components/schemas/response'
+        404:
+          description: "Invalid input"
+  "/checksums/{vendor}/{artifact_name}.{hash_algorithm}":
+    get:
+      description: "Get the checksum file for a download artifact"
+      tags:
+      - "checksum"
+      operationId: "getChecksum"
+      parameters:
+        - name: "vendor"
+          in: path
+          description: "The JDK/JRE vendor"
+          required: true
+          schema:
+            $ref: '#/components/schemas/vendors'
+        - name: "artifact_name"
+          in: path
+          description: "The (file) name of the download artifact"
+          required: true
+          schema:
+            type: string
+        - name: "hash_algorithm"
+          in: path
+          description: "The hash algorithm"
+          required: true
+          schema:
+            $ref: '#/components/schemas/hashAlgorithms'
+      responses:
+        200:
+          description: "Checksum file for the download artifact"
+          content:
+            "text/plain":
+              schema:
+                type: string
+              example: >-
+                6c06853332585ab58834d9e8a02774b388e6e062ef6c4084b4f058c67f2e81b5  OpenJDK14U-jdk_x64_linux_hotspot_14_36.tar.gz
         404:
           description: "Invalid input"
