@@ -2,7 +2,7 @@
   {
     "architecture": "i686",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.26-linux-i386.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.26",
@@ -25,7 +25,7 @@
   {
     "architecture": "ppc32",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.26-linux-ppc.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.26",
@@ -48,7 +48,7 @@
   {
     "architecture": "ppc64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.26-linux-ppc64.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.26",
@@ -71,7 +71,7 @@
   {
     "architecture": "ppc64le",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.26-linux-ppc64le.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.26",
@@ -94,7 +94,7 @@
   {
     "architecture": "s390x",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.26-linux-s390x.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.26",
@@ -117,7 +117,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.26-linux-x86_64.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.26",
@@ -140,7 +140,7 @@
   {
     "architecture": "i686",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.26-linux-i386.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.26",
@@ -163,7 +163,7 @@
   {
     "architecture": "ppc32",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.26-linux-ppc.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.26",
@@ -186,7 +186,7 @@
   {
     "architecture": "ppc64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.26-linux-ppc64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.26",
@@ -209,7 +209,7 @@
   {
     "architecture": "ppc64le",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.26-linux-ppc64le.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.26",
@@ -232,7 +232,7 @@
   {
     "architecture": "s390x",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.26-linux-s390x.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.26",
@@ -255,7 +255,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.26-linux-x86_64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.26",
@@ -278,7 +278,7 @@
   {
     "architecture": "i686",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.30-linux-i386.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.30",
@@ -301,7 +301,7 @@
   {
     "architecture": "ppc64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.30-linux-ppc64.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.30",
@@ -324,7 +324,7 @@
   {
     "architecture": "ppc64le",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.30-linux-ppc64le.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.30",
@@ -347,7 +347,7 @@
   {
     "architecture": "s390x",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.30-linux-s390x.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.30",
@@ -370,7 +370,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.30-linux-x86_64.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.30",
@@ -393,7 +393,7 @@
   {
     "architecture": "i686",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.30-linux-i386.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.30",
@@ -416,7 +416,7 @@
   {
     "architecture": "ppc64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.30-linux-ppc64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.30",
@@ -439,7 +439,7 @@
   {
     "architecture": "ppc64le",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.30-linux-ppc64le.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.30",
@@ -462,7 +462,7 @@
   {
     "architecture": "s390x",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.30-linux-s390x.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.30",
@@ -485,7 +485,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.30-linux-x86_64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.30",
@@ -508,7 +508,7 @@
   {
     "architecture": "i686",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.35-linux-i386.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.35",
@@ -531,7 +531,7 @@
   {
     "architecture": "ppc64le",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.35-linux-ppc64le.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.35",
@@ -554,7 +554,7 @@
   {
     "architecture": "s390x",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.35-linux-s390x.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.35",
@@ -577,7 +577,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.35-linux-x86_64.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.35",
@@ -600,7 +600,7 @@
   {
     "architecture": "i686",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.35-linux-i386.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.35",
@@ -623,7 +623,7 @@
   {
     "architecture": "ppc64le",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.35-linux-ppc64le.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.35",
@@ -646,7 +646,7 @@
   {
     "architecture": "s390x",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.35-linux-s390x.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.35",
@@ -669,7 +669,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.35-linux-x86_64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.35",
@@ -692,7 +692,7 @@
   {
     "architecture": "i686",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.40-linux-i386.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.40",
@@ -715,7 +715,7 @@
   {
     "architecture": "ppc64le",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.40-linux-ppc64le.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.40",
@@ -738,7 +738,7 @@
   {
     "architecture": "s390x",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.40-linux-s390x.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.40",
@@ -761,7 +761,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.40-linux-x86_64.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.40",
@@ -784,7 +784,7 @@
   {
     "architecture": "i686",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.40-linux-i386.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.40",
@@ -807,7 +807,7 @@
   {
     "architecture": "ppc64le",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.40-linux-ppc64le.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.40",
@@ -830,7 +830,7 @@
   {
     "architecture": "s390x",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.40-linux-s390x.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.40",
@@ -853,7 +853,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.40-linux-x86_64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.40",
@@ -876,7 +876,7 @@
   {
     "architecture": "i686",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.45-linux-i386.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.45",
@@ -899,7 +899,7 @@
   {
     "architecture": "ppc64le",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.45-linux-ppc64le.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.45",
@@ -922,7 +922,7 @@
   {
     "architecture": "s390x",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.45-linux-s390x.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.45",
@@ -945,7 +945,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.45-linux-x86_64.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.45",
@@ -1014,7 +1014,7 @@
   {
     "architecture": "i686",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.45-linux-i386.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.45",
@@ -1037,7 +1037,7 @@
   {
     "architecture": "ppc64le",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.45-linux-ppc64le.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.45",
@@ -1060,7 +1060,7 @@
   {
     "architecture": "s390x",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.45-linux-s390x.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.45",
@@ -1083,7 +1083,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.45-linux-x86_64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.45",
@@ -1106,7 +1106,7 @@
   {
     "architecture": "i686",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.50-linux-i386.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.50",
@@ -1129,7 +1129,7 @@
   {
     "architecture": "ppc64le",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.50-linux-ppc64le.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.50",
@@ -1152,7 +1152,7 @@
   {
     "architecture": "s390x",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.50-linux-s390x.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.50",
@@ -1175,7 +1175,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.50-linux-x86_64.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.50",
@@ -1198,7 +1198,7 @@
   {
     "architecture": "i686",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.50-linux-i386.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.50",
@@ -1221,7 +1221,7 @@
   {
     "architecture": "ppc64le",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.50-linux-ppc64le.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.50",
@@ -1244,7 +1244,7 @@
   {
     "architecture": "s390x",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.50-linux-s390x.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.50",
@@ -1267,7 +1267,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.50-linux-x86_64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.50",
@@ -1290,7 +1290,7 @@
   {
     "architecture": "i686",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.51-linux-i386.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.51",
@@ -1313,7 +1313,7 @@
   {
     "architecture": "ppc64le",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.51-linux-ppc64le.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.51",
@@ -1336,7 +1336,7 @@
   {
     "architecture": "s390x",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.51-linux-s390x.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.51",
@@ -1359,7 +1359,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.51-linux-x86_64.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.51",
@@ -1382,7 +1382,7 @@
   {
     "architecture": "i686",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.51-linux-i386.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.51",
@@ -1405,7 +1405,7 @@
   {
     "architecture": "ppc64le",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.51-linux-ppc64le.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.51",
@@ -1428,7 +1428,7 @@
   {
     "architecture": "s390x",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.51-linux-s390x.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.51",
@@ -1451,7 +1451,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.51-linux-x86_64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.51",
@@ -1520,7 +1520,7 @@
   {
     "architecture": "i686",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.55-linux-i386.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.55",
@@ -1543,7 +1543,7 @@
   {
     "architecture": "ppc64le",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.55-linux-ppc64le.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.55",
@@ -1566,7 +1566,7 @@
   {
     "architecture": "s390x",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.55-linux-s390x.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.55",
@@ -1589,7 +1589,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.55-linux-x86_64.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.55",
@@ -1704,7 +1704,7 @@
   {
     "architecture": "i686",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.55-linux-i386.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.55",
@@ -1727,7 +1727,7 @@
   {
     "architecture": "ppc64le",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.55-linux-ppc64le.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.55",
@@ -1750,7 +1750,7 @@
   {
     "architecture": "s390x",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.55-linux-s390x.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.55",
@@ -1773,7 +1773,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.55-linux-x86_64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.55",
@@ -1888,7 +1888,7 @@
   {
     "architecture": "i686",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.60-linux-i386.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.60",
@@ -1911,7 +1911,7 @@
   {
     "architecture": "ppc64le",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.60-linux-ppc64le.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.60",
@@ -1934,7 +1934,7 @@
   {
     "architecture": "s390x",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.60-linux-s390x.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.60",
@@ -1957,7 +1957,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.60-linux-x86_64.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.60",
@@ -2072,7 +2072,7 @@
   {
     "architecture": "i686",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.60-linux-i386.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.60",
@@ -2095,7 +2095,7 @@
   {
     "architecture": "ppc64le",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.60-linux-ppc64le.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.60",
@@ -2118,7 +2118,7 @@
   {
     "architecture": "s390x",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.60-linux-s390x.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.60",
@@ -2141,7 +2141,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.60-linux-x86_64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.60",
