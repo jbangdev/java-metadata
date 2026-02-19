@@ -28518,5 +28518,28 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-27+8/sapmachine-jdk-27-ea.8_windows-x64_bin.zip",
     "vendor": "sapmachine",
     "version": "27-ea.8"
+  },
+  {
+    "architecture": "x86_64",
+    "features": null,
+    "file_type": "zip",
+    "filename": "sapmachine-jdk-27-ea.9_windows-x64_bin.zip",
+    "image_type": "jdk",
+    "java_version": "27-ea.9",
+    "jvm_impl": "hotspot",
+    "md5": null,
+    "md5_file": null,
+    "os": "windows",
+    "release_type": "ea",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-27%2B9/sapmachine-jdk-27-ea.9_windows-x64_bin.zip",
+    "vendor": "sapmachine",
+    "version": "27-ea.9"
   }
 ]

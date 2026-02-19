@@ -1,0 +1,50 @@
+[
+  {
+    "architecture": "loong64",
+    "features": [
+      "headless"
+    ],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre-headless_21.0.10~4ea-1_loong64.deb",
+    "image_type": "jre",
+    "java_version": "21.0.10",
+    "jvm_impl": "hotspot",
+    "md5": null,
+    "md5_file": null,
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.10~4ea-1_loong64.deb",
+    "vendor": "debian",
+    "version": "21.0.10~4ea-1"
+  },
+  {
+    "architecture": "loong64",
+    "features": [],
+    "file_type": "deb",
+    "filename": "openjdk-21-jre_21.0.10~4ea-1_loong64.deb",
+    "image_type": "jre",
+    "java_version": "21.0.10",
+    "jvm_impl": "hotspot",
+    "md5": null,
+    "md5_file": null,
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-21/openjdk-21-jre_21.0.10~4ea-1_loong64.deb",
+    "vendor": "debian",
+    "version": "21.0.10~4ea-1"
+  }
+]

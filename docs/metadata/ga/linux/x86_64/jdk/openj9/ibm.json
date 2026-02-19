@@ -2,7 +2,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.26-linux-x86_64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.26",
@@ -25,7 +25,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.30-linux-x86_64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.30",
@@ -48,7 +48,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.35-linux-x86_64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.35",
@@ -71,7 +71,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.40-linux-x86_64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.40",
@@ -94,7 +94,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.45-linux-x86_64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.45",
@@ -117,7 +117,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.50-linux-x86_64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.50",
@@ -140,7 +140,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.51-linux-x86_64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.51",
@@ -163,7 +163,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.55-linux-x86_64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.55",
@@ -209,7 +209,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.60-linux-x86_64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.60",

@@ -554,7 +554,7 @@
   {
     "architecture": "ppc64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.26-linux-ppc64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.26",
@@ -577,7 +577,7 @@
   {
     "architecture": "ppc64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.30-linux-ppc64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.30",
@@ -6777,5 +6777,28 @@
     "url": "https://github.com/ibmruntimes/semeru25-certified-binaries/releases/download/jdk-25.0.2+10.1_openj9-0.57.0/ibm-semeru-certified-25-jdk-25.0.2.1-1.ppc64.rpm",
     "vendor": "semeru",
     "version": "25.0.2+10.1_openj9-0.57.0"
+  },
+  {
+    "architecture": "ppc64",
+    "features": [],
+    "file_type": "rpm",
+    "filename": "ibm-semeru-open-26-jdk-26.33_0.58.0-1.ppc64.rpm",
+    "image_type": "jdk",
+    "java_version": "26+33",
+    "jvm_impl": "openj9",
+    "md5": null,
+    "md5_file": null,
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26%2B33_openj9-0.58.0-m1/ibm-semeru-open-26-jdk-26.33_0.58.0-1.ppc64.rpm",
+    "vendor": "semeru",
+    "version": "26+33_openj9-0.58.0-m1"
   }
 ]

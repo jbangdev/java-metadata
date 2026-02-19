@@ -2,7 +2,7 @@
   {
     "architecture": "ppc32",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-jre-8.0-8.26-linux-ppc.tgz",
     "image_type": "jre",
     "java_version": "8.0.8.26",

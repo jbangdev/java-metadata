@@ -1000,7 +1000,7 @@
   {
     "architecture": "x86_64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "TencentKona11.0.9.1.b1.tgz",
     "image_type": "jdk",
     "java_version": "11.0.9.1.b1",

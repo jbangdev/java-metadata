@@ -2,7 +2,7 @@
   {
     "architecture": "aarch64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "TencentKona8.0.1-jdk_linux-aarch64_8u242.tgz",
     "image_type": "jdk",
     "java_version": "8u242",

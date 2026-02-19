@@ -2,7 +2,7 @@
   {
     "architecture": "ppc64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.26-linux-ppc64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.26",
@@ -25,7 +25,7 @@
   {
     "architecture": "ppc64",
     "features": [],
-    "file_type": "tgz",
+    "file_type": "tar.gz",
     "filename": "ibm-java-sdk-8.0-8.30-linux-ppc64.tgz",
     "image_type": "jdk",
     "java_version": "8.0.8.30",

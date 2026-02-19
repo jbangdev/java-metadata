@@ -1,0 +1,25 @@
+[
+  {
+    "architecture": "i686",
+    "features": [],
+    "file_type": "zip",
+    "filename": "Alibaba_Dragonwell_17.0.1.0.1+12_x86_windows.zip",
+    "image_type": "jdk",
+    "java_version": "17.0.1.0.1+12",
+    "jvm_impl": "hotspot",
+    "md5": null,
+    "md5_file": null,
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://github.com/dragonwell-project/dragonwell17/releases/download/dragonwell-17.0.1.0.1%2B12_jdk-17.0.1-ga/Alibaba_Dragonwell_17.0.1.0.1%2B12_x86_windows.zip",
+    "vendor": "dragonwell",
+    "version": "17.0.1.0.1+12"
+  }
+]

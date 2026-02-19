@@ -17478,5 +17478,28 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-27+8/sapmachine-jre-27-ea.8_linux-aarch64_bin.tar.gz",
     "vendor": "sapmachine",
     "version": "27-ea.8"
+  },
+  {
+    "architecture": "aarch64",
+    "features": null,
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jre-27-ea.9_linux-aarch64_bin.tar.gz",
+    "image_type": "jre",
+    "java_version": "27-ea.9",
+    "jvm_impl": "hotspot",
+    "md5": null,
+    "md5_file": null,
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-27%2B9/sapmachine-jre-27-ea.9_linux-aarch64_bin.tar.gz",
+    "vendor": "sapmachine",
+    "version": "27-ea.9"
   }
 ]
