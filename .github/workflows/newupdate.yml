@@ -50,6 +50,7 @@ jobs:
         if [ "${{ inputs.index }}" = "false" ]; then
           EXTRA_OPTS="$EXTRA_OPTS --no-index"
         fi
+        echo "Running update with: $EXTRA_OPTS"
         jbang --java 21+ https://github.com/jbangdev/jdkdb-scraper/releases/latest/download/jdkdb-scraper-standalone.jar update $EXTRA_OPTS
 
     - name: Commit & Push changes
