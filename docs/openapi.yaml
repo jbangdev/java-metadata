@@ -470,12 +470,6 @@ paths:
           required: true
           schema:
             $ref: '#/components/schemas/jvmImpls'
-        - name: "vendor"
-          in: path
-          description: "The JVM vendor"
-          required: true
-          schema:
-            $ref: '#/components/schemas/vendors'
       responses:
         200:
           description: "Meta data about download artifact"
@@ -522,12 +516,6 @@ paths:
           required: true
           schema:
             $ref: '#/components/schemas/jvmImpls'
-        - name: "vendor"
-          in: path
-          description: "The JVM vendor"
-          required: true
-          schema:
-            $ref: '#/components/schemas/vendors'
       responses:
         200:
           description: "Meta data about download artifact"
