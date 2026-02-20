@@ -41,7 +41,7 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y binutils cpio rpm2cpio
+        sudo apt-get install -y binutils cpio rpm2cpio msitools
 
     - name: Setup JBang
       uses: jbangdev/setup-jbang@main
