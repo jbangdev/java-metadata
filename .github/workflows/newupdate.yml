@@ -12,7 +12,7 @@ on:
         description: 'Download JDKs to update metadata with checksums'
         required: true
         type: boolean
-        default: true
+        default: false
       index:
         description: 'Create indices for the updated metadata'
         required: true
