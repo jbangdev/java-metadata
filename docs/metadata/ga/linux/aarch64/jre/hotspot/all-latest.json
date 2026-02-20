@@ -2306,6 +2306,31 @@
   {
     "architecture": "aarch64",
     "features": [
+      "crac"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu17.64.17-ca-crac-jre17.0.18-linux_aarch64.tar.gz",
+    "image_type": "jre",
+    "java_version": "17.0.18",
+    "jvm_impl": "hotspot",
+    "md5": null,
+    "md5_file": null,
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://static.azul.com/zulu/bin/zulu17.64.17-ca-crac-jre17.0.18-linux_aarch64.tar.gz",
+    "vendor": "zulu",
+    "version": "17.64.17"
+  },
+  {
+    "architecture": "aarch64",
+    "features": [
       "javafx"
     ],
     "file_type": "tar.gz",
@@ -3865,6 +3890,31 @@
     "url": "https://github.com/bell-sw/Liberica/releases/download/21+37/bellsoft-jre21+37-linux-aarch64.tar.gz",
     "vendor": "liberica",
     "version": "21+37"
+  },
+  {
+    "architecture": "aarch64",
+    "features": [
+      "crac"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu21.48.17-ca-crac-jre21.0.10-linux_aarch64.tar.gz",
+    "image_type": "jre",
+    "java_version": "21.0.10",
+    "jvm_impl": "hotspot",
+    "md5": null,
+    "md5_file": null,
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://static.azul.com/zulu/bin/zulu21.48.17-ca-crac-jre21.0.10-linux_aarch64.tar.gz",
+    "vendor": "zulu",
+    "version": "21.48.17"
   },
   {
     "architecture": "aarch64",
@@ -5483,6 +5533,31 @@
     "url": "http://ftp.debian.org/debian/pool/main/o/openjdk-25/openjdk-25-jre_25.0.2+10-1_arm64.deb",
     "vendor": "debian",
     "version": "25.0.2+10-1"
+  },
+  {
+    "architecture": "aarch64",
+    "features": [
+      "crac"
+    ],
+    "file_type": "tar.gz",
+    "filename": "zulu25.32.21-ca-crac-jre25.0.2-linux_aarch64.tar.gz",
+    "image_type": "jre",
+    "java_version": "25.0.2",
+    "jvm_impl": "hotspot",
+    "md5": null,
+    "md5_file": null,
+    "os": "linux",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://static.azul.com/zulu/bin/zulu25.32.21-ca-crac-jre25.0.2-linux_aarch64.tar.gz",
+    "vendor": "zulu",
+    "version": "25.32.21"
   },
   {
     "architecture": "aarch64",
