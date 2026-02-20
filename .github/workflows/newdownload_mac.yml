@@ -1,7 +1,7 @@
-name: Update jdkdb - checksums (not mac)
+name: Update jdkdb - checksums (mac only)
 on:
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '0 6 * * *'
   workflow_dispatch:
     inputs:
       limit-progress:
@@ -13,7 +13,7 @@ on:
         description: 'Limit total updates (0 for no limit)'
         required: true
         type: number
-        default: 100
+        default: 50
       do_commit:
         description: 'Commit the changes after updating checksums'
         required: true
@@ -24,16 +24,11 @@ concurrency:
   cancel-in-progress: true
 jobs:
   update:
-    runs-on: 'ubuntu-latest'
+    runs-on: 'macos-latest'
     env:
       APP: https://github.com/jbangdev/jdkdb-scraper/releases/latest/download/jdkdb-scraper-standalone.jar
     steps:
     - uses: actions/checkout@v6
-
-    - name: Install dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y binutils cpio rpm2cpio
 
     - name: Setup JBang
       uses: jbangdev/setup-jbang@main
@@ -44,7 +39,7 @@ jobs:
         GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        EXTRA_OPTS="--exclude pkg,dmg"
+        EXTRA_OPTS="--include pkg,dmg"
         if [ "${{ inputs.limit-progress }}" != "0" ]; then
           EXTRA_OPTS="$EXTRA_OPTS --limit-progress ${{ inputs.limit-progress }}"
         fi
@@ -61,7 +56,7 @@ jobs:
         GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        EXTRA_OPTS="--limit-total 1000 --exclude pkg,dmg"
+        EXTRA_OPTS="--limit-total 50 --include pkg,dmg"
         echo "Running download with: $EXTRA_OPTS"
         jbang --java 21+ $APP --version
         jbang --java 21+ $APP download $EXTRA_OPTS
