@@ -68,7 +68,7 @@ jobs:
 
     - name: Commit & Push changes
       uses: actions-js/push@master
-      if: ${{ inputs.do_commit }}
+      if: github.event_name == 'schedule' || inputs.do_commit
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         message: "Update release metadata"
