@@ -2015,7 +2015,7 @@
     "architecture": "s390x",
     "features": [],
     "file_type": "tar.gz",
-    "filename": "OpenJDK-jdk_s390x_linux_hotspot_27_9-ea.tar.gz",
+    "filename": "OpenJDK-jdk_s390x_linux_hotspot_27_10-ea.tar.gz",
     "image_type": "jdk",
     "java_version": "27",
     "jvm_impl": "hotspot",
@@ -2030,15 +2030,15 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B9-ea-beta/OpenJDK-jdk_s390x_linux_hotspot_27_9-ea.tar.gz",
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B10-ea-beta/OpenJDK-jdk_s390x_linux_hotspot_27_10-ea.tar.gz",
     "vendor": "temurin",
-    "version": "27+9-ea-beta"
+    "version": "27+10-ea-beta"
   },
   {
     "architecture": "s390x",
     "features": [],
     "file_type": "tar.gz",
-    "filename": "OpenJDK-jre_s390x_linux_hotspot_27_9-ea.tar.gz",
+    "filename": "OpenJDK-jre_s390x_linux_hotspot_27_10-ea.tar.gz",
     "image_type": "jre",
     "java_version": "27",
     "jvm_impl": "hotspot",
@@ -2053,8 +2053,8 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B9-ea-beta/OpenJDK-jre_s390x_linux_hotspot_27_9-ea.tar.gz",
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B10-ea-beta/OpenJDK-jre_s390x_linux_hotspot_27_10-ea.tar.gz",
     "vendor": "temurin",
-    "version": "27+9-ea-beta"
+    "version": "27+10-ea-beta"
   }
 ]

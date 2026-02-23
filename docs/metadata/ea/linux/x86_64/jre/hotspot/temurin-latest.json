@@ -53,9 +53,9 @@
       "musl"
     ],
     "file_type": "tar.gz",
-    "filename": "OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.19_2-ea.tar.gz",
+    "filename": "OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.31_3-ea.tar.gz",
     "image_type": "jre",
-    "java_version": "17",
+    "java_version": "11",
     "jvm_impl": "hotspot",
     "md5": null,
     "md5_file": null,
@@ -68,17 +68,17 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B2-ea-beta/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.19_2-ea.tar.gz",
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B3-ea-beta/OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.31_3-ea.tar.gz",
     "vendor": "temurin",
-    "version": "17.0.19+2-ea-beta"
+    "version": "11.0.31+3-ea-beta"
   },
   {
     "architecture": "x86_64",
     "features": [],
     "file_type": "tar.gz",
-    "filename": "OpenJDK17U-jre_x64_linux_hotspot_17.0.19_2-ea.tar.gz",
+    "filename": "OpenJDK11U-jre_x64_linux_hotspot_11.0.31_3-ea.tar.gz",
     "image_type": "jre",
-    "java_version": "17",
+    "java_version": "11",
     "jvm_impl": "hotspot",
     "md5": null,
     "md5_file": null,
@@ -91,9 +91,9 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B2-ea-beta/OpenJDK17U-jre_x64_linux_hotspot_17.0.19_2-ea.tar.gz",
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B3-ea-beta/OpenJDK11U-jre_x64_linux_hotspot_11.0.31_3-ea.tar.gz",
     "vendor": "temurin",
-    "version": "17.0.19+2-ea-beta"
+    "version": "11.0.31+3-ea-beta"
   },
   {
     "architecture": "x86_64",
@@ -101,9 +101,9 @@
       "musl"
     ],
     "file_type": "tar.gz",
-    "filename": "OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.11_2-ea.tar.gz",
+    "filename": "OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.19_3-ea.tar.gz",
     "image_type": "jre",
-    "java_version": "21",
+    "java_version": "17",
     "jvm_impl": "hotspot",
     "md5": null,
     "md5_file": null,
@@ -116,15 +116,40 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B2-ea-beta/OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.11_2-ea.tar.gz",
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B3-ea-beta/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.19_3-ea.tar.gz",
     "vendor": "temurin",
-    "version": "21.0.11+2-ea-beta"
+    "version": "17.0.19+3-ea-beta"
   },
   {
     "architecture": "x86_64",
     "features": [],
     "file_type": "tar.gz",
-    "filename": "OpenJDK21U-jre_x64_linux_hotspot_21.0.11_2-ea.tar.gz",
+    "filename": "OpenJDK17U-jre_x64_linux_hotspot_17.0.19_3-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "17",
+    "jvm_impl": "hotspot",
+    "md5": null,
+    "md5_file": null,
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B3-ea-beta/OpenJDK17U-jre_x64_linux_hotspot_17.0.19_3-ea.tar.gz",
+    "vendor": "temurin",
+    "version": "17.0.19+3-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "features": [
+      "musl"
+    ],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.11_3-ea.tar.gz",
     "image_type": "jre",
     "java_version": "21",
     "jvm_impl": "hotspot",
@@ -139,9 +164,32 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B2-ea-beta/OpenJDK21U-jre_x64_linux_hotspot_21.0.11_2-ea.tar.gz",
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B3-ea-beta/OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.11_3-ea.tar.gz",
     "vendor": "temurin",
-    "version": "21.0.11+2-ea-beta"
+    "version": "21.0.11+3-ea-beta"
+  },
+  {
+    "architecture": "x86_64",
+    "features": [],
+    "file_type": "tar.gz",
+    "filename": "OpenJDK21U-jre_x64_linux_hotspot_21.0.11_3-ea.tar.gz",
+    "image_type": "jre",
+    "java_version": "21",
+    "jvm_impl": "hotspot",
+    "md5": null,
+    "md5_file": null,
+    "os": "linux",
+    "release_type": "ea",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B3-ea-beta/OpenJDK21U-jre_x64_linux_hotspot_21.0.11_3-ea.tar.gz",
+    "vendor": "temurin",
+    "version": "21.0.11+3-ea-beta"
   },
   {
     "architecture": "x86_64",
@@ -197,7 +245,7 @@
       "musl"
     ],
     "file_type": "tar.gz",
-    "filename": "OpenJDK25U-jre_x64_alpine-linux_hotspot_25.0.3_2-ea.tar.gz",
+    "filename": "OpenJDK25U-jre_x64_alpine-linux_hotspot_25.0.3_3-ea.tar.gz",
     "image_type": "jre",
     "java_version": "25",
     "jvm_impl": "hotspot",
@@ -212,15 +260,15 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B2-ea-beta/OpenJDK25U-jre_x64_alpine-linux_hotspot_25.0.3_2-ea.tar.gz",
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B3-ea-beta/OpenJDK25U-jre_x64_alpine-linux_hotspot_25.0.3_3-ea.tar.gz",
     "vendor": "temurin",
-    "version": "25.0.3+2-ea-beta"
+    "version": "25.0.3+3-ea-beta"
   },
   {
     "architecture": "x86_64",
     "features": [],
     "file_type": "tar.gz",
-    "filename": "OpenJDK25U-jre_x64_linux_hotspot_25.0.3_2-ea.tar.gz",
+    "filename": "OpenJDK25U-jre_x64_linux_hotspot_25.0.3_3-ea.tar.gz",
     "image_type": "jre",
     "java_version": "25",
     "jvm_impl": "hotspot",
@@ -235,9 +283,9 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B2-ea-beta/OpenJDK25U-jre_x64_linux_hotspot_25.0.3_2-ea.tar.gz",
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B3-ea-beta/OpenJDK25U-jre_x64_linux_hotspot_25.0.3_3-ea.tar.gz",
     "vendor": "temurin",
-    "version": "25.0.3+2-ea-beta"
+    "version": "25.0.3+3-ea-beta"
   },
   {
     "architecture": "x86_64",
@@ -293,7 +341,7 @@
       "musl"
     ],
     "file_type": "tar.gz",
-    "filename": "OpenJDK-jre_x64_alpine-linux_hotspot_27_9-ea.tar.gz",
+    "filename": "OpenJDK-jre_x64_alpine-linux_hotspot_27_10-ea.tar.gz",
     "image_type": "jre",
     "java_version": "27",
     "jvm_impl": "hotspot",
@@ -308,31 +356,8 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B9-ea-beta/OpenJDK-jre_x64_alpine-linux_hotspot_27_9-ea.tar.gz",
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B10-ea-beta/OpenJDK-jre_x64_alpine-linux_hotspot_27_10-ea.tar.gz",
     "vendor": "temurin",
-    "version": "27+9-ea-beta"
-  },
-  {
-    "architecture": "x86_64",
-    "features": [],
-    "file_type": "tar.gz",
-    "filename": "OpenJDK-jre_x64_linux_hotspot_27_9-ea.tar.gz",
-    "image_type": "jre",
-    "java_version": "27",
-    "jvm_impl": "hotspot",
-    "md5": null,
-    "md5_file": null,
-    "os": "linux",
-    "release_type": "ea",
-    "sha1": null,
-    "sha1_file": null,
-    "sha256": null,
-    "sha256_file": null,
-    "sha512": null,
-    "sha512_file": null,
-    "size": 0,
-    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B9-ea-beta/OpenJDK-jre_x64_linux_hotspot_27_9-ea.tar.gz",
-    "vendor": "temurin",
-    "version": "27+9-ea-beta"
+    "version": "27+10-ea-beta"
   }
 ]

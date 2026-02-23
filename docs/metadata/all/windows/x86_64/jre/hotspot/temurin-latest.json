@@ -48,6 +48,29 @@
   {
     "architecture": "x86_64",
     "features": [],
+    "file_type": "msi",
+    "filename": "OpenJDK11U-jre_x64_windows_hotspot_11.0.30_7.msi",
+    "image_type": "jre",
+    "java_version": "11.0.30+7",
+    "jvm_impl": "hotspot",
+    "md5": null,
+    "md5_file": null,
+    "os": "windows",
+    "release_type": "ga",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%2B7/OpenJDK11U-jre_x64_windows_hotspot_11.0.30_7.msi",
+    "vendor": "temurin",
+    "version": "11.0.30+7"
+  },
+  {
+    "architecture": "x86_64",
+    "features": [],
     "file_type": "zip",
     "filename": "OpenJDK11U-jre_x64_windows_hotspot_11.0.30_7.zip",
     "image_type": "jre",
@@ -348,7 +371,7 @@
     "architecture": "x86_64",
     "features": [],
     "file_type": "msi",
-    "filename": "OpenJDK-jre_x64_windows_hotspot_27_9-ea.msi",
+    "filename": "OpenJDK-jre_x64_windows_hotspot_27_10-ea.msi",
     "image_type": "jre",
     "java_version": "27",
     "jvm_impl": "hotspot",
@@ -363,15 +386,15 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B9-ea-beta/OpenJDK-jre_x64_windows_hotspot_27_9-ea.msi",
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B10-ea-beta/OpenJDK-jre_x64_windows_hotspot_27_10-ea.msi",
     "vendor": "temurin",
-    "version": "27+9-ea-beta"
+    "version": "27+10-ea-beta"
   },
   {
     "architecture": "x86_64",
     "features": [],
     "file_type": "zip",
-    "filename": "OpenJDK-jre_x64_windows_hotspot_27_9-ea.zip",
+    "filename": "OpenJDK-jre_x64_windows_hotspot_27_10-ea.zip",
     "image_type": "jre",
     "java_version": "27",
     "jvm_impl": "hotspot",
@@ -386,8 +409,8 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B9-ea-beta/OpenJDK-jre_x64_windows_hotspot_27_9-ea.zip",
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B10-ea-beta/OpenJDK-jre_x64_windows_hotspot_27_10-ea.zip",
     "vendor": "temurin",
-    "version": "27+9-ea-beta"
+    "version": "27+10-ea-beta"
   }
 ]

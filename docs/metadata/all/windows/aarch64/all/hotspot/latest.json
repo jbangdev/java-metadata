@@ -880,7 +880,7 @@
     "architecture": "aarch64",
     "features": [],
     "file_type": "msi",
-    "filename": "OpenJDK17U-jdk_aarch64_windows_hotspot_17.0.19_2-ea.msi",
+    "filename": "OpenJDK17U-jdk_aarch64_windows_hotspot_17.0.19_3-ea.msi",
     "image_type": "jdk",
     "java_version": "17",
     "jvm_impl": "hotspot",
@@ -895,15 +895,15 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B2-ea-beta/OpenJDK17U-jdk_aarch64_windows_hotspot_17.0.19_2-ea.msi",
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B3-ea-beta/OpenJDK17U-jdk_aarch64_windows_hotspot_17.0.19_3-ea.msi",
     "vendor": "temurin",
-    "version": "17.0.19+2-ea-beta"
+    "version": "17.0.19+3-ea-beta"
   },
   {
     "architecture": "aarch64",
     "features": [],
     "file_type": "zip",
-    "filename": "OpenJDK17U-jdk_aarch64_windows_hotspot_17.0.19_2-ea.zip",
+    "filename": "OpenJDK17U-jdk_aarch64_windows_hotspot_17.0.19_3-ea.zip",
     "image_type": "jdk",
     "java_version": "17",
     "jvm_impl": "hotspot",
@@ -918,15 +918,15 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B2-ea-beta/OpenJDK17U-jdk_aarch64_windows_hotspot_17.0.19_2-ea.zip",
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B3-ea-beta/OpenJDK17U-jdk_aarch64_windows_hotspot_17.0.19_3-ea.zip",
     "vendor": "temurin",
-    "version": "17.0.19+2-ea-beta"
+    "version": "17.0.19+3-ea-beta"
   },
   {
     "architecture": "aarch64",
     "features": [],
     "file_type": "msi",
-    "filename": "OpenJDK17U-jre_aarch64_windows_hotspot_17.0.19_2-ea.msi",
+    "filename": "OpenJDK17U-jre_aarch64_windows_hotspot_17.0.19_3-ea.msi",
     "image_type": "jre",
     "java_version": "17",
     "jvm_impl": "hotspot",
@@ -941,15 +941,15 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B2-ea-beta/OpenJDK17U-jre_aarch64_windows_hotspot_17.0.19_2-ea.msi",
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B3-ea-beta/OpenJDK17U-jre_aarch64_windows_hotspot_17.0.19_3-ea.msi",
     "vendor": "temurin",
-    "version": "17.0.19+2-ea-beta"
+    "version": "17.0.19+3-ea-beta"
   },
   {
     "architecture": "aarch64",
     "features": [],
     "file_type": "zip",
-    "filename": "OpenJDK17U-jre_aarch64_windows_hotspot_17.0.19_2-ea.zip",
+    "filename": "OpenJDK17U-jre_aarch64_windows_hotspot_17.0.19_3-ea.zip",
     "image_type": "jre",
     "java_version": "17",
     "jvm_impl": "hotspot",
@@ -964,9 +964,9 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B2-ea-beta/OpenJDK17U-jre_aarch64_windows_hotspot_17.0.19_2-ea.zip",
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B3-ea-beta/OpenJDK17U-jre_aarch64_windows_hotspot_17.0.19_3-ea.zip",
     "vendor": "temurin",
-    "version": "17.0.19+2-ea-beta"
+    "version": "17.0.19+3-ea-beta"
   },
   {
     "architecture": "aarch64",
@@ -4202,7 +4202,7 @@
     "architecture": "aarch64",
     "features": [],
     "file_type": "msi",
-    "filename": "OpenJDK25U-jdk_aarch64_windows_hotspot_25.0.3_2-ea.msi",
+    "filename": "OpenJDK25U-jdk_aarch64_windows_hotspot_25.0.3_3-ea.msi",
     "image_type": "jdk",
     "java_version": "25",
     "jvm_impl": "hotspot",
@@ -4217,15 +4217,15 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B2-ea-beta/OpenJDK25U-jdk_aarch64_windows_hotspot_25.0.3_2-ea.msi",
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B3-ea-beta/OpenJDK25U-jdk_aarch64_windows_hotspot_25.0.3_3-ea.msi",
     "vendor": "temurin",
-    "version": "25.0.3+2-ea-beta"
+    "version": "25.0.3+3-ea-beta"
   },
   {
     "architecture": "aarch64",
     "features": [],
     "file_type": "zip",
-    "filename": "OpenJDK25U-jdk_aarch64_windows_hotspot_25.0.3_2-ea.zip",
+    "filename": "OpenJDK25U-jdk_aarch64_windows_hotspot_25.0.3_3-ea.zip",
     "image_type": "jdk",
     "java_version": "25",
     "jvm_impl": "hotspot",
@@ -4240,15 +4240,15 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B2-ea-beta/OpenJDK25U-jdk_aarch64_windows_hotspot_25.0.3_2-ea.zip",
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B3-ea-beta/OpenJDK25U-jdk_aarch64_windows_hotspot_25.0.3_3-ea.zip",
     "vendor": "temurin",
-    "version": "25.0.3+2-ea-beta"
+    "version": "25.0.3+3-ea-beta"
   },
   {
     "architecture": "aarch64",
     "features": [],
     "file_type": "msi",
-    "filename": "OpenJDK25U-jre_aarch64_windows_hotspot_25.0.3_2-ea.msi",
+    "filename": "OpenJDK25U-jre_aarch64_windows_hotspot_25.0.3_3-ea.msi",
     "image_type": "jre",
     "java_version": "25",
     "jvm_impl": "hotspot",
@@ -4263,15 +4263,15 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B2-ea-beta/OpenJDK25U-jre_aarch64_windows_hotspot_25.0.3_2-ea.msi",
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B3-ea-beta/OpenJDK25U-jre_aarch64_windows_hotspot_25.0.3_3-ea.msi",
     "vendor": "temurin",
-    "version": "25.0.3+2-ea-beta"
+    "version": "25.0.3+3-ea-beta"
   },
   {
     "architecture": "aarch64",
     "features": [],
     "file_type": "zip",
-    "filename": "OpenJDK25U-jre_aarch64_windows_hotspot_25.0.3_2-ea.zip",
+    "filename": "OpenJDK25U-jre_aarch64_windows_hotspot_25.0.3_3-ea.zip",
     "image_type": "jre",
     "java_version": "25",
     "jvm_impl": "hotspot",
@@ -4286,9 +4286,9 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B2-ea-beta/OpenJDK25U-jre_aarch64_windows_hotspot_25.0.3_2-ea.zip",
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B3-ea-beta/OpenJDK25U-jre_aarch64_windows_hotspot_25.0.3_3-ea.zip",
     "vendor": "temurin",
-    "version": "25.0.3+2-ea-beta"
+    "version": "25.0.3+3-ea-beta"
   },
   {
     "architecture": "aarch64",
@@ -4824,7 +4824,7 @@
     "architecture": "aarch64",
     "features": [],
     "file_type": "msi",
-    "filename": "OpenJDK-jdk_aarch64_windows_hotspot_27_9-ea.msi",
+    "filename": "OpenJDK-jdk_aarch64_windows_hotspot_27_10-ea.msi",
     "image_type": "jdk",
     "java_version": "27",
     "jvm_impl": "hotspot",
@@ -4839,15 +4839,15 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B9-ea-beta/OpenJDK-jdk_aarch64_windows_hotspot_27_9-ea.msi",
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B10-ea-beta/OpenJDK-jdk_aarch64_windows_hotspot_27_10-ea.msi",
     "vendor": "temurin",
-    "version": "27+9-ea-beta"
+    "version": "27+10-ea-beta"
   },
   {
     "architecture": "aarch64",
     "features": [],
     "file_type": "zip",
-    "filename": "OpenJDK-jdk_aarch64_windows_hotspot_27_9-ea.zip",
+    "filename": "OpenJDK-jdk_aarch64_windows_hotspot_27_10-ea.zip",
     "image_type": "jdk",
     "java_version": "27",
     "jvm_impl": "hotspot",
@@ -4862,15 +4862,15 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B9-ea-beta/OpenJDK-jdk_aarch64_windows_hotspot_27_9-ea.zip",
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B10-ea-beta/OpenJDK-jdk_aarch64_windows_hotspot_27_10-ea.zip",
     "vendor": "temurin",
-    "version": "27+9-ea-beta"
+    "version": "27+10-ea-beta"
   },
   {
     "architecture": "aarch64",
     "features": [],
     "file_type": "msi",
-    "filename": "OpenJDK-jre_aarch64_windows_hotspot_27_9-ea.msi",
+    "filename": "OpenJDK-jre_aarch64_windows_hotspot_27_10-ea.msi",
     "image_type": "jre",
     "java_version": "27",
     "jvm_impl": "hotspot",
@@ -4885,15 +4885,15 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B9-ea-beta/OpenJDK-jre_aarch64_windows_hotspot_27_9-ea.msi",
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B10-ea-beta/OpenJDK-jre_aarch64_windows_hotspot_27_10-ea.msi",
     "vendor": "temurin",
-    "version": "27+9-ea-beta"
+    "version": "27+10-ea-beta"
   },
   {
     "architecture": "aarch64",
     "features": [],
     "file_type": "zip",
-    "filename": "OpenJDK-jre_aarch64_windows_hotspot_27_9-ea.zip",
+    "filename": "OpenJDK-jre_aarch64_windows_hotspot_27_10-ea.zip",
     "image_type": "jre",
     "java_version": "27",
     "jvm_impl": "hotspot",
@@ -4908,8 +4908,8 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B9-ea-beta/OpenJDK-jre_aarch64_windows_hotspot_27_9-ea.zip",
+    "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B10-ea-beta/OpenJDK-jre_aarch64_windows_hotspot_27_10-ea.zip",
     "vendor": "temurin",
-    "version": "27+9-ea-beta"
+    "version": "27+10-ea-beta"
   }
 ]
