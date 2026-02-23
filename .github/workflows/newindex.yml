@@ -1,25 +1,20 @@
-name: Update jdkdb - checksums (not mac)
+name: Update jdkdb - generate indices
 on:
   workflow_run:
-    workflows: ["Update jdkdb - metadata"]
+    workflows: ["Update jdkdb - checksums (mac only)"]
     types:
       - completed
     branches:
       - main
   workflow_dispatch:
     inputs:
-      limit-progress:
-        description: 'Limit progress updates (0 for no limit)'
+      allow_incomplete:
+        description: 'Allow incomplete indices (missing checksums)'
         required: true
-        type: number
-        default: 0
-      limit-total:
-        description: 'Limit total updates (0 for no limit)'
-        required: true
-        type: number
-        default: 100
+        type: boolean
+        default: false
       do_commit:
-        description: 'Commit the changes after updating checksums'
+        description: 'Commit the changes after generating indices'
         required: true
         type: boolean
         default: true
@@ -35,48 +30,40 @@ jobs:
     steps:
     - uses: actions/checkout@v6
 
-    - name: Install dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y binutils cpio rpm2cpio msitools
-
     - name: Setup JBang
       uses: jbangdev/setup-jbang@main
 
-    - name: Run downloader manually
+    - name: Run indexer manually
       if: github.event_name == 'workflow_dispatch'
       env:
         GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        EXTRA_OPTS="--exclude pkg,dmg"
-        if [ "${{ inputs.limit-progress }}" != "0" ]; then
-          EXTRA_OPTS="$EXTRA_OPTS --limit-progress ${{ inputs.limit-progress }}"
+        EXTRA_OPTS=""
+        if [ "${{ inputs.allow_incomplete }}" = "true" ]; then
+          EXTRA_OPTS="$EXTRA_OPTS --allow-incomplete"
         fi
-        if [ "${{ inputs.limit-total }}" != "0" ]; then
-          EXTRA_OPTS="$EXTRA_OPTS --limit-total ${{ inputs.limit-total }}"
-        fi
-        echo "Running update with: $EXTRA_OPTS"
+        echo "Running indexer with: $EXTRA_OPTS"
         jbang --java 21+ $APP --version
-        jbang --java 21+ $APP download $EXTRA_OPTS
+        jbang --java 21+ $APP index $EXTRA_OPTS
 
-    - name: Run downloader on workflow_run
+    - name: Run indexer on workflow_run
       if: github.event_name == 'workflow_run'
       env:
         GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        EXTRA_OPTS="--limit-total 1000 --exclude pkg,dmg"
-        echo "Running download with: $EXTRA_OPTS"
+        EXTRA_OPTS="--allow-incomplete"
+        echo "Running indexer with: $EXTRA_OPTS"
         jbang --java 21+ $APP --version
-        jbang --java 21+ $APP download $EXTRA_OPTS
+        jbang --java 21+ $APP index $EXTRA_OPTS
 
     - name: Commit & Push changes
       uses: actions-js/push@master
       if: github.event_name == 'workflow_run' || inputs.do_commit
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        message: "Update checksums (not mac)"
+        message: "Update indices"
 
     - name: Upload log files
       uses: actions/upload-artifact@v6

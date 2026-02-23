@@ -77,7 +77,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         APP=https://github.com/jbangdev/jdkdb-scraper/releases/latest/download/jdkdb-scraper-standalone.jar
-        EXTRA_OPTS="--no-download"
+        EXTRA_OPTS="--no-download --no-index"
         echo "Running update with: $EXTRA_OPTS"
         jbang --java 21+ $APP --version
         jbang --java 21+ $APP update $EXTRA_OPTS
