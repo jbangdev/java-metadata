@@ -49,7 +49,7 @@
     "architecture": "aarch64",
     "features": [],
     "file_type": "msi",
-    "filename": "OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.11_3-ea.msi",
+    "filename": "OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.11_4-ea.msi",
     "image_type": "jdk",
     "java_version": "21",
     "jvm_impl": "hotspot",
@@ -64,15 +64,15 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B3-ea-beta/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.11_3-ea.msi",
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B4-ea-beta/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.11_4-ea.msi",
     "vendor": "temurin",
-    "version": "21.0.11+3-ea-beta"
+    "version": "21.0.11+4-ea-beta"
   },
   {
     "architecture": "aarch64",
     "features": [],
     "file_type": "zip",
-    "filename": "OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.11_3-ea.zip",
+    "filename": "OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.11_4-ea.zip",
     "image_type": "jdk",
     "java_version": "21",
     "jvm_impl": "hotspot",
@@ -87,9 +87,9 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B3-ea-beta/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.11_3-ea.zip",
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B4-ea-beta/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.11_4-ea.zip",
     "vendor": "temurin",
-    "version": "21.0.11+3-ea-beta"
+    "version": "21.0.11+4-ea-beta"
   },
   {
     "architecture": "aarch64",

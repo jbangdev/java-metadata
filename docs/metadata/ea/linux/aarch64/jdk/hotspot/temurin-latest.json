@@ -5,7 +5,7 @@
       "musl"
     ],
     "file_type": "tar.gz",
-    "filename": "OpenJDK8U-jdk_aarch64_alpine-linux_hotspot_8u492b03-ea.tar.gz",
+    "filename": "OpenJDK8U-jdk_aarch64_alpine-linux_hotspot_8u492b04-ea.tar.gz",
     "image_type": "jdk",
     "java_version": "8",
     "jvm_impl": "hotspot",
@@ -20,32 +20,9 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u492-b03-ea-beta/OpenJDK8U-jdk_aarch64_alpine-linux_hotspot_8u492b03-ea.tar.gz",
+    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u492-b04-ea-beta/OpenJDK8U-jdk_aarch64_alpine-linux_hotspot_8u492b04-ea.tar.gz",
     "vendor": "temurin",
-    "version": "8u492-b03-ea-beta"
-  },
-  {
-    "architecture": "aarch64",
-    "features": [],
-    "file_type": "tar.gz",
-    "filename": "OpenJDK8U-jdk_aarch64_linux_hotspot_8u492b03-ea.tar.gz",
-    "image_type": "jdk",
-    "java_version": "8",
-    "jvm_impl": "hotspot",
-    "md5": null,
-    "md5_file": null,
-    "os": "linux",
-    "release_type": "ea",
-    "sha1": null,
-    "sha1_file": null,
-    "sha256": null,
-    "sha256_file": null,
-    "sha512": null,
-    "sha512_file": null,
-    "size": 0,
-    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u492-b03-ea-beta/OpenJDK8U-jdk_aarch64_linux_hotspot_8u492b03-ea.tar.gz",
-    "vendor": "temurin",
-    "version": "8u492-b03-ea-beta"
+    "version": "8u492-b04-ea-beta"
   },
   {
     "architecture": "aarch64",
@@ -101,7 +78,7 @@
       "musl"
     ],
     "file_type": "tar.gz",
-    "filename": "OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.11_3-ea.tar.gz",
+    "filename": "OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.11_4-ea.tar.gz",
     "image_type": "jdk",
     "java_version": "21",
     "jvm_impl": "hotspot",
@@ -116,15 +93,15 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B3-ea-beta/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.11_3-ea.tar.gz",
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B4-ea-beta/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.11_4-ea.tar.gz",
     "vendor": "temurin",
-    "version": "21.0.11+3-ea-beta"
+    "version": "21.0.11+4-ea-beta"
   },
   {
     "architecture": "aarch64",
     "features": [],
     "file_type": "tar.gz",
-    "filename": "OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.11_3-ea.tar.gz",
+    "filename": "OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.11_4-ea.tar.gz",
     "image_type": "jdk",
     "java_version": "21",
     "jvm_impl": "hotspot",
@@ -139,9 +116,9 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B3-ea-beta/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.11_3-ea.tar.gz",
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B4-ea-beta/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.11_4-ea.tar.gz",
     "vendor": "temurin",
-    "version": "21.0.11+3-ea-beta"
+    "version": "21.0.11+4-ea-beta"
   },
   {
     "architecture": "aarch64",

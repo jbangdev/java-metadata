@@ -6001,5 +6001,28 @@
     "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-27%2B9/sapmachine-jdk-27-ea.9_aix-ppc64_bin.tar.gz",
     "vendor": "sapmachine",
     "version": "27-ea.9"
+  },
+  {
+    "architecture": "ppc64",
+    "features": null,
+    "file_type": "tar.gz",
+    "filename": "sapmachine-jdk-27-ea.10_aix-ppc64_bin.tar.gz",
+    "image_type": "jdk",
+    "java_version": "27-ea.10",
+    "jvm_impl": "hotspot",
+    "md5": null,
+    "md5_file": null,
+    "os": "aix",
+    "release_type": "ea",
+    "sha1": null,
+    "sha1_file": null,
+    "sha256": null,
+    "sha256_file": null,
+    "sha512": null,
+    "sha512_file": null,
+    "size": 0,
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-27%2B10/sapmachine-jdk-27-ea.10_aix-ppc64_bin.tar.gz",
+    "vendor": "sapmachine",
+    "version": "27-ea.10"
   }
 ]
