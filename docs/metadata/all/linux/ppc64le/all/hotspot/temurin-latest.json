@@ -3,7 +3,7 @@
     "architecture": "ppc64le",
     "features": [],
     "file_type": "tar.gz",
-    "filename": "OpenJDK8U-jdk_ppc64le_linux_hotspot_8u492b03-ea.tar.gz",
+    "filename": "OpenJDK8U-jdk_ppc64le_linux_hotspot_8u492b04-ea.tar.gz",
     "image_type": "jdk",
     "java_version": "8",
     "jvm_impl": "hotspot",
@@ -18,15 +18,15 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u492-b03-ea-beta/OpenJDK8U-jdk_ppc64le_linux_hotspot_8u492b03-ea.tar.gz",
+    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u492-b04-ea-beta/OpenJDK8U-jdk_ppc64le_linux_hotspot_8u492b04-ea.tar.gz",
     "vendor": "temurin",
-    "version": "8u492-b03-ea-beta"
+    "version": "8u492-b04-ea-beta"
   },
   {
     "architecture": "ppc64le",
     "features": [],
     "file_type": "tar.gz",
-    "filename": "OpenJDK8U-jre_ppc64le_linux_hotspot_8u492b03-ea.tar.gz",
+    "filename": "OpenJDK8U-jre_ppc64le_linux_hotspot_8u492b04-ea.tar.gz",
     "image_type": "jre",
     "java_version": "8",
     "jvm_impl": "hotspot",
@@ -41,9 +41,9 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u492-b03-ea-beta/OpenJDK8U-jre_ppc64le_linux_hotspot_8u492b03-ea.tar.gz",
+    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u492-b04-ea-beta/OpenJDK8U-jre_ppc64le_linux_hotspot_8u492b04-ea.tar.gz",
     "vendor": "temurin",
-    "version": "8u492-b03-ea-beta"
+    "version": "8u492-b04-ea-beta"
   },
   {
     "architecture": "ppc64le",

@@ -49,7 +49,7 @@
     "architecture": "arm32",
     "features": [],
     "file_type": "tar.gz",
-    "filename": "OpenJDK17U-jre_arm_linux_hotspot_17.0.19_3-ea.tar.gz",
+    "filename": "OpenJDK17U-jre_arm_linux_hotspot_17.0.19_4-ea.tar.gz",
     "image_type": "jre",
     "java_version": "17",
     "jvm_impl": "hotspot",
@@ -64,8 +64,8 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B3-ea-beta/OpenJDK17U-jre_arm_linux_hotspot_17.0.19_3-ea.tar.gz",
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B4-ea-beta/OpenJDK17U-jre_arm_linux_hotspot_17.0.19_4-ea.tar.gz",
     "vendor": "temurin",
-    "version": "17.0.19+3-ea-beta"
+    "version": "17.0.19+4-ea-beta"
   }
 ]
