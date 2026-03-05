@@ -266,9 +266,9 @@
       "musl"
     ],
     "file_type": "tar.gz",
-    "filename": "sapmachine-jdk-21.0.11-ea.3_linux-x64-musl_bin.tar.gz",
+    "filename": "sapmachine-jdk-21.0.11-ea.4_linux-x64-musl_bin.tar.gz",
     "image_type": "jdk",
-    "java_version": "21.0.11-ea.3",
+    "java_version": "21.0.11-ea.4",
     "jvm_impl": "hotspot",
     "md5": null,
     "md5_file": null,
@@ -281,17 +281,17 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B3/sapmachine-jdk-21.0.11-ea.3_linux-x64-musl_bin.tar.gz",
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B4/sapmachine-jdk-21.0.11-ea.4_linux-x64-musl_bin.tar.gz",
     "vendor": "sapmachine",
-    "version": "21.0.11-ea.3"
+    "version": "21.0.11-ea.4"
   },
   {
     "architecture": "x86_64",
     "features": null,
     "file_type": "tar.gz",
-    "filename": "sapmachine-jdk-21.0.11-ea.3_linux-x64_bin.tar.gz",
+    "filename": "sapmachine-jdk-21.0.11-ea.4_linux-x64_bin.tar.gz",
     "image_type": "jdk",
-    "java_version": "21.0.11-ea.3",
+    "java_version": "21.0.11-ea.4",
     "jvm_impl": "hotspot",
     "md5": null,
     "md5_file": null,
@@ -304,9 +304,9 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B3/sapmachine-jdk-21.0.11-ea.3_linux-x64_bin.tar.gz",
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B4/sapmachine-jdk-21.0.11-ea.4_linux-x64_bin.tar.gz",
     "vendor": "sapmachine",
-    "version": "21.0.11-ea.3"
+    "version": "21.0.11-ea.4"
   },
   {
     "architecture": "x86_64",

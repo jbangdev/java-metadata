@@ -693,9 +693,9 @@
     "architecture": "x86_64",
     "features": null,
     "file_type": "zip",
-    "filename": "sapmachine-jdk-21.0.11-ea.3_windows-x64_bin.zip",
+    "filename": "sapmachine-jdk-21.0.11-ea.4_windows-x64_bin.zip",
     "image_type": "jdk",
-    "java_version": "21.0.11-ea.3",
+    "java_version": "21.0.11-ea.4",
     "jvm_impl": "hotspot",
     "md5": null,
     "md5_file": null,
@@ -708,17 +708,17 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B3/sapmachine-jdk-21.0.11-ea.3_windows-x64_bin.zip",
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B4/sapmachine-jdk-21.0.11-ea.4_windows-x64_bin.zip",
     "vendor": "sapmachine",
-    "version": "21.0.11-ea.3"
+    "version": "21.0.11-ea.4"
   },
   {
     "architecture": "x86_64",
     "features": null,
     "file_type": "zip",
-    "filename": "sapmachine-jre-21.0.11-ea.3_windows-x64_bin.zip",
+    "filename": "sapmachine-jre-21.0.11-ea.4_windows-x64_bin.zip",
     "image_type": "jre",
-    "java_version": "21.0.11-ea.3",
+    "java_version": "21.0.11-ea.4",
     "jvm_impl": "hotspot",
     "md5": null,
     "md5_file": null,
@@ -731,9 +731,9 @@
     "sha512": null,
     "sha512_file": null,
     "size": 0,
-    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B3/sapmachine-jre-21.0.11-ea.3_windows-x64_bin.zip",
+    "url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.11%2B4/sapmachine-jre-21.0.11-ea.4_windows-x64_bin.zip",
     "vendor": "sapmachine",
-    "version": "21.0.11-ea.3"
+    "version": "21.0.11-ea.4"
   },
   {
     "architecture": "x86_64",
