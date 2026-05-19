@@ -10,7 +10,7 @@ jobs:
   validate:
     runs-on: 'ubuntu-latest'
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
     - name: Install dependencies
       run: sudo apt -y install jq curl
     - name: Run validation script
@@ -22,6 +22,6 @@ jobs:
         git status
         git diff-index --quiet HEAD || git commit -m "Remove invalid release metadata"
     - name: Push changes
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@d30dc2d070765d7e509df00c34c5fa2dd636ff74 # master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
