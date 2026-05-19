@@ -12,9 +12,9 @@ jobs:
   otel-export-dash0:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
       - name: Export workflow to Dash0
-        uses: corentinmusard/otel-cicd-action@v4
+        uses: corentinmusard/otel-cicd-action@f2d88ecf54d9dd3e01ea95e25f93603212ee93d3 # v4
         with:
           otlpEndpoint: grpc://ingress.eu-west-1.aws.dash0-dev.com:4317
           otlpHeaders: ${{ secrets.DASH0_OTLP_HEADERS }}
