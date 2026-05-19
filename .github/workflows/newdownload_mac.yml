@@ -33,10 +33,10 @@ jobs:
     env:
       APP: https://github.com/jbangdev/jdkdb-scraper/releases/latest/download/jdkdb-scraper-standalone.jar
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
 
     - name: Setup JBang
-      uses: jbangdev/setup-jbang@main
+      uses: jbangdev/setup-jbang@312c53a4221283f9c8e4aa84d8261b82f0c680fb # main
 
     - name: Run downloader manually
       if: github.event_name == 'workflow_dispatch'
@@ -67,14 +67,14 @@ jobs:
         jbang --java 21+ $APP download $EXTRA_OPTS
 
     - name: Commit & Push changes
-      uses: actions-js/push@master
+      uses: actions-js/push@5a7cbd780d82c0c937b5977586e641b2fd94acc5 # master
       if: github.event_name == 'workflow_run' || inputs.do_commit
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         message: "Update checksums (mac only)"
 
     - name: Upload log files
-      uses: actions/upload-artifact@v6
+      uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
       if: always()
       with:
         name: update-logs
